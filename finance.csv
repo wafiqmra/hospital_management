@@ -1,0 +1,2301 @@
+﻿transaction_id,patient_id,entry_type,service_type,amount_idr,payment_type,insurance_provider,payment_method,transaction_date
+TX000001,P00521,Pembayaran,Pendaftaran,92764.59,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-30
+TX000002,P00510,Klaim,Konsultasi,219589.55,Umum,,,2025-05-22
+TX000003,P00826,Pembayaran,Tindakan,14538.66,Umum,,Kartu Kredit,2024-06-06
+TX000004,P00872,Tagihan,Radiologi,101761.76,Umum,,,2024-02-28
+TX000005,P00874,Tagihan,Lainnya,42541.81,Umum,,,2025-08-29
+TX000006,P00346,Pembayaran,Pendaftaran,48766.62,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-22
+TX000007,P00585,Tagihan,Lainnya,53414.53,BPJS,BPJS Kesehatan,,2024-01-04
+TX000008,P00374,Pembayaran,Pemeriksaan Lab,49086.3,Asuransi Swasta,Allianz,QRIS,2024-07-09
+TX000009,P00456,Pembayaran,Obat,62340.61,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-06
+TX000010,P00651,Pembayaran,Tindakan,109810.29,Asuransi Swasta,AIA,Transfer,2024-10-07
+TX000011,P00437,Pembayaran,Rawat Inap,29261.08,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-28
+TX000012,P00127,Pembayaran,Radiologi,65818.06,Asuransi Swasta,AIA,Transfer,2024-07-16
+TX000013,P00485,Pembayaran,Obat,49332.12,Umum,,Tunai,2024-10-10
+TX000014,P00039,Klaim,Pemeriksaan Lab,69697.22,Asuransi Swasta,Sinarmas,,2024-01-19
+TX000015,P00608,Tagihan,Pendaftaran,121970.95,Asuransi Swasta,Prudential,,2024-07-17
+TX000016,P00879,Pembayaran,Pendaftaran,50918.48,Asuransi Swasta,AIA,QRIS,2025-08-15
+TX000017,P00828,Pembayaran,Obat,123173.69,Umum,,Tunai,2024-06-13
+TX000018,P00170,Pembayaran,Tindakan,80370.89,Umum,,Tunai,2024-04-12
+TX000019,P00572,Pembayaran,Obat,25726.13,Umum,,Kartu Kredit,2025-02-08
+TX000020,P00708,Pembayaran,Obat,50025.85,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-11
+TX000021,P00699,Tagihan,Lainnya,50681.79,Asuransi Swasta,Allianz,,2024-09-09
+TX000022,P00406,Tagihan,Rawat Inap,74038.4,Asuransi Swasta,Allianz,,2024-08-19
+TX000023,P00629,Klaim,Pendaftaran,29025.13,Asuransi Swasta,AXA Mandiri,,2024-05-03
+TX000024,P00708,Tagihan,Radiologi,59533.77,BPJS,BPJS Kesehatan,,2024-10-05
+TX000025,P00365,Tagihan,Pemeriksaan Lab,188539.96,BPJS,BPJS Kesehatan,,2024-12-29
+TX000026,P00114,Tagihan,Tindakan,75656.25,Umum,,,2025-05-10
+TX000027,P00760,Tagihan,Konsultasi,70431.56,Umum,,,2024-12-25
+TX000028,P00886,Tagihan,Konsultasi,82770.15,BPJS,BPJS Kesehatan,,2025-10-19
+TX000029,P00602,Tagihan,Lainnya,109130.53,BPJS,BPJS Kesehatan,,2025-05-01
+TX000030,P00788,Tagihan,Radiologi,157520.27,BPJS,BPJS Kesehatan,,2024-10-24
+TX000031,P00528,Tagihan,Lainnya,136918.1,BPJS,BPJS Kesehatan,,2024-08-31
+TX000032,P00466,Tagihan,Lainnya,83266.81,BPJS,BPJS Kesehatan,,2025-02-06
+TX000033,P00484,Tagihan,Pemeriksaan Lab,94262.53,BPJS,BPJS Kesehatan,,2024-08-15
+TX000034,P00164,Tagihan,Konsultasi,37741.59,BPJS,BPJS Kesehatan,,2025-02-20
+TX000035,P00121,Tagihan,Rawat Inap,73191.37,BPJS,BPJS Kesehatan,,2025-10-08
+TX000036,P00636,Pembayaran,Konsultasi,52445.96,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-16
+TX000037,P00095,Pembayaran,Konsultasi,49891.72,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-19
+TX000038,P00425,Tagihan,Pemeriksaan Lab,90292.75,BPJS,BPJS Kesehatan,,2025-04-29
+TX000039,P00839,Tagihan,Obat,99679.68,BPJS,BPJS Kesehatan,,2025-02-15
+TX000040,P00231,Tagihan,Obat,78667.59,Asuransi Swasta,Prudential,,2025-08-25
+TX000041,P00073,Tagihan,Pemeriksaan Lab,96303.45,BPJS,BPJS Kesehatan,,2024-06-01
+TX000042,P00655,Pembayaran,Lainnya,147400.78,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-01
+TX000043,P00605,Tagihan,Konsultasi,165987.83,BPJS,BPJS Kesehatan,,2024-09-10
+TX000044,P00414,Pembayaran,Pemeriksaan Lab,79495.88,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-01
+TX000045,P00404,Tagihan,Lainnya,152002.39,BPJS,BPJS Kesehatan,,2023-12-02
+TX000046,P00585,Tagihan,Tindakan,112653.57,BPJS,BPJS Kesehatan,,2024-12-29
+TX000047,P00666,Tagihan,Pendaftaran,239828.97,BPJS,BPJS Kesehatan,,2024-02-03
+TX000048,P00288,Pembayaran,Radiologi,66634.26,Umum,,Tunai,2024-11-13
+TX000049,P00189,Pembayaran,Konsultasi,30139.36,Umum,,Tunai,2025-06-25
+TX000050,P00142,Klaim,Obat,114578.73,BPJS,BPJS Kesehatan,,2025-04-03
+TX000051,P00182,Tagihan,Konsultasi,55293.07,Asuransi Swasta,Prudential,,2024-07-18
+TX000052,P00514,Pembayaran,Pendaftaran,77465.42,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-16
+TX000053,P00870,Klaim,Pemeriksaan Lab,208369.85,BPJS,BPJS Kesehatan,,2024-11-16
+TX000054,P00708,Tagihan,Konsultasi,68714.52,BPJS,BPJS Kesehatan,,2025-10-08
+TX000055,P00418,Tagihan,Radiologi,60603.51,BPJS,BPJS Kesehatan,,2025-03-25
+TX000056,P00018,Klaim,Pemeriksaan Lab,135155.06,BPJS,BPJS Kesehatan,,2025-01-16
+TX000057,P00124,Pembayaran,Pendaftaran,41799.22,BPJS,BPJS Kesehatan,Klaim BPJS,2025-11-01
+TX000058,P00777,Tagihan,Pendaftaran,160275.51,Umum,,,2024-12-14
+TX000059,P00420,Pembayaran,Tindakan,73453.27,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-12
+TX000060,P00591,Tagihan,Obat,94368.79,BPJS,BPJS Kesehatan,,2025-02-22
+TX000061,P00322,Pembayaran,Tindakan,44519.77,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-12
+TX000062,P00858,Tagihan,Rawat Inap,157526.92,Asuransi Swasta,Manulife,,2023-11-07
+TX000063,P00105,Tagihan,Obat,160497.91,BPJS,BPJS Kesehatan,,2025-01-29
+TX000064,P00513,Tagihan,Rawat Inap,145785.05,Umum,,,2024-12-31
+TX000065,P00702,Tagihan,Pendaftaran,76291.18,Umum,,,2025-03-09
+TX000066,P00499,Tagihan,Pemeriksaan Lab,88279.61,BPJS,BPJS Kesehatan,,2024-05-11
+TX000067,P00638,Pembayaran,Pendaftaran,81839.66,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-28
+TX000068,P00525,Tagihan,Rawat Inap,60573.88,Umum,,,2023-12-09
+TX000069,P00733,Tagihan,Pemeriksaan Lab,34993.09,Umum,,,2025-01-07
+TX000070,P00382,Tagihan,Lainnya,109349.17,BPJS,BPJS Kesehatan,,2024-07-07
+TX000071,P00102,Pembayaran,Radiologi,51182.26,Umum,,Kartu Kredit,2023-12-09
+TX000072,P00730,Pembayaran,Tindakan,43459.13,Umum,,Tunai,2025-05-08
+TX000073,P00504,Tagihan,Rawat Inap,109016.43,BPJS,BPJS Kesehatan,,2025-08-14
+TX000074,P00161,Tagihan,Konsultasi,63549.03,BPJS,BPJS Kesehatan,,2025-03-12
+TX000075,P00641,Tagihan,Lainnya,88963.01,Asuransi Swasta,Allianz,,2024-11-04
+TX000076,P00261,Pembayaran,Radiologi,118801.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-13
+TX000077,P00471,Tagihan,Tindakan,457986.22,Asuransi Swasta,AIA,,2024-05-27
+TX000078,P00163,Pembayaran,Radiologi,58558.9,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-08
+TX000079,P00253,Tagihan,Konsultasi,83989.06,BPJS,BPJS Kesehatan,,2025-10-07
+TX000080,P00610,Tagihan,Pendaftaran,57722.47,Asuransi Swasta,Sinarmas,,2025-03-12
+TX000081,P00499,Tagihan,Tindakan,140776.49,BPJS,BPJS Kesehatan,,2025-03-07
+TX000082,P00159,Tagihan,Lainnya,68717.29,Umum,,,2024-02-02
+TX000083,P00137,Tagihan,Rawat Inap,162361.54,Asuransi Swasta,Manulife,,2024-01-23
+TX000084,P00659,Klaim,Konsultasi,126824.8,BPJS,BPJS Kesehatan,,2024-07-03
+TX000085,P00771,Tagihan,Pendaftaran,101361.74,Umum,,,2025-05-30
+TX000086,P00258,Tagihan,Tindakan,63805.63,BPJS,BPJS Kesehatan,,2025-04-24
+TX000087,P00256,Tagihan,Pendaftaran,63140.14,BPJS,BPJS Kesehatan,,2024-06-25
+TX000088,P00197,Tagihan,Radiologi,46036.1,Asuransi Swasta,AXA Mandiri,,2024-06-02
+TX000089,P00776,Tagihan,Tindakan,87555.94,Umum,,,2025-08-30
+TX000090,P00872,Pembayaran,Lainnya,328609.32,Umum,,Kartu Kredit,2025-01-14
+TX000091,P00093,Tagihan,Lainnya,32441.49,Asuransi Swasta,AXA Mandiri,,2024-07-11
+TX000092,P00053,Tagihan,Rawat Inap,77600.42,BPJS,BPJS Kesehatan,,2025-01-11
+TX000093,P00009,Tagihan,Tindakan,213492.31,Umum,,,2024-03-03
+TX000094,P00728,Tagihan,Rawat Inap,81730.21,BPJS,BPJS Kesehatan,,2024-02-05
+TX000095,P00190,Tagihan,Pemeriksaan Lab,60819.75,Umum,,,2025-02-22
+TX000096,P00041,Pembayaran,Lainnya,77339.07,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-06
+TX000097,P00313,Tagihan,Radiologi,73589.69,Asuransi Swasta,Manulife,,2025-07-23
+TX000098,P00049,Tagihan,Obat,88149.55,BPJS,BPJS Kesehatan,,2024-11-07
+TX000099,P00218,Tagihan,Radiologi,74136.67,BPJS,BPJS Kesehatan,,2025-08-02
+TX000100,P00099,Pembayaran,Obat,110678.78,Asuransi Swasta,Prudential,QRIS,2025-09-26
+TX000101,P00400,Pembayaran,Pendaftaran,107134.3,Umum,,Kartu Kredit,2024-09-23
+TX000102,P00275,Tagihan,Radiologi,101220.15,Umum,,,2024-05-19
+TX000103,P00463,Tagihan,Pendaftaran,62297.67,Asuransi Swasta,AXA Mandiri,,2024-09-23
+TX000104,P00810,Pembayaran,Tindakan,99488.56,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-24
+TX000105,P00481,Tagihan,Pemeriksaan Lab,39843.96,Asuransi Swasta,Prudential,,2025-09-11
+TX000106,P00374,Pembayaran,Radiologi,122752.9,Asuransi Swasta,Allianz,Transfer,2024-02-05
+TX000107,P00648,Tagihan,Rawat Inap,80623.71,BPJS,BPJS Kesehatan,,2024-12-09
+TX000108,P00148,Tagihan,Tindakan,85732.6,Umum,,,2024-11-06
+TX000109,P00589,Tagihan,Rawat Inap,57076.81,BPJS,BPJS Kesehatan,,2025-11-05
+TX000110,P00827,Tagihan,Konsultasi,109729.4,Umum,,,2025-04-11
+TX000111,P00013,Pembayaran,Radiologi,85401.15,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-25
+TX000112,P00523,Tagihan,Radiologi,86036.72,BPJS,BPJS Kesehatan,,2024-11-08
+TX000113,P00774,Tagihan,Rawat Inap,118779.86,Umum,,,2024-05-21
+TX000114,P00360,Klaim,Tindakan,65580.02,Umum,,,2025-06-25
+TX000115,P00031,Pembetulan,Rawat Inap,98065.98,Asuransi Swasta,Allianz,,2025-06-04
+TX000116,P00183,Tagihan,Obat,96904.81,BPJS,BPJS Kesehatan,,2023-11-16
+TX000117,P00369,Pembetulan,Radiologi,53601.03,BPJS,BPJS Kesehatan,,2025-02-09
+TX000118,P00464,Pembayaran,Konsultasi,99909.38,Umum,,Tunai,2025-07-30
+TX000119,P00304,Pembayaran,Konsultasi,48948.31,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-03
+TX000120,P00586,Tagihan,Lainnya,169867.59,BPJS,BPJS Kesehatan,,2025-03-20
+TX000121,P00302,Tagihan,Pemeriksaan Lab,114089.06,BPJS,BPJS Kesehatan,,2025-03-30
+TX000122,P00077,Tagihan,Radiologi,109809.53,Umum,,,2024-01-17
+TX000123,P00546,Tagihan,Rawat Inap,122973.97,BPJS,BPJS Kesehatan,,2024-02-01
+TX000124,P00217,Klaim,Tindakan,82986.99,Umum,,,2025-07-04
+TX000125,P00096,Pembayaran,Rawat Inap,172560.04,Umum,,Tunai,2024-07-08
+TX000126,P00236,Pembetulan,Konsultasi,157927.51,Asuransi Swasta,AXA Mandiri,,2024-07-30
+TX000127,P00039,Tagihan,Radiologi,56791.8,Asuransi Swasta,Sinarmas,,2024-07-19
+TX000128,P00886,Pembayaran,Pemeriksaan Lab,32552.44,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-31
+TX000129,P00150,Pembayaran,Pendaftaran,127451.88,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-29
+TX000130,P00459,Pembayaran,Konsultasi,85739.36,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-04
+TX000131,P00108,Tagihan,Radiologi,99013.59,BPJS,BPJS Kesehatan,,2024-03-16
+TX000132,P00472,Pembayaran,Tindakan,84174.13,Asuransi Swasta,AIA,QRIS,2024-10-29
+TX000133,P00087,Tagihan,Pendaftaran,146058.2,Asuransi Swasta,Allianz,,2025-01-04
+TX000134,P00111,Tagihan,Konsultasi,72426.28,BPJS,BPJS Kesehatan,,2025-10-03
+TX000135,P00299,Pembayaran,Tindakan,195863.2,Umum,,Kartu Kredit,2024-04-03
+TX000136,P00384,Pembayaran,Radiologi,32000.22,Umum,,Kartu Kredit,2024-12-10
+TX000137,P00542,Pembayaran,Pemeriksaan Lab,194855.3,Umum,,Tunai,2024-11-03
+TX000138,P00548,Tagihan,Rawat Inap,99226.67,BPJS,BPJS Kesehatan,,2025-02-17
+TX000139,P00245,Tagihan,Konsultasi,100689.07,BPJS,BPJS Kesehatan,,2024-08-17
+TX000140,P00810,Tagihan,Pemeriksaan Lab,95625.68,BPJS,BPJS Kesehatan,,2025-09-26
+TX000141,P00850,Klaim,Pendaftaran,93519.12,BPJS,BPJS Kesehatan,,2024-04-04
+TX000142,P00708,Tagihan,Pemeriksaan Lab,56620.86,BPJS,BPJS Kesehatan,,2024-08-31
+TX000143,P00514,Klaim,Pendaftaran,89259.25,BPJS,BPJS Kesehatan,,2024-09-25
+TX000144,P00658,Tagihan,Obat,114338.96,Umum,,,2024-03-25
+TX000145,P00432,Pembayaran,Rawat Inap,123750.69,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-24
+TX000146,P00483,Pembayaran,Rawat Inap,65591.62,Asuransi Swasta,AIA,QRIS,2024-12-14
+TX000147,P00560,Pembayaran,Obat,43013.98,Umum,,Kartu Kredit,2025-07-10
+TX000148,P00330,Tagihan,Radiologi,56368.45,Asuransi Swasta,AXA Mandiri,,2024-11-28
+TX000149,P00188,Pembayaran,Obat,81685.7,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-18
+TX000150,P00801,Tagihan,Lainnya,94100.11,BPJS,BPJS Kesehatan,,2024-01-27
+TX000151,P00650,Klaim,Obat,43856.36,BPJS,BPJS Kesehatan,,2025-05-01
+TX000152,P00660,Tagihan,Tindakan,75913.66,Asuransi Swasta,Sinarmas,,2025-06-10
+TX000153,P00733,Tagihan,Obat,37366.84,Umum,,,2025-02-21
+TX000154,P00819,Tagihan,Lainnya,66761.95,BPJS,BPJS Kesehatan,,2024-10-22
+TX000155,P00643,Tagihan,Pendaftaran,81235.47,Asuransi Swasta,Sinarmas,,2025-02-08
+TX000156,P00390,Pembayaran,Konsultasi,32877.13,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-31
+TX000157,P00657,Pembayaran,Pendaftaran,8165.75,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-07
+TX000158,P00306,Pembayaran,Konsultasi,41785.45,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-16
+TX000159,P00737,Tagihan,Rawat Inap,53171.83,Umum,,,2024-04-09
+TX000160,P00481,Pembayaran,Lainnya,75060.24,Asuransi Swasta,Prudential,QRIS,2024-06-05
+TX000161,P00303,Pembayaran,Lainnya,46692.66,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-15
+TX000162,P00631,Tagihan,Tindakan,91173.76,BPJS,BPJS Kesehatan,,2025-06-17
+TX000163,P00450,Pembayaran,Tindakan,43328.02,Asuransi Swasta,AXA Mandiri,QRIS,2025-07-01
+TX000164,P00870,Tagihan,Pendaftaran,52129.14,BPJS,BPJS Kesehatan,,2025-02-23
+TX000165,P00672,Tagihan,Tindakan,179480.62,BPJS,BPJS Kesehatan,,2024-11-02
+TX000166,P00449,Pembayaran,Konsultasi,37358.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-26
+TX000167,P00087,Tagihan,Lainnya,27763.5,Asuransi Swasta,Allianz,,2025-07-30
+TX000168,P00654,Pembayaran,Radiologi,132014.61,Umum,,Tunai,2025-08-18
+TX000169,P00734,Tagihan,Radiologi,32433.77,Asuransi Swasta,Manulife,,2025-10-31
+TX000170,P00210,Tagihan,Konsultasi,56858.81,Umum,,,2024-02-25
+TX000171,P00495,Tagihan,Radiologi,60390.64,Umum,,,2024-09-26
+TX000172,P00459,Tagihan,Obat,109669.6,BPJS,BPJS Kesehatan,,2024-05-11
+TX000173,P00031,Pembayaran,Pendaftaran,28388.92,Asuransi Swasta,Allianz,QRIS,2024-08-25
+TX000174,P00552,Tagihan,Rawat Inap,73953.8,BPJS,BPJS Kesehatan,,2025-06-04
+TX000175,P00315,Pembayaran,Rawat Inap,89251.31,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-30
+TX000176,P00524,Pembayaran,Pemeriksaan Lab,38520.01,Asuransi Swasta,AXA Mandiri,QRIS,2024-08-01
+TX000177,P00170,Tagihan,Pendaftaran,73636.01,Umum,,,2025-01-26
+TX000178,P00161,Tagihan,Pendaftaran,202451.65,BPJS,BPJS Kesehatan,,2025-05-01
+TX000179,P00626,Tagihan,Pendaftaran,125469.94,BPJS,BPJS Kesehatan,,2024-12-15
+TX000180,P00731,Pembayaran,Obat,70109.52,Asuransi Swasta,Allianz,Transfer,2024-02-11
+TX000181,P00425,Tagihan,Pemeriksaan Lab,124159.93,BPJS,BPJS Kesehatan,,2025-05-10
+TX000182,P00096,Pembayaran,Lainnya,23218.13,Umum,,Kartu Kredit,2024-12-16
+TX000183,P00696,Tagihan,Pendaftaran,107170.89,BPJS,BPJS Kesehatan,,2025-09-26
+TX000184,P00861,Pembayaran,Pendaftaran,51383.39,Umum,,Tunai,2024-08-15
+TX000185,P00744,Tagihan,Konsultasi,57878.62,Umum,,,2024-09-27
+TX000186,P00896,Pembayaran,Konsultasi,59333.87,Asuransi Swasta,Sinarmas,QRIS,2024-02-03
+TX000187,P00507,Tagihan,Pendaftaran,78598.87,Umum,,,2024-11-29
+TX000188,P00633,Pembayaran,Rawat Inap,66533.19,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-08
+TX000189,P00272,Tagihan,Tindakan,49600.28,Asuransi Swasta,Allianz,,2024-02-16
+TX000190,P00229,Tagihan,Radiologi,63013.23,Umum,,,2024-08-23
+TX000191,P00473,Tagihan,Pendaftaran,104684.96,BPJS,BPJS Kesehatan,,2024-02-14
+TX000192,P00411,Pembayaran,Tindakan,23263.86,Asuransi Swasta,Manulife,Transfer,2025-06-26
+TX000193,P00248,Tagihan,Konsultasi,65943.83,BPJS,BPJS Kesehatan,,2024-11-19
+TX000194,P00277,Klaim,Radiologi,88393.15,BPJS,BPJS Kesehatan,,2024-03-14
+TX000195,P00051,Klaim,Rawat Inap,100662.64,Asuransi Swasta,AXA Mandiri,,2025-09-08
+TX000196,P00240,Klaim,Radiologi,62130.81,Asuransi Swasta,Prudential,,2024-01-16
+TX000197,P00028,Tagihan,Tindakan,55698.17,Umum,,,2025-10-18
+TX000198,P00113,Tagihan,Obat,90718.32,Umum,,,2025-03-06
+TX000199,P00155,Pembayaran,Radiologi,46430.4,Umum,,Kartu Kredit,2024-12-20
+TX000200,P00720,Klaim,Tindakan,72104.22,Umum,,,2024-09-08
+TX000201,P00348,Pembayaran,Obat,236602.21,Umum,,Tunai,2024-03-04
+TX000202,P00606,Pembayaran,Rawat Inap,54576.08,Umum,,Kartu Kredit,2024-02-08
+TX000203,P00842,Tagihan,Rawat Inap,122322.63,Umum,,,2023-12-17
+TX000204,P00124,Tagihan,Rawat Inap,66302.35,BPJS,BPJS Kesehatan,,2024-06-24
+TX000205,P00001,Pembayaran,Radiologi,63768.47,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-13
+TX000206,P00595,Pembayaran,Obat,60648.16,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-03
+TX000207,P00066,Klaim,Pemeriksaan Lab,63858.76,Asuransi Swasta,Allianz,,2025-02-07
+TX000208,P00885,Pembayaran,Radiologi,69638.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-16
+TX000209,P00606,Pembayaran,Konsultasi,62144.07,Umum,,Tunai,2023-12-11
+TX000210,P00116,Tagihan,Tindakan,118335.28,Umum,,,2024-10-15
+TX000211,P00365,Tagihan,Tindakan,60450.47,BPJS,BPJS Kesehatan,,2025-07-06
+TX000212,P00133,Pembayaran,Tindakan,36012.04,Umum,,Tunai,2025-08-10
+TX000213,P00027,Tagihan,Obat,31364.51,BPJS,BPJS Kesehatan,,2025-09-05
+TX000214,P00622,Pembayaran,Rawat Inap,55800.01,Asuransi Swasta,AIA,Transfer,2024-01-02
+TX000215,P00497,Pembayaran,Obat,64766.38,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-04-08
+TX000216,P00372,Tagihan,Pendaftaran,128206.88,BPJS,BPJS Kesehatan,,2025-06-15
+TX000217,P00333,Tagihan,Pendaftaran,38600.76,Asuransi Swasta,AIA,,2025-04-01
+TX000218,P00404,Tagihan,Tindakan,68464.57,BPJS,BPJS Kesehatan,,2025-03-09
+TX000219,P00552,Tagihan,Konsultasi,60057.68,BPJS,BPJS Kesehatan,,2024-10-07
+TX000220,P00565,Tagihan,Obat,81172.71,BPJS,BPJS Kesehatan,,2025-02-18
+TX000221,P00153,Tagihan,Rawat Inap,79939.24,BPJS,BPJS Kesehatan,,2023-11-25
+TX000222,P00623,Tagihan,Rawat Inap,69109.79,BPJS,BPJS Kesehatan,,2025-01-09
+TX000223,P00571,Pembayaran,Tindakan,95279.15,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-18
+TX000224,P00468,Tagihan,Pemeriksaan Lab,137852.78,BPJS,BPJS Kesehatan,,2025-04-23
+TX000225,P00094,Pembayaran,Tindakan,52348.49,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-21
+TX000226,P00549,Pembetulan,Pendaftaran,98406.99,BPJS,BPJS Kesehatan,,2025-02-09
+TX000227,P00405,Tagihan,Konsultasi,113234.45,BPJS,BPJS Kesehatan,,2024-06-20
+TX000228,P00707,Tagihan,Pendaftaran,319121.85,BPJS,BPJS Kesehatan,,2024-03-22
+TX000229,P00862,Tagihan,Pemeriksaan Lab,164841.47,BPJS,BPJS Kesehatan,,2025-09-16
+TX000230,P00294,Tagihan,Tindakan,123558.54,Umum,,,2025-02-03
+TX000231,P00595,Tagihan,Radiologi,66144.89,BPJS,BPJS Kesehatan,,2024-07-02
+TX000232,P00049,Tagihan,Konsultasi,97827.33,BPJS,BPJS Kesehatan,,2025-02-06
+TX000233,P00028,Tagihan,Tindakan,62590.43,Umum,,,2025-10-29
+TX000234,P00078,Pembayaran,Obat,61870.78,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-26
+TX000235,P00533,Pembayaran,Lainnya,153031.09,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-03
+TX000236,P00751,Tagihan,Radiologi,100961.09,BPJS,BPJS Kesehatan,,2024-10-18
+TX000237,P00101,Pembayaran,Lainnya,65016.68,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-16
+TX000238,P00032,Pembayaran,Tindakan,59060.14,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-28
+TX000239,P00586,Tagihan,Lainnya,79146.05,BPJS,BPJS Kesehatan,,2024-06-30
+TX000240,P00445,Tagihan,Tindakan,347960.44,Umum,,,2025-02-04
+TX000241,P00153,Tagihan,Radiologi,42966.66,BPJS,BPJS Kesehatan,,2024-08-12
+TX000242,P00395,Tagihan,Pemeriksaan Lab,131340.45,Asuransi Swasta,Manulife,,2025-01-08
+TX000243,P00279,Tagihan,Radiologi,201378.55,BPJS,BPJS Kesehatan,,2024-06-05
+TX000244,P00691,Tagihan,Pendaftaran,100831.62,Asuransi Swasta,Allianz,,2025-05-22
+TX000245,P00896,Pembayaran,Tindakan,118162.24,Asuransi Swasta,Sinarmas,QRIS,2025-10-26
+TX000246,P00027,Tagihan,Obat,56972.48,BPJS,BPJS Kesehatan,,2025-02-08
+TX000247,P00086,Tagihan,Tindakan,103558.79,BPJS,BPJS Kesehatan,,2023-12-26
+TX000248,P00695,Tagihan,Tindakan,68386.98,BPJS,BPJS Kesehatan,,2025-03-25
+TX000249,P00482,Tagihan,Konsultasi,142532.13,BPJS,BPJS Kesehatan,,2024-05-09
+TX000250,P00725,Tagihan,Lainnya,110233.86,Umum,,,2025-03-17
+TX000251,P00389,Tagihan,Tindakan,93880.68,BPJS,BPJS Kesehatan,,2024-07-14
+TX000252,P00154,Pembayaran,Rawat Inap,29021.84,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-05
+TX000253,P00343,Pembayaran,Obat,339451.27,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-16
+TX000254,P00026,Klaim,Pemeriksaan Lab,240790.68,Asuransi Swasta,Manulife,,2024-02-12
+TX000255,P00844,Tagihan,Lainnya,59916.51,BPJS,BPJS Kesehatan,,2025-07-14
+TX000256,P00889,Pembayaran,Tindakan,40828.21,Asuransi Swasta,Prudential,Kartu Kredit,2024-02-26
+TX000257,P00282,Tagihan,Pemeriksaan Lab,149110.71,Umum,,,2024-11-20
+TX000258,P00015,Pembayaran,Konsultasi,38681.0,Umum,,Tunai,2023-11-18
+TX000259,P00898,Tagihan,Pendaftaran,89832.19,BPJS,BPJS Kesehatan,,2023-12-16
+TX000260,P00596,Tagihan,Obat,21739.35,BPJS,BPJS Kesehatan,,2025-03-13
+TX000261,P00494,Pembayaran,Lainnya,78469.65,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-26
+TX000262,P00440,Tagihan,Konsultasi,117823.83,BPJS,BPJS Kesehatan,,2025-09-07
+TX000263,P00195,Tagihan,Obat,137457.32,BPJS,BPJS Kesehatan,,2025-09-07
+TX000264,P00497,Tagihan,Radiologi,92645.43,Asuransi Swasta,Sinarmas,,2024-05-19
+TX000265,P00031,Pembayaran,Rawat Inap,53975.95,Asuransi Swasta,Allianz,QRIS,2024-05-26
+TX000266,P00042,Tagihan,Konsultasi,33745.21,Umum,,,2024-05-24
+TX000267,P00640,Klaim,Konsultasi,90069.54,BPJS,BPJS Kesehatan,,2024-05-27
+TX000268,P00716,Pembayaran,Rawat Inap,32199.66,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-17
+TX000269,P00509,Pembayaran,Tindakan,107238.65,Umum,,Kartu Kredit,2024-05-17
+TX000270,P00308,Pembetulan,Pendaftaran,74229.19,Asuransi Swasta,AXA Mandiri,,2025-03-18
+TX000271,P00661,Pembayaran,Lainnya,88545.24,Asuransi Swasta,Allianz,QRIS,2024-11-02
+TX000272,P00056,Pembayaran,Pemeriksaan Lab,37411.83,Umum,,Kartu Kredit,2025-06-25
+TX000273,P00330,Pembayaran,Lainnya,78967.57,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2025-05-04
+TX000274,P00411,Tagihan,Konsultasi,74153.5,Asuransi Swasta,Manulife,,2024-03-13
+TX000275,P00461,Tagihan,Pemeriksaan Lab,139228.52,BPJS,BPJS Kesehatan,,2024-04-07
+TX000276,P00854,Klaim,Pendaftaran,33092.61,BPJS,BPJS Kesehatan,,2024-05-03
+TX000277,P00559,Tagihan,Konsultasi,124621.88,BPJS,BPJS Kesehatan,,2023-12-07
+TX000278,P00264,Klaim,Obat,110965.71,Asuransi Swasta,Allianz,,2024-05-24
+TX000279,P00138,Tagihan,Tindakan,63006.62,Umum,,,2025-01-26
+TX000280,P00508,Tagihan,Tindakan,191830.57,Umum,,,2024-11-17
+TX000281,P00565,Klaim,Pendaftaran,158645.91,BPJS,BPJS Kesehatan,,2024-01-20
+TX000282,P00483,Tagihan,Konsultasi,79543.61,Asuransi Swasta,AIA,,2025-10-21
+TX000283,P00395,Pembayaran,Rawat Inap,28506.17,Asuransi Swasta,Manulife,Kartu Kredit,2024-10-20
+TX000284,P00471,Tagihan,Rawat Inap,40011.94,Asuransi Swasta,AIA,,2024-07-21
+TX000285,P00787,Pembayaran,Lainnya,61531.36,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-06
+TX000286,P00243,Pembayaran,Tindakan,27896.65,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-11
+TX000287,P00615,Tagihan,Rawat Inap,94574.42,BPJS,BPJS Kesehatan,,2024-12-01
+TX000288,P00232,Tagihan,Lainnya,115467.92,Asuransi Swasta,Allianz,,2025-04-25
+TX000289,P00137,Tagihan,Rawat Inap,159439.45,Asuransi Swasta,Manulife,,2025-06-02
+TX000290,P00258,Pembayaran,Pendaftaran,39977.18,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-12
+TX000291,P00679,Pembayaran,Rawat Inap,59758.44,Umum,,Kartu Kredit,2024-11-14
+TX000292,P00532,Pembayaran,Rawat Inap,41562.75,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-04
+TX000293,P00034,Tagihan,Obat,112224.89,Umum,,,2024-06-09
+TX000294,P00128,Tagihan,Pemeriksaan Lab,62520.76,Umum,,,2025-02-12
+TX000295,P00269,Pembayaran,Konsultasi,107817.94,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-22
+TX000296,P00806,Pembayaran,Pemeriksaan Lab,73176.28,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-01
+TX000297,P00072,Klaim,Pendaftaran,94973.91,Asuransi Swasta,AIA,,2025-08-05
+TX000298,P00856,Pembayaran,Lainnya,143255.41,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-29
+TX000299,P00254,Pembayaran,Pemeriksaan Lab,43005.74,Umum,,Kartu Kredit,2023-11-07
+TX000300,P00080,Pembayaran,Lainnya,47021.88,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-03
+TX000301,P00716,Tagihan,Obat,69289.12,BPJS,BPJS Kesehatan,,2024-08-05
+TX000302,P00217,Tagihan,Pemeriksaan Lab,75544.04,Umum,,,2024-02-19
+TX000303,P00094,Tagihan,Radiologi,54489.36,BPJS,BPJS Kesehatan,,2024-03-09
+TX000304,P00517,Tagihan,Konsultasi,88967.04,BPJS,BPJS Kesehatan,,2024-03-20
+TX000305,P00425,Tagihan,Rawat Inap,430504.5,BPJS,BPJS Kesehatan,,2024-03-13
+TX000306,P00684,Pembayaran,Obat,47735.37,Umum,,Tunai,2025-09-01
+TX000307,P00443,Pembayaran,Konsultasi,51801.42,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-20
+TX000308,P00413,Tagihan,Pendaftaran,52241.69,Asuransi Swasta,Sinarmas,,2024-08-22
+TX000309,P00822,Tagihan,Rawat Inap,90466.31,BPJS,BPJS Kesehatan,,2024-09-14
+TX000310,P00003,Tagihan,Rawat Inap,63832.97,BPJS,BPJS Kesehatan,,2024-02-05
+TX000311,P00552,Pembayaran,Tindakan,64859.76,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-01
+TX000312,P00607,Pembayaran,Rawat Inap,70904.48,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-22
+TX000313,P00093,Tagihan,Radiologi,71074.57,Asuransi Swasta,AXA Mandiri,,2025-08-19
+TX000314,P00614,Tagihan,Pemeriksaan Lab,117096.98,Umum,,,2025-02-07
+TX000315,P00496,Tagihan,Pemeriksaan Lab,119753.92,Umum,,,2025-03-13
+TX000316,P00695,Tagihan,Pemeriksaan Lab,73450.76,BPJS,BPJS Kesehatan,,2025-02-14
+TX000317,P00552,Tagihan,Pendaftaran,63877.47,BPJS,BPJS Kesehatan,,2024-07-03
+TX000318,P00204,Tagihan,Obat,34662.47,BPJS,BPJS Kesehatan,,2024-08-21
+TX000319,P00487,Tagihan,Obat,358977.13,Umum,,,2024-05-30
+TX000320,P00773,Pembayaran,Obat,54904.48,Asuransi Swasta,Sinarmas,Transfer,2024-12-09
+TX000321,P00042,Tagihan,Tindakan,63232.75,Umum,,,2025-09-12
+TX000322,P00201,Tagihan,Rawat Inap,114573.77,BPJS,BPJS Kesehatan,,2024-08-26
+TX000323,P00613,Tagihan,Lainnya,123836.71,Umum,,,2025-06-20
+TX000324,P00482,Pembayaran,Pemeriksaan Lab,20671.24,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-03
+TX000325,P00010,Tagihan,Lainnya,53602.04,BPJS,BPJS Kesehatan,,2024-11-25
+TX000326,P00771,Tagihan,Radiologi,60818.66,Umum,,,2024-02-27
+TX000327,P00513,Pembayaran,Lainnya,25944.99,Umum,,Kartu Kredit,2024-06-24
+TX000328,P00739,Tagihan,Lainnya,195232.46,BPJS,BPJS Kesehatan,,2024-12-12
+TX000329,P00674,Klaim,Rawat Inap,101348.64,BPJS,BPJS Kesehatan,,2023-12-19
+TX000330,P00452,Tagihan,Pendaftaran,40068.2,BPJS,BPJS Kesehatan,,2025-10-26
+TX000331,P00116,Tagihan,Tindakan,45442.72,Umum,,,2024-05-21
+TX000332,P00512,Tagihan,Lainnya,116463.62,BPJS,BPJS Kesehatan,,2024-04-20
+TX000333,P00720,Klaim,Radiologi,73645.78,Umum,,,2024-08-26
+TX000334,P00440,Tagihan,Obat,69963.62,BPJS,BPJS Kesehatan,,2024-02-19
+TX000335,P00593,Tagihan,Obat,199830.48,Asuransi Swasta,AXA Mandiri,,2025-07-24
+TX000336,P00590,Tagihan,Obat,82942.58,BPJS,BPJS Kesehatan,,2025-04-16
+TX000337,P00774,Pembayaran,Rawat Inap,90826.62,Umum,,Kartu Kredit,2024-06-19
+TX000338,P00109,Tagihan,Pemeriksaan Lab,148592.67,BPJS,BPJS Kesehatan,,2024-05-31
+TX000339,P00431,Pembayaran,Obat,73550.57,Umum,,Tunai,2025-04-29
+TX000340,P00204,Tagihan,Obat,48730.59,BPJS,BPJS Kesehatan,,2024-04-23
+TX000341,P00291,Tagihan,Tindakan,50487.03,Umum,,,2024-04-15
+TX000342,P00452,Pembayaran,Obat,141125.19,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-19
+TX000343,P00310,Tagihan,Konsultasi,56617.45,BPJS,BPJS Kesehatan,,2024-02-09
+TX000344,P00491,Tagihan,Rawat Inap,51334.42,BPJS,BPJS Kesehatan,,2025-04-27
+TX000345,P00484,Pembayaran,Tindakan,26516.45,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-24
+TX000346,P00080,Tagihan,Tindakan,77460.86,BPJS,BPJS Kesehatan,,2024-06-17
+TX000347,P00695,Tagihan,Tindakan,51970.84,BPJS,BPJS Kesehatan,,2023-12-31
+TX000348,P00764,Pembayaran,Konsultasi,92859.68,Asuransi Swasta,AXA Mandiri,QRIS,2024-04-26
+TX000349,P00618,Klaim,Obat,50235.88,BPJS,BPJS Kesehatan,,2025-03-30
+TX000350,P00322,Tagihan,Pendaftaran,48662.93,BPJS,BPJS Kesehatan,,2025-06-03
+TX000351,P00858,Pembetulan,Konsultasi,197094.47,Asuransi Swasta,Manulife,,2023-11-09
+TX000352,P00782,Tagihan,Pendaftaran,126664.64,Umum,,,2024-10-06
+TX000353,P00194,Tagihan,Tindakan,78838.09,Umum,,,2024-08-09
+TX000354,P00280,Pembayaran,Pemeriksaan Lab,40556.09,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-25
+TX000355,P00418,Klaim,Rawat Inap,48467.99,BPJS,BPJS Kesehatan,,2025-06-17
+TX000356,P00702,Tagihan,Lainnya,160538.97,Umum,,,2025-06-09
+TX000357,P00340,Tagihan,Pendaftaran,87123.32,BPJS,BPJS Kesehatan,,2024-05-24
+TX000358,P00635,Pembayaran,Obat,36719.9,Asuransi Swasta,AXA Mandiri,QRIS,2024-07-25
+TX000359,P00660,Tagihan,Tindakan,111704.79,Asuransi Swasta,Sinarmas,,2025-06-30
+TX000360,P00490,Pembayaran,Rawat Inap,58846.6,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-07
+TX000361,P00393,Tagihan,Pemeriksaan Lab,38762.58,Asuransi Swasta,Manulife,,2024-04-05
+TX000362,P00729,Tagihan,Konsultasi,59115.14,BPJS,BPJS Kesehatan,,2025-08-01
+TX000363,P00589,Pembayaran,Lainnya,62285.07,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-21
+TX000364,P00137,Tagihan,Rawat Inap,121127.26,Asuransi Swasta,Manulife,,2024-08-23
+TX000365,P00063,Tagihan,Tindakan,84811.29,Umum,,,2025-02-05
+TX000366,P00790,Tagihan,Lainnya,70592.58,Asuransi Swasta,Sinarmas,,2024-08-07
+TX000367,P00623,Tagihan,Pendaftaran,48275.43,BPJS,BPJS Kesehatan,,2023-11-10
+TX000368,P00017,Tagihan,Tindakan,172470.61,Asuransi Swasta,Allianz,,2025-04-06
+TX000369,P00874,Tagihan,Obat,51906.8,Umum,,,2025-07-23
+TX000370,P00082,Pembayaran,Konsultasi,49589.51,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-15
+TX000371,P00626,Tagihan,Konsultasi,59036.92,BPJS,BPJS Kesehatan,,2025-07-24
+TX000372,P00760,Tagihan,Pemeriksaan Lab,207272.05,Umum,,,2024-09-20
+TX000373,P00200,Pembayaran,Konsultasi,82928.55,Umum,,Kartu Kredit,2025-08-16
+TX000374,P00212,Pembayaran,Lainnya,106795.44,Umum,,Kartu Kredit,2025-07-17
+TX000375,P00100,Pembayaran,Pendaftaran,113068.11,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-01
+TX000376,P00803,Klaim,Radiologi,35689.9,Umum,,,2024-05-13
+TX000377,P00447,Tagihan,Lainnya,64923.23,Asuransi Swasta,Allianz,,2024-04-04
+TX000378,P00405,Pembayaran,Lainnya,29171.41,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-21
+TX000379,P00872,Pembayaran,Rawat Inap,61777.13,Umum,,Tunai,2024-02-14
+TX000380,P00113,Tagihan,Konsultasi,61527.57,Umum,,,2024-09-10
+TX000381,P00491,Tagihan,Lainnya,72090.81,BPJS,BPJS Kesehatan,,2024-07-11
+TX000382,P00307,Pembayaran,Obat,56483.3,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-17
+TX000383,P00358,Tagihan,Tindakan,112838.82,BPJS,BPJS Kesehatan,,2024-09-15
+TX000384,P00135,Tagihan,Pemeriksaan Lab,122069.61,Asuransi Swasta,Prudential,,2025-02-09
+TX000385,P00035,Pembayaran,Rawat Inap,34600.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-07
+TX000386,P00896,Tagihan,Lainnya,119242.17,Asuransi Swasta,Sinarmas,,2025-10-20
+TX000387,P00775,Pembayaran,Tindakan,31393.5,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-12
+TX000388,P00848,Tagihan,Obat,105239.55,BPJS,BPJS Kesehatan,,2024-07-11
+TX000389,P00472,Tagihan,Radiologi,96400.38,Asuransi Swasta,AIA,,2024-08-30
+TX000390,P00845,Tagihan,Konsultasi,33848.44,Asuransi Swasta,Allianz,,2024-02-01
+TX000391,P00505,Tagihan,Konsultasi,79028.92,Umum,,,2025-05-29
+TX000392,P00482,Tagihan,Obat,180870.49,BPJS,BPJS Kesehatan,,2024-07-14
+TX000393,P00551,Pembayaran,Lainnya,68412.19,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-03
+TX000394,P00087,Tagihan,Rawat Inap,102936.01,Asuransi Swasta,Allianz,,2025-06-11
+TX000395,P00605,Pembayaran,Obat,110810.55,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-24
+TX000396,P00330,Klaim,Obat,36785.97,Asuransi Swasta,AXA Mandiri,,2024-02-27
+TX000397,P00697,Tagihan,Tindakan,155667.96,BPJS,BPJS Kesehatan,,2024-07-29
+TX000398,P00310,Tagihan,Rawat Inap,64888.98,BPJS,BPJS Kesehatan,,2024-10-02
+TX000399,P00339,Tagihan,Pendaftaran,83667.11,Umum,,,2025-09-29
+TX000400,P00537,Pembayaran,Konsultasi,88795.11,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-10
+TX000401,P00881,Tagihan,Pendaftaran,95450.13,BPJS,BPJS Kesehatan,,2024-04-28
+TX000402,P00534,Pembayaran,Pendaftaran,75203.28,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-26
+TX000403,P00798,Klaim,Obat,99780.66,BPJS,BPJS Kesehatan,,2025-03-31
+TX000404,P00380,Pembayaran,Radiologi,123345.77,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-12
+TX000405,P00859,Pembayaran,Lainnya,112962.33,Umum,,Kartu Kredit,2025-06-06
+TX000406,P00012,Pembayaran,Obat,116264.6,Umum,,Tunai,2025-08-03
+TX000407,P00149,Tagihan,Pemeriksaan Lab,65468.46,BPJS,BPJS Kesehatan,,2025-10-25
+TX000408,P00549,Tagihan,Konsultasi,48193.3,BPJS,BPJS Kesehatan,,2024-10-11
+TX000409,P00225,Pembayaran,Pendaftaran,60841.53,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-25
+TX000410,P00871,Tagihan,Konsultasi,46858.23,Umum,,,2024-01-17
+TX000411,P00470,Pembetulan,Tindakan,114818.19,BPJS,BPJS Kesehatan,,2025-07-23
+TX000412,P00571,Tagihan,Radiologi,183770.19,BPJS,BPJS Kesehatan,,2024-07-01
+TX000413,P00677,Tagihan,Pendaftaran,169132.91,Umum,,,2025-04-11
+TX000414,P00001,Tagihan,Pendaftaran,67916.17,BPJS,BPJS Kesehatan,,2024-02-14
+TX000415,P00845,Pembayaran,Radiologi,51339.2,Asuransi Swasta,Allianz,QRIS,2024-05-07
+TX000416,P00617,Tagihan,Obat,46685.11,BPJS,BPJS Kesehatan,,2025-10-12
+TX000417,P00344,Tagihan,Tindakan,69455.38,BPJS,BPJS Kesehatan,,2024-12-30
+TX000418,P00609,Tagihan,Lainnya,42889.22,Asuransi Swasta,AIA,,2023-12-14
+TX000419,P00692,Klaim,Rawat Inap,137398.28,BPJS,BPJS Kesehatan,,2025-01-27
+TX000420,P00579,Pembayaran,Rawat Inap,109252.86,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-29
+TX000421,P00776,Pembayaran,Radiologi,18422.89,Umum,,Tunai,2024-05-24
+TX000422,P00631,Pembayaran,Konsultasi,90653.88,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-26
+TX000423,P00875,Tagihan,Obat,94032.69,BPJS,BPJS Kesehatan,,2025-06-05
+TX000424,P00142,Pembayaran,Obat,30577.22,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-15
+TX000425,P00005,Tagihan,Pendaftaran,96036.39,Umum,,,2025-11-04
+TX000426,P00096,Pembayaran,Pendaftaran,105178.36,Umum,,Kartu Kredit,2025-07-30
+TX000427,P00493,Tagihan,Lainnya,93230.86,BPJS,BPJS Kesehatan,,2024-11-16
+TX000428,P00788,Tagihan,Lainnya,33526.78,BPJS,BPJS Kesehatan,,2025-10-27
+TX000429,P00440,Tagihan,Pemeriksaan Lab,97715.17,BPJS,BPJS Kesehatan,,2024-02-02
+TX000430,P00420,Tagihan,Pendaftaran,220244.95,BPJS,BPJS Kesehatan,,2023-11-16
+TX000431,P00033,Tagihan,Tindakan,72535.76,BPJS,BPJS Kesehatan,,2025-10-23
+TX000432,P00260,Pembetulan,Obat,90657.53,BPJS,BPJS Kesehatan,,2024-12-23
+TX000433,P00045,Klaim,Lainnya,108489.37,Asuransi Swasta,Prudential,,2023-12-22
+TX000434,P00464,Pembetulan,Pemeriksaan Lab,188512.45,Umum,,,2023-12-06
+TX000435,P00638,Tagihan,Rawat Inap,126163.81,BPJS,BPJS Kesehatan,,2024-12-20
+TX000436,P00053,Tagihan,Obat,96470.76,BPJS,BPJS Kesehatan,,2024-02-01
+TX000437,P00640,Tagihan,Radiologi,61463.11,BPJS,BPJS Kesehatan,,2025-07-15
+TX000438,P00649,Tagihan,Konsultasi,107433.86,Umum,,,2024-11-05
+TX000439,P00479,Pembayaran,Obat,49701.1,Asuransi Swasta,Manulife,QRIS,2024-01-10
+TX000440,P00557,Tagihan,Rawat Inap,50497.73,BPJS,BPJS Kesehatan,,2025-04-09
+TX000441,P00841,Tagihan,Pemeriksaan Lab,220875.82,BPJS,BPJS Kesehatan,,2024-12-25
+TX000442,P00732,Tagihan,Konsultasi,72373.38,BPJS,BPJS Kesehatan,,2024-07-10
+TX000443,P00107,Klaim,Rawat Inap,94602.02,Umum,,,2025-07-16
+TX000444,P00597,Tagihan,Lainnya,100560.92,BPJS,BPJS Kesehatan,,2024-04-19
+TX000445,P00221,Tagihan,Rawat Inap,96853.42,BPJS,BPJS Kesehatan,,2024-05-06
+TX000446,P00694,Tagihan,Lainnya,118975.58,BPJS,BPJS Kesehatan,,2025-10-16
+TX000447,P00673,Tagihan,Tindakan,84132.89,BPJS,BPJS Kesehatan,,2024-03-04
+TX000448,P00669,Pembayaran,Lainnya,42555.85,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-20
+TX000449,P00837,Klaim,Radiologi,30943.08,Umum,,,2025-02-10
+TX000450,P00493,Tagihan,Radiologi,42339.89,BPJS,BPJS Kesehatan,,2025-11-05
+TX000451,P00567,Pembayaran,Pemeriksaan Lab,38620.12,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-09
+TX000452,P00772,Tagihan,Tindakan,132427.52,Umum,,,2024-08-10
+TX000453,P00882,Tagihan,Pemeriksaan Lab,51817.85,BPJS,BPJS Kesehatan,,2024-03-07
+TX000454,P00379,Tagihan,Radiologi,149493.46,BPJS,BPJS Kesehatan,,2024-06-03
+TX000455,P00456,Tagihan,Konsultasi,198680.78,BPJS,BPJS Kesehatan,,2024-10-16
+TX000456,P00809,Tagihan,Pendaftaran,110242.9,BPJS,BPJS Kesehatan,,2024-08-30
+TX000457,P00872,Pembayaran,Pemeriksaan Lab,46837.57,Umum,,Kartu Kredit,2024-03-15
+TX000458,P00303,Tagihan,Radiologi,120834.41,BPJS,BPJS Kesehatan,,2025-10-12
+TX000459,P00823,Tagihan,Lainnya,73091.28,Asuransi Swasta,Sinarmas,,2024-07-17
+TX000460,P00313,Pembayaran,Lainnya,145682.34,Asuransi Swasta,Manulife,QRIS,2025-10-19
+TX000461,P00886,Pembayaran,Obat,27196.83,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-07
+TX000462,P00280,Tagihan,Radiologi,76288.59,BPJS,BPJS Kesehatan,,2025-05-14
+TX000463,P00030,Pembayaran,Tindakan,70232.12,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-26
+TX000464,P00636,Tagihan,Obat,78398.64,BPJS,BPJS Kesehatan,,2025-06-03
+TX000465,P00594,Tagihan,Radiologi,102382.99,BPJS,BPJS Kesehatan,,2025-07-31
+TX000466,P00646,Tagihan,Konsultasi,143713.36,BPJS,BPJS Kesehatan,,2025-01-26
+TX000467,P00282,Tagihan,Radiologi,38767.5,Umum,,,2023-11-14
+TX000468,P00260,Tagihan,Radiologi,45114.43,BPJS,BPJS Kesehatan,,2025-08-10
+TX000469,P00696,Tagihan,Tindakan,178543.67,BPJS,BPJS Kesehatan,,2024-03-12
+TX000470,P00521,Pembayaran,Pemeriksaan Lab,17836.02,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-30
+TX000471,P00896,Pembayaran,Pemeriksaan Lab,32731.68,Asuransi Swasta,Sinarmas,Transfer,2024-11-29
+TX000472,P00185,Pembayaran,Obat,86421.79,Umum,,Kartu Kredit,2023-11-07
+TX000473,P00661,Tagihan,Rawat Inap,44523.78,Asuransi Swasta,Allianz,,2023-12-29
+TX000474,P00061,Pembayaran,Pemeriksaan Lab,56715.79,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-06
+TX000475,P00151,Tagihan,Pemeriksaan Lab,193073.19,Umum,,,2025-04-21
+TX000476,P00703,Klaim,Konsultasi,169191.27,BPJS,BPJS Kesehatan,,2025-02-22
+TX000477,P00112,Tagihan,Radiologi,178430.28,Umum,,,2024-11-30
+TX000478,P00446,Klaim,Lainnya,112764.29,Asuransi Swasta,Allianz,,2025-09-27
+TX000479,P00317,Tagihan,Radiologi,182344.29,BPJS,BPJS Kesehatan,,2024-11-08
+TX000480,P00299,Pembayaran,Konsultasi,44409.76,Umum,,Tunai,2024-12-29
+TX000481,P00436,Tagihan,Radiologi,78171.17,Asuransi Swasta,AIA,,2025-05-29
+TX000482,P00364,Pembayaran,Radiologi,47393.49,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-18
+TX000483,P00598,Pembayaran,Radiologi,16131.16,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-20
+TX000484,P00798,Klaim,Konsultasi,140141.5,BPJS,BPJS Kesehatan,,2025-06-14
+TX000485,P00208,Tagihan,Rawat Inap,220006.68,Asuransi Swasta,Sinarmas,,2025-02-24
+TX000486,P00761,Tagihan,Pendaftaran,154371.16,BPJS,BPJS Kesehatan,,2024-09-03
+TX000487,P00869,Tagihan,Radiologi,40555.64,BPJS,BPJS Kesehatan,,2024-05-16
+TX000488,P00848,Pembayaran,Pendaftaran,38232.25,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-22
+TX000489,P00815,Tagihan,Pemeriksaan Lab,164882.67,Umum,,,2024-09-18
+TX000490,P00756,Tagihan,Pemeriksaan Lab,53982.87,Umum,,,2025-07-16
+TX000491,P00603,Pembayaran,Konsultasi,130259.53,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-02
+TX000492,P00278,Tagihan,Pemeriksaan Lab,70780.29,BPJS,BPJS Kesehatan,,2024-10-31
+TX000493,P00087,Klaim,Pemeriksaan Lab,37917.86,Asuransi Swasta,Allianz,,2024-08-27
+TX000494,P00623,Pembayaran,Rawat Inap,74090.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-31
+TX000495,P00571,Pembayaran,Radiologi,73681.92,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-25
+TX000496,P00339,Tagihan,Obat,136014.04,Umum,,,2024-01-24
+TX000497,P00618,Tagihan,Lainnya,125479.98,BPJS,BPJS Kesehatan,,2025-05-14
+TX000498,P00681,Tagihan,Radiologi,61237.51,Umum,,,2024-07-23
+TX000499,P00767,Pembayaran,Konsultasi,125175.78,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-05
+TX000500,P00142,Pembetulan,Rawat Inap,88992.94,BPJS,BPJS Kesehatan,,2024-09-30
+TX000501,P00357,Tagihan,Konsultasi,65822.39,BPJS,BPJS Kesehatan,,2024-03-16
+TX000502,P00293,Pembayaran,Rawat Inap,95571.13,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-23
+TX000503,P00031,Tagihan,Pemeriksaan Lab,40296.56,Asuransi Swasta,Allianz,,2024-08-07
+TX000504,P00154,Tagihan,Lainnya,130880.24,BPJS,BPJS Kesehatan,,2025-07-26
+TX000505,P00525,Pembayaran,Pemeriksaan Lab,35842.92,Umum,,Kartu Kredit,2024-05-17
+TX000506,P00876,Tagihan,Pendaftaran,40208.2,Asuransi Swasta,Allianz,,2024-07-21
+TX000507,P00501,Tagihan,Rawat Inap,90520.35,Umum,,,2024-12-25
+TX000508,P00538,Tagihan,Tindakan,185896.5,BPJS,BPJS Kesehatan,,2025-10-06
+TX000509,P00645,Pembayaran,Tindakan,124414.05,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-02
+TX000510,P00215,Tagihan,Lainnya,56093.31,Asuransi Swasta,Allianz,,2025-08-31
+TX000511,P00844,Tagihan,Obat,21021.98,BPJS,BPJS Kesehatan,,2025-02-22
+TX000512,P00461,Tagihan,Pemeriksaan Lab,74817.19,BPJS,BPJS Kesehatan,,2025-03-12
+TX000513,P00375,Tagihan,Konsultasi,53517.11,BPJS,BPJS Kesehatan,,2025-11-06
+TX000514,P00470,Pembayaran,Obat,38317.44,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-24
+TX000515,P00484,Klaim,Tindakan,247317.29,BPJS,BPJS Kesehatan,,2024-11-09
+TX000516,P00046,Pembayaran,Pemeriksaan Lab,33306.92,Umum,,Tunai,2025-01-21
+TX000517,P00453,Tagihan,Konsultasi,168790.76,BPJS,BPJS Kesehatan,,2023-11-14
+TX000518,P00459,Tagihan,Obat,56046.8,BPJS,BPJS Kesehatan,,2024-06-21
+TX000519,P00120,Klaim,Tindakan,102057.48,Umum,,,2024-07-29
+TX000520,P00148,Tagihan,Lainnya,118768.3,Umum,,,2024-04-07
+TX000521,P00678,Tagihan,Rawat Inap,91649.88,BPJS,BPJS Kesehatan,,2024-09-17
+TX000522,P00209,Pembayaran,Lainnya,45871.07,Asuransi Swasta,Allianz,Transfer,2024-06-10
+TX000523,P00293,Tagihan,Tindakan,86767.24,BPJS,BPJS Kesehatan,,2024-05-03
+TX000524,P00123,Tagihan,Pendaftaran,112007.5,Asuransi Swasta,Prudential,,2024-02-11
+TX000525,P00195,Klaim,Rawat Inap,384773.27,BPJS,BPJS Kesehatan,,2025-08-06
+TX000526,P00207,Tagihan,Obat,120035.63,BPJS,BPJS Kesehatan,,2025-10-27
+TX000527,P00076,Pembayaran,Konsultasi,13771.71,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-11
+TX000528,P00503,Pembayaran,Konsultasi,35573.53,Umum,,Kartu Kredit,2025-02-14
+TX000529,P00220,Pembayaran,Rawat Inap,34870.68,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-22
+TX000530,P00298,Pembayaran,Obat,55407.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-28
+TX000531,P00703,Tagihan,Konsultasi,78396.88,BPJS,BPJS Kesehatan,,2025-04-07
+TX000532,P00446,Pembayaran,Konsultasi,62668.5,Asuransi Swasta,Allianz,Kartu Kredit,2024-01-28
+TX000533,P00886,Klaim,Obat,109759.11,BPJS,BPJS Kesehatan,,2024-01-24
+TX000534,P00145,Pembayaran,Konsultasi,64066.81,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-24
+TX000535,P00638,Pembayaran,Konsultasi,69358.1,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-12
+TX000536,P00595,Pembayaran,Tindakan,58515.8,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-12
+TX000537,P00535,Tagihan,Radiologi,268163.51,Asuransi Swasta,Allianz,,2025-10-06
+TX000538,P00066,Pembetulan,Radiologi,90501.39,Asuransi Swasta,Allianz,,2024-08-27
+TX000539,P00129,Tagihan,Tindakan,223197.83,BPJS,BPJS Kesehatan,,2025-03-17
+TX000540,P00075,Tagihan,Pemeriksaan Lab,49998.42,BPJS,BPJS Kesehatan,,2024-04-08
+TX000541,P00204,Tagihan,Rawat Inap,162429.19,BPJS,BPJS Kesehatan,,2023-12-02
+TX000542,P00410,Tagihan,Tindakan,74509.04,Umum,,,2023-12-28
+TX000543,P00890,Tagihan,Pemeriksaan Lab,150899.98,BPJS,BPJS Kesehatan,,2025-08-26
+TX000544,P00661,Tagihan,Konsultasi,59720.75,Asuransi Swasta,Allianz,,2024-09-19
+TX000545,P00727,Pembayaran,Obat,68355.23,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-15
+TX000546,P00154,Tagihan,Pendaftaran,154907.48,BPJS,BPJS Kesehatan,,2024-01-23
+TX000547,P00306,Tagihan,Konsultasi,76455.37,BPJS,BPJS Kesehatan,,2024-07-07
+TX000548,P00625,Pembayaran,Pendaftaran,57046.52,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-13
+TX000549,P00722,Tagihan,Obat,100867.91,Umum,,,2024-07-07
+TX000550,P00624,Pembayaran,Pemeriksaan Lab,94525.76,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-09
+TX000551,P00091,Tagihan,Pemeriksaan Lab,60810.91,Asuransi Swasta,Manulife,,2025-03-31
+TX000552,P00644,Klaim,Radiologi,128007.02,Asuransi Swasta,Prudential,,2024-05-19
+TX000553,P00360,Pembayaran,Pendaftaran,103747.0,Umum,,Tunai,2025-07-26
+TX000554,P00067,Tagihan,Tindakan,79169.68,Asuransi Swasta,Sinarmas,,2023-12-12
+TX000555,P00634,Klaim,Rawat Inap,149370.69,BPJS,BPJS Kesehatan,,2024-09-06
+TX000556,P00308,Tagihan,Konsultasi,46750.4,Asuransi Swasta,AXA Mandiri,,2023-12-20
+TX000557,P00412,Tagihan,Konsultasi,105127.42,Umum,,,2024-10-05
+TX000558,P00461,Tagihan,Obat,267291.76,BPJS,BPJS Kesehatan,,2025-09-27
+TX000559,P00895,Tagihan,Rawat Inap,214059.22,BPJS,BPJS Kesehatan,,2025-01-04
+TX000560,P00467,Tagihan,Pemeriksaan Lab,71370.66,Asuransi Swasta,AIA,,2024-05-07
+TX000561,P00641,Pembayaran,Lainnya,67935.81,Asuransi Swasta,Allianz,Kartu Kredit,2025-09-17
+TX000562,P00218,Pembayaran,Tindakan,90128.21,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-14
+TX000563,P00123,Tagihan,Radiologi,63649.02,Asuransi Swasta,Prudential,,2025-08-16
+TX000564,P00119,Tagihan,Radiologi,105718.74,BPJS,BPJS Kesehatan,,2024-07-11
+TX000565,P00870,Pembayaran,Konsultasi,74369.52,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-20
+TX000566,P00043,Pembayaran,Konsultasi,79603.97,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-22
+TX000567,P00736,Tagihan,Pendaftaran,48058.69,BPJS,BPJS Kesehatan,,2025-01-29
+TX000568,P00534,Tagihan,Konsultasi,119201.38,BPJS,BPJS Kesehatan,,2025-06-09
+TX000569,P00710,Pembayaran,Pemeriksaan Lab,21211.74,Umum,,Kartu Kredit,2024-09-16
+TX000570,P00538,Pembayaran,Pemeriksaan Lab,89181.76,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-11
+TX000571,P00444,Tagihan,Konsultasi,85642.58,BPJS,BPJS Kesehatan,,2025-07-08
+TX000572,P00405,Pembayaran,Pendaftaran,83940.25,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-22
+TX000573,P00613,Pembayaran,Radiologi,135217.85,Umum,,Kartu Kredit,2024-09-21
+TX000574,P00396,Pembayaran,Pendaftaran,97270.51,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-30
+TX000575,P00295,Tagihan,Rawat Inap,129111.25,BPJS,BPJS Kesehatan,,2024-08-04
+TX000576,P00814,Klaim,Tindakan,103332.56,BPJS,BPJS Kesehatan,,2025-09-14
+TX000577,P00458,Klaim,Tindakan,234980.77,Asuransi Swasta,Manulife,,2024-07-09
+TX000578,P00556,Tagihan,Rawat Inap,66726.52,BPJS,BPJS Kesehatan,,2025-01-19
+TX000579,P00451,Pembayaran,Lainnya,46007.19,Umum,,Kartu Kredit,2025-03-06
+TX000580,P00576,Tagihan,Rawat Inap,35478.64,BPJS,BPJS Kesehatan,,2025-10-15
+TX000581,P00780,Pembayaran,Lainnya,41473.07,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-01
+TX000582,P00512,Pembayaran,Radiologi,23646.05,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-22
+TX000583,P00627,Tagihan,Tindakan,65134.33,Umum,,,2024-11-18
+TX000584,P00412,Tagihan,Lainnya,150453.38,Umum,,,2024-12-26
+TX000585,P00110,Tagihan,Obat,59371.71,Umum,,,2024-03-05
+TX000586,P00144,Tagihan,Pendaftaran,75969.99,Umum,,,2025-05-27
+TX000587,P00583,Pembayaran,Rawat Inap,50220.91,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-10
+TX000588,P00506,Tagihan,Tindakan,47481.56,BPJS,BPJS Kesehatan,,2025-02-18
+TX000589,P00245,Tagihan,Pendaftaran,38719.11,BPJS,BPJS Kesehatan,,2025-02-18
+TX000590,P00144,Pembayaran,Radiologi,11602.76,Umum,,Kartu Kredit,2024-07-12
+TX000591,P00637,Tagihan,Pendaftaran,287881.97,BPJS,BPJS Kesehatan,,2024-12-31
+TX000592,P00164,Pembayaran,Pemeriksaan Lab,67153.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-02
+TX000593,P00202,Tagihan,Lainnya,61782.73,Umum,,,2024-10-14
+TX000594,P00512,Tagihan,Pemeriksaan Lab,148013.3,BPJS,BPJS Kesehatan,,2024-08-17
+TX000595,P00149,Tagihan,Rawat Inap,44488.97,BPJS,BPJS Kesehatan,,2025-09-17
+TX000596,P00800,Tagihan,Radiologi,42255.26,BPJS,BPJS Kesehatan,,2024-08-15
+TX000597,P00632,Tagihan,Pemeriksaan Lab,91575.19,BPJS,BPJS Kesehatan,,2024-12-11
+TX000598,P00658,Tagihan,Konsultasi,100086.28,Umum,,,2025-08-15
+TX000599,P00410,Tagihan,Lainnya,227988.75,Umum,,,2024-08-24
+TX000600,P00470,Pembayaran,Rawat Inap,158070.92,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-27
+TX000601,P00721,Tagihan,Pemeriksaan Lab,184062.79,BPJS,BPJS Kesehatan,,2024-08-20
+TX000602,P00330,Tagihan,Obat,147300.45,Asuransi Swasta,AXA Mandiri,,2024-07-21
+TX000603,P00502,Pembayaran,Lainnya,179270.43,Asuransi Swasta,Prudential,Transfer,2025-08-09
+TX000604,P00182,Tagihan,Pemeriksaan Lab,91942.73,Asuransi Swasta,Prudential,,2024-07-31
+TX000605,P00658,Tagihan,Pemeriksaan Lab,78604.03,Umum,,,2025-05-20
+TX000606,P00859,Pembayaran,Pemeriksaan Lab,144363.5,Umum,,Tunai,2024-12-22
+TX000607,P00594,Klaim,Konsultasi,182520.45,BPJS,BPJS Kesehatan,,2024-02-09
+TX000608,P00618,Pembayaran,Tindakan,23526.78,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-05
+TX000609,P00214,Tagihan,Rawat Inap,144911.15,BPJS,BPJS Kesehatan,,2025-11-05
+TX000610,P00813,Pembayaran,Rawat Inap,179265.13,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-25
+TX000611,P00660,Tagihan,Rawat Inap,65376.71,Asuransi Swasta,Sinarmas,,2025-06-04
+TX000612,P00316,Pembayaran,Obat,41866.01,Umum,,Kartu Kredit,2024-02-14
+TX000613,P00861,Tagihan,Lainnya,28480.56,Umum,,,2024-03-24
+TX000614,P00816,Tagihan,Pendaftaran,96174.32,BPJS,BPJS Kesehatan,,2025-02-23
+TX000615,P00199,Tagihan,Radiologi,61026.3,Asuransi Swasta,Sinarmas,,2024-09-21
+TX000616,P00294,Pembayaran,Konsultasi,83525.26,Umum,,Kartu Kredit,2024-06-23
+TX000617,P00033,Pembayaran,Tindakan,75972.92,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-21
+TX000618,P00767,Pembayaran,Radiologi,91874.26,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-11
+TX000619,P00077,Tagihan,Pendaftaran,49456.03,Umum,,,2024-10-06
+TX000620,P00839,Pembayaran,Radiologi,99005.29,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-06
+TX000621,P00868,Tagihan,Tindakan,47809.87,BPJS,BPJS Kesehatan,,2024-07-03
+TX000622,P00761,Tagihan,Pemeriksaan Lab,26731.37,BPJS,BPJS Kesehatan,,2024-07-21
+TX000623,P00765,Klaim,Konsultasi,80555.12,BPJS,BPJS Kesehatan,,2025-02-28
+TX000624,P00148,Pembayaran,Rawat Inap,27654.88,Umum,,Kartu Kredit,2024-10-13
+TX000625,P00355,Pembayaran,Obat,112388.94,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-12
+TX000626,P00003,Tagihan,Pemeriksaan Lab,38685.62,BPJS,BPJS Kesehatan,,2024-03-07
+TX000627,P00665,Tagihan,Pendaftaran,63505.71,Umum,,,2025-03-16
+TX000628,P00087,Pembayaran,Radiologi,50763.13,Asuransi Swasta,Allianz,Kartu Kredit,2024-09-18
+TX000629,P00745,Pembayaran,Pemeriksaan Lab,87928.08,Umum,,Kartu Kredit,2024-11-08
+TX000630,P00243,Tagihan,Pendaftaran,123138.13,BPJS,BPJS Kesehatan,,2024-11-07
+TX000631,P00025,Tagihan,Tindakan,156917.3,Umum,,,2024-11-29
+TX000632,P00696,Tagihan,Pemeriksaan Lab,54171.43,BPJS,BPJS Kesehatan,,2024-05-09
+TX000633,P00298,Pembayaran,Tindakan,19736.0,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-17
+TX000634,P00104,Tagihan,Lainnya,259890.46,BPJS,BPJS Kesehatan,,2024-01-28
+TX000635,P00584,Tagihan,Rawat Inap,46524.21,BPJS,BPJS Kesehatan,,2025-04-10
+TX000636,P00114,Pembayaran,Konsultasi,70990.52,Umum,,Tunai,2025-10-23
+TX000637,P00867,Tagihan,Pendaftaran,181222.74,Umum,,,2024-06-10
+TX000638,P00783,Pembayaran,Obat,59142.56,Umum,,Tunai,2025-08-20
+TX000639,P00086,Pembayaran,Lainnya,54887.01,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-16
+TX000640,P00513,Pembayaran,Pemeriksaan Lab,38727.67,Umum,,Tunai,2024-10-16
+TX000641,P00743,Tagihan,Radiologi,264224.69,Asuransi Swasta,Sinarmas,,2024-10-16
+TX000642,P00896,Pembayaran,Tindakan,21525.79,Asuransi Swasta,Sinarmas,QRIS,2024-12-28
+TX000643,P00696,Pembayaran,Lainnya,64198.31,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-11
+TX000644,P00816,Pembayaran,Radiologi,20950.15,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-06
+TX000645,P00746,Klaim,Lainnya,95619.65,Umum,,,2024-10-05
+TX000646,P00795,Klaim,Lainnya,114914.66,BPJS,BPJS Kesehatan,,2024-11-06
+TX000647,P00269,Tagihan,Pendaftaran,63510.85,BPJS,BPJS Kesehatan,,2025-08-29
+TX000648,P00441,Tagihan,Rawat Inap,160490.08,Umum,,,2024-02-05
+TX000649,P00006,Pembayaran,Pemeriksaan Lab,44572.71,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-08
+TX000650,P00707,Tagihan,Tindakan,425423.01,BPJS,BPJS Kesehatan,,2024-04-06
+TX000651,P00313,Tagihan,Pemeriksaan Lab,132790.47,Asuransi Swasta,Manulife,,2024-05-28
+TX000652,P00053,Tagihan,Obat,117343.75,BPJS,BPJS Kesehatan,,2025-06-03
+TX000653,P00847,Pembayaran,Obat,118657.5,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-25
+TX000654,P00144,Pembayaran,Lainnya,50385.31,Umum,,Kartu Kredit,2024-02-04
+TX000655,P00272,Tagihan,Pemeriksaan Lab,97096.43,Asuransi Swasta,Allianz,,2025-09-15
+TX000656,P00873,Pembayaran,Radiologi,56957.21,Umum,,Tunai,2025-07-01
+TX000657,P00815,Pembayaran,Pendaftaran,75620.3,Umum,,Kartu Kredit,2025-04-17
+TX000658,P00289,Tagihan,Tindakan,109627.87,BPJS,BPJS Kesehatan,,2025-03-03
+TX000659,P00589,Pembayaran,Obat,96207.5,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-24
+TX000660,P00851,Tagihan,Konsultasi,202614.18,BPJS,BPJS Kesehatan,,2024-10-23
+TX000661,P00247,Tagihan,Radiologi,246223.58,BPJS,BPJS Kesehatan,,2025-04-11
+TX000662,P00076,Pembayaran,Tindakan,93398.7,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-30
+TX000663,P00884,Tagihan,Tindakan,111151.92,BPJS,BPJS Kesehatan,,2025-08-01
+TX000664,P00655,Tagihan,Radiologi,70341.42,BPJS,BPJS Kesehatan,,2025-01-07
+TX000665,P00781,Tagihan,Pendaftaran,266662.74,Umum,,,2024-05-16
+TX000666,P00050,Tagihan,Radiologi,33136.48,Asuransi Swasta,Prudential,,2024-03-23
+TX000667,P00417,Pembetulan,Rawat Inap,63814.72,Umum,,,2024-07-22
+TX000668,P00435,Tagihan,Pendaftaran,199203.5,Umum,,,2023-12-30
+TX000669,P00105,Pembayaran,Pemeriksaan Lab,254340.15,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-15
+TX000670,P00234,Pembayaran,Obat,69066.41,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-14
+TX000671,P00244,Tagihan,Konsultasi,104798.11,Asuransi Swasta,AXA Mandiri,,2023-12-14
+TX000672,P00149,Tagihan,Rawat Inap,104577.27,BPJS,BPJS Kesehatan,,2025-10-14
+TX000673,P00061,Tagihan,Konsultasi,149387.03,BPJS,BPJS Kesehatan,,2024-03-02
+TX000674,P00137,Pembayaran,Rawat Inap,122926.46,Asuransi Swasta,Manulife,QRIS,2025-10-15
+TX000675,P00557,Tagihan,Konsultasi,36746.05,BPJS,BPJS Kesehatan,,2024-02-23
+TX000676,P00349,Pembayaran,Tindakan,142801.65,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-18
+TX000677,P00084,Tagihan,Konsultasi,214640.16,BPJS,BPJS Kesehatan,,2024-09-14
+TX000678,P00467,Tagihan,Radiologi,108009.79,Asuransi Swasta,AIA,,2024-12-28
+TX000679,P00578,Pembayaran,Lainnya,98880.31,Umum,,Kartu Kredit,2024-01-20
+TX000680,P00180,Tagihan,Rawat Inap,46282.45,BPJS,BPJS Kesehatan,,2023-12-20
+TX000681,P00447,Pembayaran,Obat,38087.12,Asuransi Swasta,Allianz,Kartu Kredit,2024-03-04
+TX000682,P00285,Pembayaran,Radiologi,57117.64,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-06
+TX000683,P00035,Tagihan,Tindakan,104265.6,BPJS,BPJS Kesehatan,,2025-09-22
+TX000684,P00398,Pembayaran,Konsultasi,64433.01,Umum,,Kartu Kredit,2024-02-17
+TX000685,P00297,Tagihan,Radiologi,62963.27,BPJS,BPJS Kesehatan,,2024-05-25
+TX000686,P00008,Tagihan,Tindakan,96193.48,Asuransi Swasta,Prudential,,2024-08-23
+TX000687,P00118,Pembayaran,Konsultasi,55296.28,Asuransi Swasta,Sinarmas,Kartu Kredit,2024-12-09
+TX000688,P00582,Klaim,Pemeriksaan Lab,62554.23,BPJS,BPJS Kesehatan,,2025-05-26
+TX000689,P00852,Tagihan,Obat,106646.47,Umum,,,2024-03-07
+TX000690,P00455,Tagihan,Tindakan,88867.0,BPJS,BPJS Kesehatan,,2025-08-24
+TX000691,P00701,Tagihan,Radiologi,184530.27,BPJS,BPJS Kesehatan,,2024-01-18
+TX000692,P00342,Pembayaran,Lainnya,57157.39,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-21
+TX000693,P00143,Tagihan,Radiologi,78020.42,BPJS,BPJS Kesehatan,,2024-10-06
+TX000694,P00597,Pembayaran,Pendaftaran,82318.1,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-11
+TX000695,P00430,Tagihan,Pendaftaran,89598.71,BPJS,BPJS Kesehatan,,2025-02-06
+TX000696,P00165,Tagihan,Rawat Inap,237287.39,Umum,,,2025-02-23
+TX000697,P00624,Pembayaran,Tindakan,74584.49,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-22
+TX000698,P00875,Tagihan,Pendaftaran,58951.01,BPJS,BPJS Kesehatan,,2025-07-11
+TX000699,P00088,Tagihan,Radiologi,56979.05,Umum,,,2024-11-12
+TX000700,P00703,Tagihan,Konsultasi,37837.1,BPJS,BPJS Kesehatan,,2025-08-04
+TX000701,P00540,Pembayaran,Radiologi,51272.9,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-12
+TX000702,P00191,Tagihan,Tindakan,99261.98,Umum,,,2024-10-25
+TX000703,P00138,Tagihan,Pendaftaran,22648.09,Umum,,,2024-12-18
+TX000704,P00035,Tagihan,Rawat Inap,181228.43,BPJS,BPJS Kesehatan,,2025-08-03
+TX000705,P00614,Tagihan,Rawat Inap,73559.03,Umum,,,2024-04-13
+TX000706,P00456,Klaim,Lainnya,59373.16,BPJS,BPJS Kesehatan,,2025-01-12
+TX000707,P00239,Tagihan,Tindakan,130447.61,BPJS,BPJS Kesehatan,,2024-10-04
+TX000708,P00598,Pembayaran,Konsultasi,90465.48,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-06
+TX000709,P00468,Pembayaran,Pemeriksaan Lab,43441.43,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-22
+TX000710,P00525,Tagihan,Obat,51902.56,Umum,,,2025-02-22
+TX000711,P00152,Pembayaran,Rawat Inap,52313.88,Asuransi Swasta,Prudential,Kartu Kredit,2025-03-28
+TX000712,P00266,Pembayaran,Lainnya,57666.58,Umum,,Kartu Kredit,2024-05-23
+TX000713,P00798,Tagihan,Pendaftaran,51240.3,BPJS,BPJS Kesehatan,,2024-06-22
+TX000714,P00793,Tagihan,Rawat Inap,102091.03,BPJS,BPJS Kesehatan,,2025-03-14
+TX000715,P00719,Tagihan,Pendaftaran,118991.23,Umum,,,2024-01-09
+TX000716,P00562,Pembayaran,Radiologi,32683.65,Umum,,Tunai,2025-01-20
+TX000717,P00187,Tagihan,Tindakan,163886.25,Asuransi Swasta,AIA,,2024-05-26
+TX000718,P00166,Tagihan,Obat,39650.65,Umum,,,2024-11-23
+TX000719,P00742,Tagihan,Konsultasi,165984.34,Asuransi Swasta,Manulife,,2025-02-21
+TX000720,P00660,Pembayaran,Rawat Inap,39755.28,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-04-29
+TX000721,P00250,Tagihan,Obat,69800.36,BPJS,BPJS Kesehatan,,2025-09-09
+TX000722,P00155,Tagihan,Lainnya,152057.39,Umum,,,2025-06-24
+TX000723,P00344,Pembetulan,Konsultasi,210342.8,BPJS,BPJS Kesehatan,,2024-12-15
+TX000724,P00188,Pembayaran,Tindakan,36380.55,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-13
+TX000725,P00383,Pembayaran,Obat,133310.51,Umum,,Tunai,2025-07-04
+TX000726,P00573,Klaim,Lainnya,194661.82,Asuransi Swasta,Manulife,,2025-06-30
+TX000727,P00786,Klaim,Rawat Inap,38242.41,BPJS,BPJS Kesehatan,,2024-01-23
+TX000728,P00880,Tagihan,Rawat Inap,124603.7,Asuransi Swasta,Allianz,,2023-12-17
+TX000729,P00732,Pembayaran,Pemeriksaan Lab,23971.38,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-01
+TX000730,P00876,Klaim,Lainnya,23065.59,Asuransi Swasta,Allianz,,2025-05-08
+TX000731,P00164,Pembayaran,Rawat Inap,31553.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-27
+TX000732,P00339,Pembayaran,Rawat Inap,22672.23,Umum,,Kartu Kredit,2024-07-28
+TX000733,P00319,Klaim,Lainnya,73109.91,Asuransi Swasta,Allianz,,2025-02-02
+TX000734,P00674,Pembayaran,Rawat Inap,35350.36,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-05
+TX000735,P00519,Pembayaran,Tindakan,160791.09,Asuransi Swasta,Manulife,Transfer,2024-01-15
+TX000736,P00633,Pembayaran,Rawat Inap,147096.01,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-08
+TX000737,P00071,Tagihan,Radiologi,111443.01,BPJS,BPJS Kesehatan,,2025-10-22
+TX000738,P00587,Pembayaran,Konsultasi,53788.15,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-30
+TX000739,P00609,Tagihan,Konsultasi,93463.34,Asuransi Swasta,AIA,,2025-09-19
+TX000740,P00323,Pembayaran,Pendaftaran,46834.43,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-22
+TX000741,P00502,Tagihan,Lainnya,117167.28,Asuransi Swasta,Prudential,,2024-08-03
+TX000742,P00615,Tagihan,Tindakan,144646.42,BPJS,BPJS Kesehatan,,2024-12-02
+TX000743,P00857,Tagihan,Rawat Inap,103126.91,Umum,,,2024-04-13
+TX000744,P00363,Tagihan,Lainnya,66809.09,Umum,,,2024-10-02
+TX000745,P00252,Pembayaran,Tindakan,85079.71,Umum,,Tunai,2025-09-11
+TX000746,P00887,Pembayaran,Obat,30568.92,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-02
+TX000747,P00870,Tagihan,Tindakan,63304.47,BPJS,BPJS Kesehatan,,2024-06-07
+TX000748,P00817,Pembayaran,Lainnya,44440.99,Umum,,Kartu Kredit,2025-07-23
+TX000749,P00807,Tagihan,Radiologi,207494.94,BPJS,BPJS Kesehatan,,2024-09-28
+TX000750,P00239,Klaim,Pendaftaran,283141.13,BPJS,BPJS Kesehatan,,2024-08-18
+TX000751,P00769,Tagihan,Obat,53691.86,Umum,,,2025-07-09
+TX000752,P00563,Pembetulan,Radiologi,94484.26,Umum,,,2025-01-07
+TX000753,P00020,Pembetulan,Tindakan,161995.05,BPJS,BPJS Kesehatan,,2024-01-16
+TX000754,P00720,Tagihan,Radiologi,47269.64,Umum,,,2024-10-30
+TX000755,P00323,Tagihan,Radiologi,61757.62,BPJS,BPJS Kesehatan,,2024-06-03
+TX000756,P00012,Tagihan,Pemeriksaan Lab,203276.35,Umum,,,2025-10-03
+TX000757,P00324,Tagihan,Pemeriksaan Lab,46962.39,BPJS,BPJS Kesehatan,,2025-10-29
+TX000758,P00397,Pembayaran,Pendaftaran,17786.01,Umum,,Tunai,2024-02-13
+TX000759,P00327,Tagihan,Pendaftaran,63413.81,BPJS,BPJS Kesehatan,,2025-05-24
+TX000760,P00472,Tagihan,Pendaftaran,79200.33,Asuransi Swasta,AIA,,2024-07-08
+TX000761,P00285,Tagihan,Pendaftaran,95158.07,BPJS,BPJS Kesehatan,,2024-05-19
+TX000762,P00609,Tagihan,Pemeriksaan Lab,189983.54,Asuransi Swasta,AIA,,2024-10-01
+TX000763,P00521,Tagihan,Obat,56399.2,BPJS,BPJS Kesehatan,,2024-06-18
+TX000764,P00486,Klaim,Pemeriksaan Lab,200347.88,Asuransi Swasta,Sinarmas,,2023-12-31
+TX000765,P00186,Tagihan,Rawat Inap,75469.73,BPJS,BPJS Kesehatan,,2025-08-28
+TX000766,P00842,Pembayaran,Rawat Inap,72297.56,Umum,,Tunai,2024-09-26
+TX000767,P00546,Pembayaran,Pendaftaran,130426.71,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-11
+TX000768,P00407,Tagihan,Lainnya,52881.05,BPJS,BPJS Kesehatan,,2025-07-05
+TX000769,P00314,Tagihan,Lainnya,61252.83,Umum,,,2024-01-23
+TX000770,P00802,Klaim,Radiologi,89416.41,BPJS,BPJS Kesehatan,,2025-07-24
+TX000771,P00683,Pembayaran,Lainnya,118531.48,Asuransi Swasta,AXA Mandiri,Transfer,2024-07-27
+TX000772,P00046,Tagihan,Tindakan,72427.67,Umum,,,2023-12-03
+TX000773,P00075,Tagihan,Lainnya,91184.34,BPJS,BPJS Kesehatan,,2025-08-05
+TX000774,P00511,Pembayaran,Pemeriksaan Lab,53332.82,Asuransi Swasta,AXA Mandiri,QRIS,2023-12-31
+TX000775,P00167,Tagihan,Konsultasi,147555.68,Asuransi Swasta,AXA Mandiri,,2024-03-29
+TX000776,P00066,Tagihan,Obat,53934.53,Asuransi Swasta,Allianz,,2024-12-22
+TX000777,P00057,Tagihan,Tindakan,85819.04,Umum,,,2025-06-07
+TX000778,P00525,Tagihan,Rawat Inap,177233.35,Umum,,,2024-04-18
+TX000779,P00502,Pembayaran,Pendaftaran,24211.54,Asuransi Swasta,Prudential,QRIS,2024-08-26
+TX000780,P00511,Pembayaran,Pemeriksaan Lab,64620.13,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2024-06-28
+TX000781,P00123,Pembayaran,Pemeriksaan Lab,63022.91,Asuransi Swasta,Prudential,Kartu Kredit,2023-11-17
+TX000782,P00196,Tagihan,Konsultasi,267419.82,BPJS,BPJS Kesehatan,,2025-01-19
+TX000783,P00123,Pembayaran,Tindakan,79530.26,Asuransi Swasta,Prudential,QRIS,2023-12-20
+TX000784,P00565,Pembayaran,Pemeriksaan Lab,46132.4,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-20
+TX000785,P00334,Tagihan,Pendaftaran,137125.33,Asuransi Swasta,AIA,,2025-10-08
+TX000786,P00690,Pembayaran,Pemeriksaan Lab,129107.29,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-20
+TX000787,P00462,Tagihan,Lainnya,83946.21,BPJS,BPJS Kesehatan,,2025-08-08
+TX000788,P00766,Pembayaran,Radiologi,76067.74,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-24
+TX000789,P00281,Tagihan,Radiologi,119636.93,BPJS,BPJS Kesehatan,,2024-01-26
+TX000790,P00895,Klaim,Radiologi,22655.29,BPJS,BPJS Kesehatan,,2025-08-12
+TX000791,P00226,Tagihan,Rawat Inap,121077.29,BPJS,BPJS Kesehatan,,2025-05-19
+TX000792,P00148,Tagihan,Obat,97384.44,Umum,,,2024-06-12
+TX000793,P00306,Tagihan,Tindakan,65221.04,BPJS,BPJS Kesehatan,,2025-03-28
+TX000794,P00840,Pembayaran,Lainnya,137083.99,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-02
+TX000795,P00747,Tagihan,Rawat Inap,58064.97,BPJS,BPJS Kesehatan,,2025-05-25
+TX000796,P00512,Tagihan,Konsultasi,84982.92,BPJS,BPJS Kesehatan,,2025-07-18
+TX000797,P00625,Klaim,Konsultasi,252181.37,BPJS,BPJS Kesehatan,,2024-05-25
+TX000798,P00887,Pembayaran,Pemeriksaan Lab,101392.16,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-28
+TX000799,P00887,Tagihan,Lainnya,50581.63,BPJS,BPJS Kesehatan,,2025-05-29
+TX000800,P00761,Pembayaran,Lainnya,32318.52,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-21
+TX000801,P00193,Tagihan,Radiologi,76440.56,Umum,,,2024-12-17
+TX000802,P00712,Pembayaran,Konsultasi,37211.76,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-19
+TX000803,P00873,Tagihan,Pemeriksaan Lab,53047.72,Umum,,,2025-02-27
+TX000804,P00045,Tagihan,Pendaftaran,70935.65,Asuransi Swasta,Prudential,,2024-09-05
+TX000805,P00800,Pembayaran,Pemeriksaan Lab,155566.65,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-15
+TX000806,P00400,Tagihan,Pendaftaran,146379.84,Umum,,,2024-01-07
+TX000807,P00838,Klaim,Rawat Inap,92434.18,BPJS,BPJS Kesehatan,,2025-08-28
+TX000808,P00787,Pembayaran,Lainnya,167732.68,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-16
+TX000809,P00702,Tagihan,Rawat Inap,71508.71,Umum,,,2025-01-18
+TX000810,P00265,Tagihan,Radiologi,71852.76,Umum,,,2024-03-06
+TX000811,P00397,Tagihan,Pendaftaran,168357.22,Umum,,,2024-05-06
+TX000812,P00816,Tagihan,Obat,147277.0,BPJS,BPJS Kesehatan,,2025-04-13
+TX000813,P00463,Klaim,Pendaftaran,98128.42,Asuransi Swasta,AXA Mandiri,,2024-03-20
+TX000814,P00450,Pembayaran,Radiologi,41917.49,Asuransi Swasta,AXA Mandiri,QRIS,2025-05-23
+TX000815,P00694,Tagihan,Obat,126052.66,BPJS,BPJS Kesehatan,,2025-01-20
+TX000816,P00008,Pembayaran,Tindakan,49790.6,Asuransi Swasta,Prudential,Kartu Kredit,2024-06-14
+TX000817,P00254,Tagihan,Pemeriksaan Lab,76983.43,Umum,,,2024-02-23
+TX000818,P00860,Tagihan,Konsultasi,144712.3,Umum,,,2023-12-25
+TX000819,P00125,Pembayaran,Pendaftaran,167403.77,Umum,,Kartu Kredit,2025-10-07
+TX000820,P00858,Tagihan,Obat,83640.75,Asuransi Swasta,Manulife,,2023-12-05
+TX000821,P00014,Tagihan,Rawat Inap,79435.56,Umum,,,2024-06-23
+TX000822,P00473,Tagihan,Konsultasi,282245.82,BPJS,BPJS Kesehatan,,2025-06-12
+TX000823,P00395,Pembayaran,Lainnya,54353.06,Asuransi Swasta,Manulife,QRIS,2025-01-03
+TX000824,P00330,Tagihan,Lainnya,51898.81,Asuransi Swasta,AXA Mandiri,,2025-10-27
+TX000825,P00293,Tagihan,Pendaftaran,51270.48,BPJS,BPJS Kesehatan,,2024-01-18
+TX000826,P00242,Pembayaran,Rawat Inap,48861.73,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-06
+TX000827,P00311,Klaim,Rawat Inap,103205.63,BPJS,BPJS Kesehatan,,2025-06-26
+TX000828,P00529,Klaim,Rawat Inap,162045.37,BPJS,BPJS Kesehatan,,2024-10-10
+TX000829,P00563,Tagihan,Pendaftaran,63621.3,Umum,,,2024-04-07
+TX000830,P00602,Pembayaran,Pemeriksaan Lab,127209.36,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-04
+TX000831,P00650,Tagihan,Radiologi,90188.73,BPJS,BPJS Kesehatan,,2024-12-25
+TX000832,P00466,Tagihan,Rawat Inap,141482.35,BPJS,BPJS Kesehatan,,2023-12-13
+TX000833,P00633,Tagihan,Rawat Inap,126759.6,BPJS,BPJS Kesehatan,,2024-08-13
+TX000834,P00006,Tagihan,Tindakan,105754.39,BPJS,BPJS Kesehatan,,2024-05-09
+TX000835,P00445,Tagihan,Pendaftaran,229866.67,Umum,,,2025-01-15
+TX000836,P00167,Klaim,Pemeriksaan Lab,147117.44,Asuransi Swasta,AXA Mandiri,,2025-07-02
+TX000837,P00659,Tagihan,Pemeriksaan Lab,100680.05,BPJS,BPJS Kesehatan,,2024-02-06
+TX000838,P00641,Tagihan,Tindakan,123510.01,Asuransi Swasta,Allianz,,2023-12-15
+TX000839,P00345,Tagihan,Tindakan,134161.71,BPJS,BPJS Kesehatan,,2024-08-19
+TX000840,P00284,Pembayaran,Pemeriksaan Lab,39867.56,Asuransi Swasta,AXA Mandiri,Transfer,2025-06-25
+TX000841,P00779,Tagihan,Pendaftaran,35619.98,BPJS,BPJS Kesehatan,,2025-09-24
+TX000842,P00502,Tagihan,Obat,48615.82,Asuransi Swasta,Prudential,,2024-06-05
+TX000843,P00858,Tagihan,Radiologi,100245.39,Asuransi Swasta,Manulife,,2025-07-24
+TX000844,P00360,Pembayaran,Tindakan,73000.69,Umum,,Tunai,2023-12-10
+TX000845,P00702,Tagihan,Tindakan,48493.96,Umum,,,2023-12-15
+TX000846,P00641,Tagihan,Rawat Inap,72797.12,Asuransi Swasta,Allianz,,2024-08-26
+TX000847,P00331,Tagihan,Pendaftaran,50572.86,Asuransi Swasta,Allianz,,2024-08-28
+TX000848,P00285,Tagihan,Obat,186467.04,BPJS,BPJS Kesehatan,,2024-03-28
+TX000849,P00687,Pembayaran,Lainnya,47085.09,Umum,,Tunai,2024-06-03
+TX000850,P00511,Klaim,Rawat Inap,252762.84,Asuransi Swasta,AXA Mandiri,,2023-11-23
+TX000851,P00207,Klaim,Rawat Inap,134568.99,BPJS,BPJS Kesehatan,,2024-09-21
+TX000852,P00197,Tagihan,Lainnya,120516.38,Asuransi Swasta,AXA Mandiri,,2024-04-20
+TX000853,P00867,Tagihan,Lainnya,160344.98,Umum,,,2025-01-27
+TX000854,P00149,Tagihan,Pendaftaran,71285.26,BPJS,BPJS Kesehatan,,2025-02-07
+TX000855,P00642,Tagihan,Pendaftaran,41706.96,Umum,,,2025-07-10
+TX000856,P00483,Tagihan,Lainnya,95293.09,Asuransi Swasta,AIA,,2024-03-09
+TX000857,P00501,Tagihan,Pemeriksaan Lab,74911.36,Umum,,,2024-06-05
+TX000858,P00054,Klaim,Pemeriksaan Lab,27339.19,BPJS,BPJS Kesehatan,,2025-09-30
+TX000859,P00622,Pembayaran,Obat,97912.92,Asuransi Swasta,AIA,Kartu Kredit,2025-06-03
+TX000860,P00212,Tagihan,Tindakan,98946.46,Umum,,,2024-12-02
+TX000861,P00238,Pembayaran,Konsultasi,44302.16,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-30
+TX000862,P00438,Pembayaran,Pemeriksaan Lab,60972.81,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-13
+TX000863,P00279,Pembayaran,Pendaftaran,30026.22,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-05
+TX000864,P00547,Klaim,Radiologi,69915.36,Asuransi Swasta,Allianz,,2024-07-27
+TX000865,P00709,Pembayaran,Rawat Inap,86656.11,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-20
+TX000866,P00109,Tagihan,Konsultasi,50513.35,BPJS,BPJS Kesehatan,,2023-11-20
+TX000867,P00683,Tagihan,Obat,74009.49,Asuransi Swasta,AXA Mandiri,,2024-03-21
+TX000868,P00006,Tagihan,Rawat Inap,195079.78,BPJS,BPJS Kesehatan,,2024-11-10
+TX000869,P00293,Pembayaran,Konsultasi,195473.33,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-02
+TX000870,P00228,Klaim,Lainnya,116038.41,BPJS,BPJS Kesehatan,,2024-09-04
+TX000871,P00643,Pembayaran,Pendaftaran,99894.05,Asuransi Swasta,Sinarmas,Kartu Kredit,2024-11-15
+TX000872,P00329,Klaim,Rawat Inap,68241.99,BPJS,BPJS Kesehatan,,2024-12-15
+TX000873,P00296,Tagihan,Konsultasi,206882.26,BPJS,BPJS Kesehatan,,2025-09-17
+TX000874,P00506,Tagihan,Rawat Inap,99365.03,BPJS,BPJS Kesehatan,,2024-06-08
+TX000875,P00138,Pembayaran,Pendaftaran,85517.87,Umum,,Tunai,2025-06-25
+TX000876,P00488,Pembayaran,Konsultasi,137437.07,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-05
+TX000877,P00820,Tagihan,Konsultasi,73684.51,Umum,,,2025-07-20
+TX000878,P00183,Tagihan,Rawat Inap,61180.81,BPJS,BPJS Kesehatan,,2024-04-08
+TX000879,P00441,Tagihan,Tindakan,93827.54,Umum,,,2025-07-03
+TX000880,P00308,Tagihan,Pendaftaran,120831.58,Asuransi Swasta,AXA Mandiri,,2024-01-30
+TX000881,P00859,Pembayaran,Lainnya,39663.07,Umum,,Kartu Kredit,2025-08-28
+TX000882,P00472,Pembetulan,Tindakan,116941.45,Asuransi Swasta,AIA,,2024-09-22
+TX000883,P00264,Tagihan,Lainnya,73151.54,Asuransi Swasta,Allianz,,2025-06-30
+TX000884,P00511,Pembayaran,Konsultasi,40109.64,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2024-07-02
+TX000885,P00019,Tagihan,Obat,132322.37,BPJS,BPJS Kesehatan,,2025-03-23
+TX000886,P00363,Tagihan,Konsultasi,94269.2,Umum,,,2024-04-08
+TX000887,P00413,Pembayaran,Lainnya,78388.78,Asuransi Swasta,Sinarmas,Transfer,2024-03-04
+TX000888,P00055,Tagihan,Radiologi,32478.52,BPJS,BPJS Kesehatan,,2023-12-29
+TX000889,P00401,Tagihan,Radiologi,117096.2,Asuransi Swasta,Manulife,,2025-09-09
+TX000890,P00573,Tagihan,Pendaftaran,76220.76,Asuransi Swasta,Manulife,,2025-05-02
+TX000891,P00655,Tagihan,Lainnya,79422.99,BPJS,BPJS Kesehatan,,2024-07-06
+TX000892,P00359,Klaim,Konsultasi,117428.32,BPJS,BPJS Kesehatan,,2025-05-09
+TX000893,P00150,Pembayaran,Pendaftaran,41318.08,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-22
+TX000894,P00055,Tagihan,Tindakan,258221.34,BPJS,BPJS Kesehatan,,2025-09-13
+TX000895,P00245,Klaim,Pemeriksaan Lab,75199.39,BPJS,BPJS Kesehatan,,2025-02-12
+TX000896,P00416,Tagihan,Tindakan,120024.57,Asuransi Swasta,Allianz,,2024-07-15
+TX000897,P00142,Pembayaran,Pendaftaran,119906.42,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-02
+TX000898,P00726,Tagihan,Pemeriksaan Lab,39475.15,BPJS,BPJS Kesehatan,,2023-11-25
+TX000899,P00796,Pembayaran,Rawat Inap,65554.24,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-27
+TX000900,P00716,Tagihan,Konsultasi,89184.32,BPJS,BPJS Kesehatan,,2024-08-21
+TX000901,P00888,Pembayaran,Lainnya,38783.62,Asuransi Swasta,Manulife,QRIS,2025-01-21
+TX000902,P00287,Tagihan,Tindakan,143597.41,Umum,,,2024-06-22
+TX000903,P00475,Tagihan,Pemeriksaan Lab,77395.11,BPJS,BPJS Kesehatan,,2024-12-30
+TX000904,P00648,Pembayaran,Tindakan,116684.78,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-08
+TX000905,P00167,Pembayaran,Rawat Inap,141150.75,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2025-09-23
+TX000906,P00778,Tagihan,Konsultasi,46266.68,BPJS,BPJS Kesehatan,,2024-01-01
+TX000907,P00368,Tagihan,Rawat Inap,72662.05,Umum,,,2025-07-26
+TX000908,P00782,Tagihan,Pendaftaran,135957.16,Umum,,,2024-05-03
+TX000909,P00195,Tagihan,Pemeriksaan Lab,32603.1,BPJS,BPJS Kesehatan,,2025-05-06
+TX000910,P00431,Tagihan,Pemeriksaan Lab,60123.43,Umum,,,2024-07-31
+TX000911,P00589,Pembayaran,Rawat Inap,73236.76,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-05
+TX000912,P00105,Tagihan,Rawat Inap,177426.72,BPJS,BPJS Kesehatan,,2025-07-21
+TX000913,P00731,Tagihan,Obat,156798.43,Asuransi Swasta,Allianz,,2024-04-08
+TX000914,P00030,Pembayaran,Obat,74848.08,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-21
+TX000915,P00029,Tagihan,Pendaftaran,157352.21,BPJS,BPJS Kesehatan,,2024-04-03
+TX000916,P00105,Tagihan,Tindakan,23198.11,BPJS,BPJS Kesehatan,,2024-01-25
+TX000917,P00700,Pembayaran,Obat,125166.85,Asuransi Swasta,Prudential,Transfer,2024-04-28
+TX000918,P00173,Tagihan,Pemeriksaan Lab,106486.95,BPJS,BPJS Kesehatan,,2024-12-11
+TX000919,P00002,Tagihan,Obat,64827.17,Umum,,,2025-09-27
+TX000920,P00747,Tagihan,Tindakan,87706.33,BPJS,BPJS Kesehatan,,2025-01-28
+TX000921,P00231,Tagihan,Konsultasi,53707.91,Asuransi Swasta,Prudential,,2025-07-26
+TX000922,P00066,Pembayaran,Rawat Inap,217343.44,Asuransi Swasta,Allianz,Transfer,2025-09-22
+TX000923,P00619,Pembayaran,Konsultasi,201272.57,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-04
+TX000924,P00593,Tagihan,Radiologi,94658.16,Asuransi Swasta,AXA Mandiri,,2024-10-21
+TX000925,P00305,Pembayaran,Rawat Inap,281226.04,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-06
+TX000926,P00688,Tagihan,Pemeriksaan Lab,149230.92,Umum,,,2024-12-14
+TX000927,P00117,Klaim,Rawat Inap,34466.87,Asuransi Swasta,Allianz,,2025-04-30
+TX000928,P00068,Tagihan,Tindakan,107454.34,BPJS,BPJS Kesehatan,,2025-01-30
+TX000929,P00613,Tagihan,Konsultasi,71073.75,Umum,,,2025-10-12
+TX000930,P00454,Pembayaran,Lainnya,227896.84,Umum,,Tunai,2025-02-24
+TX000931,P00049,Tagihan,Pendaftaran,316018.26,BPJS,BPJS Kesehatan,,2025-02-26
+TX000932,P00409,Tagihan,Rawat Inap,27554.38,BPJS,BPJS Kesehatan,,2025-09-30
+TX000933,P00757,Tagihan,Pemeriksaan Lab,115799.29,BPJS,BPJS Kesehatan,,2024-02-19
+TX000934,P00136,Tagihan,Konsultasi,20000.0,Umum,,,2023-11-16
+TX000935,P00302,Tagihan,Pemeriksaan Lab,67772.18,BPJS,BPJS Kesehatan,,2025-03-01
+TX000936,P00819,Tagihan,Pendaftaran,63127.74,BPJS,BPJS Kesehatan,,2024-04-28
+TX000937,P00561,Tagihan,Konsultasi,164892.92,Asuransi Swasta,Sinarmas,,2024-07-03
+TX000938,P00496,Pembayaran,Tindakan,70982.68,Umum,,Tunai,2024-08-12
+TX000939,P00359,Pembayaran,Konsultasi,21811.22,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-18
+TX000940,P00882,Tagihan,Pemeriksaan Lab,190223.5,BPJS,BPJS Kesehatan,,2025-05-30
+TX000941,P00383,Pembayaran,Pemeriksaan Lab,168569.95,Umum,,Kartu Kredit,2025-10-08
+TX000942,P00443,Pembayaran,Rawat Inap,99599.12,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-02
+TX000943,P00877,Tagihan,Radiologi,112737.71,BPJS,BPJS Kesehatan,,2024-09-19
+TX000944,P00532,Tagihan,Obat,27536.18,BPJS,BPJS Kesehatan,,2024-05-23
+TX000945,P00712,Pembayaran,Pemeriksaan Lab,58903.17,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-11
+TX000946,P00623,Tagihan,Pemeriksaan Lab,141759.66,BPJS,BPJS Kesehatan,,2023-12-17
+TX000947,P00384,Pembayaran,Radiologi,124050.62,Umum,,Tunai,2024-10-13
+TX000948,P00846,Tagihan,Pendaftaran,231497.12,BPJS,BPJS Kesehatan,,2024-12-12
+TX000949,P00256,Tagihan,Obat,36025.99,BPJS,BPJS Kesehatan,,2024-05-21
+TX000950,P00864,Tagihan,Tindakan,49785.94,Umum,,,2024-07-09
+TX000951,P00108,Pembayaran,Pemeriksaan Lab,16979.91,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-18
+TX000952,P00750,Pembetulan,Radiologi,59286.09,Umum,,,2024-08-08
+TX000953,P00594,Pembayaran,Pendaftaran,35256.33,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-19
+TX000954,P00016,Tagihan,Pemeriksaan Lab,197840.25,BPJS,BPJS Kesehatan,,2024-05-11
+TX000955,P00295,Tagihan,Konsultasi,64815.64,BPJS,BPJS Kesehatan,,2024-01-13
+TX000956,P00883,Tagihan,Rawat Inap,290880.73,BPJS,BPJS Kesehatan,,2025-05-11
+TX000957,P00526,Pembayaran,Tindakan,144956.87,Umum,,Tunai,2025-05-01
+TX000958,P00195,Pembayaran,Pemeriksaan Lab,87610.33,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-20
+TX000959,P00757,Tagihan,Konsultasi,92173.16,BPJS,BPJS Kesehatan,,2025-04-17
+TX000960,P00477,Klaim,Tindakan,56392.17,Umum,,,2025-08-25
+TX000961,P00529,Tagihan,Lainnya,253247.38,BPJS,BPJS Kesehatan,,2025-03-25
+TX000962,P00733,Tagihan,Pemeriksaan Lab,104504.28,Umum,,,2025-10-22
+TX000963,P00345,Tagihan,Konsultasi,67111.21,BPJS,BPJS Kesehatan,,2024-01-21
+TX000964,P00479,Tagihan,Konsultasi,78656.43,Asuransi Swasta,Manulife,,2024-07-05
+TX000965,P00647,Tagihan,Tindakan,212420.49,Umum,,,2025-06-17
+TX000966,P00701,Tagihan,Lainnya,100292.58,BPJS,BPJS Kesehatan,,2025-04-06
+TX000967,P00736,Tagihan,Lainnya,38607.55,BPJS,BPJS Kesehatan,,2024-01-23
+TX000968,P00500,Pembayaran,Radiologi,53694.52,Asuransi Swasta,Manulife,Transfer,2025-03-15
+TX000969,P00562,Tagihan,Konsultasi,206727.71,Umum,,,2025-01-01
+TX000970,P00891,Pembayaran,Obat,36296.41,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-06
+TX000971,P00194,Tagihan,Obat,149539.4,Umum,,,2024-01-08
+TX000972,P00106,Tagihan,Tindakan,84650.39,BPJS,BPJS Kesehatan,,2024-09-03
+TX000973,P00050,Pembayaran,Lainnya,47823.09,Asuransi Swasta,Prudential,Kartu Kredit,2025-09-13
+TX000974,P00487,Pembayaran,Pendaftaran,46313.68,Umum,,Tunai,2025-09-07
+TX000975,P00655,Pembayaran,Pemeriksaan Lab,25123.16,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-29
+TX000976,P00852,Pembayaran,Radiologi,28834.6,Umum,,Kartu Kredit,2025-06-29
+TX000977,P00487,Tagihan,Tindakan,69662.27,Umum,,,2025-06-12
+TX000978,P00629,Tagihan,Tindakan,66179.42,Asuransi Swasta,AXA Mandiri,,2024-10-08
+TX000979,P00019,Pembayaran,Pendaftaran,64865.09,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-13
+TX000980,P00651,Tagihan,Rawat Inap,46247.98,Asuransi Swasta,AIA,,2025-09-04
+TX000981,P00160,Tagihan,Lainnya,45934.79,BPJS,BPJS Kesehatan,,2024-11-16
+TX000982,P00766,Tagihan,Tindakan,161058.51,BPJS,BPJS Kesehatan,,2024-12-25
+TX000983,P00803,Pembayaran,Lainnya,56977.32,Umum,,Tunai,2025-04-28
+TX000984,P00900,Pembayaran,Obat,56562.13,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-30
+TX000985,P00505,Tagihan,Pemeriksaan Lab,63254.6,Umum,,,2023-12-24
+TX000986,P00780,Pembayaran,Radiologi,62419.91,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-11
+TX000987,P00634,Tagihan,Pemeriksaan Lab,120875.55,BPJS,BPJS Kesehatan,,2025-06-26
+TX000988,P00101,Tagihan,Tindakan,134409.05,BPJS,BPJS Kesehatan,,2023-12-05
+TX000989,P00251,Tagihan,Obat,91104.7,Asuransi Swasta,Prudential,,2025-01-13
+TX000990,P00398,Pembayaran,Konsultasi,69397.68,Umum,,Kartu Kredit,2025-04-04
+TX000991,P00694,Tagihan,Pendaftaran,155585.38,BPJS,BPJS Kesehatan,,2025-09-18
+TX000992,P00322,Tagihan,Tindakan,154750.41,BPJS,BPJS Kesehatan,,2024-11-26
+TX000993,P00299,Tagihan,Pendaftaran,237516.93,Umum,,,2024-07-19
+TX000994,P00386,Tagihan,Tindakan,127366.02,BPJS,BPJS Kesehatan,,2024-07-18
+TX000995,P00173,Tagihan,Pemeriksaan Lab,122704.29,BPJS,BPJS Kesehatan,,2024-06-01
+TX000996,P00512,Tagihan,Pendaftaran,36409.06,BPJS,BPJS Kesehatan,,2024-12-25
+TX000997,P00647,Tagihan,Lainnya,43595.36,Umum,,,2024-06-03
+TX000998,P00504,Pembayaran,Obat,120945.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-22
+TX000999,P00277,Pembayaran,Rawat Inap,112252.82,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-05
+TX001000,P00745,Klaim,Obat,109237.48,Umum,,,2025-04-23
+TX001001,P00729,Tagihan,Tindakan,40628.73,BPJS,BPJS Kesehatan,,2024-07-14
+TX001002,P00253,Pembayaran,Pendaftaran,23841.63,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-17
+TX001003,P00621,Pembayaran,Lainnya,56366.53,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-14
+TX001004,P00504,Tagihan,Radiologi,51056.79,BPJS,BPJS Kesehatan,,2025-01-13
+TX001005,P00892,Tagihan,Lainnya,106154.71,Asuransi Swasta,AXA Mandiri,,2025-05-09
+TX001006,P00493,Tagihan,Pemeriksaan Lab,82403.69,BPJS,BPJS Kesehatan,,2024-08-20
+TX001007,P00152,Pembayaran,Pemeriksaan Lab,42401.92,Asuransi Swasta,Prudential,Kartu Kredit,2024-11-14
+TX001008,P00770,Pembayaran,Konsultasi,73342.59,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-06
+TX001009,P00622,Pembayaran,Lainnya,96290.76,Asuransi Swasta,AIA,QRIS,2024-04-05
+TX001010,P00162,Pembayaran,Lainnya,47905.82,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-29
+TX001011,P00558,Tagihan,Radiologi,262787.08,BPJS,BPJS Kesehatan,,2025-06-22
+TX001012,P00080,Pembayaran,Tindakan,60976.17,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-18
+TX001013,P00836,Pembayaran,Pemeriksaan Lab,67817.24,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-11
+TX001014,P00112,Tagihan,Pemeriksaan Lab,43371.06,Umum,,,2025-01-31
+TX001015,P00082,Tagihan,Lainnya,109950.91,BPJS,BPJS Kesehatan,,2025-04-25
+TX001016,P00702,Tagihan,Rawat Inap,48774.33,Umum,,,2025-05-13
+TX001017,P00092,Pembayaran,Lainnya,148819.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-06
+TX001018,P00891,Pembayaran,Rawat Inap,44606.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-28
+TX001019,P00371,Pembayaran,Lainnya,76728.54,Asuransi Swasta,Manulife,Kartu Kredit,2025-07-02
+TX001020,P00815,Tagihan,Obat,103195.13,Umum,,,2025-08-31
+TX001021,P00235,Pembayaran,Radiologi,51671.14,Asuransi Swasta,Allianz,QRIS,2025-05-26
+TX001022,P00853,Pembayaran,Radiologi,101684.18,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-07
+TX001023,P00480,Tagihan,Lainnya,177887.0,Umum,,,2024-02-15
+TX001024,P00174,Pembayaran,Pendaftaran,24106.2,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-29
+TX001025,P00800,Tagihan,Lainnya,20000.0,BPJS,BPJS Kesehatan,,2024-04-02
+TX001026,P00290,Pembayaran,Rawat Inap,102522.35,Asuransi Swasta,Allianz,Transfer,2024-06-17
+TX001027,P00275,Pembayaran,Pendaftaran,31442.71,Umum,,Kartu Kredit,2023-11-16
+TX001028,P00793,Tagihan,Obat,31898.13,BPJS,BPJS Kesehatan,,2023-12-12
+TX001029,P00048,Tagihan,Tindakan,129591.19,BPJS,BPJS Kesehatan,,2025-01-06
+TX001030,P00622,Pembayaran,Pemeriksaan Lab,35109.14,Asuransi Swasta,AIA,QRIS,2024-09-23
+TX001031,P00181,Klaim,Pendaftaran,86463.62,Asuransi Swasta,Sinarmas,,2025-10-10
+TX001032,P00234,Klaim,Radiologi,95285.0,BPJS,BPJS Kesehatan,,2025-09-30
+TX001033,P00233,Tagihan,Rawat Inap,90827.85,Umum,,,2025-04-05
+TX001034,P00425,Tagihan,Konsultasi,44502.22,BPJS,BPJS Kesehatan,,2025-03-12
+TX001035,P00812,Tagihan,Pemeriksaan Lab,157744.03,BPJS,BPJS Kesehatan,,2024-08-27
+TX001036,P00276,Tagihan,Rawat Inap,113200.37,BPJS,BPJS Kesehatan,,2023-12-12
+TX001037,P00663,Pembayaran,Konsultasi,30353.28,Umum,,Kartu Kredit,2025-06-15
+TX001038,P00854,Pembayaran,Obat,75717.89,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-20
+TX001039,P00645,Tagihan,Konsultasi,140563.18,BPJS,BPJS Kesehatan,,2024-02-25
+TX001040,P00812,Klaim,Radiologi,141162.8,BPJS,BPJS Kesehatan,,2025-03-06
+TX001041,P00310,Tagihan,Radiologi,62470.82,BPJS,BPJS Kesehatan,,2025-01-27
+TX001042,P00531,Tagihan,Konsultasi,171305.77,BPJS,BPJS Kesehatan,,2024-04-29
+TX001043,P00798,Tagihan,Konsultasi,182541.01,BPJS,BPJS Kesehatan,,2025-08-03
+TX001044,P00004,Tagihan,Obat,81119.59,Asuransi Swasta,Manulife,,2024-02-22
+TX001045,P00634,Tagihan,Lainnya,95229.64,BPJS,BPJS Kesehatan,,2024-04-02
+TX001046,P00457,Tagihan,Pemeriksaan Lab,135626.19,Umum,,,2024-01-18
+TX001047,P00262,Pembetulan,Obat,100558.35,Umum,,,2024-06-10
+TX001048,P00160,Pembayaran,Konsultasi,28898.31,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-16
+TX001049,P00368,Tagihan,Pendaftaran,153895.88,Umum,,,2025-05-17
+TX001050,P00889,Pembayaran,Lainnya,37913.27,Asuransi Swasta,Prudential,Transfer,2025-08-27
+TX001051,P00521,Pembetulan,Radiologi,47761.92,BPJS,BPJS Kesehatan,,2025-02-10
+TX001052,P00662,Tagihan,Tindakan,112388.99,BPJS,BPJS Kesehatan,,2025-10-01
+TX001053,P00865,Pembayaran,Tindakan,44680.27,Umum,,Kartu Kredit,2025-10-31
+TX001054,P00856,Tagihan,Radiologi,36543.78,BPJS,BPJS Kesehatan,,2024-12-10
+TX001055,P00021,Tagihan,Obat,20000.0,BPJS,BPJS Kesehatan,,2025-06-12
+TX001056,P00219,Tagihan,Radiologi,131218.87,BPJS,BPJS Kesehatan,,2024-06-27
+TX001057,P00466,Pembayaran,Rawat Inap,44602.64,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-14
+TX001058,P00169,Klaim,Pemeriksaan Lab,258117.93,Umum,,,2024-08-21
+TX001059,P00074,Pembayaran,Obat,92592.89,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-14
+TX001060,P00771,Tagihan,Rawat Inap,156955.66,Umum,,,2024-07-09
+TX001061,P00165,Tagihan,Pendaftaran,104139.17,Umum,,,2025-03-05
+TX001062,P00199,Tagihan,Obat,169722.2,Asuransi Swasta,Sinarmas,,2023-11-20
+TX001063,P00537,Pembetulan,Pemeriksaan Lab,83971.31,BPJS,BPJS Kesehatan,,2024-08-03
+TX001064,P00309,Tagihan,Konsultasi,45871.44,Umum,,,2025-07-03
+TX001065,P00160,Tagihan,Lainnya,89447.35,BPJS,BPJS Kesehatan,,2025-07-04
+TX001066,P00739,Tagihan,Obat,115949.28,BPJS,BPJS Kesehatan,,2023-12-19
+TX001067,P00699,Tagihan,Lainnya,179726.15,Asuransi Swasta,Allianz,,2024-02-15
+TX001068,P00144,Tagihan,Obat,53148.49,Umum,,,2024-05-12
+TX001069,P00062,Tagihan,Lainnya,75381.94,Umum,,,2024-04-20
+TX001070,P00633,Tagihan,Konsultasi,47198.73,BPJS,BPJS Kesehatan,,2024-04-13
+TX001071,P00528,Pembayaran,Konsultasi,27441.2,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-22
+TX001072,P00736,Klaim,Lainnya,116354.92,BPJS,BPJS Kesehatan,,2024-01-12
+TX001073,P00119,Pembayaran,Pendaftaran,59051.3,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-29
+TX001074,P00754,Tagihan,Pemeriksaan Lab,176391.66,Umum,,,2025-02-27
+TX001075,P00510,Pembayaran,Konsultasi,70507.37,Umum,,Kartu Kredit,2024-10-21
+TX001076,P00819,Tagihan,Tindakan,79170.99,BPJS,BPJS Kesehatan,,2024-06-22
+TX001077,P00048,Tagihan,Obat,138708.44,BPJS,BPJS Kesehatan,,2024-01-05
+TX001078,P00138,Tagihan,Lainnya,40994.14,Umum,,,2024-12-18
+TX001079,P00170,Tagihan,Pendaftaran,92411.91,Umum,,,2025-11-05
+TX001080,P00688,Tagihan,Lainnya,52729.75,Umum,,,2024-08-07
+TX001081,P00536,Tagihan,Lainnya,109280.81,Asuransi Swasta,Sinarmas,,2024-07-07
+TX001082,P00282,Pembayaran,Rawat Inap,25816.33,Umum,,Kartu Kredit,2023-12-18
+TX001083,P00519,Pembayaran,Pendaftaran,140290.65,Asuransi Swasta,Manulife,QRIS,2025-04-08
+TX001084,P00500,Tagihan,Rawat Inap,87880.12,Asuransi Swasta,Manulife,,2024-08-10
+TX001085,P00229,Pembayaran,Pendaftaran,73130.94,Umum,,Kartu Kredit,2024-05-09
+TX001086,P00449,Pembayaran,Tindakan,26148.69,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-07
+TX001087,P00019,Tagihan,Pemeriksaan Lab,129788.03,BPJS,BPJS Kesehatan,,2025-02-16
+TX001088,P00843,Klaim,Obat,146567.9,BPJS,BPJS Kesehatan,,2024-06-06
+TX001089,P00080,Tagihan,Lainnya,129088.26,BPJS,BPJS Kesehatan,,2025-06-06
+TX001090,P00076,Pembayaran,Pendaftaran,56327.89,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-10
+TX001091,P00659,Pembayaran,Konsultasi,121307.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-11
+TX001092,P00589,Klaim,Pendaftaran,109121.73,BPJS,BPJS Kesehatan,,2024-03-11
+TX001093,P00741,Tagihan,Pemeriksaan Lab,52974.36,BPJS,BPJS Kesehatan,,2024-08-05
+TX001094,P00412,Pembayaran,Pendaftaran,26700.2,Umum,,Tunai,2024-04-24
+TX001095,P00084,Tagihan,Pendaftaran,157216.49,BPJS,BPJS Kesehatan,,2023-12-15
+TX001096,P00371,Pembayaran,Rawat Inap,96668.94,Asuransi Swasta,Manulife,Kartu Kredit,2025-07-05
+TX001097,P00678,Tagihan,Pemeriksaan Lab,313274.71,BPJS,BPJS Kesehatan,,2024-02-05
+TX001098,P00566,Tagihan,Rawat Inap,111844.32,BPJS,BPJS Kesehatan,,2024-11-02
+TX001099,P00195,Tagihan,Pendaftaran,242496.68,BPJS,BPJS Kesehatan,,2024-04-23
+TX001100,P00278,Pembayaran,Pemeriksaan Lab,25556.58,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-15
+TX001101,P00004,Klaim,Tindakan,51737.92,Asuransi Swasta,Manulife,,2024-08-11
+TX001102,P00087,Tagihan,Konsultasi,106858.73,Asuransi Swasta,Allianz,,2023-12-22
+TX001103,P00462,Pembayaran,Pendaftaran,113974.48,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-31
+TX001104,P00280,Tagihan,Radiologi,225516.98,BPJS,BPJS Kesehatan,,2025-09-20
+TX001105,P00316,Tagihan,Radiologi,50476.28,Umum,,,2025-09-16
+TX001106,P00221,Tagihan,Obat,226685.65,BPJS,BPJS Kesehatan,,2023-12-29
+TX001107,P00408,Klaim,Obat,59960.64,BPJS,BPJS Kesehatan,,2024-12-01
+TX001108,P00481,Tagihan,Tindakan,182055.08,Asuransi Swasta,Prudential,,2023-11-15
+TX001109,P00586,Tagihan,Konsultasi,65146.14,BPJS,BPJS Kesehatan,,2023-12-28
+TX001110,P00857,Pembayaran,Pendaftaran,90508.24,Umum,,Kartu Kredit,2024-06-30
+TX001111,P00493,Tagihan,Tindakan,74776.15,BPJS,BPJS Kesehatan,,2024-12-26
+TX001112,P00329,Pembayaran,Rawat Inap,23068.08,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-07
+TX001113,P00797,Klaim,Rawat Inap,41187.04,Umum,,,2025-08-08
+TX001114,P00591,Tagihan,Lainnya,141481.52,BPJS,BPJS Kesehatan,,2024-05-30
+TX001115,P00760,Pembayaran,Lainnya,51490.81,Umum,,Tunai,2025-01-04
+TX001116,P00265,Klaim,Radiologi,107930.04,Umum,,,2024-11-29
+TX001117,P00359,Tagihan,Pemeriksaan Lab,106098.58,BPJS,BPJS Kesehatan,,2024-02-26
+TX001118,P00669,Klaim,Pendaftaran,94190.65,BPJS,BPJS Kesehatan,,2025-02-02
+TX001119,P00453,Klaim,Tindakan,103440.71,BPJS,BPJS Kesehatan,,2024-02-16
+TX001120,P00232,Tagihan,Tindakan,108370.39,Asuransi Swasta,Allianz,,2024-03-18
+TX001121,P00841,Pembayaran,Radiologi,47144.29,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-06
+TX001122,P00471,Tagihan,Obat,71734.02,Asuransi Swasta,AIA,,2023-12-14
+TX001123,P00850,Klaim,Rawat Inap,178378.95,BPJS,BPJS Kesehatan,,2025-01-26
+TX001124,P00665,Tagihan,Radiologi,36226.57,Umum,,,2025-11-04
+TX001125,P00080,Pembayaran,Obat,151241.71,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-07
+TX001126,P00418,Pembayaran,Rawat Inap,56978.1,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-14
+TX001127,P00455,Pembayaran,Radiologi,107745.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-31
+TX001128,P00211,Tagihan,Pemeriksaan Lab,123814.36,BPJS,BPJS Kesehatan,,2025-01-02
+TX001129,P00549,Tagihan,Pendaftaran,121474.07,BPJS,BPJS Kesehatan,,2025-05-16
+TX001130,P00629,Tagihan,Obat,64697.73,Asuransi Swasta,AXA Mandiri,,2025-02-28
+TX001131,P00372,Tagihan,Tindakan,66464.74,BPJS,BPJS Kesehatan,,2025-04-05
+TX001132,P00882,Pembayaran,Pemeriksaan Lab,110383.03,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-12
+TX001133,P00881,Tagihan,Tindakan,121044.98,BPJS,BPJS Kesehatan,,2025-02-13
+TX001134,P00040,Tagihan,Konsultasi,183830.2,BPJS,BPJS Kesehatan,,2024-02-28
+TX001135,P00661,Tagihan,Pendaftaran,91911.87,Asuransi Swasta,Allianz,,2025-11-05
+TX001136,P00782,Klaim,Konsultasi,78905.43,Umum,,,2025-11-02
+TX001137,P00120,Tagihan,Pemeriksaan Lab,74642.94,Umum,,,2025-08-29
+TX001138,P00401,Tagihan,Pemeriksaan Lab,29354.46,Asuransi Swasta,Manulife,,2024-03-14
+TX001139,P00395,Tagihan,Konsultasi,92290.63,Asuransi Swasta,Manulife,,2024-02-08
+TX001140,P00444,Tagihan,Pendaftaran,223162.93,BPJS,BPJS Kesehatan,,2024-01-09
+TX001141,P00195,Pembayaran,Pemeriksaan Lab,172718.38,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-11
+TX001142,P00257,Tagihan,Rawat Inap,66301.49,BPJS,BPJS Kesehatan,,2025-06-06
+TX001143,P00283,Tagihan,Pemeriksaan Lab,236999.37,BPJS,BPJS Kesehatan,,2024-09-25
+TX001144,P00217,Pembayaran,Pemeriksaan Lab,39780.64,Umum,,Kartu Kredit,2024-07-05
+TX001145,P00036,Pembayaran,Pemeriksaan Lab,55530.46,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-25
+TX001146,P00001,Tagihan,Radiologi,42655.0,BPJS,BPJS Kesehatan,,2024-12-07
+TX001147,P00475,Tagihan,Lainnya,86070.48,BPJS,BPJS Kesehatan,,2024-01-07
+TX001148,P00041,Pembayaran,Pemeriksaan Lab,45392.02,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-14
+TX001149,P00309,Pembayaran,Rawat Inap,158670.01,Umum,,Tunai,2024-02-22
+TX001150,P00429,Tagihan,Pemeriksaan Lab,67847.41,Asuransi Swasta,Manulife,,2025-05-17
+TX001151,P00144,Pembayaran,Obat,32296.91,Umum,,Tunai,2024-09-16
+TX001152,P00773,Pembayaran,Tindakan,19189.02,Asuransi Swasta,Sinarmas,Transfer,2024-08-01
+TX001153,P00461,Tagihan,Obat,82669.07,BPJS,BPJS Kesehatan,,2025-04-12
+TX001154,P00834,Tagihan,Tindakan,116091.42,BPJS,BPJS Kesehatan,,2024-12-20
+TX001155,P00620,Pembayaran,Pendaftaran,74684.43,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-14
+TX001156,P00369,Tagihan,Tindakan,111753.9,BPJS,BPJS Kesehatan,,2024-11-03
+TX001157,P00477,Tagihan,Pendaftaran,93340.05,Umum,,,2024-08-29
+TX001158,P00422,Pembayaran,Tindakan,53658.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-21
+TX001159,P00206,Klaim,Rawat Inap,383734.42,Umum,,,2024-05-25
+TX001160,P00611,Pembetulan,Konsultasi,163133.71,BPJS,BPJS Kesehatan,,2024-08-05
+TX001161,P00121,Pembayaran,Obat,56970.7,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-05
+TX001162,P00011,Tagihan,Lainnya,171114.78,BPJS,BPJS Kesehatan,,2025-03-11
+TX001163,P00036,Pembayaran,Rawat Inap,16601.68,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-16
+TX001164,P00068,Pembayaran,Rawat Inap,16236.79,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-08
+TX001165,P00526,Tagihan,Pendaftaran,139922.34,Umum,,,2024-04-12
+TX001166,P00650,Tagihan,Tindakan,76844.4,BPJS,BPJS Kesehatan,,2024-08-17
+TX001167,P00843,Pembayaran,Rawat Inap,33208.04,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-05
+TX001168,P00513,Pembayaran,Pendaftaran,67677.41,Umum,,Tunai,2025-02-13
+TX001169,P00734,Tagihan,Radiologi,225682.8,Asuransi Swasta,Manulife,,2023-12-07
+TX001170,P00299,Tagihan,Obat,159782.68,Umum,,,2025-09-08
+TX001171,P00071,Pembayaran,Rawat Inap,66710.77,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-03
+TX001172,P00726,Tagihan,Obat,25037.29,BPJS,BPJS Kesehatan,,2024-06-21
+TX001173,P00848,Tagihan,Radiologi,78015.78,BPJS,BPJS Kesehatan,,2025-10-15
+TX001174,P00069,Pembayaran,Rawat Inap,33099.98,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-09
+TX001175,P00833,Pembayaran,Pendaftaran,23715.02,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-01
+TX001176,P00551,Tagihan,Pendaftaran,69522.46,BPJS,BPJS Kesehatan,,2024-12-24
+TX001177,P00087,Tagihan,Pemeriksaan Lab,70545.06,Asuransi Swasta,Allianz,,2024-12-08
+TX001178,P00458,Klaim,Pemeriksaan Lab,111197.07,Asuransi Swasta,Manulife,,2025-02-26
+TX001179,P00570,Pembayaran,Tindakan,15011.9,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-30
+TX001180,P00122,Tagihan,Konsultasi,133092.99,Asuransi Swasta,Manulife,,2024-02-26
+TX001181,P00267,Pembayaran,Pendaftaran,33332.68,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-15
+TX001182,P00089,Tagihan,Konsultasi,223509.74,BPJS,BPJS Kesehatan,,2025-05-27
+TX001183,P00166,Klaim,Radiologi,329807.4,Umum,,,2024-12-20
+TX001184,P00217,Tagihan,Radiologi,98645.42,Umum,,,2025-10-16
+TX001185,P00064,Klaim,Radiologi,114378.94,BPJS,BPJS Kesehatan,,2025-08-14
+TX001186,P00178,Pembayaran,Pendaftaran,111384.3,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-27
+TX001187,P00678,Pembayaran,Konsultasi,76766.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-21
+TX001188,P00258,Tagihan,Obat,91952.15,BPJS,BPJS Kesehatan,,2025-06-26
+TX001189,P00524,Tagihan,Obat,36040.76,Asuransi Swasta,AXA Mandiri,,2024-11-21
+TX001190,P00623,Tagihan,Lainnya,50346.07,BPJS,BPJS Kesehatan,,2025-01-07
+TX001191,P00447,Tagihan,Obat,32061.28,Asuransi Swasta,Allianz,,2024-02-20
+TX001192,P00315,Pembayaran,Pendaftaran,34128.94,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-07
+TX001193,P00323,Pembayaran,Obat,83171.54,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-02
+TX001194,P00180,Pembayaran,Rawat Inap,94639.08,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-21
+TX001195,P00800,Tagihan,Radiologi,41624.3,BPJS,BPJS Kesehatan,,2024-10-29
+TX001196,P00496,Pembayaran,Konsultasi,38830.49,Umum,,Tunai,2024-02-07
+TX001197,P00729,Tagihan,Radiologi,142597.58,BPJS,BPJS Kesehatan,,2025-05-31
+TX001198,P00778,Pembayaran,Pendaftaran,33258.45,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-17
+TX001199,P00783,Klaim,Lainnya,63684.54,Umum,,,2024-10-09
+TX001200,P00138,Tagihan,Pendaftaran,103537.63,Umum,,,2025-05-19
+TX001201,P00074,Tagihan,Konsultasi,47613.15,BPJS,BPJS Kesehatan,,2025-09-24
+TX001202,P00874,Tagihan,Radiologi,205875.45,Umum,,,2024-05-13
+TX001203,P00560,Pembayaran,Obat,69218.38,Umum,,Kartu Kredit,2024-09-26
+TX001204,P00060,Tagihan,Pendaftaran,59513.6,BPJS,BPJS Kesehatan,,2024-12-27
+TX001205,P00344,Klaim,Tindakan,66169.97,BPJS,BPJS Kesehatan,,2024-05-02
+TX001206,P00064,Pembayaran,Lainnya,102427.9,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-10
+TX001207,P00504,Pembayaran,Pendaftaran,31682.26,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-07
+TX001208,P00258,Tagihan,Radiologi,67464.53,BPJS,BPJS Kesehatan,,2024-06-21
+TX001209,P00253,Tagihan,Pemeriksaan Lab,80581.09,BPJS,BPJS Kesehatan,,2024-05-01
+TX001210,P00800,Tagihan,Pemeriksaan Lab,192149.66,BPJS,BPJS Kesehatan,,2024-07-08
+TX001211,P00242,Tagihan,Tindakan,152619.95,BPJS,BPJS Kesehatan,,2024-04-19
+TX001212,P00582,Klaim,Radiologi,20000.0,BPJS,BPJS Kesehatan,,2023-12-20
+TX001213,P00595,Pembayaran,Obat,116194.78,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-20
+TX001214,P00253,Pembayaran,Rawat Inap,54019.23,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-15
+TX001215,P00696,Tagihan,Konsultasi,66245.23,BPJS,BPJS Kesehatan,,2025-01-21
+TX001216,P00126,Pembetulan,Obat,86304.95,BPJS,BPJS Kesehatan,,2024-08-07
+TX001217,P00307,Pembetulan,Obat,142677.63,BPJS,BPJS Kesehatan,,2025-07-21
+TX001218,P00008,Tagihan,Lainnya,84657.37,Asuransi Swasta,Prudential,,2024-08-06
+TX001219,P00681,Tagihan,Konsultasi,241432.41,Umum,,,2025-04-19
+TX001220,P00775,Tagihan,Rawat Inap,56482.25,BPJS,BPJS Kesehatan,,2024-09-23
+TX001221,P00644,Pembayaran,Radiologi,78348.11,Asuransi Swasta,Prudential,QRIS,2025-05-03
+TX001222,P00509,Pembayaran,Pemeriksaan Lab,50608.2,Umum,,Kartu Kredit,2024-03-16
+TX001223,P00191,Tagihan,Konsultasi,39069.75,Umum,,,2024-06-14
+TX001224,P00612,Tagihan,Obat,55356.06,Umum,,,2025-10-03
+TX001225,P00135,Pembayaran,Tindakan,49018.55,Asuransi Swasta,Prudential,QRIS,2025-10-13
+TX001226,P00137,Tagihan,Pendaftaran,74670.39,Asuransi Swasta,Manulife,,2025-09-17
+TX001227,P00290,Tagihan,Tindakan,121117.21,Asuransi Swasta,Allianz,,2023-11-11
+TX001228,P00095,Tagihan,Lainnya,121906.84,BPJS,BPJS Kesehatan,,2024-11-23
+TX001229,P00655,Tagihan,Radiologi,102314.55,BPJS,BPJS Kesehatan,,2025-04-29
+TX001230,P00023,Tagihan,Lainnya,116319.49,Umum,,,2024-12-18
+TX001231,P00065,Pembayaran,Lainnya,35868.68,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-16
+TX001232,P00018,Tagihan,Lainnya,106958.76,BPJS,BPJS Kesehatan,,2024-03-27
+TX001233,P00658,Tagihan,Radiologi,119880.16,Umum,,,2024-03-28
+TX001234,P00761,Tagihan,Lainnya,117427.24,BPJS,BPJS Kesehatan,,2025-03-15
+TX001235,P00226,Pembayaran,Tindakan,26595.08,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-15
+TX001236,P00042,Tagihan,Pendaftaran,126413.13,Umum,,,2025-07-24
+TX001237,P00653,Pembayaran,Obat,41111.39,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-06
+TX001238,P00690,Pembayaran,Obat,84256.96,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-07
+TX001239,P00577,Tagihan,Pendaftaran,118176.34,Umum,,,2025-01-29
+TX001240,P00022,Tagihan,Obat,87575.64,BPJS,BPJS Kesehatan,,2025-03-11
+TX001241,P00353,Tagihan,Radiologi,122225.11,BPJS,BPJS Kesehatan,,2025-09-01
+TX001242,P00605,Tagihan,Radiologi,46394.64,BPJS,BPJS Kesehatan,,2025-02-17
+TX001243,P00126,Tagihan,Obat,72334.23,BPJS,BPJS Kesehatan,,2025-01-06
+TX001244,P00458,Pembayaran,Pendaftaran,59370.63,Asuransi Swasta,Manulife,QRIS,2025-01-16
+TX001245,P00496,Tagihan,Lainnya,43776.33,Umum,,,2024-08-30
+TX001246,P00137,Tagihan,Lainnya,25287.33,Asuransi Swasta,Manulife,,2024-09-07
+TX001247,P00175,Tagihan,Lainnya,62407.17,BPJS,BPJS Kesehatan,,2024-02-11
+TX001248,P00503,Tagihan,Lainnya,57728.24,Umum,,,2025-07-25
+TX001249,P00746,Tagihan,Radiologi,102013.85,Umum,,,2024-03-10
+TX001250,P00545,Klaim,Radiologi,48105.28,Asuransi Swasta,Prudential,,2025-10-01
+TX001251,P00203,Pembayaran,Konsultasi,147533.15,BPJS,BPJS Kesehatan,Klaim BPJS,2025-11-03
+TX001252,P00254,Tagihan,Rawat Inap,47386.59,Umum,,,2023-11-09
+TX001253,P00431,Tagihan,Lainnya,110331.05,Umum,,,2024-05-08
+TX001254,P00002,Tagihan,Tindakan,159619.39,Umum,,,2024-10-04
+TX001255,P00310,Tagihan,Pemeriksaan Lab,66736.08,BPJS,BPJS Kesehatan,,2024-07-28
+TX001256,P00303,Pembayaran,Radiologi,158268.39,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-25
+TX001257,P00806,Tagihan,Lainnya,59261.59,BPJS,BPJS Kesehatan,,2024-07-19
+TX001258,P00564,Tagihan,Pemeriksaan Lab,114646.44,BPJS,BPJS Kesehatan,,2023-11-20
+TX001259,P00216,Pembayaran,Pendaftaran,39149.73,Asuransi Swasta,Allianz,Kartu Kredit,2025-07-01
+TX001260,P00772,Tagihan,Tindakan,32013.41,Umum,,,2025-02-15
+TX001261,P00439,Pembayaran,Konsultasi,47865.74,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-06-09
+TX001262,P00184,Tagihan,Konsultasi,96937.65,BPJS,BPJS Kesehatan,,2025-10-21
+TX001263,P00125,Tagihan,Pendaftaran,205120.54,Umum,,,2024-01-14
+TX001264,P00692,Pembayaran,Rawat Inap,71398.65,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-24
+TX001265,P00117,Pembayaran,Pendaftaran,162242.73,Asuransi Swasta,Allianz,Kartu Kredit,2025-07-07
+TX001266,P00358,Tagihan,Obat,163129.13,BPJS,BPJS Kesehatan,,2024-04-14
+TX001267,P00529,Tagihan,Pendaftaran,156505.9,BPJS,BPJS Kesehatan,,2024-02-12
+TX001268,P00378,Tagihan,Obat,73867.1,BPJS,BPJS Kesehatan,,2025-05-11
+TX001269,P00565,Pembayaran,Pemeriksaan Lab,46889.03,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-30
+TX001270,P00130,Tagihan,Radiologi,324160.64,Asuransi Swasta,Allianz,,2024-01-23
+TX001271,P00792,Tagihan,Konsultasi,50573.43,BPJS,BPJS Kesehatan,,2024-04-26
+TX001272,P00010,Tagihan,Tindakan,80203.73,BPJS,BPJS Kesehatan,,2024-09-14
+TX001273,P00383,Tagihan,Rawat Inap,68061.75,Umum,,,2025-03-21
+TX001274,P00737,Tagihan,Konsultasi,76790.62,Umum,,,2025-02-18
+TX001275,P00659,Pembayaran,Obat,53186.31,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-19
+TX001276,P00030,Klaim,Radiologi,155861.06,BPJS,BPJS Kesehatan,,2024-11-28
+TX001277,P00472,Tagihan,Pendaftaran,37481.33,Asuransi Swasta,AIA,,2025-02-10
+TX001278,P00802,Klaim,Obat,107852.56,BPJS,BPJS Kesehatan,,2024-07-20
+TX001279,P00451,Tagihan,Rawat Inap,71823.82,Umum,,,2025-08-03
+TX001280,P00585,Tagihan,Tindakan,83403.19,BPJS,BPJS Kesehatan,,2023-11-29
+TX001281,P00302,Klaim,Rawat Inap,122559.18,BPJS,BPJS Kesehatan,,2025-08-23
+TX001282,P00749,Tagihan,Rawat Inap,151360.02,Umum,,,2024-09-15
+TX001283,P00172,Pembayaran,Rawat Inap,17415.51,Umum,,Tunai,2024-11-02
+TX001284,P00872,Pembetulan,Pemeriksaan Lab,80843.11,Umum,,,2024-09-09
+TX001285,P00519,Pembayaran,Pemeriksaan Lab,42606.18,Asuransi Swasta,Manulife,Transfer,2025-07-28
+TX001286,P00775,Tagihan,Radiologi,127725.45,BPJS,BPJS Kesehatan,,2025-06-09
+TX001287,P00842,Tagihan,Radiologi,117885.93,Umum,,,2024-02-09
+TX001288,P00748,Pembayaran,Lainnya,23221.03,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-19
+TX001289,P00814,Klaim,Lainnya,60099.35,BPJS,BPJS Kesehatan,,2024-07-22
+TX001290,P00813,Pembayaran,Konsultasi,25450.25,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-31
+TX001291,P00398,Pembayaran,Radiologi,48768.43,Umum,,Tunai,2025-08-06
+TX001292,P00413,Pembayaran,Konsultasi,72781.56,Asuransi Swasta,Sinarmas,Transfer,2024-11-14
+TX001293,P00348,Klaim,Pemeriksaan Lab,68474.7,Umum,,,2025-07-12
+TX001294,P00337,Tagihan,Lainnya,149651.82,BPJS,BPJS Kesehatan,,2024-10-05
+TX001295,P00162,Tagihan,Lainnya,117664.82,BPJS,BPJS Kesehatan,,2025-07-19
+TX001296,P00392,Tagihan,Pemeriksaan Lab,137332.92,Umum,,,2025-10-16
+TX001297,P00785,Klaim,Tindakan,268258.02,BPJS,BPJS Kesehatan,,2024-03-09
+TX001298,P00457,Tagihan,Radiologi,188421.29,Umum,,,2025-08-10
+TX001299,P00442,Tagihan,Lainnya,123470.79,BPJS,BPJS Kesehatan,,2023-11-21
+TX001300,P00307,Tagihan,Tindakan,46599.08,BPJS,BPJS Kesehatan,,2024-04-29
+TX001301,P00096,Pembayaran,Pemeriksaan Lab,88964.47,Umum,,Kartu Kredit,2024-07-18
+TX001302,P00491,Tagihan,Obat,54918.58,BPJS,BPJS Kesehatan,,2024-09-07
+TX001303,P00725,Tagihan,Pendaftaran,30569.65,Umum,,,2024-02-22
+TX001304,P00349,Tagihan,Lainnya,44905.89,BPJS,BPJS Kesehatan,,2025-06-16
+TX001305,P00141,Pembayaran,Tindakan,68245.26,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-19
+TX001306,P00170,Pembayaran,Obat,65156.31,Umum,,Tunai,2024-01-27
+TX001307,P00738,Tagihan,Tindakan,49822.77,BPJS,BPJS Kesehatan,,2023-11-25
+TX001308,P00627,Tagihan,Lainnya,36030.23,Umum,,,2024-01-28
+TX001309,P00830,Klaim,Radiologi,75275.27,Umum,,,2025-08-28
+TX001310,P00169,Pembayaran,Pendaftaran,65852.52,Umum,,Tunai,2025-05-21
+TX001311,P00459,Tagihan,Obat,100951.84,BPJS,BPJS Kesehatan,,2024-03-08
+TX001312,P00706,Pembayaran,Rawat Inap,146286.14,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-26
+TX001313,P00633,Tagihan,Radiologi,60025.81,BPJS,BPJS Kesehatan,,2024-03-23
+TX001314,P00718,Pembayaran,Radiologi,34481.29,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-26
+TX001315,P00385,Tagihan,Pendaftaran,72704.98,Umum,,,2025-07-28
+TX001316,P00265,Pembayaran,Obat,17368.82,Umum,,Kartu Kredit,2024-12-29
+TX001317,P00596,Tagihan,Pendaftaran,49279.79,BPJS,BPJS Kesehatan,,2025-09-16
+TX001318,P00307,Tagihan,Lainnya,105896.43,BPJS,BPJS Kesehatan,,2024-12-14
+TX001319,P00181,Pembayaran,Obat,29838.83,Asuransi Swasta,Sinarmas,QRIS,2025-07-13
+TX001320,P00418,Pembayaran,Konsultasi,73761.25,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-03
+TX001321,P00404,Klaim,Pemeriksaan Lab,73423.23,BPJS,BPJS Kesehatan,,2025-08-11
+TX001322,P00639,Tagihan,Obat,37093.83,Asuransi Swasta,Sinarmas,,2023-12-24
+TX001323,P00321,Pembayaran,Konsultasi,17259.79,Asuransi Swasta,Allianz,QRIS,2025-03-06
+TX001324,P00693,Tagihan,Konsultasi,121233.32,BPJS,BPJS Kesehatan,,2025-11-02
+TX001325,P00159,Klaim,Pemeriksaan Lab,83525.16,Umum,,,2025-01-07
+TX001326,P00114,Tagihan,Pendaftaran,61089.75,Umum,,,2024-09-16
+TX001327,P00417,Tagihan,Pemeriksaan Lab,29712.39,Umum,,,2025-05-17
+TX001328,P00295,Pembayaran,Konsultasi,54230.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-25
+TX001329,P00847,Pembayaran,Rawat Inap,75736.72,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-16
+TX001330,P00640,Tagihan,Tindakan,126476.58,BPJS,BPJS Kesehatan,,2025-05-17
+TX001331,P00697,Klaim,Lainnya,39410.38,BPJS,BPJS Kesehatan,,2024-06-14
+TX001332,P00632,Tagihan,Tindakan,143934.9,BPJS,BPJS Kesehatan,,2024-10-23
+TX001333,P00870,Pembayaran,Tindakan,36043.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-07
+TX001334,P00339,Tagihan,Tindakan,129945.84,Umum,,,2024-03-16
+TX001335,P00014,Pembayaran,Lainnya,60489.99,Umum,,Tunai,2025-09-06
+TX001336,P00404,Tagihan,Obat,94207.28,BPJS,BPJS Kesehatan,,2025-04-27
+TX001337,P00549,Tagihan,Tindakan,96948.66,BPJS,BPJS Kesehatan,,2025-02-06
+TX001338,P00503,Tagihan,Pemeriksaan Lab,183347.57,Umum,,,2025-11-05
+TX001339,P00857,Tagihan,Rawat Inap,107641.64,Umum,,,2024-07-19
+TX001340,P00076,Pembayaran,Rawat Inap,20970.08,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-18
+TX001341,P00560,Tagihan,Lainnya,69087.88,Umum,,,2024-05-11
+TX001342,P00489,Tagihan,Pemeriksaan Lab,24615.15,Asuransi Swasta,Manulife,,2024-03-09
+TX001343,P00189,Pembayaran,Lainnya,44492.68,Umum,,Tunai,2024-06-14
+TX001344,P00511,Tagihan,Obat,43860.16,Asuransi Swasta,AXA Mandiri,,2025-05-03
+TX001345,P00432,Tagihan,Konsultasi,103142.8,BPJS,BPJS Kesehatan,,2025-02-07
+TX001346,P00749,Pembayaran,Obat,129104.32,Umum,,Kartu Kredit,2025-03-06
+TX001347,P00471,Tagihan,Obat,78879.24,Asuransi Swasta,AIA,,2025-05-16
+TX001348,P00874,Pembayaran,Tindakan,45391.46,Umum,,Tunai,2025-06-28
+TX001349,P00784,Tagihan,Lainnya,52529.95,BPJS,BPJS Kesehatan,,2024-02-02
+TX001350,P00675,Pembayaran,Radiologi,20121.61,Asuransi Swasta,AXA Mandiri,Transfer,2025-09-18
+TX001351,P00479,Tagihan,Tindakan,148253.35,Asuransi Swasta,Manulife,,2025-07-10
+TX001352,P00232,Tagihan,Rawat Inap,129281.3,Asuransi Swasta,Allianz,,2025-10-08
+TX001353,P00272,Tagihan,Rawat Inap,79072.23,Asuransi Swasta,Allianz,,2024-07-25
+TX001354,P00445,Pembayaran,Obat,108856.49,Umum,,Tunai,2024-11-14
+TX001355,P00831,Tagihan,Obat,81664.55,BPJS,BPJS Kesehatan,,2024-03-21
+TX001356,P00771,Pembayaran,Obat,84316.8,Umum,,Kartu Kredit,2024-08-23
+TX001357,P00093,Klaim,Radiologi,84746.41,Asuransi Swasta,AXA Mandiri,,2025-01-08
+TX001358,P00536,Tagihan,Pemeriksaan Lab,112290.39,Asuransi Swasta,Sinarmas,,2024-06-10
+TX001359,P00377,Pembayaran,Konsultasi,67282.2,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-06
+TX001360,P00370,Pembayaran,Obat,40156.26,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-10
+TX001361,P00817,Tagihan,Pendaftaran,102186.1,Umum,,,2024-05-09
+TX001362,P00061,Pembayaran,Lainnya,14240.01,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-29
+TX001363,P00679,Tagihan,Lainnya,39410.59,Umum,,,2024-07-23
+TX001364,P00114,Klaim,Rawat Inap,56061.18,Umum,,,2024-08-18
+TX001365,P00250,Pembayaran,Pemeriksaan Lab,47203.0,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-10
+TX001366,P00368,Tagihan,Obat,241884.28,Umum,,,2025-01-17
+TX001367,P00487,Tagihan,Obat,97880.9,Umum,,,2023-12-19
+TX001368,P00615,Pembayaran,Tindakan,25389.17,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-24
+TX001369,P00121,Pembayaran,Rawat Inap,58329.09,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-13
+TX001370,P00287,Tagihan,Konsultasi,101980.37,Umum,,,2024-07-30
+TX001371,P00057,Tagihan,Tindakan,70954.2,Umum,,,2024-01-31
+TX001372,P00058,Pembayaran,Tindakan,26920.66,Asuransi Swasta,AXA Mandiri,QRIS,2024-10-11
+TX001373,P00573,Tagihan,Konsultasi,48421.33,Asuransi Swasta,Manulife,,2024-01-16
+TX001374,P00194,Tagihan,Tindakan,186167.52,Umum,,,2025-04-08
+TX001375,P00639,Tagihan,Pendaftaran,85680.35,Asuransi Swasta,Sinarmas,,2025-07-10
+TX001376,P00375,Pembetulan,Obat,32098.9,BPJS,BPJS Kesehatan,,2025-01-15
+TX001377,P00299,Tagihan,Tindakan,134649.23,Umum,,,2025-03-24
+TX001378,P00492,Tagihan,Radiologi,141880.54,BPJS,BPJS Kesehatan,,2024-10-06
+TX001379,P00206,Pembayaran,Pemeriksaan Lab,106369.45,Umum,,Kartu Kredit,2025-01-18
+TX001380,P00529,Pembayaran,Radiologi,16740.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-21
+TX001381,P00662,Pembayaran,Lainnya,63036.88,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-07
+TX001382,P00273,Pembayaran,Pendaftaran,115821.99,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-16
+TX001383,P00482,Tagihan,Lainnya,264233.55,BPJS,BPJS Kesehatan,,2024-05-19
+TX001384,P00324,Pembayaran,Pendaftaran,69686.29,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-28
+TX001385,P00533,Pembayaran,Tindakan,46333.38,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-10
+TX001386,P00328,Tagihan,Konsultasi,61408.28,BPJS,BPJS Kesehatan,,2024-06-09
+TX001387,P00458,Pembayaran,Obat,156138.75,Asuransi Swasta,Manulife,QRIS,2025-04-23
+TX001388,P00116,Tagihan,Tindakan,236909.57,Umum,,,2025-03-05
+TX001389,P00682,Tagihan,Pendaftaran,131781.5,Umum,,,2024-10-07
+TX001390,P00368,Tagihan,Pemeriksaan Lab,52625.89,Umum,,,2023-12-29
+TX001391,P00882,Tagihan,Rawat Inap,53555.65,BPJS,BPJS Kesehatan,,2025-09-06
+TX001392,P00874,Pembayaran,Rawat Inap,101545.76,Umum,,Kartu Kredit,2025-02-21
+TX001393,P00285,Pembayaran,Rawat Inap,46483.58,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-03
+TX001394,P00441,Pembayaran,Lainnya,101988.1,Umum,,Tunai,2024-08-09
+TX001395,P00270,Tagihan,Rawat Inap,143217.56,BPJS,BPJS Kesehatan,,2024-02-12
+TX001396,P00135,Pembayaran,Konsultasi,28900.9,Asuransi Swasta,Prudential,Transfer,2023-11-20
+TX001397,P00232,Pembayaran,Lainnya,17007.73,Asuransi Swasta,Allianz,QRIS,2024-01-06
+TX001398,P00176,Tagihan,Lainnya,127742.27,Umum,,,2024-01-14
+TX001399,P00567,Tagihan,Tindakan,71778.62,BPJS,BPJS Kesehatan,,2025-07-18
+TX001400,P00836,Tagihan,Lainnya,123148.14,BPJS,BPJS Kesehatan,,2025-10-02
+TX001401,P00810,Klaim,Lainnya,107072.0,BPJS,BPJS Kesehatan,,2024-10-25
+TX001402,P00451,Tagihan,Pemeriksaan Lab,70880.95,Umum,,,2024-08-25
+TX001403,P00643,Tagihan,Lainnya,97990.57,Asuransi Swasta,Sinarmas,,2025-01-15
+TX001404,P00532,Tagihan,Pemeriksaan Lab,120087.97,BPJS,BPJS Kesehatan,,2024-10-22
+TX001405,P00430,Klaim,Konsultasi,106788.59,BPJS,BPJS Kesehatan,,2024-04-25
+TX001406,P00803,Tagihan,Tindakan,74616.78,Umum,,,2024-10-19
+TX001407,P00138,Tagihan,Rawat Inap,108171.65,Umum,,,2025-06-16
+TX001408,P00086,Pembayaran,Rawat Inap,45755.65,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-26
+TX001409,P00694,Tagihan,Konsultasi,20273.82,BPJS,BPJS Kesehatan,,2024-10-12
+TX001410,P00293,Tagihan,Radiologi,35746.76,BPJS,BPJS Kesehatan,,2024-09-29
+TX001411,P00759,Pembayaran,Obat,45862.53,Asuransi Swasta,Prudential,Transfer,2024-11-12
+TX001412,P00214,Tagihan,Pemeriksaan Lab,183863.99,BPJS,BPJS Kesehatan,,2024-08-19
+TX001413,P00039,Pembayaran,Radiologi,35691.35,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-02-03
+TX001414,P00816,Pembayaran,Konsultasi,22231.22,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-08
+TX001415,P00282,Tagihan,Rawat Inap,228457.52,Umum,,,2024-09-19
+TX001416,P00771,Pembayaran,Lainnya,90771.86,Umum,,Kartu Kredit,2025-06-11
+TX001417,P00155,Tagihan,Lainnya,102384.65,Umum,,,2024-09-01
+TX001418,P00535,Klaim,Tindakan,95027.75,Asuransi Swasta,Allianz,,2025-09-11
+TX001419,P00219,Tagihan,Obat,83129.12,BPJS,BPJS Kesehatan,,2025-07-21
+TX001420,P00864,Pembayaran,Rawat Inap,88373.68,Umum,,Kartu Kredit,2024-01-09
+TX001421,P00647,Pembayaran,Konsultasi,73448.88,Umum,,Tunai,2025-08-02
+TX001422,P00128,Pembayaran,Pemeriksaan Lab,61313.94,Umum,,Tunai,2025-01-08
+TX001423,P00067,Klaim,Konsultasi,56107.53,Asuransi Swasta,Sinarmas,,2024-10-28
+TX001424,P00153,Tagihan,Pemeriksaan Lab,61291.31,BPJS,BPJS Kesehatan,,2024-12-21
+TX001425,P00810,Pembayaran,Tindakan,57013.02,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-24
+TX001426,P00263,Tagihan,Pendaftaran,76366.98,BPJS,BPJS Kesehatan,,2025-06-11
+TX001427,P00338,Tagihan,Radiologi,76936.84,BPJS,BPJS Kesehatan,,2024-02-08
+TX001428,P00467,Pembayaran,Konsultasi,74022.05,Asuransi Swasta,AIA,QRIS,2025-08-08
+TX001429,P00160,Tagihan,Konsultasi,85781.06,BPJS,BPJS Kesehatan,,2025-03-05
+TX001430,P00519,Pembayaran,Pendaftaran,59765.54,Asuransi Swasta,Manulife,Transfer,2025-08-01
+TX001431,P00328,Tagihan,Pendaftaran,63153.96,BPJS,BPJS Kesehatan,,2024-07-28
+TX001432,P00473,Tagihan,Radiologi,41077.1,BPJS,BPJS Kesehatan,,2025-04-05
+TX001433,P00098,Pembayaran,Tindakan,49981.9,Umum,,Kartu Kredit,2024-04-11
+TX001434,P00796,Pembayaran,Pemeriksaan Lab,36414.52,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-04
+TX001435,P00812,Tagihan,Obat,57554.79,BPJS,BPJS Kesehatan,,2025-07-19
+TX001436,P00116,Pembayaran,Pendaftaran,49690.75,Umum,,Tunai,2025-10-07
+TX001437,P00660,Tagihan,Radiologi,83540.9,Asuransi Swasta,Sinarmas,,2025-07-24
+TX001438,P00372,Tagihan,Lainnya,139212.72,BPJS,BPJS Kesehatan,,2025-04-25
+TX001439,P00207,Pembayaran,Konsultasi,32052.0,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-12
+TX001440,P00770,Tagihan,Radiologi,122202.69,BPJS,BPJS Kesehatan,,2025-01-31
+TX001441,P00189,Pembayaran,Radiologi,52663.46,Umum,,Kartu Kredit,2025-02-24
+TX001442,P00648,Tagihan,Konsultasi,66830.05,BPJS,BPJS Kesehatan,,2023-11-14
+TX001443,P00793,Pembetulan,Radiologi,104700.9,BPJS,BPJS Kesehatan,,2024-05-24
+TX001444,P00724,Pembayaran,Tindakan,29404.47,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-12
+TX001445,P00071,Pembayaran,Radiologi,69293.72,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-22
+TX001446,P00451,Pembayaran,Obat,55838.77,Umum,,Kartu Kredit,2024-10-06
+TX001447,P00425,Klaim,Tindakan,183545.98,BPJS,BPJS Kesehatan,,2024-05-09
+TX001448,P00528,Tagihan,Lainnya,114722.22,BPJS,BPJS Kesehatan,,2024-02-29
+TX001449,P00365,Tagihan,Obat,111610.4,BPJS,BPJS Kesehatan,,2024-05-15
+TX001450,P00279,Tagihan,Lainnya,67360.35,BPJS,BPJS Kesehatan,,2024-04-04
+TX001451,P00483,Tagihan,Obat,180863.14,Asuransi Swasta,AIA,,2024-04-21
+TX001452,P00809,Klaim,Obat,186162.91,BPJS,BPJS Kesehatan,,2024-03-10
+TX001453,P00668,Tagihan,Rawat Inap,85231.42,BPJS,BPJS Kesehatan,,2024-02-17
+TX001454,P00289,Pembayaran,Tindakan,116214.08,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-01
+TX001455,P00794,Tagihan,Rawat Inap,148514.39,Asuransi Swasta,Manulife,,2023-12-30
+TX001456,P00217,Tagihan,Pemeriksaan Lab,62793.83,Umum,,,2024-10-06
+TX001457,P00573,Tagihan,Pendaftaran,159822.2,Asuransi Swasta,Manulife,,2025-01-12
+TX001458,P00408,Pembayaran,Pemeriksaan Lab,107692.4,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-04
+TX001459,P00313,Tagihan,Rawat Inap,65992.07,Asuransi Swasta,Manulife,,2024-12-22
+TX001460,P00760,Pembayaran,Obat,44621.21,Umum,,Kartu Kredit,2024-10-28
+TX001461,P00423,Tagihan,Radiologi,163076.72,BPJS,BPJS Kesehatan,,2025-04-01
+TX001462,P00892,Tagihan,Konsultasi,157904.85,Asuransi Swasta,AXA Mandiri,,2025-04-15
+TX001463,P00023,Pembayaran,Obat,69822.56,Umum,,Tunai,2024-10-14
+TX001464,P00831,Pembayaran,Radiologi,66303.43,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-28
+TX001465,P00561,Tagihan,Pendaftaran,102153.25,Asuransi Swasta,Sinarmas,,2024-03-16
+TX001466,P00864,Tagihan,Tindakan,170193.36,Umum,,,2025-09-23
+TX001467,P00313,Pembayaran,Radiologi,38232.84,Asuransi Swasta,Manulife,Kartu Kredit,2024-02-24
+TX001468,P00426,Tagihan,Obat,165753.57,BPJS,BPJS Kesehatan,,2025-07-08
+TX001469,P00185,Pembayaran,Tindakan,64969.91,Umum,,Tunai,2025-11-06
+TX001470,P00598,Tagihan,Lainnya,81538.56,BPJS,BPJS Kesehatan,,2025-08-30
+TX001471,P00823,Pembayaran,Pemeriksaan Lab,40684.97,Asuransi Swasta,Sinarmas,Transfer,2024-06-19
+TX001472,P00254,Pembayaran,Pendaftaran,108343.12,Umum,,Kartu Kredit,2025-05-09
+TX001473,P00835,Tagihan,Radiologi,42186.02,Asuransi Swasta,Sinarmas,,2025-07-09
+TX001474,P00411,Tagihan,Obat,130464.16,Asuransi Swasta,Manulife,,2024-10-09
+TX001475,P00614,Pembayaran,Tindakan,19295.14,Umum,,Kartu Kredit,2024-08-03
+TX001476,P00696,Tagihan,Pemeriksaan Lab,72027.77,BPJS,BPJS Kesehatan,,2025-09-19
+TX001477,P00628,Tagihan,Lainnya,38768.28,Umum,,,2024-04-15
+TX001478,P00605,Tagihan,Pemeriksaan Lab,88400.27,BPJS,BPJS Kesehatan,,2025-02-07
+TX001479,P00375,Tagihan,Pendaftaran,42845.51,BPJS,BPJS Kesehatan,,2025-07-25
+TX001480,P00329,Tagihan,Konsultasi,61922.88,BPJS,BPJS Kesehatan,,2025-06-25
+TX001481,P00171,Pembayaran,Tindakan,116755.77,Asuransi Swasta,AIA,Transfer,2023-11-26
+TX001482,P00532,Tagihan,Rawat Inap,81474.96,BPJS,BPJS Kesehatan,,2024-06-17
+TX001483,P00064,Klaim,Radiologi,46351.51,BPJS,BPJS Kesehatan,,2024-01-06
+TX001484,P00501,Tagihan,Lainnya,88434.24,Umum,,,2024-09-25
+TX001485,P00229,Pembayaran,Konsultasi,44896.43,Umum,,Tunai,2023-11-23
+TX001486,P00499,Pembayaran,Rawat Inap,89169.69,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-24
+TX001487,P00506,Pembayaran,Lainnya,85133.83,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-28
+TX001488,P00347,Tagihan,Rawat Inap,126148.51,BPJS,BPJS Kesehatan,,2025-05-08
+TX001489,P00586,Klaim,Radiologi,87783.94,BPJS,BPJS Kesehatan,,2025-03-21
+TX001490,P00134,Tagihan,Lainnya,57506.56,BPJS,BPJS Kesehatan,,2024-03-19
+TX001491,P00807,Tagihan,Tindakan,96740.59,BPJS,BPJS Kesehatan,,2025-05-06
+TX001492,P00710,Pembayaran,Pendaftaran,31215.93,Umum,,Tunai,2025-03-18
+TX001493,P00493,Pembayaran,Radiologi,65842.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-08
+TX001494,P00488,Tagihan,Obat,112553.26,BPJS,BPJS Kesehatan,,2025-05-20
+TX001495,P00186,Klaim,Obat,130096.25,BPJS,BPJS Kesehatan,,2023-11-09
+TX001496,P00302,Tagihan,Pendaftaran,139007.56,BPJS,BPJS Kesehatan,,2024-04-10
+TX001497,P00082,Pembayaran,Obat,57790.37,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-04
+TX001498,P00869,Tagihan,Pendaftaran,177826.06,BPJS,BPJS Kesehatan,,2025-09-20
+TX001499,P00725,Pembayaran,Tindakan,62033.06,Umum,,Tunai,2024-11-06
+TX001500,P00120,Tagihan,Pendaftaran,108610.28,Umum,,,2025-03-17
+TX001501,P00026,Tagihan,Lainnya,146192.13,Asuransi Swasta,Manulife,,2025-08-04
+TX001502,P00346,Pembayaran,Konsultasi,48054.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-18
+TX001503,P00457,Pembayaran,Konsultasi,80031.24,Umum,,Kartu Kredit,2025-05-20
+TX001504,P00343,Pembayaran,Rawat Inap,160668.4,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-10
+TX001505,P00422,Tagihan,Konsultasi,52283.37,BPJS,BPJS Kesehatan,,2025-06-05
+TX001506,P00340,Tagihan,Obat,32624.46,BPJS,BPJS Kesehatan,,2024-09-29
+TX001507,P00351,Tagihan,Obat,77453.7,Umum,,,2025-03-21
+TX001508,P00278,Pembayaran,Tindakan,38584.49,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-04
+TX001509,P00475,Pembayaran,Pemeriksaan Lab,131363.43,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-26
+TX001510,P00147,Pembayaran,Lainnya,52192.43,Asuransi Swasta,AIA,QRIS,2024-09-12
+TX001511,P00641,Pembayaran,Pendaftaran,34444.28,Asuransi Swasta,Allianz,Transfer,2025-04-06
+TX001512,P00121,Tagihan,Radiologi,100910.19,BPJS,BPJS Kesehatan,,2025-08-17
+TX001513,P00729,Pembayaran,Lainnya,61579.76,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-23
+TX001514,P00464,Pembayaran,Tindakan,33359.83,Umum,,Kartu Kredit,2025-07-13
+TX001515,P00459,Tagihan,Rawat Inap,158944.26,BPJS,BPJS Kesehatan,,2024-11-05
+TX001516,P00748,Tagihan,Lainnya,197882.6,BPJS,BPJS Kesehatan,,2024-03-10
+TX001517,P00511,Tagihan,Radiologi,178193.63,Asuransi Swasta,AXA Mandiri,,2025-02-24
+TX001518,P00788,Tagihan,Radiologi,108777.9,BPJS,BPJS Kesehatan,,2024-04-05
+TX001519,P00389,Pembayaran,Konsultasi,44563.01,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-29
+TX001520,P00642,Pembayaran,Pendaftaran,95485.62,Umum,,Tunai,2024-08-29
+TX001521,P00228,Tagihan,Radiologi,74128.98,BPJS,BPJS Kesehatan,,2024-02-10
+TX001522,P00618,Klaim,Pemeriksaan Lab,135030.79,BPJS,BPJS Kesehatan,,2025-04-12
+TX001523,P00845,Tagihan,Radiologi,80671.59,Asuransi Swasta,Allianz,,2024-07-18
+TX001524,P00188,Pembayaran,Rawat Inap,36532.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-13
+TX001525,P00829,Pembayaran,Lainnya,71687.12,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-02
+TX001526,P00072,Pembayaran,Tindakan,96780.73,Asuransi Swasta,AIA,QRIS,2024-08-20
+TX001527,P00899,Tagihan,Pemeriksaan Lab,82056.05,BPJS,BPJS Kesehatan,,2025-02-06
+TX001528,P00404,Tagihan,Tindakan,95575.49,BPJS,BPJS Kesehatan,,2025-10-22
+TX001529,P00622,Tagihan,Pemeriksaan Lab,40504.71,Asuransi Swasta,AIA,,2025-10-01
+TX001530,P00039,Klaim,Pemeriksaan Lab,176394.84,Asuransi Swasta,Sinarmas,,2025-02-27
+TX001531,P00720,Pembayaran,Lainnya,165512.88,Umum,,Kartu Kredit,2025-05-19
+TX001532,P00833,Pembayaran,Pendaftaran,33101.61,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-13
+TX001533,P00888,Tagihan,Rawat Inap,38070.86,Asuransi Swasta,Manulife,,2025-10-17
+TX001534,P00161,Tagihan,Pendaftaran,79326.48,BPJS,BPJS Kesehatan,,2025-09-27
+TX001535,P00556,Pembayaran,Radiologi,42040.14,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-11
+TX001536,P00521,Tagihan,Radiologi,56313.11,BPJS,BPJS Kesehatan,,2025-06-03
+TX001537,P00066,Pembayaran,Rawat Inap,62651.72,Asuransi Swasta,Allianz,Kartu Kredit,2024-03-31
+TX001538,P00291,Pembayaran,Rawat Inap,40167.38,Umum,,Kartu Kredit,2024-01-13
+TX001539,P00695,Pembayaran,Pemeriksaan Lab,138863.28,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-04
+TX001540,P00593,Pembayaran,Pemeriksaan Lab,39020.34,Asuransi Swasta,AXA Mandiri,Transfer,2024-08-29
+TX001541,P00209,Tagihan,Rawat Inap,78755.74,Asuransi Swasta,Allianz,,2025-10-20
+TX001542,P00476,Tagihan,Rawat Inap,139613.23,Asuransi Swasta,Sinarmas,,2024-04-04
+TX001543,P00409,Tagihan,Pemeriksaan Lab,223557.71,BPJS,BPJS Kesehatan,,2024-01-24
+TX001544,P00736,Tagihan,Pendaftaran,117392.5,BPJS,BPJS Kesehatan,,2025-06-07
+TX001545,P00495,Tagihan,Radiologi,158407.23,Umum,,,2025-10-25
+TX001546,P00324,Pembayaran,Pemeriksaan Lab,33525.17,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-06
+TX001547,P00618,Tagihan,Obat,43404.76,BPJS,BPJS Kesehatan,,2025-04-28
+TX001548,P00154,Klaim,Pemeriksaan Lab,134407.73,BPJS,BPJS Kesehatan,,2024-08-08
+TX001549,P00292,Tagihan,Radiologi,55618.04,BPJS,BPJS Kesehatan,,2024-01-18
+TX001550,P00630,Klaim,Obat,111593.5,Umum,,,2024-08-10
+TX001551,P00722,Tagihan,Tindakan,97985.31,Umum,,,2024-07-11
+TX001552,P00472,Pembayaran,Tindakan,113360.0,Asuransi Swasta,AIA,QRIS,2024-04-21
+TX001553,P00441,Klaim,Konsultasi,31731.02,Umum,,,2024-09-13
+TX001554,P00849,Tagihan,Tindakan,92612.27,Umum,,,2025-10-28
+TX001555,P00681,Tagihan,Lainnya,96661.04,Umum,,,2024-11-05
+TX001556,P00255,Tagihan,Obat,156614.93,Umum,,,2025-08-28
+TX001557,P00738,Klaim,Lainnya,54407.22,BPJS,BPJS Kesehatan,,2025-07-03
+TX001558,P00009,Tagihan,Obat,42015.89,Umum,,,2025-08-26
+TX001559,P00188,Pembayaran,Radiologi,39001.29,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-21
+TX001560,P00027,Tagihan,Tindakan,216208.09,BPJS,BPJS Kesehatan,,2025-03-16
+TX001561,P00719,Tagihan,Lainnya,82486.4,Umum,,,2025-08-06
+TX001562,P00695,Tagihan,Pendaftaran,87167.81,BPJS,BPJS Kesehatan,,2025-01-08
+TX001563,P00656,Tagihan,Konsultasi,58781.7,Asuransi Swasta,AXA Mandiri,,2025-09-23
+TX001564,P00450,Tagihan,Lainnya,83226.05,Asuransi Swasta,AXA Mandiri,,2024-04-13
+TX001565,P00532,Tagihan,Radiologi,73033.28,BPJS,BPJS Kesehatan,,2025-01-22
+TX001566,P00330,Tagihan,Pemeriksaan Lab,70293.8,Asuransi Swasta,AXA Mandiri,,2025-03-21
+TX001567,P00567,Tagihan,Lainnya,91554.85,BPJS,BPJS Kesehatan,,2025-09-12
+TX001568,P00359,Tagihan,Pemeriksaan Lab,123054.9,BPJS,BPJS Kesehatan,,2024-10-17
+TX001569,P00900,Tagihan,Pendaftaran,105380.05,BPJS,BPJS Kesehatan,,2024-11-14
+TX001570,P00532,Pembayaran,Obat,57502.18,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-12
+TX001571,P00501,Pembayaran,Obat,35783.54,Umum,,Tunai,2024-11-19
+TX001572,P00286,Tagihan,Obat,50247.91,Umum,,,2024-10-22
+TX001573,P00359,Pembayaran,Pemeriksaan Lab,35577.89,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-21
+TX001574,P00895,Tagihan,Konsultasi,165576.25,BPJS,BPJS Kesehatan,,2025-01-05
+TX001575,P00406,Tagihan,Pendaftaran,62737.45,Asuransi Swasta,Allianz,,2025-03-14
+TX001576,P00319,Tagihan,Pendaftaran,60654.76,Asuransi Swasta,Allianz,,2024-03-17
+TX001577,P00101,Pembayaran,Radiologi,33241.95,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-18
+TX001578,P00794,Klaim,Lainnya,87255.36,Asuransi Swasta,Manulife,,2024-11-25
+TX001579,P00284,Tagihan,Pendaftaran,80124.75,Asuransi Swasta,AXA Mandiri,,2024-04-20
+TX001580,P00357,Klaim,Pendaftaran,41923.8,BPJS,BPJS Kesehatan,,2025-11-01
+TX001581,P00729,Tagihan,Obat,71300.16,BPJS,BPJS Kesehatan,,2024-12-23
+TX001582,P00584,Pembetulan,Lainnya,85848.17,BPJS,BPJS Kesehatan,,2024-01-30
+TX001583,P00269,Pembayaran,Radiologi,16420.39,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-24
+TX001584,P00422,Klaim,Tindakan,59775.62,BPJS,BPJS Kesehatan,,2025-10-01
+TX001585,P00064,Tagihan,Radiologi,107898.67,BPJS,BPJS Kesehatan,,2024-11-21
+TX001586,P00611,Tagihan,Konsultasi,91152.22,BPJS,BPJS Kesehatan,,2025-07-30
+TX001587,P00303,Tagihan,Rawat Inap,128579.15,BPJS,BPJS Kesehatan,,2025-07-01
+TX001588,P00406,Pembayaran,Tindakan,18423.27,Asuransi Swasta,Allianz,Transfer,2024-10-01
+TX001589,P00533,Pembayaran,Radiologi,72283.05,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-29
+TX001590,P00218,Klaim,Pemeriksaan Lab,91311.4,BPJS,BPJS Kesehatan,,2025-04-04
+TX001591,P00705,Tagihan,Obat,40864.27,Asuransi Swasta,AXA Mandiri,,2025-03-27
+TX001592,P00022,Pembayaran,Pemeriksaan Lab,84884.74,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-06
+TX001593,P00207,Pembayaran,Rawat Inap,22686.7,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-26
+TX001594,P00714,Klaim,Lainnya,142644.51,Umum,,,2024-11-29
+TX001595,P00134,Tagihan,Pendaftaran,74357.25,BPJS,BPJS Kesehatan,,2025-03-07
+TX001596,P00257,Tagihan,Radiologi,102534.93,BPJS,BPJS Kesehatan,,2024-01-19
+TX001597,P00706,Pembayaran,Obat,101731.01,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-28
+TX001598,P00424,Pembetulan,Pemeriksaan Lab,56054.21,BPJS,BPJS Kesehatan,,2025-03-19
+TX001599,P00319,Tagihan,Pendaftaran,149207.41,Asuransi Swasta,Allianz,,2024-03-26
+TX001600,P00269,Tagihan,Lainnya,123917.25,BPJS,BPJS Kesehatan,,2024-06-13
+TX001601,P00325,Pembayaran,Pendaftaran,120772.17,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-05
+TX001602,P00425,Tagihan,Lainnya,197099.6,BPJS,BPJS Kesehatan,,2024-03-07
+TX001603,P00799,Tagihan,Tindakan,33035.43,Asuransi Swasta,Prudential,,2025-05-25
+TX001604,P00749,Tagihan,Pendaftaran,317122.03,Umum,,,2025-10-20
+TX001605,P00105,Pembayaran,Lainnya,63758.34,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-07
+TX001606,P00516,Tagihan,Radiologi,71919.38,Umum,,,2025-02-15
+TX001607,P00429,Klaim,Pemeriksaan Lab,45682.95,Asuransi Swasta,Manulife,,2024-07-10
+TX001608,P00883,Tagihan,Pemeriksaan Lab,74500.7,BPJS,BPJS Kesehatan,,2023-12-13
+TX001609,P00245,Tagihan,Pemeriksaan Lab,38233.22,BPJS,BPJS Kesehatan,,2025-07-17
+TX001610,P00825,Pembayaran,Lainnya,29457.64,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-14
+TX001611,P00054,Tagihan,Pendaftaran,73288.18,BPJS,BPJS Kesehatan,,2024-12-19
+TX001612,P00285,Tagihan,Pendaftaran,41098.6,BPJS,BPJS Kesehatan,,2024-06-06
+TX001613,P00150,Tagihan,Obat,233898.15,BPJS,BPJS Kesehatan,,2024-04-26
+TX001614,P00781,Pembayaran,Konsultasi,66758.04,Umum,,Tunai,2025-04-19
+TX001615,P00563,Pembayaran,Tindakan,67452.76,Umum,,Kartu Kredit,2024-10-30
+TX001616,P00066,Pembayaran,Tindakan,84533.05,Asuransi Swasta,Allianz,Transfer,2024-07-30
+TX001617,P00664,Tagihan,Rawat Inap,218287.69,Asuransi Swasta,Manulife,,2024-08-06
+TX001618,P00149,Pembetulan,Pemeriksaan Lab,113023.84,BPJS,BPJS Kesehatan,,2025-03-13
+TX001619,P00151,Pembayaran,Pemeriksaan Lab,97327.88,Umum,,Kartu Kredit,2025-05-02
+TX001620,P00232,Tagihan,Lainnya,117550.68,Asuransi Swasta,Allianz,,2025-09-29
+TX001621,P00468,Tagihan,Pendaftaran,76725.42,BPJS,BPJS Kesehatan,,2024-02-20
+TX001622,P00649,Pembayaran,Pemeriksaan Lab,55130.32,Umum,,Kartu Kredit,2025-04-09
+TX001623,P00758,Tagihan,Radiologi,76274.04,Asuransi Swasta,Prudential,,2024-12-29
+TX001624,P00465,Tagihan,Tindakan,93392.83,BPJS,BPJS Kesehatan,,2024-06-16
+TX001625,P00165,Pembayaran,Rawat Inap,75035.01,Umum,,Tunai,2025-06-09
+TX001626,P00255,Tagihan,Obat,70421.91,Umum,,,2025-06-19
+TX001627,P00356,Tagihan,Lainnya,159610.38,BPJS,BPJS Kesehatan,,2025-04-02
+TX001628,P00647,Pembetulan,Radiologi,166297.92,Umum,,,2025-09-14
+TX001629,P00733,Tagihan,Rawat Inap,50996.04,Umum,,,2023-11-14
+TX001630,P00499,Tagihan,Lainnya,87733.97,BPJS,BPJS Kesehatan,,2024-05-04
+TX001631,P00142,Klaim,Rawat Inap,105236.76,BPJS,BPJS Kesehatan,,2024-10-28
+TX001632,P00297,Pembayaran,Lainnya,81197.26,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-25
+TX001633,P00633,Tagihan,Tindakan,83540.35,BPJS,BPJS Kesehatan,,2024-01-06
+TX001634,P00586,Pembayaran,Lainnya,68783.61,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-25
+TX001635,P00698,Klaim,Konsultasi,258780.87,BPJS,BPJS Kesehatan,,2025-04-30
+TX001636,P00275,Pembayaran,Radiologi,33200.28,Umum,,Tunai,2025-03-15
+TX001637,P00374,Tagihan,Radiologi,58434.38,Asuransi Swasta,Allianz,,2025-10-05
+TX001638,P00690,Pembayaran,Pemeriksaan Lab,24423.18,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-15
+TX001639,P00418,Tagihan,Obat,156385.99,BPJS,BPJS Kesehatan,,2024-02-07
+TX001640,P00368,Tagihan,Radiologi,89927.27,Umum,,,2024-11-21
+TX001641,P00238,Klaim,Radiologi,32523.26,BPJS,BPJS Kesehatan,,2024-02-09
+TX001642,P00565,Tagihan,Radiologi,88232.58,BPJS,BPJS Kesehatan,,2025-10-04
+TX001643,P00731,Pembayaran,Pemeriksaan Lab,41717.89,Asuransi Swasta,Allianz,Kartu Kredit,2024-06-13
+TX001644,P00214,Klaim,Tindakan,121392.09,BPJS,BPJS Kesehatan,,2023-11-25
+TX001645,P00476,Tagihan,Obat,49355.08,Asuransi Swasta,Sinarmas,,2023-12-13
+TX001646,P00171,Klaim,Lainnya,109314.22,Asuransi Swasta,AIA,,2025-07-23
+TX001647,P00848,Tagihan,Lainnya,53669.66,BPJS,BPJS Kesehatan,,2025-03-30
+TX001648,P00263,Pembayaran,Rawat Inap,81558.97,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-15
+TX001649,P00599,Pembayaran,Radiologi,85053.97,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-15
+TX001650,P00559,Pembayaran,Pemeriksaan Lab,38106.32,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-06
+TX001651,P00477,Tagihan,Obat,52034.04,Umum,,,2023-12-21
+TX001652,P00272,Tagihan,Pemeriksaan Lab,99979.72,Asuransi Swasta,Allianz,,2024-08-11
+TX001653,P00545,Tagihan,Tindakan,44592.32,Asuransi Swasta,Prudential,,2025-05-22
+TX001654,P00068,Tagihan,Pemeriksaan Lab,111685.25,BPJS,BPJS Kesehatan,,2023-11-11
+TX001655,P00719,Pembayaran,Pendaftaran,29858.16,Umum,,Tunai,2025-05-26
+TX001656,P00599,Klaim,Tindakan,38272.99,BPJS,BPJS Kesehatan,,2024-04-02
+TX001657,P00859,Pembayaran,Pendaftaran,91184.91,Umum,,Tunai,2024-01-07
+TX001658,P00356,Klaim,Pendaftaran,124174.06,BPJS,BPJS Kesehatan,,2023-12-19
+TX001659,P00683,Klaim,Tindakan,29903.4,Asuransi Swasta,AXA Mandiri,,2025-07-21
+TX001660,P00817,Tagihan,Pendaftaran,104905.93,Umum,,,2025-05-03
+TX001661,P00132,Pembayaran,Konsultasi,79715.78,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-19
+TX001662,P00583,Tagihan,Radiologi,61863.4,BPJS,BPJS Kesehatan,,2025-03-01
+TX001663,P00174,Pembayaran,Radiologi,74764.88,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-21
+TX001664,P00734,Pembayaran,Tindakan,18860.4,Asuransi Swasta,Manulife,QRIS,2025-10-01
+TX001665,P00034,Pembayaran,Obat,56314.91,Umum,,Tunai,2023-12-18
+TX001666,P00812,Pembayaran,Lainnya,175098.29,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-19
+TX001667,P00575,Tagihan,Rawat Inap,111961.69,BPJS,BPJS Kesehatan,,2024-03-04
+TX001668,P00474,Pembayaran,Lainnya,101712.8,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-30
+TX001669,P00044,Pembetulan,Obat,29359.57,Asuransi Swasta,AIA,,2025-05-04
+TX001670,P00472,Pembayaran,Radiologi,37204.87,Asuransi Swasta,AIA,Kartu Kredit,2024-10-02
+TX001671,P00257,Tagihan,Pendaftaran,81177.58,BPJS,BPJS Kesehatan,,2024-02-09
+TX001672,P00383,Tagihan,Obat,58675.69,Umum,,,2025-06-25
+TX001673,P00395,Tagihan,Rawat Inap,45804.92,Asuransi Swasta,Manulife,,2024-03-04
+TX001674,P00705,Tagihan,Radiologi,182039.82,Asuransi Swasta,AXA Mandiri,,2024-08-09
+TX001675,P00562,Pembayaran,Pendaftaran,159496.15,Umum,,Kartu Kredit,2025-03-28
+TX001676,P00767,Pembayaran,Radiologi,36709.64,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-02
+TX001677,P00142,Tagihan,Radiologi,79408.48,BPJS,BPJS Kesehatan,,2024-07-02
+TX001678,P00098,Tagihan,Pendaftaran,80248.86,Umum,,,2024-12-27
+TX001679,P00357,Pembayaran,Tindakan,116149.17,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-23
+TX001680,P00653,Klaim,Pendaftaran,111108.24,BPJS,BPJS Kesehatan,,2025-09-11
+TX001681,P00207,Tagihan,Pendaftaran,102260.58,BPJS,BPJS Kesehatan,,2025-02-11
+TX001682,P00034,Pembayaran,Lainnya,66369.67,Umum,,Tunai,2025-10-23
+TX001683,P00883,Tagihan,Pendaftaran,99471.63,BPJS,BPJS Kesehatan,,2024-11-30
+TX001684,P00807,Pembayaran,Radiologi,124678.88,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-24
+TX001685,P00232,Tagihan,Radiologi,51396.18,Asuransi Swasta,Allianz,,2024-07-15
+TX001686,P00133,Tagihan,Obat,37946.46,Umum,,,2024-04-16
+TX001687,P00881,Tagihan,Rawat Inap,81775.01,BPJS,BPJS Kesehatan,,2024-02-08
+TX001688,P00403,Tagihan,Rawat Inap,68477.7,BPJS,BPJS Kesehatan,,2024-05-05
+TX001689,P00323,Tagihan,Tindakan,99883.61,BPJS,BPJS Kesehatan,,2025-06-22
+TX001690,P00635,Tagihan,Pemeriksaan Lab,145420.07,Asuransi Swasta,AXA Mandiri,,2024-02-21
+TX001691,P00553,Pembayaran,Pendaftaran,61698.14,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-04
+TX001692,P00151,Tagihan,Obat,133848.55,Umum,,,2025-08-06
+TX001693,P00494,Tagihan,Pendaftaran,42313.45,BPJS,BPJS Kesehatan,,2024-04-03
+TX001694,P00569,Pembayaran,Lainnya,73010.94,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-26
+TX001695,P00337,Pembayaran,Tindakan,19652.09,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-09
+TX001696,P00833,Pembayaran,Pemeriksaan Lab,32541.98,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-30
+TX001697,P00316,Tagihan,Pendaftaran,100978.54,Umum,,,2025-01-11
+TX001698,P00524,Pembayaran,Pemeriksaan Lab,126360.85,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2024-03-24
+TX001699,P00756,Tagihan,Rawat Inap,108319.23,Umum,,,2023-11-26
+TX001700,P00116,Tagihan,Obat,107494.55,Umum,,,2024-08-15
+TX001701,P00407,Tagihan,Obat,61951.79,BPJS,BPJS Kesehatan,,2025-09-12
+TX001702,P00018,Pembayaran,Radiologi,26439.65,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-07
+TX001703,P00297,Tagihan,Lainnya,95386.38,BPJS,BPJS Kesehatan,,2024-10-24
+TX001704,P00381,Pembetulan,Radiologi,78652.39,Umum,,,2024-02-27
+TX001705,P00880,Tagihan,Obat,83720.0,Asuransi Swasta,Allianz,,2025-03-17
+TX001706,P00658,Klaim,Rawat Inap,283680.01,Umum,,,2025-03-11
+TX001707,P00497,Pembayaran,Lainnya,119262.56,Asuransi Swasta,Sinarmas,Transfer,2024-12-23
+TX001708,P00385,Pembayaran,Lainnya,86622.26,Umum,,Kartu Kredit,2025-09-23
+TX001709,P00825,Tagihan,Rawat Inap,158189.1,BPJS,BPJS Kesehatan,,2025-05-09
+TX001710,P00369,Pembayaran,Pemeriksaan Lab,118162.95,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-24
+TX001711,P00360,Pembayaran,Obat,148223.97,Umum,,Tunai,2024-10-01
+TX001712,P00884,Tagihan,Tindakan,118173.74,BPJS,BPJS Kesehatan,,2024-06-21
+TX001713,P00517,Tagihan,Pemeriksaan Lab,62620.69,BPJS,BPJS Kesehatan,,2023-11-22
+TX001714,P00631,Tagihan,Radiologi,89771.82,BPJS,BPJS Kesehatan,,2025-06-15
+TX001715,P00728,Tagihan,Rawat Inap,97259.03,BPJS,BPJS Kesehatan,,2024-10-03
+TX001716,P00707,Tagihan,Rawat Inap,46989.11,BPJS,BPJS Kesehatan,,2025-09-03
+TX001717,P00388,Tagihan,Obat,165163.35,Umum,,,2024-11-07
+TX001718,P00797,Tagihan,Konsultasi,238112.26,Umum,,,2024-06-26
+TX001719,P00285,Pembayaran,Rawat Inap,43373.8,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-19
+TX001720,P00619,Pembayaran,Tindakan,90952.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-24
+TX001721,P00258,Tagihan,Pemeriksaan Lab,81274.44,BPJS,BPJS Kesehatan,,2024-04-29
+TX001722,P00069,Pembayaran,Pendaftaran,86872.27,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-22
+TX001723,P00717,Tagihan,Konsultasi,70356.81,BPJS,BPJS Kesehatan,,2025-10-10
+TX001724,P00708,Pembayaran,Konsultasi,54600.87,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-16
+TX001725,P00737,Tagihan,Konsultasi,59084.42,Umum,,,2024-02-20
+TX001726,P00639,Tagihan,Obat,101558.67,Asuransi Swasta,Sinarmas,,2024-04-14
+TX001727,P00497,Pembayaran,Radiologi,31118.53,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-03-31
+TX001728,P00753,Pembayaran,Radiologi,63988.4,Umum,,Kartu Kredit,2024-04-28
+TX001729,P00293,Tagihan,Konsultasi,45752.95,BPJS,BPJS Kesehatan,,2025-02-17
+TX001730,P00658,Tagihan,Pemeriksaan Lab,102437.16,Umum,,,2024-05-11
+TX001731,P00034,Tagihan,Konsultasi,107477.43,Umum,,,2025-08-28
+TX001732,P00759,Tagihan,Radiologi,40906.91,Asuransi Swasta,Prudential,,2025-03-23
+TX001733,P00329,Pembayaran,Tindakan,267952.39,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-09
+TX001734,P00387,Tagihan,Rawat Inap,63321.89,BPJS,BPJS Kesehatan,,2024-02-07
+TX001735,P00849,Pembayaran,Pemeriksaan Lab,44351.73,Umum,,Kartu Kredit,2025-07-31
+TX001736,P00395,Pembayaran,Radiologi,25280.65,Asuransi Swasta,Manulife,QRIS,2024-08-17
+TX001737,P00334,Tagihan,Pemeriksaan Lab,89216.69,Asuransi Swasta,AIA,,2025-03-19
+TX001738,P00075,Pembayaran,Tindakan,28765.99,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-05
+TX001739,P00834,Tagihan,Lainnya,223124.57,BPJS,BPJS Kesehatan,,2025-08-13
+TX001740,P00319,Tagihan,Pemeriksaan Lab,259809.14,Asuransi Swasta,Allianz,,2024-09-29
+TX001741,P00669,Tagihan,Pendaftaran,75477.99,BPJS,BPJS Kesehatan,,2024-12-19
+TX001742,P00125,Pembayaran,Radiologi,23068.64,Umum,,Kartu Kredit,2024-07-25
+TX001743,P00870,Tagihan,Radiologi,68022.27,BPJS,BPJS Kesehatan,,2024-02-13
+TX001744,P00219,Tagihan,Obat,98639.44,BPJS,BPJS Kesehatan,,2024-03-19
+TX001745,P00354,Tagihan,Pemeriksaan Lab,33363.43,BPJS,BPJS Kesehatan,,2024-05-12
+TX001746,P00446,Tagihan,Pendaftaran,127449.57,Asuransi Swasta,Allianz,,2024-10-02
+TX001747,P00632,Pembayaran,Pendaftaran,66335.7,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-31
+TX001748,P00774,Tagihan,Tindakan,113293.36,Umum,,,2024-07-09
+TX001749,P00675,Pembayaran,Rawat Inap,36245.41,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2024-09-13
+TX001750,P00668,Tagihan,Radiologi,179407.61,BPJS,BPJS Kesehatan,,2023-11-21
+TX001751,P00899,Pembayaran,Lainnya,49296.39,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-27
+TX001752,P00472,Klaim,Radiologi,69726.32,Asuransi Swasta,AIA,,2024-07-10
+TX001753,P00586,Tagihan,Radiologi,101835.77,BPJS,BPJS Kesehatan,,2025-06-30
+TX001754,P00118,Tagihan,Konsultasi,204088.59,Asuransi Swasta,Sinarmas,,2024-10-26
+TX001755,P00213,Tagihan,Rawat Inap,94935.04,Asuransi Swasta,Prudential,,2024-01-17
+TX001756,P00440,Tagihan,Pendaftaran,53827.99,BPJS,BPJS Kesehatan,,2024-07-05
+TX001757,P00259,Tagihan,Pemeriksaan Lab,145006.1,BPJS,BPJS Kesehatan,,2023-12-19
+TX001758,P00232,Tagihan,Konsultasi,67418.52,Asuransi Swasta,Allianz,,2025-06-20
+TX001759,P00131,Tagihan,Konsultasi,45013.68,Asuransi Swasta,AXA Mandiri,,2024-07-04
+TX001760,P00659,Pembetulan,Radiologi,63744.02,BPJS,BPJS Kesehatan,,2025-09-10
+TX001761,P00290,Klaim,Lainnya,139373.66,Asuransi Swasta,Allianz,,2024-05-13
+TX001762,P00697,Pembetulan,Tindakan,146727.58,BPJS,BPJS Kesehatan,,2024-09-04
+TX001763,P00152,Tagihan,Obat,20000.0,Asuransi Swasta,Prudential,,2023-12-29
+TX001764,P00064,Tagihan,Obat,122274.06,BPJS,BPJS Kesehatan,,2025-06-29
+TX001765,P00343,Klaim,Lainnya,53567.48,BPJS,BPJS Kesehatan,,2025-08-22
+TX001766,P00071,Pembayaran,Obat,70975.41,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-15
+TX001767,P00363,Pembayaran,Konsultasi,71303.73,Umum,,Tunai,2025-07-18
+TX001768,P00426,Tagihan,Tindakan,86649.11,BPJS,BPJS Kesehatan,,2025-06-25
+TX001769,P00646,Tagihan,Pemeriksaan Lab,27625.59,BPJS,BPJS Kesehatan,,2024-12-31
+TX001770,P00562,Tagihan,Pemeriksaan Lab,131170.34,Umum,,,2024-02-07
+TX001771,P00132,Pembayaran,Lainnya,72521.79,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-14
+TX001772,P00464,Tagihan,Konsultasi,133738.89,Umum,,,2025-01-01
+TX001773,P00341,Pembayaran,Konsultasi,50583.18,Asuransi Swasta,AXA Mandiri,QRIS,2024-10-21
+TX001774,P00087,Klaim,Pendaftaran,69886.0,Asuransi Swasta,Allianz,,2024-05-09
+TX001775,P00800,Pembayaran,Konsultasi,35255.6,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-05
+TX001776,P00364,Tagihan,Konsultasi,48445.19,BPJS,BPJS Kesehatan,,2024-10-31
+TX001777,P00383,Klaim,Lainnya,107250.97,Umum,,,2023-12-25
+TX001778,P00747,Pembayaran,Lainnya,42206.13,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-01
+TX001779,P00816,Klaim,Radiologi,97606.03,BPJS,BPJS Kesehatan,,2024-04-04
+TX001780,P00474,Tagihan,Tindakan,116708.77,BPJS,BPJS Kesehatan,,2024-03-21
+TX001781,P00673,Pembayaran,Obat,41198.06,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-08
+TX001782,P00521,Tagihan,Konsultasi,187903.04,BPJS,BPJS Kesehatan,,2024-04-02
+TX001783,P00806,Tagihan,Radiologi,61890.54,BPJS,BPJS Kesehatan,,2025-02-06
+TX001784,P00883,Tagihan,Rawat Inap,125468.93,BPJS,BPJS Kesehatan,,2025-03-08
+TX001785,P00178,Tagihan,Tindakan,66408.35,BPJS,BPJS Kesehatan,,2024-02-23
+TX001786,P00391,Pembayaran,Radiologi,92762.33,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-04
+TX001787,P00609,Pembayaran,Lainnya,45641.5,Asuransi Swasta,AIA,Transfer,2025-09-21
+TX001788,P00044,Tagihan,Lainnya,67675.34,Asuransi Swasta,AIA,,2024-05-24
+TX001789,P00178,Pembayaran,Radiologi,113686.06,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-10
+TX001790,P00726,Tagihan,Konsultasi,264563.7,BPJS,BPJS Kesehatan,,2024-01-13
+TX001791,P00302,Tagihan,Pendaftaran,95503.7,BPJS,BPJS Kesehatan,,2024-10-09
+TX001792,P00175,Pembayaran,Radiologi,43957.76,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-23
+TX001793,P00003,Pembayaran,Obat,144353.96,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-28
+TX001794,P00413,Pembayaran,Pendaftaran,51879.96,Asuransi Swasta,Sinarmas,QRIS,2025-05-27
+TX001795,P00771,Pembayaran,Pemeriksaan Lab,111773.99,Umum,,Kartu Kredit,2025-06-06
+TX001796,P00447,Tagihan,Rawat Inap,98232.78,Asuransi Swasta,Allianz,,2024-03-10
+TX001797,P00720,Tagihan,Lainnya,74970.6,Umum,,,2024-01-02
+TX001798,P00275,Pembayaran,Radiologi,32803.06,Umum,,Tunai,2025-05-16
+TX001799,P00052,Tagihan,Tindakan,78007.07,BPJS,BPJS Kesehatan,,2025-02-27
+TX001800,P00269,Tagihan,Rawat Inap,32059.31,BPJS,BPJS Kesehatan,,2024-03-22
+TX001801,P00344,Tagihan,Pendaftaran,70416.1,BPJS,BPJS Kesehatan,,2025-08-18
+TX001802,P00781,Tagihan,Radiologi,35510.1,Umum,,,2024-07-22
+TX001803,P00832,Tagihan,Pemeriksaan Lab,228674.5,BPJS,BPJS Kesehatan,,2024-09-09
+TX001804,P00291,Tagihan,Konsultasi,50860.77,Umum,,,2024-05-10
+TX001805,P00148,Tagihan,Tindakan,75558.75,Umum,,,2025-08-22
+TX001806,P00458,Pembayaran,Konsultasi,86257.36,Asuransi Swasta,Manulife,Transfer,2025-09-14
+TX001807,P00500,Pembayaran,Lainnya,23197.02,Asuransi Swasta,Manulife,QRIS,2025-08-09
+TX001808,P00032,Tagihan,Pemeriksaan Lab,111365.59,BPJS,BPJS Kesehatan,,2024-07-28
+TX001809,P00116,Tagihan,Pemeriksaan Lab,107512.42,Umum,,,2024-02-08
+TX001810,P00724,Pembayaran,Obat,8005.0,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-18
+TX001811,P00550,Pembayaran,Lainnya,31783.75,Asuransi Swasta,AXA Mandiri,Transfer,2025-08-01
+TX001812,P00279,Pembayaran,Obat,54617.69,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-28
+TX001813,P00594,Klaim,Pendaftaran,154425.45,BPJS,BPJS Kesehatan,,2024-12-09
+TX001814,P00356,Tagihan,Lainnya,44112.71,BPJS,BPJS Kesehatan,,2024-01-12
+TX001815,P00622,Tagihan,Pendaftaran,69449.98,Asuransi Swasta,AIA,,2024-03-29
+TX001816,P00226,Tagihan,Obat,119239.49,BPJS,BPJS Kesehatan,,2023-12-26
+TX001817,P00194,Pembayaran,Tindakan,50223.55,Umum,,Kartu Kredit,2024-09-27
+TX001818,P00891,Pembayaran,Obat,87316.22,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-26
+TX001819,P00626,Pembayaran,Radiologi,51371.98,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-03
+TX001820,P00010,Tagihan,Lainnya,39646.3,BPJS,BPJS Kesehatan,,2024-02-27
+TX001821,P00449,Pembayaran,Lainnya,247344.25,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-11
+TX001822,P00619,Pembayaran,Pendaftaran,27510.33,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-31
+TX001823,P00504,Tagihan,Pendaftaran,170923.13,BPJS,BPJS Kesehatan,,2024-04-14
+TX001824,P00136,Klaim,Tindakan,241060.01,Umum,,,2024-05-18
+TX001825,P00840,Pembayaran,Konsultasi,38452.66,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-09
+TX001826,P00334,Tagihan,Konsultasi,61992.0,Asuransi Swasta,AIA,,2024-05-30
+TX001827,P00453,Pembayaran,Pemeriksaan Lab,30947.07,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-16
+TX001828,P00414,Pembayaran,Tindakan,75822.37,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-25
+TX001829,P00221,Pembayaran,Tindakan,28190.61,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-06
+TX001830,P00092,Tagihan,Lainnya,90039.47,BPJS,BPJS Kesehatan,,2025-10-16
+TX001831,P00214,Tagihan,Pemeriksaan Lab,34151.84,BPJS,BPJS Kesehatan,,2024-11-04
+TX001832,P00780,Tagihan,Pemeriksaan Lab,98189.06,BPJS,BPJS Kesehatan,,2025-05-03
+TX001833,P00731,Klaim,Tindakan,141960.52,Asuransi Swasta,Allianz,,2025-09-15
+TX001834,P00398,Tagihan,Konsultasi,163765.14,Umum,,,2023-11-20
+TX001835,P00630,Pembayaran,Konsultasi,54047.66,Umum,,Tunai,2024-11-03
+TX001836,P00612,Klaim,Konsultasi,100045.7,Umum,,,2024-07-11
+TX001837,P00675,Tagihan,Pendaftaran,71113.79,Asuransi Swasta,AXA Mandiri,,2025-01-05
+TX001838,P00730,Tagihan,Rawat Inap,138749.25,Umum,,,2024-08-22
+TX001839,P00604,Pembayaran,Tindakan,48981.29,Umum,,Kartu Kredit,2024-07-11
+TX001840,P00422,Tagihan,Radiologi,65292.49,BPJS,BPJS Kesehatan,,2024-06-29
+TX001841,P00164,Pembayaran,Radiologi,76731.46,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-29
+TX001842,P00675,Tagihan,Radiologi,133040.24,Asuransi Swasta,AXA Mandiri,,2025-06-17
+TX001843,P00505,Klaim,Pendaftaran,107791.82,Umum,,,2024-10-29
+TX001844,P00469,Tagihan,Rawat Inap,28575.01,Asuransi Swasta,Allianz,,2024-10-13
+TX001845,P00161,Tagihan,Pemeriksaan Lab,127075.81,BPJS,BPJS Kesehatan,,2025-07-29
+TX001846,P00632,Tagihan,Lainnya,49378.74,BPJS,BPJS Kesehatan,,2025-05-22
+TX001847,P00103,Pembayaran,Konsultasi,124664.48,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-22
+TX001848,P00253,Tagihan,Pemeriksaan Lab,128233.31,BPJS,BPJS Kesehatan,,2024-05-02
+TX001849,P00627,Tagihan,Rawat Inap,107335.01,Umum,,,2024-09-22
+TX001850,P00176,Tagihan,Radiologi,123309.45,Umum,,,2025-09-27
+TX001851,P00305,Pembetulan,Radiologi,175346.0,BPJS,BPJS Kesehatan,,2025-04-09
+TX001852,P00063,Tagihan,Pemeriksaan Lab,294474.01,Umum,,,2025-08-22
+TX001853,P00679,Tagihan,Pemeriksaan Lab,84715.45,Umum,,,2024-11-12
+TX001854,P00175,Pembayaran,Pendaftaran,23544.04,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-24
+TX001855,P00227,Tagihan,Konsultasi,144623.59,Asuransi Swasta,Sinarmas,,2025-04-06
+TX001856,P00532,Tagihan,Obat,34596.57,BPJS,BPJS Kesehatan,,2025-07-13
+TX001857,P00421,Tagihan,Radiologi,71688.0,Asuransi Swasta,Prudential,,2023-11-16
+TX001858,P00642,Pembayaran,Rawat Inap,162761.3,Umum,,Tunai,2024-07-31
+TX001859,P00501,Pembayaran,Pendaftaran,32142.22,Umum,,Kartu Kredit,2025-07-04
+TX001860,P00747,Tagihan,Pendaftaran,126375.98,BPJS,BPJS Kesehatan,,2023-11-13
+TX001861,P00714,Klaim,Pemeriksaan Lab,111904.88,Umum,,,2025-05-17
+TX001862,P00684,Tagihan,Rawat Inap,54092.56,Umum,,,2024-03-28
+TX001863,P00062,Pembayaran,Lainnya,57441.99,Umum,,Kartu Kredit,2025-01-03
+TX001864,P00570,Tagihan,Lainnya,149653.54,BPJS,BPJS Kesehatan,,2023-12-25
+TX001865,P00773,Pembayaran,Lainnya,114896.97,Asuransi Swasta,Sinarmas,Kartu Kredit,2024-12-07
+TX001866,P00424,Pembayaran,Radiologi,39587.35,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-14
+TX001867,P00296,Tagihan,Lainnya,55898.58,BPJS,BPJS Kesehatan,,2024-02-12
+TX001868,P00292,Tagihan,Radiologi,151993.42,BPJS,BPJS Kesehatan,,2025-10-28
+TX001869,P00554,Tagihan,Lainnya,115956.11,Umum,,,2024-02-29
+TX001870,P00583,Tagihan,Rawat Inap,24127.58,BPJS,BPJS Kesehatan,,2024-07-06
+TX001871,P00586,Tagihan,Tindakan,23230.09,BPJS,BPJS Kesehatan,,2025-10-05
+TX001872,P00335,Tagihan,Lainnya,202498.47,BPJS,BPJS Kesehatan,,2023-12-22
+TX001873,P00030,Tagihan,Rawat Inap,20000.0,BPJS,BPJS Kesehatan,,2025-10-18
+TX001874,P00544,Klaim,Obat,145221.79,BPJS,BPJS Kesehatan,,2024-07-31
+TX001875,P00097,Tagihan,Tindakan,78621.26,BPJS,BPJS Kesehatan,,2025-01-31
+TX001876,P00372,Pembayaran,Pemeriksaan Lab,79593.26,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-15
+TX001877,P00256,Pembayaran,Rawat Inap,83003.55,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-28
+TX001878,P00241,Tagihan,Tindakan,102056.37,BPJS,BPJS Kesehatan,,2024-01-31
+TX001879,P00221,Pembayaran,Konsultasi,70095.38,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-30
+TX001880,P00169,Pembayaran,Lainnya,82245.31,Umum,,Kartu Kredit,2025-10-27
+TX001881,P00756,Klaim,Konsultasi,52736.61,Umum,,,2024-08-23
+TX001882,P00732,Tagihan,Pendaftaran,104325.73,BPJS,BPJS Kesehatan,,2024-12-14
+TX001883,P00028,Tagihan,Tindakan,40977.78,Umum,,,2025-05-22
+TX001884,P00896,Tagihan,Radiologi,161294.26,Asuransi Swasta,Sinarmas,,2024-02-12
+TX001885,P00779,Pembayaran,Rawat Inap,34613.18,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-16
+TX001886,P00635,Tagihan,Pemeriksaan Lab,114105.67,Asuransi Swasta,AXA Mandiri,,2025-01-05
+TX001887,P00157,Tagihan,Konsultasi,104262.42,Umum,,,2024-10-26
+TX001888,P00116,Tagihan,Obat,113863.27,Umum,,,2024-07-11
+TX001889,P00049,Tagihan,Lainnya,74751.11,BPJS,BPJS Kesehatan,,2025-05-09
+TX001890,P00710,Pembayaran,Pemeriksaan Lab,90092.19,Umum,,Kartu Kredit,2023-12-18
+TX001891,P00541,Klaim,Pemeriksaan Lab,69301.16,Umum,,,2025-05-12
+TX001892,P00355,Pembayaran,Pemeriksaan Lab,54234.05,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-16
+TX001893,P00578,Tagihan,Konsultasi,60582.99,Umum,,,2025-06-12
+TX001894,P00035,Tagihan,Obat,70647.61,BPJS,BPJS Kesehatan,,2024-04-04
+TX001895,P00425,Pembayaran,Pendaftaran,16651.05,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-07
+TX001896,P00585,Pembayaran,Rawat Inap,97488.68,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-23
+TX001897,P00023,Pembayaran,Tindakan,40313.45,Umum,,Tunai,2025-09-01
+TX001898,P00861,Tagihan,Radiologi,78686.03,Umum,,,2025-08-06
+TX001899,P00474,Tagihan,Rawat Inap,77424.05,BPJS,BPJS Kesehatan,,2025-06-21
+TX001900,P00171,Tagihan,Pemeriksaan Lab,85680.48,Asuransi Swasta,AIA,,2025-08-20
+TX001901,P00124,Tagihan,Pemeriksaan Lab,60940.31,BPJS,BPJS Kesehatan,,2025-07-27
+TX001902,P00192,Tagihan,Pendaftaran,43576.29,Asuransi Swasta,Sinarmas,,2024-03-23
+TX001903,P00430,Pembayaran,Radiologi,26797.07,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-09
+TX001904,P00393,Tagihan,Pendaftaran,79810.88,Asuransi Swasta,Manulife,,2025-03-08
+TX001905,P00396,Klaim,Pemeriksaan Lab,103508.19,BPJS,BPJS Kesehatan,,2023-11-29
+TX001906,P00354,Pembayaran,Lainnya,38180.65,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-24
+TX001907,P00503,Pembayaran,Konsultasi,97494.35,Umum,,Tunai,2025-09-16
+TX001908,P00002,Tagihan,Konsultasi,130062.3,Umum,,,2025-02-20
+TX001909,P00206,Tagihan,Tindakan,55050.33,Umum,,,2024-02-27
+TX001910,P00142,Pembayaran,Obat,70491.07,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-16
+TX001911,P00034,Tagihan,Obat,62545.88,Umum,,,2024-10-16
+TX001912,P00483,Tagihan,Radiologi,116751.42,Asuransi Swasta,AIA,,2024-11-10
+TX001913,P00296,Pembayaran,Rawat Inap,136632.5,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-22
+TX001914,P00691,Tagihan,Obat,118729.95,Asuransi Swasta,Allianz,,2025-04-09
+TX001915,P00342,Pembayaran,Lainnya,45780.13,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-27
+TX001916,P00614,Tagihan,Konsultasi,147490.99,Umum,,,2025-02-27
+TX001917,P00731,Pembayaran,Radiologi,137625.48,Asuransi Swasta,Allianz,QRIS,2023-12-06
+TX001918,P00406,Tagihan,Obat,84389.46,Asuransi Swasta,Allianz,,2024-07-19
+TX001919,P00504,Tagihan,Konsultasi,64538.71,BPJS,BPJS Kesehatan,,2025-06-18
+TX001920,P00534,Tagihan,Rawat Inap,38497.55,BPJS,BPJS Kesehatan,,2025-07-29
+TX001921,P00527,Tagihan,Rawat Inap,20000.0,Umum,,,2023-11-19
+TX001922,P00057,Tagihan,Konsultasi,57295.14,Umum,,,2024-09-13
+TX001923,P00557,Pembayaran,Radiologi,117940.8,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-24
+TX001924,P00466,Pembayaran,Tindakan,125149.53,BPJS,BPJS Kesehatan,Klaim BPJS,2024-07-08
+TX001925,P00721,Tagihan,Pendaftaran,42366.11,BPJS,BPJS Kesehatan,,2024-01-31
+TX001926,P00060,Tagihan,Radiologi,64203.71,BPJS,BPJS Kesehatan,,2025-01-24
+TX001927,P00754,Klaim,Tindakan,124295.38,Umum,,,2024-10-20
+TX001928,P00655,Klaim,Pendaftaran,37926.29,BPJS,BPJS Kesehatan,,2025-04-11
+TX001929,P00291,Pembayaran,Lainnya,72511.55,Umum,,Tunai,2024-09-28
+TX001930,P00246,Tagihan,Radiologi,168996.05,Umum,,,2024-12-20
+TX001931,P00350,Pembayaran,Obat,29619.98,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-24
+TX001932,P00355,Pembayaran,Obat,20163.11,BPJS,BPJS Kesehatan,Klaim BPJS,2024-04-09
+TX001933,P00123,Tagihan,Lainnya,52846.7,Asuransi Swasta,Prudential,,2025-10-19
+TX001934,P00887,Tagihan,Obat,71124.36,BPJS,BPJS Kesehatan,,2025-07-25
+TX001935,P00551,Pembayaran,Obat,50967.56,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-29
+TX001936,P00406,Tagihan,Radiologi,74458.73,Asuransi Swasta,Allianz,,2024-04-22
+TX001937,P00319,Tagihan,Pemeriksaan Lab,45421.88,Asuransi Swasta,Allianz,,2024-04-18
+TX001938,P00076,Klaim,Rawat Inap,63177.08,BPJS,BPJS Kesehatan,,2025-03-30
+TX001939,P00826,Tagihan,Rawat Inap,53111.49,Umum,,,2025-03-08
+TX001940,P00736,Pembayaran,Konsultasi,121733.46,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-30
+TX001941,P00333,Pembayaran,Tindakan,46962.02,Asuransi Swasta,AIA,QRIS,2024-01-19
+TX001942,P00711,Tagihan,Obat,67355.31,BPJS,BPJS Kesehatan,,2025-09-28
+TX001943,P00192,Tagihan,Lainnya,95451.07,Asuransi Swasta,Sinarmas,,2024-05-26
+TX001944,P00167,Tagihan,Radiologi,107455.91,Asuransi Swasta,AXA Mandiri,,2025-04-22
+TX001945,P00167,Pembayaran,Radiologi,18647.07,Asuransi Swasta,AXA Mandiri,Kartu Kredit,2025-07-31
+TX001946,P00236,Tagihan,Lainnya,102024.75,Asuransi Swasta,AXA Mandiri,,2025-03-13
+TX001947,P00556,Tagihan,Konsultasi,125515.35,BPJS,BPJS Kesehatan,,2025-09-13
+TX001948,P00017,Pembayaran,Rawat Inap,21673.52,Asuransi Swasta,Allianz,Kartu Kredit,2023-12-11
+TX001949,P00817,Pembayaran,Tindakan,103351.28,Umum,,Tunai,2024-08-09
+TX001950,P00864,Tagihan,Rawat Inap,116619.31,Umum,,,2024-05-22
+TX001951,P00845,Tagihan,Pemeriksaan Lab,83847.78,Asuransi Swasta,Allianz,,2025-09-25
+TX001952,P00549,Tagihan,Tindakan,63983.1,BPJS,BPJS Kesehatan,,2024-06-20
+TX001953,P00058,Tagihan,Obat,234919.22,Asuransi Swasta,AXA Mandiri,,2025-02-05
+TX001954,P00244,Pembayaran,Obat,40132.25,Asuransi Swasta,AXA Mandiri,Transfer,2025-08-11
+TX001955,P00578,Tagihan,Rawat Inap,172087.67,Umum,,,2023-11-23
+TX001956,P00554,Pembayaran,Lainnya,39782.3,Umum,,Tunai,2025-04-13
+TX001957,P00611,Pembayaran,Tindakan,46878.84,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-27
+TX001958,P00515,Tagihan,Lainnya,180608.01,Umum,,,2024-10-07
+TX001959,P00340,Pembayaran,Lainnya,70858.9,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-20
+TX001960,P00160,Pembayaran,Pemeriksaan Lab,432310.22,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-14
+TX001961,P00664,Tagihan,Konsultasi,75860.2,Asuransi Swasta,Manulife,,2024-08-23
+TX001962,P00690,Tagihan,Obat,75780.52,BPJS,BPJS Kesehatan,,2025-07-05
+TX001963,P00227,Tagihan,Rawat Inap,38229.7,Asuransi Swasta,Sinarmas,,2025-04-26
+TX001964,P00306,Tagihan,Pendaftaran,147700.97,BPJS,BPJS Kesehatan,,2025-02-24
+TX001965,P00861,Tagihan,Tindakan,77515.29,Umum,,,2024-04-01
+TX001966,P00608,Pembayaran,Obat,63462.5,Asuransi Swasta,Prudential,QRIS,2025-08-16
+TX001967,P00587,Pembayaran,Radiologi,83849.01,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-03
+TX001968,P00659,Tagihan,Radiologi,28888.36,BPJS,BPJS Kesehatan,,2025-02-11
+TX001969,P00840,Tagihan,Lainnya,84835.6,BPJS,BPJS Kesehatan,,2024-06-10
+TX001970,P00577,Tagihan,Radiologi,201828.01,Umum,,,2024-11-08
+TX001971,P00660,Tagihan,Lainnya,55599.33,Asuransi Swasta,Sinarmas,,2024-03-05
+TX001972,P00606,Tagihan,Pendaftaran,125219.89,Umum,,,2024-12-27
+TX001973,P00132,Tagihan,Lainnya,116866.0,BPJS,BPJS Kesehatan,,2024-06-11
+TX001974,P00584,Tagihan,Obat,130387.19,BPJS,BPJS Kesehatan,,2024-08-22
+TX001975,P00125,Tagihan,Pemeriksaan Lab,88535.7,Umum,,,2024-08-22
+TX001976,P00169,Klaim,Lainnya,100535.23,Umum,,,2024-10-09
+TX001977,P00523,Klaim,Konsultasi,77229.27,BPJS,BPJS Kesehatan,,2024-03-06
+TX001978,P00015,Tagihan,Pemeriksaan Lab,301624.84,Umum,,,2024-04-06
+TX001979,P00114,Pembayaran,Pemeriksaan Lab,49058.29,Umum,,Kartu Kredit,2025-02-16
+TX001980,P00897,Tagihan,Tindakan,72708.89,Umum,,,2025-06-24
+TX001981,P00347,Pembayaran,Konsultasi,25232.48,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-23
+TX001982,P00297,Pembayaran,Pemeriksaan Lab,72111.07,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-30
+TX001983,P00362,Tagihan,Tindakan,76872.13,BPJS,BPJS Kesehatan,,2024-07-30
+TX001984,P00592,Klaim,Pendaftaran,88487.13,BPJS,BPJS Kesehatan,,2025-05-17
+TX001985,P00527,Pembayaran,Konsultasi,131088.77,Umum,,Tunai,2024-03-12
+TX001986,P00720,Tagihan,Rawat Inap,41305.04,Umum,,,2024-10-12
+TX001987,P00109,Pembayaran,Obat,117574.06,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-30
+TX001988,P00758,Tagihan,Rawat Inap,84456.36,Asuransi Swasta,Prudential,,2025-05-05
+TX001989,P00620,Tagihan,Konsultasi,109907.01,BPJS,BPJS Kesehatan,,2024-07-01
+TX001990,P00612,Klaim,Tindakan,113380.15,Umum,,,2024-07-01
+TX001991,P00741,Tagihan,Obat,95533.01,BPJS,BPJS Kesehatan,,2024-07-25
+TX001992,P00849,Tagihan,Lainnya,163310.42,Umum,,,2025-05-19
+TX001993,P00076,Pembayaran,Pendaftaran,162870.56,BPJS,BPJS Kesehatan,Klaim BPJS,2025-01-18
+TX001994,P00145,Pembayaran,Rawat Inap,38600.94,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-08
+TX001995,P00088,Tagihan,Radiologi,52046.01,Umum,,,2025-01-29
+TX001996,P00639,Tagihan,Pendaftaran,94420.01,Asuransi Swasta,Sinarmas,,2024-05-18
+TX001997,P00594,Pembayaran,Pendaftaran,43435.57,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-19
+TX001998,P00467,Tagihan,Obat,137802.3,Asuransi Swasta,AIA,,2023-11-17
+TX001999,P00323,Tagihan,Konsultasi,41926.45,BPJS,BPJS Kesehatan,,2025-03-14
+TX002000,P00328,Klaim,Radiologi,69728.6,BPJS,BPJS Kesehatan,,2025-01-19
+TX002001,P00008,Pembayaran,Radiologi,112036.29,Asuransi Swasta,Prudential,Kartu Kredit,2025-02-23
+TX002002,P00180,Tagihan,Obat,76310.97,BPJS,BPJS Kesehatan,,2025-03-05
+TX002003,P00488,Pembayaran,Pemeriksaan Lab,90446.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-30
+TX002004,P00610,Tagihan,Tindakan,63124.8,Asuransi Swasta,Sinarmas,,2024-08-02
+TX002005,P00087,Tagihan,Pendaftaran,159067.22,Asuransi Swasta,Allianz,,2024-02-18
+TX002006,P00126,Pembayaran,Obat,59350.06,BPJS,BPJS Kesehatan,Klaim BPJS,2025-11-05
+TX002007,P00760,Pembayaran,Radiologi,76016.78,Umum,,Tunai,2024-12-31
+TX002008,P00637,Tagihan,Rawat Inap,78713.93,BPJS,BPJS Kesehatan,,2025-10-22
+TX002009,P00227,Pembayaran,Lainnya,16828.23,Asuransi Swasta,Sinarmas,QRIS,2024-08-27
+TX002010,P00568,Klaim,Lainnya,171618.08,BPJS,BPJS Kesehatan,,2024-10-22
+TX002011,P00011,Tagihan,Radiologi,72557.72,BPJS,BPJS Kesehatan,,2024-10-10
+TX002012,P00346,Pembetulan,Radiologi,106750.52,BPJS,BPJS Kesehatan,,2024-01-23
+TX002013,P00536,Tagihan,Radiologi,109551.56,Asuransi Swasta,Sinarmas,,2024-08-06
+TX002014,P00860,Pembayaran,Rawat Inap,68107.06,Umum,,Tunai,2024-03-13
+TX002015,P00562,Pembayaran,Lainnya,72755.59,Umum,,Tunai,2025-04-12
+TX002016,P00559,Tagihan,Tindakan,59946.42,BPJS,BPJS Kesehatan,,2024-10-21
+TX002017,P00336,Tagihan,Konsultasi,124563.19,BPJS,BPJS Kesehatan,,2025-05-20
+TX002018,P00661,Klaim,Konsultasi,169428.45,Asuransi Swasta,Allianz,,2025-04-09
+TX002019,P00211,Pembayaran,Tindakan,90231.38,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-20
+TX002020,P00716,Pembayaran,Pemeriksaan Lab,114508.99,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-05
+TX002021,P00419,Tagihan,Lainnya,33090.19,BPJS,BPJS Kesehatan,,2024-12-22
+TX002022,P00168,Pembayaran,Rawat Inap,18946.91,Asuransi Swasta,Allianz,QRIS,2024-05-20
+TX002023,P00424,Pembayaran,Radiologi,27815.14,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-08
+TX002024,P00873,Pembayaran,Konsultasi,116739.38,Umum,,Kartu Kredit,2025-05-29
+TX002025,P00561,Pembayaran,Konsultasi,64625.48,Asuransi Swasta,Sinarmas,Transfer,2024-05-11
+TX002026,P00233,Tagihan,Rawat Inap,86613.37,Umum,,,2025-07-04
+TX002027,P00246,Pembayaran,Obat,42881.76,Umum,,Tunai,2024-07-18
+TX002028,P00138,Tagihan,Pendaftaran,38246.75,Umum,,,2024-01-10
+TX002029,P00387,Tagihan,Rawat Inap,67140.38,BPJS,BPJS Kesehatan,,2025-03-20
+TX002030,P00658,Pembayaran,Rawat Inap,58536.47,Umum,,Tunai,2024-12-23
+TX002031,P00383,Tagihan,Pendaftaran,124115.01,Umum,,,2024-09-19
+TX002032,P00408,Pembayaran,Tindakan,116540.38,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-07
+TX002033,P00319,Klaim,Tindakan,149866.03,Asuransi Swasta,Allianz,,2023-11-29
+TX002034,P00311,Pembayaran,Lainnya,71955.05,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-19
+TX002035,P00597,Tagihan,Lainnya,67045.55,BPJS,BPJS Kesehatan,,2025-01-19
+TX002036,P00804,Tagihan,Radiologi,85920.74,BPJS,BPJS Kesehatan,,2025-01-23
+TX002037,P00452,Klaim,Lainnya,111021.6,BPJS,BPJS Kesehatan,,2025-08-16
+TX002038,P00528,Pembayaran,Tindakan,101162.48,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-12
+TX002039,P00261,Tagihan,Obat,105884.71,BPJS,BPJS Kesehatan,,2025-10-19
+TX002040,P00860,Tagihan,Obat,73178.36,Umum,,,2025-04-29
+TX002041,P00285,Klaim,Pendaftaran,115036.65,BPJS,BPJS Kesehatan,,2024-10-14
+TX002042,P00772,Pembayaran,Radiologi,73096.26,Umum,,Kartu Kredit,2025-04-02
+TX002043,P00471,Pembayaran,Rawat Inap,34876.38,Asuransi Swasta,AIA,Transfer,2024-04-10
+TX002044,P00086,Klaim,Obat,113634.57,BPJS,BPJS Kesehatan,,2024-09-20
+TX002045,P00706,Tagihan,Konsultasi,141187.42,BPJS,BPJS Kesehatan,,2024-09-09
+TX002046,P00007,Klaim,Pemeriksaan Lab,217917.39,Umum,,,2025-08-04
+TX002047,P00020,Tagihan,Obat,40487.46,BPJS,BPJS Kesehatan,,2025-04-10
+TX002048,P00887,Tagihan,Konsultasi,57691.1,BPJS,BPJS Kesehatan,,2023-12-14
+TX002049,P00262,Tagihan,Lainnya,35371.91,Umum,,,2024-05-02
+TX002050,P00139,Tagihan,Obat,100076.59,BPJS,BPJS Kesehatan,,2023-12-13
+TX002051,P00592,Tagihan,Radiologi,39762.63,BPJS,BPJS Kesehatan,,2025-03-25
+TX002052,P00689,Tagihan,Obat,204856.27,BPJS,BPJS Kesehatan,,2025-05-22
+TX002053,P00190,Tagihan,Radiologi,84374.33,Umum,,,2025-10-28
+TX002054,P00001,Pembayaran,Konsultasi,91261.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-24
+TX002055,P00416,Pembayaran,Obat,48898.14,Asuransi Swasta,Allianz,Kartu Kredit,2024-03-06
+TX002056,P00051,Tagihan,Pendaftaran,27299.81,Asuransi Swasta,AXA Mandiri,,2025-08-11
+TX002057,P00859,Tagihan,Obat,50548.53,Umum,,,2025-04-22
+TX002058,P00681,Pembayaran,Konsultasi,33365.88,Umum,,Tunai,2025-10-09
+TX002059,P00792,Pembayaran,Obat,61953.55,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-15
+TX002060,P00615,Tagihan,Rawat Inap,125546.49,BPJS,BPJS Kesehatan,,2025-04-28
+TX002061,P00205,Pembayaran,Rawat Inap,27702.69,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-08
+TX002062,P00045,Tagihan,Rawat Inap,94307.27,Asuransi Swasta,Prudential,,2025-02-08
+TX002063,P00286,Pembayaran,Pemeriksaan Lab,77331.57,Umum,,Tunai,2024-02-23
+TX002064,P00529,Tagihan,Lainnya,112982.84,BPJS,BPJS Kesehatan,,2025-01-07
+TX002065,P00718,Tagihan,Tindakan,184411.21,BPJS,BPJS Kesehatan,,2025-03-10
+TX002066,P00634,Tagihan,Radiologi,48972.34,BPJS,BPJS Kesehatan,,2024-08-10
+TX002067,P00364,Pembayaran,Lainnya,24283.7,BPJS,BPJS Kesehatan,Klaim BPJS,2025-11-05
+TX002068,P00248,Pembayaran,Pendaftaran,41576.68,BPJS,BPJS Kesehatan,Klaim BPJS,2025-05-19
+TX002069,P00865,Tagihan,Obat,149350.92,Umum,,,2025-06-08
+TX002070,P00582,Klaim,Radiologi,61914.96,BPJS,BPJS Kesehatan,,2025-05-12
+TX002071,P00005,Pembayaran,Radiologi,71557.47,Umum,,Tunai,2025-05-25
+TX002072,P00448,Klaim,Radiologi,27939.16,Asuransi Swasta,AIA,,2024-10-27
+TX002073,P00832,Tagihan,Pendaftaran,35607.18,BPJS,BPJS Kesehatan,,2024-01-25
+TX002074,P00017,Tagihan,Obat,50673.16,Asuransi Swasta,Allianz,,2024-03-29
+TX002075,P00458,Tagihan,Obat,127102.81,Asuransi Swasta,Manulife,,2025-05-24
+TX002076,P00623,Tagihan,Radiologi,106429.89,BPJS,BPJS Kesehatan,,2025-08-08
+TX002077,P00509,Tagihan,Tindakan,36137.27,Umum,,,2025-09-12
+TX002078,P00515,Klaim,Lainnya,66170.12,Umum,,,2025-04-05
+TX002079,P00549,Pembayaran,Lainnya,83681.1,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-09
+TX002080,P00182,Tagihan,Lainnya,157515.13,Asuransi Swasta,Prudential,,2025-10-03
+TX002081,P00818,Tagihan,Obat,126627.19,BPJS,BPJS Kesehatan,,2024-05-11
+TX002082,P00657,Pembayaran,Radiologi,94625.82,BPJS,BPJS Kesehatan,Klaim BPJS,2024-01-01
+TX002083,P00057,Tagihan,Tindakan,37573.45,Umum,,,2024-05-18
+TX002084,P00857,Tagihan,Tindakan,50677.29,Umum,,,2024-10-11
+TX002085,P00418,Pembayaran,Pendaftaran,45036.61,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-15
+TX002086,P00787,Tagihan,Tindakan,108853.96,BPJS,BPJS Kesehatan,,2024-06-18
+TX002087,P00328,Pembayaran,Rawat Inap,53517.68,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-13
+TX002088,P00650,Tagihan,Obat,133814.87,BPJS,BPJS Kesehatan,,2024-12-07
+TX002089,P00002,Pembayaran,Pendaftaran,52093.9,Umum,,Tunai,2024-05-19
+TX002090,P00344,Pembayaran,Obat,14864.96,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-17
+TX002091,P00005,Tagihan,Konsultasi,237040.83,Umum,,,2024-11-07
+TX002092,P00560,Tagihan,Pemeriksaan Lab,96379.29,Umum,,,2024-03-08
+TX002093,P00411,Pembayaran,Rawat Inap,34580.45,Asuransi Swasta,Manulife,Kartu Kredit,2024-03-01
+TX002094,P00701,Pembayaran,Pendaftaran,24962.92,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-16
+TX002095,P00230,Tagihan,Rawat Inap,131472.08,BPJS,BPJS Kesehatan,,2025-08-09
+TX002096,P00491,Pembayaran,Tindakan,58501.08,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-08
+TX002097,P00823,Pembayaran,Konsultasi,47857.47,Asuransi Swasta,Sinarmas,Transfer,2024-08-14
+TX002098,P00155,Tagihan,Tindakan,32595.02,Umum,,,2023-12-23
+TX002099,P00191,Tagihan,Lainnya,33639.67,Umum,,,2024-12-13
+TX002100,P00132,Pembetulan,Tindakan,166884.55,BPJS,BPJS Kesehatan,,2024-11-01
+TX002101,P00420,Tagihan,Obat,30019.1,BPJS,BPJS Kesehatan,,2024-06-27
+TX002102,P00734,Pembayaran,Tindakan,117557.69,Asuransi Swasta,Manulife,Transfer,2024-03-06
+TX002103,P00392,Tagihan,Lainnya,69238.21,Umum,,,2024-04-26
+TX002104,P00452,Tagihan,Obat,70677.11,BPJS,BPJS Kesehatan,,2025-08-06
+TX002105,P00589,Pembayaran,Lainnya,17847.39,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-18
+TX002106,P00482,Pembayaran,Rawat Inap,33003.01,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-11
+TX002107,P00284,Pembayaran,Pemeriksaan Lab,80775.45,Asuransi Swasta,AXA Mandiri,Transfer,2025-10-03
+TX002108,P00869,Tagihan,Tindakan,135070.84,BPJS,BPJS Kesehatan,,2024-05-03
+TX002109,P00780,Tagihan,Pendaftaran,130858.84,BPJS,BPJS Kesehatan,,2025-05-11
+TX002110,P00020,Tagihan,Konsultasi,82064.36,BPJS,BPJS Kesehatan,,2024-11-24
+TX002111,P00293,Tagihan,Lainnya,94025.16,BPJS,BPJS Kesehatan,,2024-03-18
+TX002112,P00318,Pembayaran,Obat,91368.78,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-21
+TX002113,P00688,Tagihan,Lainnya,193631.04,Umum,,,2025-07-31
+TX002114,P00618,Tagihan,Radiologi,65837.81,BPJS,BPJS Kesehatan,,2024-09-11
+TX002115,P00509,Pembayaran,Rawat Inap,104929.48,Umum,,Kartu Kredit,2025-07-22
+TX002116,P00003,Pembetulan,Radiologi,48555.14,BPJS,BPJS Kesehatan,,2025-11-01
+TX002117,P00039,Tagihan,Obat,65200.78,Asuransi Swasta,Sinarmas,,2025-04-01
+TX002118,P00896,Tagihan,Lainnya,73559.56,Asuransi Swasta,Sinarmas,,2024-07-08
+TX002119,P00185,Tagihan,Lainnya,164363.2,Umum,,,2023-11-18
+TX002120,P00814,Tagihan,Pendaftaran,43852.21,BPJS,BPJS Kesehatan,,2024-11-29
+TX002121,P00067,Pembayaran,Pemeriksaan Lab,121924.25,Asuransi Swasta,Sinarmas,Kartu Kredit,2024-05-24
+TX002122,P00796,Pembayaran,Konsultasi,104399.59,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-26
+TX002123,P00305,Tagihan,Pendaftaran,58958.55,BPJS,BPJS Kesehatan,,2025-09-27
+TX002124,P00883,Tagihan,Tindakan,186945.15,BPJS,BPJS Kesehatan,,2024-08-22
+TX002125,P00709,Tagihan,Rawat Inap,46563.66,BPJS,BPJS Kesehatan,,2024-02-25
+TX002126,P00190,Tagihan,Konsultasi,46279.89,Umum,,,2025-08-17
+TX002127,P00079,Tagihan,Pendaftaran,87217.84,BPJS,BPJS Kesehatan,,2025-05-31
+TX002128,P00718,Pembetulan,Konsultasi,70448.35,BPJS,BPJS Kesehatan,,2025-05-22
+TX002129,P00103,Tagihan,Konsultasi,264191.43,BPJS,BPJS Kesehatan,,2024-10-30
+TX002130,P00517,Tagihan,Lainnya,94514.16,BPJS,BPJS Kesehatan,,2023-11-11
+TX002131,P00161,Tagihan,Pemeriksaan Lab,87731.98,BPJS,BPJS Kesehatan,,2024-09-11
+TX002132,P00080,Pembayaran,Pendaftaran,75864.34,BPJS,BPJS Kesehatan,Klaim BPJS,2025-08-07
+TX002133,P00371,Tagihan,Pendaftaran,85969.42,Asuransi Swasta,Manulife,,2024-10-25
+TX002134,P00627,Tagihan,Radiologi,99253.12,Umum,,,2025-01-05
+TX002135,P00655,Pembayaran,Obat,73025.99,BPJS,BPJS Kesehatan,Klaim BPJS,2024-05-09
+TX002136,P00204,Tagihan,Lainnya,253212.57,BPJS,BPJS Kesehatan,,2025-07-13
+TX002137,P00135,Tagihan,Rawat Inap,244787.77,Asuransi Swasta,Prudential,,2025-10-16
+TX002138,P00506,Tagihan,Tindakan,80134.74,BPJS,BPJS Kesehatan,,2024-04-02
+TX002139,P00669,Tagihan,Obat,476188.23,BPJS,BPJS Kesehatan,,2024-02-19
+TX002140,P00008,Tagihan,Pendaftaran,90087.8,Asuransi Swasta,Prudential,,2024-03-01
+TX002141,P00138,Tagihan,Obat,207355.88,Umum,,,2024-08-11
+TX002142,P00663,Tagihan,Obat,129106.64,Umum,,,2025-05-03
+TX002143,P00831,Tagihan,Konsultasi,55479.83,BPJS,BPJS Kesehatan,,2025-03-07
+TX002144,P00615,Tagihan,Obat,80716.09,BPJS,BPJS Kesehatan,,2025-07-15
+TX002145,P00268,Tagihan,Radiologi,173817.66,BPJS,BPJS Kesehatan,,2025-09-15
+TX002146,P00388,Tagihan,Obat,39512.32,Umum,,,2025-07-05
+TX002147,P00697,Tagihan,Radiologi,120997.26,BPJS,BPJS Kesehatan,,2024-04-22
+TX002148,P00194,Tagihan,Tindakan,108679.34,Umum,,,2025-02-19
+TX002149,P00813,Tagihan,Tindakan,136744.35,BPJS,BPJS Kesehatan,,2025-02-19
+TX002150,P00800,Tagihan,Rawat Inap,133258.07,BPJS,BPJS Kesehatan,,2025-04-25
+TX002151,P00162,Tagihan,Rawat Inap,83657.85,BPJS,BPJS Kesehatan,,2025-06-30
+TX002152,P00251,Tagihan,Obat,107564.34,Asuransi Swasta,Prudential,,2025-04-05
+TX002153,P00374,Tagihan,Rawat Inap,164270.69,Asuransi Swasta,Allianz,,2025-03-07
+TX002154,P00661,Pembayaran,Rawat Inap,86311.21,Asuransi Swasta,Allianz,Transfer,2025-04-13
+TX002155,P00639,Pembayaran,Obat,220951.57,Asuransi Swasta,Sinarmas,QRIS,2025-06-13
+TX002156,P00579,Tagihan,Radiologi,163338.61,BPJS,BPJS Kesehatan,,2025-11-01
+TX002157,P00125,Tagihan,Obat,85602.4,Umum,,,2025-05-30
+TX002158,P00658,Tagihan,Radiologi,48540.6,Umum,,,2024-03-13
+TX002159,P00220,Pembayaran,Pendaftaran,53970.54,BPJS,BPJS Kesehatan,Klaim BPJS,2024-03-23
+TX002160,P00031,Tagihan,Pemeriksaan Lab,154416.84,Asuransi Swasta,Allianz,,2025-06-07
+TX002161,P00816,Klaim,Obat,133886.88,BPJS,BPJS Kesehatan,,2025-10-21
+TX002162,P00376,Tagihan,Radiologi,89918.17,Asuransi Swasta,AIA,,2024-09-30
+TX002163,P00177,Tagihan,Rawat Inap,137795.86,BPJS,BPJS Kesehatan,,2024-02-14
+TX002164,P00870,Tagihan,Rawat Inap,38686.09,BPJS,BPJS Kesehatan,,2025-06-27
+TX002165,P00597,Tagihan,Lainnya,76318.24,BPJS,BPJS Kesehatan,,2024-10-16
+TX002166,P00877,Pembayaran,Lainnya,102148.31,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-07
+TX002167,P00635,Pembayaran,Konsultasi,64857.72,Asuransi Swasta,AXA Mandiri,Transfer,2025-09-19
+TX002168,P00410,Tagihan,Rawat Inap,87084.77,Umum,,,2024-04-26
+TX002169,P00357,Klaim,Pendaftaran,222703.47,BPJS,BPJS Kesehatan,,2025-10-20
+TX002170,P00703,Pembayaran,Tindakan,103059.8,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-26
+TX002171,P00097,Tagihan,Rawat Inap,75917.35,BPJS,BPJS Kesehatan,,2025-04-10
+TX002172,P00643,Pembayaran,Pemeriksaan Lab,97039.72,Asuransi Swasta,Sinarmas,QRIS,2023-11-18
+TX002173,P00487,Pembayaran,Radiologi,39486.56,Umum,,Kartu Kredit,2024-10-16
+TX002174,P00462,Tagihan,Tindakan,65642.76,BPJS,BPJS Kesehatan,,2024-12-24
+TX002175,P00386,Pembayaran,Pemeriksaan Lab,84708.1,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-28
+TX002176,P00214,Pembayaran,Lainnya,54657.71,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-26
+TX002177,P00365,Pembayaran,Pemeriksaan Lab,61500.5,BPJS,BPJS Kesehatan,Klaim BPJS,2024-06-20
+TX002178,P00337,Klaim,Lainnya,198121.43,BPJS,BPJS Kesehatan,,2024-09-18
+TX002179,P00179,Tagihan,Konsultasi,56601.09,Umum,,,2023-11-13
+TX002180,P00536,Pembayaran,Rawat Inap,153961.1,Asuransi Swasta,Sinarmas,Kartu Kredit,2025-04-29
+TX002181,P00526,Tagihan,Tindakan,37216.74,Umum,,,2024-01-15
+TX002182,P00609,Tagihan,Lainnya,87875.14,Asuransi Swasta,AIA,,2024-04-16
+TX002183,P00727,Tagihan,Lainnya,54975.91,BPJS,BPJS Kesehatan,,2025-04-04
+TX002184,P00034,Tagihan,Konsultasi,176700.52,Umum,,,2025-08-15
+TX002185,P00597,Pembayaran,Radiologi,22614.28,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-03
+TX002186,P00018,Pembayaran,Pendaftaran,26213.2,BPJS,BPJS Kesehatan,Klaim BPJS,2023-12-13
+TX002187,P00410,Pembayaran,Obat,63759.66,Umum,,Tunai,2025-08-10
+TX002188,P00852,Pembayaran,Pendaftaran,106563.8,Umum,,Kartu Kredit,2024-07-23
+TX002189,P00217,Pembayaran,Rawat Inap,31462.31,Umum,,Kartu Kredit,2024-06-17
+TX002190,P00689,Tagihan,Konsultasi,101686.2,BPJS,BPJS Kesehatan,,2024-03-09
+TX002191,P00694,Tagihan,Obat,143909.2,BPJS,BPJS Kesehatan,,2025-02-17
+TX002192,P00619,Pembayaran,Radiologi,67784.29,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-23
+TX002193,P00554,Tagihan,Obat,127362.95,Umum,,,2025-08-10
+TX002194,P00617,Tagihan,Konsultasi,70194.31,BPJS,BPJS Kesehatan,,2024-04-21
+TX002195,P00820,Pembayaran,Pendaftaran,96455.74,Umum,,Kartu Kredit,2025-05-25
+TX002196,P00470,Klaim,Konsultasi,48808.03,BPJS,BPJS Kesehatan,,2024-04-30
+TX002197,P00855,Klaim,Rawat Inap,128516.21,BPJS,BPJS Kesehatan,,2025-03-27
+TX002198,P00378,Klaim,Obat,127656.25,BPJS,BPJS Kesehatan,,2024-07-28
+TX002199,P00519,Tagihan,Pendaftaran,66576.25,Asuransi Swasta,Manulife,,2025-02-27
+TX002200,P00778,Tagihan,Pendaftaran,107303.76,BPJS,BPJS Kesehatan,,2023-11-26
+TX002201,P00265,Tagihan,Obat,62571.28,Umum,,,2025-09-27
+TX002202,P00760,Klaim,Radiologi,53174.31,Umum,,,2025-01-10
+TX002203,P00889,Tagihan,Pendaftaran,136808.16,Asuransi Swasta,Prudential,,2024-07-04
+TX002204,P00672,Klaim,Radiologi,48772.03,BPJS,BPJS Kesehatan,,2024-10-09
+TX002205,P00727,Pembayaran,Pemeriksaan Lab,72055.29,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-13
+TX002206,P00112,Tagihan,Rawat Inap,64165.44,Umum,,,2024-10-26
+TX002207,P00786,Tagihan,Pemeriksaan Lab,107739.89,BPJS,BPJS Kesehatan,,2025-04-20
+TX002208,P00335,Tagihan,Radiologi,98431.41,BPJS,BPJS Kesehatan,,2024-03-19
+TX002209,P00717,Tagihan,Rawat Inap,260374.01,BPJS,BPJS Kesehatan,,2025-04-12
+TX002210,P00527,Pembayaran,Pemeriksaan Lab,53389.02,Umum,,Tunai,2024-08-23
+TX002211,P00089,Tagihan,Konsultasi,60351.85,BPJS,BPJS Kesehatan,,2025-06-21
+TX002212,P00309,Tagihan,Obat,97701.43,Umum,,,2024-10-30
+TX002213,P00039,Tagihan,Tindakan,39234.93,Asuransi Swasta,Sinarmas,,2023-11-12
+TX002214,P00312,Pembayaran,Lainnya,97838.44,BPJS,BPJS Kesehatan,Klaim BPJS,2024-02-12
+TX002215,P00798,Pembayaran,Pemeriksaan Lab,36541.01,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-28
+TX002216,P00207,Tagihan,Rawat Inap,131717.53,BPJS,BPJS Kesehatan,,2025-06-24
+TX002217,P00058,Tagihan,Konsultasi,34576.79,Asuransi Swasta,AXA Mandiri,,2024-07-08
+TX002218,P00356,Tagihan,Tindakan,134560.72,BPJS,BPJS Kesehatan,,2025-01-13
+TX002219,P00514,Pembayaran,Rawat Inap,127208.92,BPJS,BPJS Kesehatan,Klaim BPJS,2025-03-26
+TX002220,P00648,Tagihan,Lainnya,88921.93,BPJS,BPJS Kesehatan,,2025-10-09
+TX002221,P00036,Tagihan,Pendaftaran,129429.47,BPJS,BPJS Kesehatan,,2025-02-11
+TX002222,P00049,Tagihan,Radiologi,119253.86,BPJS,BPJS Kesehatan,,2024-12-07
+TX002223,P00307,Tagihan,Radiologi,98330.57,BPJS,BPJS Kesehatan,,2025-01-07
+TX002224,P00425,Tagihan,Pemeriksaan Lab,113795.13,BPJS,BPJS Kesehatan,,2024-11-23
+TX002225,P00844,Tagihan,Radiologi,145200.47,BPJS,BPJS Kesehatan,,2025-10-17
+TX002226,P00853,Tagihan,Pendaftaran,157874.45,BPJS,BPJS Kesehatan,,2024-07-06
+TX002227,P00504,Pembayaran,Obat,62365.82,BPJS,BPJS Kesehatan,Klaim BPJS,2024-12-15
+TX002228,P00092,Tagihan,Obat,180398.42,BPJS,BPJS Kesehatan,,2024-11-20
+TX002229,P00020,Tagihan,Lainnya,54196.25,BPJS,BPJS Kesehatan,,2023-12-18
+TX002230,P00412,Tagihan,Rawat Inap,105583.04,Umum,,,2024-12-12
+TX002231,P00350,Tagihan,Pendaftaran,52202.92,BPJS,BPJS Kesehatan,,2024-03-06
+TX002232,P00328,Tagihan,Pendaftaran,85537.7,BPJS,BPJS Kesehatan,,2024-03-18
+TX002233,P00045,Pembayaran,Tindakan,79190.55,Asuransi Swasta,Prudential,Transfer,2024-02-04
+TX002234,P00848,Pembayaran,Tindakan,28934.82,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-16
+TX002235,P00802,Tagihan,Obat,129275.08,BPJS,BPJS Kesehatan,,2025-04-19
+TX002236,P00799,Tagihan,Rawat Inap,92396.59,Asuransi Swasta,Prudential,,2023-11-10
+TX002237,P00201,Tagihan,Tindakan,103241.83,BPJS,BPJS Kesehatan,,2025-11-05
+TX002238,P00120,Tagihan,Radiologi,269053.33,Umum,,,2025-06-16
+TX002239,P00316,Tagihan,Obat,41892.92,Umum,,,2024-03-11
+TX002240,P00719,Pembetulan,Konsultasi,40142.66,Umum,,,2024-10-10
+TX002241,P00405,Tagihan,Tindakan,137405.1,BPJS,BPJS Kesehatan,,2024-05-06
+TX002242,P00348,Tagihan,Rawat Inap,299186.47,Umum,,,2024-07-26
+TX002243,P00396,Tagihan,Obat,100908.33,BPJS,BPJS Kesehatan,,2025-07-18
+TX002244,P00663,Pembayaran,Tindakan,38401.9,Umum,,Kartu Kredit,2025-09-13
+TX002245,P00895,Tagihan,Radiologi,79068.4,BPJS,BPJS Kesehatan,,2025-04-14
+TX002246,P00803,Pembayaran,Rawat Inap,79016.07,Umum,,Tunai,2025-07-11
+TX002247,P00446,Tagihan,Lainnya,73306.62,Asuransi Swasta,Allianz,,2024-02-27
+TX002248,P00341,Tagihan,Obat,74184.7,Asuransi Swasta,AXA Mandiri,,2024-06-29
+TX002249,P00080,Klaim,Lainnya,141493.65,BPJS,BPJS Kesehatan,,2023-12-17
+TX002250,P00080,Tagihan,Tindakan,120133.73,BPJS,BPJS Kesehatan,,2024-11-30
+TX002251,P00832,Pembayaran,Radiologi,32953.76,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-02
+TX002252,P00585,Pembayaran,Obat,46036.44,BPJS,BPJS Kesehatan,Klaim BPJS,2023-11-24
+TX002253,P00644,Pembayaran,Obat,11873.03,Asuransi Swasta,Prudential,Kartu Kredit,2023-12-20
+TX002254,P00303,Pembayaran,Pemeriksaan Lab,29418.1,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-03
+TX002255,P00154,Tagihan,Pendaftaran,94225.36,BPJS,BPJS Kesehatan,,2024-07-08
+TX002256,P00788,Pembayaran,Pendaftaran,71755.24,BPJS,BPJS Kesehatan,Klaim BPJS,2025-09-29
+TX002257,P00461,Tagihan,Tindakan,152515.9,BPJS,BPJS Kesehatan,,2025-02-21
+TX002258,P00587,Pembayaran,Rawat Inap,89455.49,BPJS,BPJS Kesehatan,Klaim BPJS,2025-04-03
+TX002259,P00603,Pembayaran,Obat,117227.54,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-26
+TX002260,P00772,Tagihan,Pendaftaran,111467.29,Umum,,,2024-11-16
+TX002261,P00126,Tagihan,Obat,111016.0,BPJS,BPJS Kesehatan,,2024-04-06
+TX002262,P00312,Tagihan,Obat,107683.75,BPJS,BPJS Kesehatan,,2025-05-02
+TX002263,P00514,Tagihan,Obat,124100.44,BPJS,BPJS Kesehatan,,2025-05-08
+TX002264,P00831,Klaim,Pendaftaran,55116.65,BPJS,BPJS Kesehatan,,2025-03-22
+TX002265,P00677,Tagihan,Obat,51787.62,Umum,,,2024-02-29
+TX002266,P00279,Tagihan,Rawat Inap,33752.89,BPJS,BPJS Kesehatan,,2025-02-06
+TX002267,P00851,Pembayaran,Rawat Inap,70398.37,BPJS,BPJS Kesehatan,Klaim BPJS,2025-10-20
+TX002268,P00488,Tagihan,Obat,67879.76,BPJS,BPJS Kesehatan,,2024-04-25
+TX002269,P00123,Pembayaran,Rawat Inap,51683.72,Asuransi Swasta,Prudential,Kartu Kredit,2025-04-15
+TX002270,P00308,Pembayaran,Lainnya,43739.93,Asuransi Swasta,AXA Mandiri,QRIS,2025-08-22
+TX002271,P00814,Tagihan,Rawat Inap,38262.42,BPJS,BPJS Kesehatan,,2024-12-27
+TX002272,P00083,Tagihan,Obat,20000.0,Asuransi Swasta,AXA Mandiri,,2025-10-04
+TX002273,P00678,Pembayaran,Tindakan,45444.53,BPJS,BPJS Kesehatan,Klaim BPJS,2024-10-08
+TX002274,P00071,Tagihan,Radiologi,128289.29,BPJS,BPJS Kesehatan,,2025-02-03
+TX002275,P00448,Tagihan,Tindakan,76815.74,Asuransi Swasta,AIA,,2023-12-19
+TX002276,P00724,Tagihan,Obat,128254.3,BPJS,BPJS Kesehatan,,2024-06-01
+TX002277,P00197,Tagihan,Tindakan,26492.89,Asuransi Swasta,AXA Mandiri,,2024-03-30
+TX002278,P00308,Klaim,Radiologi,32708.85,Asuransi Swasta,AXA Mandiri,,2024-08-25
+TX002279,P00237,Tagihan,Tindakan,32982.59,Umum,,,2023-12-26
+TX002280,P00103,Tagihan,Konsultasi,150391.19,BPJS,BPJS Kesehatan,,2025-05-02
+TX002281,P00592,Tagihan,Lainnya,324630.85,BPJS,BPJS Kesehatan,,2024-05-22
+TX002282,P00803,Tagihan,Pendaftaran,74764.66,Umum,,,2025-03-14
+TX002283,P00104,Pembayaran,Lainnya,52817.05,BPJS,BPJS Kesehatan,Klaim BPJS,2024-11-18
+TX002284,P00269,Pembayaran,Radiologi,21767.71,BPJS,BPJS Kesehatan,Klaim BPJS,2025-07-08
+TX002285,P00329,Pembayaran,Konsultasi,175936.71,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-06
+TX002286,P00684,Pembetulan,Konsultasi,59426.01,Umum,,,2023-12-16
+TX002287,P00083,Klaim,Tindakan,30452.59,Asuransi Swasta,AXA Mandiri,,2024-02-26
+TX002288,P00412,Pembayaran,Pemeriksaan Lab,29958.91,Umum,,Tunai,2024-08-25
+TX002289,P00824,Pembayaran,Tindakan,85037.35,BPJS,BPJS Kesehatan,Klaim BPJS,2024-09-02
+TX002290,P00784,Tagihan,Lainnya,70880.43,BPJS,BPJS Kesehatan,,2024-01-03
+TX002291,P00330,Tagihan,Rawat Inap,43167.03,Asuransi Swasta,AXA Mandiri,,2024-10-20
+TX002292,P00608,Tagihan,Rawat Inap,134305.0,Asuransi Swasta,Prudential,,2024-12-02
+TX002293,P00236,Pembayaran,Obat,132107.8,Asuransi Swasta,AXA Mandiri,QRIS,2024-07-17
+TX002294,P00302,Tagihan,Obat,140270.41,BPJS,BPJS Kesehatan,,2025-06-10
+TX002295,P00323,Tagihan,Pemeriksaan Lab,214005.57,BPJS,BPJS Kesehatan,,2024-01-04
+TX002296,P00822,Pembayaran,Konsultasi,101742.83,BPJS,BPJS Kesehatan,Klaim BPJS,2024-08-08
+TX002297,P00074,Tagihan,Pendaftaran,104731.26,BPJS,BPJS Kesehatan,,2025-02-08
+TX002298,P00380,Pembayaran,Tindakan,60902.57,BPJS,BPJS Kesehatan,Klaim BPJS,2025-02-28
+TX002299,P00386,Pembayaran,Tindakan,103740.36,BPJS,BPJS Kesehatan,Klaim BPJS,2025-06-04
+TX002300,P00710,Tagihan,Obat,27211.4,Umum,,,2024-09-25

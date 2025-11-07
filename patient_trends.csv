@@ -1,0 +1,834 @@
+﻿date,total_patients,top_disease,weather,population_density,external_event
+2023-07-28,118,Tifoid,Cerah,6456.42,Banjir
+2023-07-29,110,Diabetes,Badai,6936.78,
+2023-07-30,152,ISPA,Cerah,5528.51,
+2023-07-31,150,Covid-19,Hujan,3898.88,
+2023-08-01,103,Diabetes,Badai,12746.96,
+2023-08-02,151,ISPA,Cerah,7574.52,Libur Nasional
+2023-08-03,170,Hipertensi,Hujan,3363.83,
+2023-08-04,57,Asma,Hujan,13569.73,Libur Nasional
+2023-08-05,120,Asma,Cerah,5041.01,Libur Nasional
+2023-08-06,132,Covid-19,Mendung,5310.85,
+2023-08-07,136,Demam Berdarah,Badai,11120.19,
+2023-08-08,124,Tifoid,Mendung,14529.12,
+2023-08-09,114,ISPA,Badai,13806.19,
+2023-08-10,88,Diabetes,Hujan,10916.36,
+2023-08-11,128,Covid-19,Mendung,3002.28,Libur Nasional
+2023-08-12,172,Covid-19,Cerah,10584.73,
+2023-08-13,196,Hipertensi,Cerah,12798.15,
+2023-08-14,85,Hipertensi,Badai,7597.59,
+2023-08-15,83,Covid-19,Mendung,9012.04,
+2023-08-16,119,Diabetes,Badai,5502.59,
+2023-08-17,142,Demam Berdarah,Cerah,3961.77,
+2023-08-18,115,Demam Berdarah,Mendung,13619.33,Event Kota
+2023-08-19,213,Diare,Mendung,5066.6,
+2023-08-20,106,Asma,Badai,8555.56,
+2023-08-21,164,Diabetes,Badai,8115.04,
+2023-08-22,121,Hipertensi,Badai,3968.57,
+2023-08-23,125,Tifoid,Mendung,14799.39,Libur Nasional
+2023-08-24,186,Diare,Hujan,10814.44,Libur Nasional
+2023-08-25,101,Hipertensi,Badai,6739.5,
+2023-08-26,109,Demam Berdarah,Cerah,5972.78,Libur Nasional
+2023-08-27,127,Covid-19,Badai,5014.6,Banjir
+2023-08-28,126,Diare,Cerah,10668.47,
+2023-08-29,113,Asma,Hujan,8477.62,
+2023-08-30,111,Tifoid,Hujan,12862.11,
+2023-08-31,174,Tifoid,Cerah,12546.91,Libur Nasional
+2023-09-01,114,Diare,Cerah,7562.88,
+2023-09-02,120,Diabetes,Badai,9666.45,
+2023-09-03,109,ISPA,Cerah,12940.17,Event Kota
+2023-09-04,122,ISPA,Hujan,14290.04,Libur Nasional
+2023-09-05,234,Diare,Badai,7603.39,
+2023-09-06,113,Tifoid,Hujan,11670.91,
+2023-09-07,181,Demam Berdarah,Badai,14156.31,
+2023-09-08,76,Demam Berdarah,Hujan,3265.54,
+2023-09-09,177,Asma,Hujan,12626.88,
+2023-09-10,185,Demam Berdarah,Cerah,9739.72,
+2023-09-11,27,Covid-19,Badai,9008.71,
+2023-09-12,107,Asma,Hujan,10521.55,Event Kota
+2023-09-13,119,Tifoid,Cerah,5704.09,Banjir
+2023-09-14,178,Tifoid,Hujan,10004.04,Libur Nasional
+2023-09-15,150,Tifoid,Mendung,4144.82,Event Kota
+2023-09-16,134,Hipertensi,Hujan,4448.12,
+2023-09-17,109,Demam Berdarah,Cerah,13602.0,Event Kota
+2023-09-18,102,Diabetes,Hujan,9865.49,
+2023-09-19,108,Diabetes,Badai,8413.26,
+2023-09-20,121,Asma,Badai,6778.56,Event Kota
+2023-09-21,85,Hipertensi,Hujan,14018.05,
+2023-09-22,121,Asma,Mendung,10697.42,
+2023-09-23,33,Asma,Badai,10499.16,Banjir
+2023-09-24,145,Hipertensi,Cerah,10955.36,Event Kota
+2023-09-25,136,Tifoid,Mendung,14515.47,Event Kota
+2023-09-26,121,Hipertensi,Mendung,11709.98,Event Kota
+2023-09-27,182,Demam Berdarah,Mendung,11753.21,Banjir
+2023-09-28,40,Tifoid,Cerah,11551.04,Event Kota
+2023-09-29,184,Demam Berdarah,Hujan,11356.88,Banjir
+2023-09-30,126,Diare,Hujan,10426.55,Banjir
+2023-10-01,187,Diare,Mendung,9631.01,Event Kota
+2023-10-02,147,Diabetes,Hujan,8170.06,Banjir
+2023-10-03,191,ISPA,Badai,14547.99,Libur Nasional
+2023-10-04,132,ISPA,Mendung,8156.52,
+2023-10-05,129,ISPA,Badai,9085.7,
+2023-10-06,126,Demam Berdarah,Mendung,6890.25,Banjir
+2023-10-07,136,ISPA,Badai,9656.37,
+2023-10-08,147,Tifoid,Cerah,10908.69,Event Kota
+2023-10-09,121,Demam Berdarah,Badai,12466.72,Banjir
+2023-10-10,157,Demam Berdarah,Mendung,12736.83,
+2023-10-11,146,ISPA,Hujan,14857.85,Banjir
+2023-10-12,131,Diare,Cerah,13326.19,Event Kota
+2023-10-13,135,Diare,Mendung,10725.16,
+2023-10-14,160,Diabetes,Hujan,6976.15,Banjir
+2023-10-15,64,Covid-19,Badai,9304.91,Libur Nasional
+2023-10-16,136,Covid-19,Hujan,12289.94,Libur Nasional
+2023-10-17,166,Asma,Mendung,5071.46,
+2023-10-18,79,Tifoid,Hujan,10534.11,
+2023-10-19,125,Diabetes,Mendung,9973.49,
+2023-10-20,79,Asma,Cerah,5595.06,
+2023-10-21,183,Tifoid,Hujan,3930.45,
+2023-10-22,62,Diabetes,Mendung,13949.1,
+2023-10-23,141,Asma,Badai,11030.47,
+2023-10-24,114,Diabetes,Cerah,6924.38,Libur Nasional
+2023-10-25,102,Covid-19,Cerah,13604.36,Libur Nasional
+2023-10-26,18,Tifoid,Mendung,8595.73,
+2023-10-27,162,Asma,Hujan,8586.48,
+2023-10-28,37,ISPA,Badai,14023.5,Event Kota
+2023-10-29,94,Diare,Cerah,7515.08,
+2023-10-30,100,Covid-19,Badai,7294.75,
+2023-10-31,173,Asma,Mendung,3519.06,Event Kota
+2023-11-01,66,Demam Berdarah,Mendung,3380.48,Libur Nasional
+2023-11-02,117,ISPA,Hujan,3348.78,Banjir
+2023-11-03,164,Diabetes,Cerah,8940.19,
+2023-11-04,122,Hipertensi,Cerah,9649.48,Libur Nasional
+2023-11-05,113,Hipertensi,Mendung,5535.91,
+2023-11-06,105,Covid-19,Mendung,14630.12,
+2023-11-07,151,Diabetes,Badai,5803.55,
+2023-11-08,119,Tifoid,Cerah,6897.24,Banjir
+2023-11-09,97,Diabetes,Mendung,14083.86,
+2023-11-10,96,ISPA,Mendung,7805.47,
+2023-11-11,54,Hipertensi,Cerah,7326.36,Event Kota
+2023-11-12,65,Covid-19,Badai,7825.04,
+2023-11-13,118,Hipertensi,Hujan,6819.46,Banjir
+2023-11-14,138,Tifoid,Hujan,9670.82,Libur Nasional
+2023-11-15,62,Diare,Badai,10843.83,
+2023-11-16,116,Demam Berdarah,Mendung,8211.65,
+2023-11-17,145,Demam Berdarah,Badai,8276.8,
+2023-11-18,64,Covid-19,Cerah,3673.15,Banjir
+2023-11-19,150,Diabetes,Cerah,3567.86,Event Kota
+2023-11-20,86,ISPA,Cerah,12142.72,Event Kota
+2023-11-21,50,Tifoid,Badai,13625.17,
+2023-11-22,120,Diabetes,Badai,10558.26,Libur Nasional
+2023-11-23,120,Asma,Hujan,12107.74,
+2023-11-24,86,Demam Berdarah,Cerah,5178.05,Event Kota
+2023-11-25,137,Hipertensi,Badai,12986.92,Libur Nasional
+2023-11-26,165,Diabetes,Hujan,9642.02,Event Kota
+2023-11-27,183,Hipertensi,Mendung,10833.32,Libur Nasional
+2023-11-28,131,Tifoid,Hujan,8556.96,
+2023-11-29,193,ISPA,Badai,4385.06,Libur Nasional
+2023-11-30,105,Demam Berdarah,Cerah,3571.86,
+2023-12-01,156,Tifoid,Cerah,3241.86,Libur Nasional
+2023-12-02,102,Asma,Mendung,5645.13,
+2023-12-03,215,Diare,Badai,6234.63,Event Kota
+2023-12-04,107,Covid-19,Badai,10657.95,
+2023-12-05,97,Diare,Hujan,8036.46,Event Kota
+2023-12-06,94,Diabetes,Cerah,14605.23,Banjir
+2023-12-07,156,Asma,Hujan,12349.5,
+2023-12-08,77,Diabetes,Mendung,11588.42,Banjir
+2023-12-09,113,Demam Berdarah,Hujan,10265.7,Banjir
+2023-12-10,190,Diare,Mendung,9830.27,
+2023-12-11,142,Covid-19,Cerah,13517.76,Libur Nasional
+2023-12-12,118,ISPA,Mendung,7557.41,Libur Nasional
+2023-12-13,136,Covid-19,Badai,10393.05,
+2023-12-14,102,Asma,Mendung,11901.05,
+2023-12-15,142,ISPA,Mendung,3452.89,Event Kota
+2023-12-16,162,Tifoid,Cerah,14492.33,Libur Nasional
+2023-12-17,154,Hipertensi,Cerah,6153.03,Event Kota
+2023-12-18,120,Diabetes,Hujan,8262.48,
+2023-12-19,102,Tifoid,Mendung,9802.2,
+2023-12-20,80,Asma,Badai,3528.49,Event Kota
+2023-12-21,145,Tifoid,Badai,11538.2,
+2023-12-22,170,Hipertensi,Hujan,5765.72,Libur Nasional
+2023-12-23,122,Tifoid,Hujan,7668.43,
+2023-12-24,99,Diabetes,Hujan,8805.86,
+2023-12-25,130,Demam Berdarah,Hujan,3512.41,Libur Nasional
+2023-12-26,185,ISPA,Mendung,7164.26,Banjir
+2023-12-27,77,Diare,Badai,11994.78,
+2023-12-28,135,Covid-19,Hujan,12874.62,Libur Nasional
+2023-12-29,33,Tifoid,Hujan,8939.04,
+2023-12-30,92,Demam Berdarah,Hujan,6337.12,Event Kota
+2023-12-31,138,ISPA,Cerah,6825.45,Libur Nasional
+2024-01-01,142,Hipertensi,Cerah,13199.46,Banjir
+2024-01-02,49,ISPA,Mendung,11802.56,
+2024-01-03,148,Asma,Mendung,7611.08,Libur Nasional
+2024-01-04,123,Tifoid,Mendung,10873.85,Banjir
+2024-01-05,102,Hipertensi,Cerah,3302.16,Event Kota
+2024-01-06,93,Covid-19,Badai,10997.32,
+2024-01-07,88,Diabetes,Cerah,10765.97,
+2024-01-08,86,Tifoid,Cerah,14515.91,Event Kota
+2024-01-09,111,Diabetes,Mendung,5768.04,Libur Nasional
+2024-01-10,75,Diare,Hujan,12309.69,Event Kota
+2024-01-11,177,Hipertensi,Hujan,4339.24,Banjir
+2024-01-12,72,Covid-19,Cerah,13031.65,
+2024-01-13,150,Covid-19,Badai,3866.0,
+2024-01-14,103,Demam Berdarah,Cerah,11238.03,
+2024-01-15,28,Demam Berdarah,Mendung,4869.47,Event Kota
+2024-01-16,138,Demam Berdarah,Hujan,3890.07,Event Kota
+2024-01-17,151,Hipertensi,Badai,6617.26,
+2024-01-18,189,Covid-19,Cerah,7916.88,
+2024-01-19,140,Covid-19,Badai,13906.35,
+2024-01-20,113,Demam Berdarah,Hujan,13919.04,Event Kota
+2024-01-21,93,Hipertensi,Badai,4404.11,
+2024-01-22,156,Hipertensi,Mendung,12414.89,
+2024-01-23,101,Diabetes,Cerah,7291.47,Libur Nasional
+2024-01-24,95,Diabetes,Mendung,5251.82,
+2024-01-25,176,Covid-19,Mendung,3247.3,
+2024-01-26,115,Demam Berdarah,Cerah,3576.7,Libur Nasional
+2024-01-27,136,Covid-19,Hujan,3963.98,Libur Nasional
+2024-01-28,99,Diare,Cerah,4028.3,Banjir
+2024-01-29,58,Hipertensi,Hujan,14167.34,Libur Nasional
+2024-01-30,168,Hipertensi,Mendung,3913.96,
+2024-01-31,62,Diabetes,Hujan,6526.89,Banjir
+2024-02-01,159,Asma,Mendung,12550.35,
+2024-02-02,131,Asma,Mendung,5445.9,
+2024-02-03,76,Diare,Hujan,14044.76,Libur Nasional
+2024-02-04,171,Covid-19,Cerah,5734.14,
+2024-02-05,157,Covid-19,Cerah,10172.02,Banjir
+2024-02-06,237,ISPA,Cerah,13604.64,Event Kota
+2024-02-07,138,Diare,Cerah,10014.23,Libur Nasional
+2024-02-08,134,Tifoid,Badai,10157.37,
+2024-02-09,74,Diabetes,Cerah,14750.8,Libur Nasional
+2024-02-10,130,Diabetes,Cerah,12611.58,Banjir
+2024-02-11,114,ISPA,Cerah,5805.47,Libur Nasional
+2024-02-12,99,ISPA,Mendung,9691.18,Libur Nasional
+2024-02-13,101,Hipertensi,Hujan,5298.23,
+2024-02-14,71,Asma,Badai,3145.68,
+2024-02-15,144,ISPA,Hujan,13243.6,Banjir
+2024-02-16,44,Tifoid,Mendung,9845.65,Libur Nasional
+2024-02-17,70,Tifoid,Cerah,8389.85,Event Kota
+2024-02-18,120,Hipertensi,Mendung,8196.64,Libur Nasional
+2024-02-19,102,Tifoid,Hujan,7334.93,
+2024-02-20,137,Hipertensi,Mendung,10432.42,Event Kota
+2024-02-21,48,Covid-19,Mendung,11974.4,
+2024-02-22,129,ISPA,Badai,3479.25,Banjir
+2024-02-23,132,ISPA,Badai,5757.75,
+2024-02-24,165,Asma,Hujan,6200.83,Libur Nasional
+2024-02-25,41,Diabetes,Cerah,6043.27,Event Kota
+2024-02-26,146,Hipertensi,Cerah,9934.55,
+2024-02-27,27,Tifoid,Mendung,8090.0,Banjir
+2024-02-28,129,ISPA,Hujan,4024.2,Banjir
+2024-02-29,147,Demam Berdarah,Badai,6966.5,Event Kota
+2024-03-01,105,Tifoid,Mendung,5297.57,
+2024-03-02,46,Diabetes,Hujan,4264.33,Libur Nasional
+2024-03-03,175,Asma,Cerah,14289.54,Banjir
+2024-03-04,140,Covid-19,Mendung,4925.3,
+2024-03-05,30,Covid-19,Hujan,10780.18,Libur Nasional
+2024-03-06,147,Diabetes,Cerah,3228.89,Banjir
+2024-03-07,159,Demam Berdarah,Cerah,12302.27,Event Kota
+2024-03-08,195,Hipertensi,Hujan,5673.49,Event Kota
+2024-03-09,131,Covid-19,Mendung,3905.86,Event Kota
+2024-03-10,87,Demam Berdarah,Hujan,12913.44,Banjir
+2024-03-11,65,Diabetes,Hujan,8190.0,
+2024-03-12,171,Hipertensi,Cerah,7575.67,Libur Nasional
+2024-03-13,137,Tifoid,Cerah,3040.36,
+2024-03-14,127,Covid-19,Cerah,5097.89,
+2024-03-15,133,ISPA,Cerah,11583.2,Banjir
+2024-03-16,101,ISPA,Badai,8344.32,
+2024-03-17,66,Diabetes,Badai,3214.12,
+2024-03-18,136,Diare,Hujan,12433.07,
+2024-03-19,151,Demam Berdarah,Badai,4330.61,
+2024-03-20,204,Demam Berdarah,Mendung,9901.39,
+2024-03-21,151,Diabetes,Mendung,5256.0,Banjir
+2024-03-22,68,Asma,Cerah,13522.43,Event Kota
+2024-03-23,172,Asma,Mendung,7643.24,Libur Nasional
+2024-03-24,159,Asma,Mendung,14595.91,Event Kota
+2024-03-25,171,Diabetes,Cerah,7841.45,Libur Nasional
+2024-03-26,99,Demam Berdarah,Badai,12470.27,Event Kota
+2024-03-27,100,Demam Berdarah,Cerah,12054.12,
+2024-03-28,54,Tifoid,Badai,6824.89,Banjir
+2024-03-29,151,Demam Berdarah,Badai,8603.5,
+2024-03-30,90,Demam Berdarah,Cerah,12322.32,
+2024-03-31,130,Covid-19,Hujan,11173.56,
+2024-04-01,61,Demam Berdarah,Badai,10316.79,
+2024-04-02,124,Diare,Mendung,13784.4,
+2024-04-03,48,Diare,Badai,9419.75,Libur Nasional
+2024-04-04,109,Asma,Mendung,10844.72,
+2024-04-05,160,Tifoid,Mendung,9278.25,
+2024-04-06,36,Asma,Hujan,13351.38,Banjir
+2024-04-07,94,Diabetes,Cerah,9447.35,Event Kota
+2024-04-08,91,Covid-19,Badai,14747.56,Banjir
+2024-04-09,57,Diabetes,Mendung,6083.64,Libur Nasional
+2024-04-10,140,Demam Berdarah,Hujan,9269.23,
+2024-04-11,132,Asma,Hujan,7143.07,
+2024-04-12,106,Hipertensi,Cerah,5348.79,
+2024-04-13,12,Tifoid,Mendung,12853.82,Libur Nasional
+2024-04-14,57,ISPA,Badai,10693.55,Libur Nasional
+2024-04-15,125,Diare,Hujan,7800.9,
+2024-04-16,143,Asma,Hujan,4944.59,
+2024-04-17,85,Diabetes,Mendung,9327.81,
+2024-04-18,126,ISPA,Cerah,13396.56,Event Kota
+2024-04-19,99,Demam Berdarah,Mendung,11824.47,
+2024-04-20,65,ISPA,Badai,10737.07,Libur Nasional
+2024-04-21,196,Diabetes,Mendung,13074.1,
+2024-04-22,150,Tifoid,Mendung,12596.95,Event Kota
+2024-04-23,81,ISPA,Badai,9530.83,
+2024-04-24,162,Hipertensi,Mendung,6928.06,
+2024-04-25,100,Tifoid,Mendung,11906.89,
+2024-04-26,169,Diare,Cerah,4207.53,
+2024-04-27,139,Hipertensi,Mendung,7746.13,Event Kota
+2024-04-28,58,Tifoid,Badai,4389.13,Libur Nasional
+2024-04-29,131,ISPA,Mendung,4741.35,
+2024-04-30,101,Diabetes,Badai,12506.05,Event Kota
+2024-05-01,105,Diare,Cerah,7853.65,
+2024-05-02,101,Hipertensi,Cerah,6000.64,
+2024-05-03,183,ISPA,Cerah,14458.9,
+2024-05-04,105,Diare,Badai,12451.88,
+2024-05-05,73,Hipertensi,Hujan,11278.17,Banjir
+2024-05-06,120,Covid-19,Badai,6591.65,
+2024-05-07,71,Covid-19,Hujan,12111.09,
+2024-05-08,181,Hipertensi,Badai,6530.98,
+2024-05-09,174,Hipertensi,Mendung,3564.09,Event Kota
+2024-05-10,213,Tifoid,Hujan,6765.06,
+2024-05-11,117,Covid-19,Badai,13030.37,Banjir
+2024-05-12,135,Tifoid,Mendung,7402.36,Banjir
+2024-05-13,153,Hipertensi,Hujan,6022.0,Libur Nasional
+2024-05-14,166,Hipertensi,Hujan,8426.46,Event Kota
+2024-05-15,48,Diabetes,Badai,5242.48,Banjir
+2024-05-16,100,Demam Berdarah,Badai,13748.1,
+2024-05-17,121,Diabetes,Badai,11938.09,
+2024-05-18,119,Covid-19,Hujan,5687.42,Event Kota
+2024-05-19,105,ISPA,Badai,5807.53,
+2024-05-20,193,Covid-19,Badai,11637.17,Banjir
+2024-05-21,116,Demam Berdarah,Badai,4220.02,
+2024-05-22,138,Covid-19,Hujan,14318.97,Banjir
+2024-05-23,136,Diare,Cerah,11285.49,Libur Nasional
+2024-05-24,93,Tifoid,Hujan,8017.79,
+2024-05-25,108,Asma,Cerah,3014.41,Libur Nasional
+2024-05-26,107,Diabetes,Mendung,14421.04,Banjir
+2024-05-27,162,Demam Berdarah,Badai,14954.11,
+2024-05-28,212,Hipertensi,Cerah,10267.11,
+2024-05-29,153,Tifoid,Cerah,10158.75,
+2024-05-30,180,ISPA,Badai,3853.05,
+2024-05-31,97,Asma,Hujan,9401.1,
+2024-06-01,217,Diare,Cerah,6307.76,Banjir
+2024-06-02,174,Tifoid,Mendung,7554.75,Banjir
+2024-06-03,237,Tifoid,Cerah,11285.95,
+2024-06-04,142,Diare,Mendung,5636.71,
+2024-06-05,128,Covid-19,Hujan,3802.76,Banjir
+2024-06-06,106,Diabetes,Badai,10143.08,
+2024-06-07,117,Hipertensi,Hujan,12209.14,Banjir
+2024-06-08,75,Covid-19,Badai,5114.32,Event Kota
+2024-06-09,142,Hipertensi,Mendung,4932.23,Banjir
+2024-06-10,60,ISPA,Hujan,3454.85,Libur Nasional
+2024-06-11,42,Asma,Cerah,9229.25,Libur Nasional
+2024-06-12,175,Diabetes,Hujan,5360.71,
+2024-06-13,68,ISPA,Cerah,11847.62,Event Kota
+2024-06-14,103,Hipertensi,Cerah,5100.52,Banjir
+2024-06-15,58,Tifoid,Badai,13789.38,Banjir
+2024-06-16,77,Diabetes,Cerah,13095.24,Libur Nasional
+2024-06-17,81,ISPA,Hujan,14114.1,Libur Nasional
+2024-06-18,167,Demam Berdarah,Cerah,4883.94,
+2024-06-19,183,Diare,Badai,8216.03,Event Kota
+2024-06-20,115,Asma,Badai,3547.65,Banjir
+2024-06-21,161,Asma,Cerah,3915.92,Banjir
+2024-06-22,107,Diare,Badai,4449.48,
+2024-06-23,133,Diare,Badai,10854.35,Libur Nasional
+2024-06-24,124,Asma,Hujan,9268.44,Event Kota
+2024-06-25,71,Tifoid,Hujan,9531.97,
+2024-06-26,90,Hipertensi,Cerah,7707.64,Event Kota
+2024-06-27,156,Covid-19,Mendung,4918.11,Banjir
+2024-06-28,82,ISPA,Badai,12849.41,Event Kota
+2024-06-29,149,Tifoid,Cerah,14173.19,
+2024-06-30,206,Asma,Hujan,6323.96,
+2024-07-01,129,Hipertensi,Badai,6558.87,Banjir
+2024-07-02,85,Asma,Hujan,10892.31,Event Kota
+2024-07-03,180,Hipertensi,Hujan,6008.35,
+2024-07-04,90,Hipertensi,Cerah,5502.34,Event Kota
+2024-07-05,143,Diare,Hujan,5861.37,Event Kota
+2024-07-06,142,ISPA,Mendung,10494.94,
+2024-07-07,114,Tifoid,Cerah,6584.03,
+2024-07-08,69,Hipertensi,Mendung,7704.8,Banjir
+2024-07-09,111,Tifoid,Mendung,3144.97,
+2024-07-10,148,Covid-19,Mendung,9685.18,Event Kota
+2024-07-11,106,Diare,Mendung,6319.57,Banjir
+2024-07-12,178,Asma,Cerah,8013.16,
+2024-07-13,136,Asma,Hujan,7371.94,
+2024-07-14,193,Asma,Cerah,7707.89,
+2024-07-15,181,ISPA,Badai,7924.29,
+2024-07-16,108,ISPA,Cerah,14832.66,
+2024-07-17,184,Demam Berdarah,Mendung,12158.36,
+2024-07-18,76,Diabetes,Badai,8785.42,Event Kota
+2024-07-19,95,Covid-19,Cerah,6787.13,
+2024-07-20,93,Tifoid,Cerah,10721.43,
+2024-07-21,136,Hipertensi,Cerah,7394.55,Banjir
+2024-07-22,116,Covid-19,Hujan,12168.21,
+2024-07-23,180,Diare,Badai,11143.16,Event Kota
+2024-07-24,144,Covid-19,Cerah,4739.81,Event Kota
+2024-07-25,101,Diare,Cerah,11225.54,
+2024-07-26,192,ISPA,Badai,5116.74,Banjir
+2024-07-27,161,ISPA,Cerah,4845.0,Event Kota
+2024-07-28,116,Tifoid,Badai,13162.12,
+2024-07-29,126,Asma,Cerah,7340.18,
+2024-07-30,104,Covid-19,Hujan,6099.0,Banjir
+2024-07-31,149,Diabetes,Cerah,11175.12,
+2024-08-01,89,Diabetes,Cerah,13202.02,Libur Nasional
+2024-08-02,93,Hipertensi,Badai,3029.89,
+2024-08-03,86,ISPA,Hujan,6103.16,
+2024-08-04,134,Asma,Cerah,3763.7,Libur Nasional
+2024-08-05,94,ISPA,Hujan,11730.99,Banjir
+2024-08-06,114,Covid-19,Cerah,14826.39,Banjir
+2024-08-07,55,Demam Berdarah,Mendung,9384.3,
+2024-08-08,74,ISPA,Badai,3109.32,
+2024-08-09,171,Demam Berdarah,Cerah,3119.19,
+2024-08-10,81,Hipertensi,Badai,6307.98,
+2024-08-11,132,Tifoid,Hujan,6476.15,Libur Nasional
+2024-08-12,194,Covid-19,Mendung,11842.86,
+2024-08-13,113,Diabetes,Mendung,9784.95,Libur Nasional
+2024-08-14,107,Diabetes,Hujan,9629.73,
+2024-08-15,109,ISPA,Mendung,3767.06,Event Kota
+2024-08-16,139,Diabetes,Badai,5271.92,Libur Nasional
+2024-08-17,124,Demam Berdarah,Hujan,13083.33,Event Kota
+2024-08-18,108,ISPA,Badai,11686.71,Event Kota
+2024-08-19,112,Asma,Mendung,11396.3,
+2024-08-20,178,Diabetes,Mendung,10641.41,
+2024-08-21,196,Asma,Badai,6335.58,
+2024-08-22,149,Demam Berdarah,Hujan,11360.91,Banjir
+2024-08-23,162,Asma,Hujan,8950.89,Event Kota
+2024-08-24,96,Diabetes,Badai,12635.95,Event Kota
+2024-08-25,128,Tifoid,Hujan,8415.37,
+2024-08-26,136,ISPA,Cerah,9720.99,Libur Nasional
+2024-08-27,137,Demam Berdarah,Cerah,14508.39,Libur Nasional
+2024-08-28,119,Asma,Mendung,14661.29,
+2024-08-29,102,Diare,Badai,11910.52,
+2024-08-30,91,ISPA,Hujan,11565.33,Banjir
+2024-08-31,166,Covid-19,Mendung,4902.67,Event Kota
+2024-09-01,189,Covid-19,Cerah,6079.68,Libur Nasional
+2024-09-02,55,Asma,Hujan,8233.71,
+2024-09-03,149,Hipertensi,Badai,12101.01,
+2024-09-04,171,Diabetes,Cerah,12372.35,Libur Nasional
+2024-09-05,93,Demam Berdarah,Hujan,9443.25,
+2024-09-06,43,Demam Berdarah,Cerah,4375.32,Banjir
+2024-09-07,118,Diare,Cerah,5751.27,Event Kota
+2024-09-08,124,Demam Berdarah,Hujan,4704.77,Banjir
+2024-09-09,165,Diare,Badai,6175.14,Event Kota
+2024-09-10,56,Diare,Hujan,8833.42,Event Kota
+2024-09-11,129,Diare,Cerah,9297.42,Event Kota
+2024-09-12,155,Tifoid,Hujan,10552.06,
+2024-09-13,155,Diabetes,Mendung,12626.72,Event Kota
+2024-09-14,125,ISPA,Cerah,9377.81,Libur Nasional
+2024-09-15,149,Tifoid,Hujan,13377.64,
+2024-09-16,104,Covid-19,Mendung,11689.58,
+2024-09-17,143,Asma,Mendung,14502.79,
+2024-09-18,109,Asma,Mendung,3883.8,Banjir
+2024-09-19,217,Demam Berdarah,Hujan,6378.05,
+2024-09-20,148,Asma,Badai,9614.33,Banjir
+2024-09-21,75,Hipertensi,Cerah,14563.48,
+2024-09-22,98,Tifoid,Badai,7930.22,
+2024-09-23,144,Tifoid,Cerah,10594.98,Libur Nasional
+2024-09-24,79,Diare,Mendung,5962.05,
+2024-09-25,144,Tifoid,Cerah,6933.68,Libur Nasional
+2024-09-26,53,Diabetes,Badai,7094.77,Banjir
+2024-09-27,92,ISPA,Cerah,14317.51,
+2024-09-28,103,Asma,Badai,9109.48,Event Kota
+2024-09-29,128,Covid-19,Cerah,12468.76,Libur Nasional
+2024-09-30,152,Covid-19,Hujan,12869.15,
+2024-10-01,127,Covid-19,Cerah,11818.06,Event Kota
+2024-10-02,150,Tifoid,Badai,4087.33,Event Kota
+2024-10-03,145,Hipertensi,Badai,12610.59,
+2024-10-04,115,Asma,Hujan,5880.33,Libur Nasional
+2024-10-05,103,Asma,Badai,3737.8,Banjir
+2024-10-06,62,Diare,Cerah,3680.63,
+2024-10-07,163,Tifoid,Badai,6485.2,Banjir
+2024-10-08,111,Tifoid,Badai,10057.43,Libur Nasional
+2024-10-09,118,ISPA,Cerah,9974.8,
+2024-10-10,136,Diabetes,Mendung,13179.37,
+2024-10-11,107,Diabetes,Hujan,5437.22,
+2024-10-12,164,Covid-19,Cerah,14868.85,
+2024-10-13,173,Tifoid,Cerah,8446.65,Banjir
+2024-10-14,124,Demam Berdarah,Badai,14301.32,Banjir
+2024-10-15,93,Covid-19,Hujan,14756.57,Banjir
+2024-10-16,67,Diabetes,Cerah,8061.15,
+2024-10-17,74,Hipertensi,Cerah,12514.5,
+2024-10-18,91,Diabetes,Cerah,11604.11,Libur Nasional
+2024-10-19,118,Hipertensi,Mendung,10933.18,Libur Nasional
+2024-10-20,93,Diare,Hujan,9536.18,
+2024-10-21,41,Demam Berdarah,Cerah,4578.32,Event Kota
+2024-10-22,172,ISPA,Mendung,4440.78,
+2024-10-23,159,Asma,Cerah,3330.76,
+2024-10-24,143,Covid-19,Hujan,14812.39,
+2024-10-25,100,Diare,Hujan,12644.33,
+2024-10-26,138,Tifoid,Mendung,14451.54,Libur Nasional
+2024-10-27,144,Asma,Mendung,13833.93,Event Kota
+2024-10-28,188,Tifoid,Mendung,9256.31,
+2024-10-29,125,Asma,Cerah,13026.62,
+2024-10-30,80,Covid-19,Cerah,6064.97,
+2024-10-31,57,Asma,Badai,9333.95,Banjir
+2024-11-01,159,Asma,Badai,12810.65,Libur Nasional
+2024-11-02,91,ISPA,Badai,8240.77,Banjir
+2024-11-03,55,ISPA,Hujan,5647.89,Banjir
+2024-11-04,127,Asma,Mendung,14390.7,
+2024-11-05,149,Demam Berdarah,Badai,10413.93,Libur Nasional
+2024-11-06,113,Asma,Cerah,14969.07,Banjir
+2024-11-07,148,Hipertensi,Hujan,14435.06,Libur Nasional
+2024-11-08,107,Diabetes,Badai,8488.69,
+2024-11-09,141,Hipertensi,Cerah,9225.2,
+2024-11-10,120,Tifoid,Cerah,12041.12,Banjir
+2024-11-11,60,ISPA,Badai,9487.07,
+2024-11-12,48,Demam Berdarah,Hujan,13068.61,Libur Nasional
+2024-11-13,126,ISPA,Cerah,12230.44,
+2024-11-14,57,Covid-19,Badai,14520.18,Event Kota
+2024-11-15,165,Covid-19,Hujan,11696.93,
+2024-11-16,108,Hipertensi,Cerah,12787.88,Libur Nasional
+2024-11-17,173,Demam Berdarah,Mendung,8355.54,
+2024-11-18,161,Covid-19,Hujan,6433.13,Libur Nasional
+2024-11-19,122,Covid-19,Mendung,6228.75,
+2024-11-20,82,Covid-19,Mendung,9429.77,Libur Nasional
+2024-11-21,81,Demam Berdarah,Cerah,10538.6,Banjir
+2024-11-22,109,Demam Berdarah,Hujan,9155.23,Banjir
+2024-11-23,32,Diare,Badai,9523.73,
+2024-11-24,111,Tifoid,Cerah,6749.78,
+2024-11-25,61,Asma,Hujan,14042.73,Event Kota
+2024-11-26,184,Demam Berdarah,Mendung,6417.39,
+2024-11-27,125,Covid-19,Badai,4848.39,
+2024-11-28,35,Demam Berdarah,Badai,4736.55,
+2024-11-29,60,ISPA,Mendung,5773.42,
+2024-11-30,162,Diabetes,Cerah,5118.81,Libur Nasional
+2024-12-01,180,Tifoid,Badai,10236.09,
+2024-12-02,123,Hipertensi,Mendung,9179.86,Libur Nasional
+2024-12-03,132,Demam Berdarah,Cerah,11953.32,Banjir
+2024-12-04,155,Covid-19,Mendung,11090.43,
+2024-12-05,110,ISPA,Mendung,7866.93,
+2024-12-06,186,Asma,Hujan,4718.2,
+2024-12-07,118,Covid-19,Badai,10417.92,Banjir
+2024-12-08,59,Diare,Hujan,5941.35,
+2024-12-09,136,Tifoid,Badai,12314.45,Banjir
+2024-12-10,118,Tifoid,Mendung,8745.9,
+2024-12-11,141,Hipertensi,Cerah,7053.31,Event Kota
+2024-12-12,179,Tifoid,Badai,4524.56,Event Kota
+2024-12-13,143,Demam Berdarah,Cerah,3820.98,Banjir
+2024-12-14,159,Asma,Badai,3747.3,
+2024-12-15,101,Diare,Cerah,6372.45,Event Kota
+2024-12-16,61,Hipertensi,Mendung,7921.05,Event Kota
+2024-12-17,134,Demam Berdarah,Cerah,9616.39,Banjir
+2024-12-18,163,Diare,Hujan,14635.19,Event Kota
+2024-12-19,193,Covid-19,Mendung,11481.74,
+2024-12-20,129,Hipertensi,Badai,14247.75,
+2024-12-21,114,Asma,Badai,8050.6,
+2024-12-22,96,Diare,Hujan,4106.07,
+2024-12-23,88,Diabetes,Mendung,12337.61,Libur Nasional
+2024-12-24,89,Demam Berdarah,Hujan,3478.12,Event Kota
+2024-12-25,110,Tifoid,Cerah,8737.82,
+2024-12-26,104,ISPA,Hujan,13688.07,Libur Nasional
+2024-12-27,131,Demam Berdarah,Mendung,13951.73,
+2024-12-28,94,Asma,Badai,6499.75,
+2024-12-29,137,Demam Berdarah,Cerah,9934.03,
+2024-12-30,126,Diare,Badai,4558.66,
+2024-12-31,139,Tifoid,Mendung,4571.81,Libur Nasional
+2025-01-01,109,Asma,Cerah,12056.94,Banjir
+2025-01-02,149,Covid-19,Hujan,5290.77,
+2025-01-03,196,ISPA,Mendung,6266.58,
+2025-01-04,120,Asma,Hujan,14744.99,
+2025-01-05,100,Demam Berdarah,Hujan,4240.14,Banjir
+2025-01-06,93,Hipertensi,Hujan,14690.27,
+2025-01-07,80,Asma,Cerah,8058.27,Event Kota
+2025-01-08,189,Demam Berdarah,Mendung,12112.09,Libur Nasional
+2025-01-09,59,ISPA,Cerah,3753.61,Event Kota
+2025-01-10,125,Tifoid,Hujan,11447.48,Libur Nasional
+2025-01-11,166,Diabetes,Badai,8801.05,
+2025-01-12,147,Diabetes,Hujan,9415.29,
+2025-01-13,82,ISPA,Hujan,10247.98,
+2025-01-14,107,Diabetes,Hujan,8459.51,
+2025-01-15,147,Demam Berdarah,Badai,7706.59,Libur Nasional
+2025-01-16,126,Demam Berdarah,Hujan,5005.08,Banjir
+2025-01-17,115,Hipertensi,Cerah,6770.52,Libur Nasional
+2025-01-18,198,Covid-19,Cerah,14517.03,Libur Nasional
+2025-01-19,50,Diare,Hujan,10502.59,
+2025-01-20,64,Asma,Badai,8781.42,Banjir
+2025-01-21,170,ISPA,Cerah,11154.71,Banjir
+2025-01-22,80,Asma,Badai,10050.12,Libur Nasional
+2025-01-23,68,Diare,Badai,14743.7,
+2025-01-24,93,Covid-19,Badai,7883.07,
+2025-01-25,137,Diabetes,Badai,9524.41,Event Kota
+2025-01-26,117,Tifoid,Badai,12831.62,
+2025-01-27,183,Diabetes,Cerah,6939.89,
+2025-01-28,138,ISPA,Mendung,13641.98,Banjir
+2025-01-29,107,Tifoid,Badai,4220.11,
+2025-01-30,197,Tifoid,Badai,9743.5,
+2025-01-31,121,Covid-19,Mendung,9815.02,Libur Nasional
+2025-02-01,114,Diare,Hujan,4597.66,Libur Nasional
+2025-02-02,79,Diare,Badai,6659.88,Event Kota
+2025-02-03,165,ISPA,Hujan,8730.68,
+2025-02-04,101,Diabetes,Badai,4562.8,Libur Nasional
+2025-02-05,121,Diabetes,Hujan,6025.97,
+2025-02-06,106,Diare,Mendung,12187.06,Event Kota
+2025-02-07,77,ISPA,Hujan,7438.75,Banjir
+2025-02-08,125,Diare,Badai,12825.79,Banjir
+2025-02-09,136,Diare,Cerah,13006.91,Event Kota
+2025-02-10,165,ISPA,Hujan,3168.34,Banjir
+2025-02-11,182,Covid-19,Mendung,6953.0,
+2025-02-12,201,ISPA,Badai,11423.24,Event Kota
+2025-02-13,106,Asma,Mendung,3048.97,
+2025-02-14,40,Covid-19,Badai,4013.42,Banjir
+2025-02-15,134,Tifoid,Hujan,9965.24,Libur Nasional
+2025-02-16,93,Diabetes,Mendung,7583.38,Banjir
+2025-02-17,201,Hipertensi,Cerah,6656.64,
+2025-02-18,161,ISPA,Hujan,4366.07,
+2025-02-19,183,Covid-19,Hujan,4137.31,
+2025-02-20,103,ISPA,Hujan,7744.01,Libur Nasional
+2025-02-21,45,Diabetes,Badai,4136.25,
+2025-02-22,115,Hipertensi,Hujan,10689.34,
+2025-02-23,75,ISPA,Mendung,4230.37,Banjir
+2025-02-24,175,Diabetes,Mendung,10869.12,
+2025-02-25,51,Asma,Badai,9807.98,
+2025-02-26,43,ISPA,Badai,3537.36,
+2025-02-27,59,Diabetes,Mendung,11089.63,
+2025-02-28,175,Covid-19,Hujan,5117.97,Banjir
+2025-03-01,170,Covid-19,Cerah,3080.56,
+2025-03-02,57,Diare,Mendung,12205.08,Event Kota
+2025-03-03,141,Covid-19,Mendung,14800.9,
+2025-03-04,137,Hipertensi,Badai,7575.35,
+2025-03-05,148,Tifoid,Cerah,8283.21,Libur Nasional
+2025-03-06,168,ISPA,Cerah,11682.12,
+2025-03-07,138,ISPA,Hujan,13747.21,Libur Nasional
+2025-03-08,122,ISPA,Hujan,3955.07,
+2025-03-09,122,Diare,Badai,13758.5,
+2025-03-10,160,Covid-19,Hujan,14396.35,Libur Nasional
+2025-03-11,160,Tifoid,Badai,11729.58,Event Kota
+2025-03-12,92,Covid-19,Hujan,5988.16,
+2025-03-13,181,Diare,Cerah,3229.36,Libur Nasional
+2025-03-14,83,Demam Berdarah,Mendung,4342.22,
+2025-03-15,46,Tifoid,Cerah,11900.41,Libur Nasional
+2025-03-16,95,Asma,Badai,6834.92,
+2025-03-17,123,Asma,Badai,13516.66,Event Kota
+2025-03-18,92,Diare,Hujan,13370.9,Banjir
+2025-03-19,134,ISPA,Mendung,11527.47,Banjir
+2025-03-20,164,Asma,Cerah,10542.85,
+2025-03-21,108,Diabetes,Cerah,12357.82,
+2025-03-22,168,Asma,Badai,10531.35,
+2025-03-23,74,Diare,Mendung,11564.32,
+2025-03-24,112,Demam Berdarah,Cerah,13426.53,Libur Nasional
+2025-03-25,166,Hipertensi,Mendung,7218.56,Banjir
+2025-03-26,12,Diabetes,Mendung,6988.07,
+2025-03-27,152,Hipertensi,Hujan,10148.97,
+2025-03-28,111,Diare,Cerah,7983.29,Event Kota
+2025-03-29,205,Asma,Cerah,12196.0,
+2025-03-30,161,Hipertensi,Cerah,4971.75,Banjir
+2025-03-31,113,Hipertensi,Cerah,6934.77,
+2025-04-01,130,Tifoid,Mendung,8981.03,Libur Nasional
+2025-04-02,61,Demam Berdarah,Cerah,3557.02,Event Kota
+2025-04-03,124,Tifoid,Hujan,11069.1,Banjir
+2025-04-04,109,Diabetes,Mendung,14882.11,Event Kota
+2025-04-05,102,Tifoid,Mendung,3903.68,Libur Nasional
+2025-04-06,57,Tifoid,Hujan,7228.99,
+2025-04-07,126,Diare,Cerah,7400.02,Event Kota
+2025-04-08,128,Tifoid,Hujan,5194.56,
+2025-04-09,161,Asma,Cerah,4158.33,
+2025-04-10,123,Hipertensi,Badai,10872.6,
+2025-04-11,88,Covid-19,Mendung,10765.24,
+2025-04-12,137,Demam Berdarah,Cerah,14093.23,
+2025-04-13,153,Diabetes,Mendung,12822.13,Event Kota
+2025-04-14,163,Covid-19,Cerah,4763.07,Event Kota
+2025-04-15,136,Hipertensi,Cerah,8287.07,
+2025-04-16,95,Asma,Cerah,7652.6,
+2025-04-17,125,Diabetes,Cerah,7993.98,Libur Nasional
+2025-04-18,116,Diabetes,Badai,7230.28,
+2025-04-19,83,Covid-19,Badai,5148.43,Libur Nasional
+2025-04-20,98,Diabetes,Hujan,7949.56,
+2025-04-21,116,Covid-19,Hujan,12060.07,Libur Nasional
+2025-04-22,77,Hipertensi,Cerah,11721.72,
+2025-04-23,137,ISPA,Badai,3771.91,
+2025-04-24,98,Diabetes,Cerah,11302.47,Banjir
+2025-04-25,119,Demam Berdarah,Badai,7191.34,
+2025-04-26,87,Asma,Hujan,11902.48,
+2025-04-27,143,Hipertensi,Badai,3138.36,Event Kota
+2025-04-28,79,ISPA,Badai,3271.08,
+2025-04-29,124,Asma,Badai,9096.64,Event Kota
+2025-04-30,105,Tifoid,Cerah,4983.04,
+2025-05-01,140,Diare,Cerah,10117.72,
+2025-05-02,92,Diabetes,Badai,6348.17,
+2025-05-03,123,Covid-19,Cerah,7906.03,Libur Nasional
+2025-05-04,109,Tifoid,Cerah,9310.57,
+2025-05-05,89,Asma,Mendung,12719.36,Event Kota
+2025-05-06,94,Asma,Cerah,8659.2,
+2025-05-07,161,Hipertensi,Mendung,5794.22,Event Kota
+2025-05-08,78,Diare,Mendung,9954.06,
+2025-05-09,106,Asma,Badai,13028.22,
+2025-05-10,65,Diare,Hujan,14710.34,
+2025-05-11,137,Diabetes,Mendung,9475.25,
+2025-05-12,67,Hipertensi,Mendung,7242.47,
+2025-05-13,82,Diabetes,Badai,8997.68,Libur Nasional
+2025-05-14,103,Demam Berdarah,Badai,9254.76,
+2025-05-15,101,Diabetes,Hujan,8408.07,Banjir
+2025-05-16,78,Hipertensi,Badai,12655.07,Banjir
+2025-05-17,150,ISPA,Mendung,10185.64,
+2025-05-18,76,Asma,Badai,7711.67,Libur Nasional
+2025-05-19,161,Tifoid,Badai,8925.82,
+2025-05-20,73,Covid-19,Badai,11085.93,
+2025-05-21,73,ISPA,Hujan,4347.61,
+2025-05-22,99,Covid-19,Hujan,13728.84,
+2025-05-23,97,Tifoid,Mendung,12554.64,Banjir
+2025-05-24,162,Covid-19,Badai,3877.95,
+2025-05-25,129,Diare,Mendung,4835.67,
+2025-05-26,115,Demam Berdarah,Mendung,3029.18,Event Kota
+2025-05-27,170,ISPA,Hujan,13398.06,Banjir
+2025-05-28,165,Covid-19,Badai,5987.02,
+2025-05-29,79,Demam Berdarah,Hujan,3638.35,
+2025-05-30,115,Demam Berdarah,Cerah,9159.55,Banjir
+2025-05-31,213,ISPA,Cerah,8840.79,
+2025-06-01,110,Diabetes,Hujan,4619.33,
+2025-06-02,77,Hipertensi,Mendung,14847.27,Banjir
+2025-06-03,107,Covid-19,Cerah,10603.63,Event Kota
+2025-06-04,70,Hipertensi,Badai,6080.7,
+2025-06-05,172,Diare,Cerah,7850.62,
+2025-06-06,159,Asma,Cerah,8840.94,Libur Nasional
+2025-06-07,103,Demam Berdarah,Badai,5004.7,
+2025-06-08,93,Tifoid,Badai,6670.1,Event Kota
+2025-06-09,141,Hipertensi,Mendung,8528.26,
+2025-06-10,74,Demam Berdarah,Mendung,5555.94,
+2025-06-11,34,Covid-19,Hujan,4542.48,Banjir
+2025-06-12,135,ISPA,Cerah,6075.94,Banjir
+2025-06-13,191,Diabetes,Badai,11038.22,
+2025-06-14,109,Tifoid,Mendung,7885.07,Libur Nasional
+2025-06-15,85,Demam Berdarah,Mendung,3381.59,Banjir
+2025-06-16,61,Asma,Hujan,13269.03,Banjir
+2025-06-17,52,Covid-19,Badai,3108.39,Banjir
+2025-06-18,80,ISPA,Badai,3574.09,
+2025-06-19,140,Demam Berdarah,Cerah,11817.8,
+2025-06-20,175,Asma,Hujan,10091.15,Banjir
+2025-06-21,124,Hipertensi,Mendung,5164.31,Event Kota
+2025-06-22,53,ISPA,Hujan,6872.21,Event Kota
+2025-06-23,65,Tifoid,Cerah,7724.12,
+2025-06-24,91,Asma,Hujan,12004.13,Libur Nasional
+2025-06-25,139,Tifoid,Hujan,11082.38,
+2025-06-26,130,Diabetes,Mendung,12666.15,
+2025-06-27,108,Demam Berdarah,Badai,14910.33,
+2025-06-28,101,Asma,Hujan,6166.9,Event Kota
+2025-06-29,136,Diabetes,Badai,7298.06,Banjir
+2025-06-30,112,Asma,Mendung,6221.08,
+2025-07-01,161,Covid-19,Mendung,8364.66,Banjir
+2025-07-02,135,Diabetes,Badai,10606.06,
+2025-07-03,161,ISPA,Cerah,14050.47,Libur Nasional
+2025-07-04,107,Diabetes,Cerah,8945.18,
+2025-07-05,138,Diabetes,Mendung,4369.77,
+2025-07-06,122,Hipertensi,Badai,14261.97,
+2025-07-07,201,Asma,Mendung,7418.27,Libur Nasional
+2025-07-08,137,Tifoid,Mendung,6425.58,Event Kota
+2025-07-09,140,Demam Berdarah,Badai,4899.41,Event Kota
+2025-07-10,183,Asma,Hujan,9773.58,Event Kota
+2025-07-11,173,Diare,Badai,14719.34,
+2025-07-12,104,Demam Berdarah,Cerah,3545.59,Banjir
+2025-07-13,107,Diabetes,Mendung,14973.59,
+2025-07-14,140,Demam Berdarah,Cerah,3570.61,
+2025-07-15,32,Covid-19,Badai,4381.11,Libur Nasional
+2025-07-16,168,Demam Berdarah,Cerah,11467.1,Libur Nasional
+2025-07-17,206,Hipertensi,Hujan,11512.47,
+2025-07-18,76,Asma,Badai,7693.05,
+2025-07-19,71,Diabetes,Hujan,4767.36,Libur Nasional
+2025-07-20,87,Diare,Cerah,7480.33,Banjir
+2025-07-21,93,Tifoid,Hujan,9895.93,
+2025-07-22,129,Covid-19,Cerah,12423.34,
+2025-07-23,106,Asma,Hujan,5163.63,
+2025-07-24,148,Diabetes,Mendung,4692.55,
+2025-07-25,148,Demam Berdarah,Mendung,14740.91,
+2025-07-26,127,Asma,Mendung,7761.57,Libur Nasional
+2025-07-27,112,Covid-19,Cerah,11555.4,Banjir
+2025-07-28,152,Demam Berdarah,Hujan,6669.43,
+2025-07-29,116,Diabetes,Cerah,4199.72,Banjir
+2025-07-30,66,Hipertensi,Hujan,12848.15,Libur Nasional
+2025-07-31,152,Diabetes,Mendung,13612.76,
+2025-08-01,149,Demam Berdarah,Badai,3157.76,
+2025-08-02,72,Tifoid,Hujan,4558.49,Banjir
+2025-08-03,61,ISPA,Mendung,12850.72,Banjir
+2025-08-04,172,Diabetes,Cerah,8438.05,Libur Nasional
+2025-08-05,137,Tifoid,Badai,14461.07,Banjir
+2025-08-06,154,Hipertensi,Hujan,11514.98,
+2025-08-07,115,Hipertensi,Badai,4757.15,Banjir
+2025-08-08,107,Asma,Badai,10567.21,
+2025-08-09,182,Tifoid,Cerah,6621.89,Libur Nasional
+2025-08-10,138,Hipertensi,Cerah,3646.18,
+2025-08-11,42,Diabetes,Mendung,4897.5,Event Kota
+2025-08-12,94,Demam Berdarah,Badai,9105.72,
+2025-08-13,129,Hipertensi,Mendung,9226.56,Banjir
+2025-08-14,65,Hipertensi,Badai,6540.01,
+2025-08-15,147,ISPA,Mendung,13481.88,Event Kota
+2025-08-16,175,Demam Berdarah,Mendung,10163.12,
+2025-08-17,150,Hipertensi,Hujan,13761.47,Event Kota
+2025-08-18,83,ISPA,Hujan,8052.19,
+2025-08-19,143,Diare,Mendung,13466.44,Libur Nasional
+2025-08-20,152,ISPA,Mendung,10131.91,Event Kota
+2025-08-21,113,Demam Berdarah,Cerah,6356.39,
+2025-08-22,182,Asma,Cerah,8178.35,
+2025-08-23,62,Covid-19,Hujan,9759.85,Event Kota
+2025-08-24,224,Demam Berdarah,Mendung,5757.34,Event Kota
+2025-08-25,124,Asma,Mendung,7179.49,Libur Nasional
+2025-08-26,78,Diare,Cerah,11693.87,
+2025-08-27,65,ISPA,Mendung,3092.99,
+2025-08-28,119,Covid-19,Badai,12991.54,Event Kota
+2025-08-29,52,Covid-19,Cerah,12504.28,Libur Nasional
+2025-08-30,76,Hipertensi,Cerah,8836.01,Libur Nasional
+2025-08-31,77,ISPA,Cerah,3112.03,Libur Nasional
+2025-09-01,93,Tifoid,Hujan,3069.32,Libur Nasional
+2025-09-02,102,Asma,Hujan,11048.99,Banjir
+2025-09-03,264,Demam Berdarah,Cerah,8126.79,Event Kota
+2025-09-04,134,Diabetes,Cerah,12288.9,Event Kota
+2025-09-05,105,Covid-19,Mendung,3594.26,Event Kota
+2025-09-06,133,Covid-19,Hujan,4424.08,Libur Nasional
+2025-09-07,88,Tifoid,Mendung,12998.5,
+2025-09-08,108,Covid-19,Badai,11406.6,
+2025-09-09,149,Asma,Mendung,6174.13,Libur Nasional
+2025-09-10,160,Covid-19,Badai,12186.56,
+2025-09-11,101,Diabetes,Badai,14397.55,
+2025-09-12,94,ISPA,Badai,12920.71,
+2025-09-13,34,Asma,Mendung,11962.36,
+2025-09-14,125,ISPA,Cerah,4190.79,Banjir
+2025-09-15,124,Hipertensi,Hujan,10378.73,
+2025-09-16,188,Asma,Badai,4750.67,Libur Nasional
+2025-09-17,146,Covid-19,Hujan,12027.91,Libur Nasional
+2025-09-18,131,Diare,Cerah,3207.68,Libur Nasional
+2025-09-19,161,Tifoid,Cerah,11455.04,Banjir
+2025-09-20,86,Covid-19,Mendung,3695.38,Event Kota
+2025-09-21,97,Hipertensi,Badai,3574.56,
+2025-09-22,66,Tifoid,Mendung,10763.35,Libur Nasional
+2025-09-23,145,Demam Berdarah,Mendung,12533.58,
+2025-09-24,78,Hipertensi,Mendung,9022.8,
+2025-09-25,204,Hipertensi,Badai,5110.72,
+2025-09-26,149,Covid-19,Hujan,6200.67,Event Kota
+2025-09-27,96,Covid-19,Badai,6320.66,Banjir
+2025-09-28,139,Hipertensi,Cerah,4461.95,Event Kota
+2025-09-29,151,Tifoid,Badai,4158.59,
+2025-09-30,115,Tifoid,Badai,9360.54,Event Kota
+2025-10-01,115,Covid-19,Cerah,13181.35,Libur Nasional
+2025-10-02,178,Asma,Badai,9140.09,
+2025-10-03,116,Tifoid,Hujan,12855.87,
+2025-10-04,118,Diare,Hujan,4009.29,Event Kota
+2025-10-05,109,Covid-19,Badai,8270.78,
+2025-10-06,101,Tifoid,Hujan,7739.06,Libur Nasional
+2025-10-07,111,Diare,Cerah,8416.26,Banjir
+2025-10-08,102,Asma,Mendung,9804.62,
+2025-10-09,172,Tifoid,Mendung,11610.43,
+2025-10-10,110,Hipertensi,Hujan,9468.23,Libur Nasional
+2025-10-11,145,Asma,Cerah,10178.29,Libur Nasional
+2025-10-12,127,Hipertensi,Cerah,4135.67,Libur Nasional
+2025-10-13,131,Diabetes,Hujan,3585.63,
+2025-10-14,168,Asma,Hujan,11157.84,Libur Nasional
+2025-10-15,85,ISPA,Badai,6867.32,
+2025-10-16,109,Demam Berdarah,Hujan,10309.78,Libur Nasional
+2025-10-17,73,Demam Berdarah,Cerah,11749.92,Libur Nasional
+2025-10-18,96,Tifoid,Badai,10428.78,Banjir
+2025-10-19,91,Diabetes,Badai,7086.49,
+2025-10-20,143,Hipertensi,Cerah,11569.98,
+2025-10-21,161,ISPA,Badai,4940.98,Libur Nasional
+2025-10-22,92,Hipertensi,Badai,8243.85,Banjir
+2025-10-23,10,Hipertensi,Mendung,3865.89,
+2025-10-24,58,Covid-19,Mendung,11485.44,
+2025-10-25,126,Diabetes,Mendung,7930.12,Event Kota
+2025-10-26,147,ISPA,Cerah,7790.74,
+2025-10-27,189,Asma,Badai,5468.97,Libur Nasional
+2025-10-28,98,Diabetes,Mendung,11137.08,Event Kota
+2025-10-29,133,ISPA,Badai,4576.53,
+2025-10-30,161,Diabetes,Hujan,9011.6,Banjir
+2025-10-31,203,Diare,Mendung,8625.81,Event Kota
+2025-11-01,124,Asma,Cerah,14811.18,
+2025-11-02,137,Tifoid,Mendung,7482.33,
+2025-11-03,139,Covid-19,Cerah,13734.66,Event Kota
+2025-11-04,65,Asma,Cerah,9012.11,
+2025-11-05,67,Covid-19,Mendung,10584.32,
+2025-11-06,99,Diabetes,Badai,5032.53,Banjir

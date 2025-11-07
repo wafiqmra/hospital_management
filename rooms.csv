@@ -1,0 +1,401 @@
+﻿room_id,room_name,room_type,capacity,current_occupancy,special_note,last_updated
+R001,Ruang Asoka,Poli Gigi,10,7,,2024-10-21
+R002,Ruang Canna,Laboratorium,4,1,,2025-07-09
+R003,Ruang Sepatu,NICU,1,1,Pasien kritis; 1 bed,2024-06-09
+R004,Ruang Sedap Malam,Poli Anak,10,5,,2024-05-07
+R005,Ruang Kasturi,Laboratorium,2,0,,2024-02-21
+R006,Ruang Begonia,Poli Anak,10,0,,2025-09-29
+R007,Ruang Lily,Rawat Inap,4,3,,2025-07-17
+R008,Ruang Dahlia,ICU,1,0,Pasien kritis; 1 bed,2024-04-04
+R009,Ruang Magnolia,Isolasi,1,0,PPE wajib,2024-07-06
+R010,Ruang Sakura,Rawat Inap,4,4,,2025-04-05
+R011,Ruang Flamboyan,Poli Umum,10,5,,2024-11-19
+R012,Ruang Dahlia 9,Poli Umum,10,4,,2025-03-30
+R013,Ruang Anyelir,Isolasi,1,1,Tekanan negatif,2023-12-27
+R014,Ruang Anggrek,Isolasi,1,0,Pasien menular,2025-09-09
+R015,Ruang Bougenville,Laboratorium,2,2,,2024-08-04
+R016,Ruang Sedap Malam 2,Poli Anak,10,3,,2024-07-01
+R017,Ruang Lily 12,Poli Gigi,10,4,,2024-05-02
+R018,Ruang Soka,Poli Umum,10,9,,2025-07-15
+R019,Ruang Mawar,Bersalin,4,4,,2025-06-29
+R020,Ruang Peony,Laboratorium,6,3,,2024-09-10
+R021,Ruang Krisan,Ruang Operasi,1,0,Bedah mayor,2024-10-21
+R022,Ruang Lily 4,Isolasi,1,1,Tekanan negatif,2024-07-22
+R023,Ruang Lembayung,Poli Gigi,10,3,,2024-07-23
+R024,Ruang Kamboja,Ruang Operasi,1,0,Bedah minor,2024-10-29
+R025,Ruang Kenanga,ICU,1,1,Pasien kritis; 1 bed,2024-11-08
+R026,Ruang Tulip,Poli Gigi,10,10,,2024-07-28
+R027,Ruang Nusa Indah,NICU,1,1,Pasien kritis; 1 bed,2024-05-10
+R028,Ruang Rafflesia,Rawat Inap,8,7,,2023-11-13
+R029,Ruang Melati,Poli Umum,10,10,,2024-08-25
+R030,Ruang Jasmine,ICU,1,0,Pasien kritis; 1 bed,2025-10-27
+R031,Ruang Kemuning,Bersalin,6,0,,2024-09-08
+R032,Ruang Sepatu 3,Ruang Operasi,1,0,Bedah mayor,2024-04-30
+R033,Ruang Kamboja 2,Poli Anak,10,2,,2025-01-10
+R034,Ruang Angsana,Ruang Operasi,1,1,Bedah mayor,2024-10-03
+R035,Ruang Peony 7,Rawat Inap,2,0,,2025-06-09
+R036,Ruang Cempaka,Bersalin,8,4,,2025-09-09
+R037,Ruang Soka 2,NICU,1,0,Pasien kritis; 1 bed,2024-10-31
+R038,Ruang Kemuning 2,Radiologi,4,2,,2025-08-29
+R039,Ruang Soka 2,Radiologi,2,0,,2024-12-01
+R040,Ruang Lembayung 2,Poli Anak,10,6,,2025-08-19
+R041,Ruang Peony 4,Isolasi,1,0,Tekanan negatif,2025-02-19
+R042,Ruang Kenanga 7,Laboratorium,8,6,,2025-02-08
+R043,Ruang Anggrek 7,Ruang Operasi,1,1,Bedah minor,2024-07-02
+R044,Ruang Anyelir 7,Poli Anak,10,5,,2024-05-10
+R045,Ruang Angsana 3,Radiologi,2,0,,2024-11-13
+R046,Ruang Kenanga 7,Poli Gigi,10,10,,2025-07-02
+R047,Ruang Nusa Indah 3,Laboratorium,4,0,,2023-12-08
+R048,Ruang Angsana 9,Poli Gigi,10,6,,2025-07-08
+R049,Ruang Teratai,Poli Anak,10,8,,2025-02-09
+R050,Ruang Mawar 5,Poli Anak,10,1,,2024-08-16
+R051,Ruang Tulip 9,Bersalin,4,3,,2025-07-29
+R052,Ruang Seruni,Poli Anak,10,9,,2024-10-19
+R053,Ruang Kamboja 10,Radiologi,4,2,,2025-03-12
+R054,Ruang Krisan 4,NICU,1,1,Pasien kritis; 1 bed,2024-07-29
+R055,Ruang Sakura 9,NICU,1,0,Pasien kritis; 1 bed,2024-11-20
+R056,Ruang Mawar 4,Ruang Operasi,1,1,Bedah mayor,2025-02-25
+R057,Ruang Nusa Indah 5,ICU,1,1,Pasien kritis; 1 bed,2023-12-02
+R058,Ruang Angsana 8,NICU,1,1,Pasien kritis; 1 bed,2023-11-12
+R059,Ruang Lavender,NICU,1,1,Pasien kritis; 1 bed,2024-08-11
+R060,Ruang Krisan 4,Isolasi,1,1,Tekanan negatif,2025-05-10
+R061,Ruang Mawar 11,Poli Umum,10,5,,2024-05-04
+R062,Ruang Flamboyan 9,Poli Gigi,10,2,,2025-10-21
+R063,Ruang Kupu-Kupu,Ruang Operasi,1,1,Bedah minor,2024-02-09
+R064,Ruang Asoka 5,Isolasi,1,1,PPE wajib,2024-05-23
+R065,Ruang Jasmine 6,Rawat Inap,2,1,,2024-07-11
+R066,Ruang Rafflesia 6,ICU,1,0,Pasien kritis; 1 bed,2025-11-03
+R067,Ruang Magnolia 3,Bersalin,8,2,,2024-09-10
+R068,Ruang Angsana 9,NICU,1,0,Pasien kritis; 1 bed,2024-07-21
+R069,Ruang Kertas,Laboratorium,2,0,,2024-03-30
+R070,Ruang Lily 4,Isolasi,1,0,Pasien menular,2024-01-09
+R071,Ruang Flamboyan 12,Ruang Operasi,1,1,Bedah minor,2024-09-22
+R072,Ruang Sakura 10,Rawat Inap,8,5,,2025-06-22
+R073,Ruang Pucuk Merah,Ruang Operasi,1,0,Bedah mayor,2023-11-15
+R074,Ruang Kenikir,Poli Gigi,10,7,,2025-11-04
+R075,Ruang Nusa Indah 11,ICU,1,0,Pasien kritis; 1 bed,2024-03-08
+R076,Ruang Nusa Indah 3,Poli Anak,10,9,,2024-01-27
+R077,Ruang Kemuning 10,Bersalin,6,4,,2023-12-26
+R078,Ruang Kenanga 12,ICU,1,0,Pasien kritis; 1 bed,2024-09-08
+R079,Ruang Nusa Indah 3,Ruang Operasi,1,0,Bedah minor,2025-10-16
+R080,Ruang Anggrek 2,Laboratorium,2,1,,2025-10-15
+R081,Ruang Seroja,Poli Gigi,10,10,,2024-12-18
+R082,Ruang Dahlia 3,Ruang Operasi,1,0,Bedah mayor,2025-03-05
+R083,Ruang Anggrek 8,Rawat Inap,8,1,,2024-04-03
+R084,Ruang Lily 3,Poli Umum,10,8,,2024-11-29
+R085,Ruang Camellia,NICU,1,1,Pasien kritis; 1 bed,2023-12-31
+R086,Ruang Seruni 9,Poli Gigi,10,3,,2025-10-05
+R087,Ruang Seruni 9,Radiologi,6,6,,2025-10-09
+R088,Ruang Lembayung 12,ICU,1,0,Pasien kritis; 1 bed,2024-09-15
+R089,Ruang Camellia 9,Poli Anak,10,10,,2025-11-05
+R090,Ruang Lembayung 3,Rawat Inap,8,7,,2023-11-13
+R091,Ruang Seruni 2,ICU,1,1,Pasien kritis; 1 bed,2025-04-11
+R092,Ruang Seroja 8,Poli Anak,10,6,,2025-05-02
+R093,Ruang Kemuning 5,NICU,1,0,Pasien kritis; 1 bed,2024-02-14
+R094,Ruang Rafflesia 9,NICU,1,1,Pasien kritis; 1 bed,2025-01-13
+R095,Ruang Kupu-Kupu 3,Ruang Operasi,1,1,Bedah mayor,2025-01-26
+R096,Ruang Krisan 4,Bersalin,8,4,,2023-12-05
+R097,Ruang Cempaka 9,ICU,1,1,Pasien kritis; 1 bed,2025-07-29
+R098,Ruang Kasturi 2,Laboratorium,4,4,,2024-08-21
+R099,Ruang Bougenville 8,Poli Umum,10,6,,2024-06-02
+R100,Ruang Lembayung 8,Isolasi,1,0,Tekanan negatif,2024-06-07
+R101,Ruang Kertas 7,Isolasi,1,0,Pasien menular,2024-12-22
+R102,Ruang Lembayung 10,Ruang Operasi,1,0,Bedah mayor,2024-12-15
+R103,Ruang Camellia 6,Poli Gigi,10,5,,2025-08-03
+R104,Ruang Pucuk Merah 6,Bersalin,8,4,,2024-06-11
+R105,Ruang Turi,Radiologi,6,2,,2024-10-13
+R106,Ruang Camellia 8,Bersalin,8,1,,2025-10-28
+R107,Ruang Dahlia 7,ICU,1,1,Pasien kritis; 1 bed,2024-10-14
+R108,Ruang Angsana 12,ICU,1,1,Pasien kritis; 1 bed,2025-10-30
+R109,Ruang Soka 3,Ruang Operasi,1,1,Bedah minor,2025-02-12
+R110,Ruang Angsana 10,Poli Gigi,10,9,,2024-12-01
+R111,Ruang Begonia 6,Bersalin,6,2,,2025-05-27
+R112,Ruang Tulip 5,Isolasi,1,0,PPE wajib,2025-05-16
+R113,Ruang Peony 12,NICU,1,0,Pasien kritis; 1 bed,2024-02-11
+R114,Ruang Camellia 3,Isolasi,1,0,Tekanan negatif,2025-07-26
+R115,Ruang Kamboja 4,Poli Umum,10,9,,2025-05-26
+R116,Ruang Kemuning 7,Radiologi,2,2,,2025-09-08
+R117,Ruang Jasmine 3,Poli Anak,10,10,,2025-08-08
+R118,Ruang Kasturi 10,Ruang Operasi,1,1,Bedah mayor,2025-06-04
+R119,Ruang Rafflesia 5,Rawat Inap,8,7,,2023-12-16
+R120,Ruang Cempaka 9,Ruang Operasi,1,0,Bedah mayor,2024-04-23
+R121,Ruang Kupu-Kupu 10,Radiologi,8,0,,2024-07-06
+R122,Ruang Kemuning 9,Poli Gigi,10,5,,2025-09-05
+R123,Ruang Sepatu 7,Isolasi,1,0,Pasien menular,2024-03-26
+R124,Ruang Dahlia 3,NICU,1,0,Pasien kritis; 1 bed,2023-12-28
+R125,Ruang Krisan 7,Poli Umum,10,3,,2025-04-18
+R126,Ruang Flamboyan 7,Rawat Inap,8,6,,2025-06-18
+R127,Ruang Begonia 8,NICU,1,0,Pasien kritis; 1 bed,2024-04-10
+R128,Ruang Kamboja 10,Poli Gigi,10,7,,2024-04-17
+R129,Ruang Turi 3,Isolasi,1,1,Tekanan negatif,2024-02-11
+R130,Ruang Sakura 12,Bersalin,8,1,,2025-10-21
+R131,Ruang Teratai 3,NICU,1,0,Pasien kritis; 1 bed,2025-08-09
+R132,Ruang Bougenville 12,Laboratorium,8,2,,2025-06-01
+R133,Ruang Turi 12,Ruang Operasi,1,1,Bedah minor,2025-08-04
+R134,Ruang Lembayung 4,Rawat Inap,8,1,,2025-04-06
+R135,Ruang Angsana 3,Isolasi,1,1,PPE wajib,2025-08-08
+R136,Ruang Melati 2,Poli Anak,10,3,,2025-09-16
+R137,Ruang Kupu-Kupu 12,Poli Umum,10,5,,2025-10-11
+R138,Ruang Canna 7,Poli Anak,10,10,,2025-04-11
+R139,Ruang Lembayung 9,NICU,1,1,Pasien kritis; 1 bed,2025-10-24
+R140,Ruang Begonia 12,Laboratorium,6,2,,2025-10-20
+R141,Ruang Anggrek 11,Bersalin,4,0,,2024-07-12
+R142,Ruang Kasturi 9,Ruang Operasi,1,0,Bedah mayor,2025-05-22
+R143,Ruang Kemuning 6,Isolasi,1,1,Pasien menular,2024-06-27
+R144,Ruang Sepatu 12,Rawat Inap,4,4,,2024-07-13
+R145,Ruang Lily 7,Rawat Inap,4,1,,2025-01-02
+R146,Ruang Mawar 2,Isolasi,1,1,Tekanan negatif,2025-06-15
+R147,Ruang Lavender 7,ICU,1,0,Pasien kritis; 1 bed,2024-07-13
+R148,Ruang Jasmine 9,Rawat Inap,2,0,,2025-01-06
+R149,Ruang Seruni 10,NICU,1,1,Pasien kritis; 1 bed,2024-06-03
+R150,Ruang Flamboyan 9,NICU,1,0,Pasien kritis; 1 bed,2024-09-29
+R151,Ruang Kupu-Kupu 5,Laboratorium,2,0,,2025-06-23
+R152,Ruang Pucuk Merah 5,Rawat Inap,6,3,,2024-12-28
+R153,Ruang Magnolia 8,Radiologi,4,1,,2024-06-02
+R154,Ruang Kenanga 9,Ruang Operasi,1,0,Bedah mayor,2024-08-20
+R155,Ruang Tulip 6,ICU,1,1,Pasien kritis; 1 bed,2024-12-15
+R156,Ruang Bougenville 7,NICU,1,1,Pasien kritis; 1 bed,2024-01-17
+R157,Ruang Kamboja 5,Radiologi,2,1,,2024-03-13
+R158,Ruang Lembayung 12,Isolasi,1,1,Tekanan negatif,2024-10-18
+R159,Ruang Pucuk Merah 7,Laboratorium,8,5,,2023-11-27
+R160,Ruang Canna 3,Laboratorium,2,0,,2024-03-16
+R161,Ruang Mawar 8,Poli Umum,10,9,,2024-01-03
+R162,Ruang Begonia 6,ICU,1,1,Pasien kritis; 1 bed,2024-04-11
+R163,Ruang Asoka 6,Rawat Inap,8,4,,2024-06-01
+R164,Ruang Rafflesia 4,Isolasi,1,0,Tekanan negatif,2025-08-10
+R165,Ruang Kamboja 11,ICU,1,0,Pasien kritis; 1 bed,2025-09-05
+R166,Ruang Soka 9,Laboratorium,6,5,,2024-11-05
+R167,Ruang Canna 8,ICU,1,1,Pasien kritis; 1 bed,2024-12-31
+R168,Ruang Soka 5,Poli Anak,10,3,,2025-07-23
+R169,Ruang Lavender 6,ICU,1,1,Pasien kritis; 1 bed,2024-01-28
+R170,Ruang Teratai 12,Isolasi,1,0,PPE wajib,2025-06-12
+R171,Ruang Flamboyan 5,Rawat Inap,2,1,,2024-02-17
+R172,Ruang Kemuning 9,Poli Gigi,10,3,,2024-01-21
+R173,Ruang Kupu-Kupu 3,Bersalin,6,2,,2024-01-21
+R174,Ruang Melati 11,Ruang Operasi,1,1,Bedah minor,2024-02-01
+R175,Ruang Soka 8,ICU,1,1,Pasien kritis; 1 bed,2025-05-13
+R176,Ruang Angsana 3,Radiologi,6,0,,2023-11-14
+R177,Ruang Jasmine 4,Laboratorium,2,2,,2024-04-15
+R178,Ruang Kertas 7,Poli Umum,10,1,,2025-06-07
+R179,Ruang Pucuk Merah 5,Poli Anak,10,4,,2025-08-17
+R180,Ruang Canna 5,ICU,1,0,Pasien kritis; 1 bed,2024-10-13
+R181,Ruang Anyelir 3,Isolasi,1,1,PPE wajib,2025-05-22
+R182,Ruang Peony 2,Rawat Inap,2,0,,2024-05-10
+R183,Ruang Nusa Indah 8,Radiologi,6,1,,2024-04-10
+R184,Ruang Mawar 7,NICU,1,0,Pasien kritis; 1 bed,2024-12-08
+R185,Ruang Krisan 8,ICU,1,1,Pasien kritis; 1 bed,2025-11-06
+R186,Ruang Lembayung 2,Isolasi,1,1,Pasien menular,2025-02-02
+R187,Ruang Nusa Indah 6,ICU,1,0,Pasien kritis; 1 bed,2024-03-01
+R188,Ruang Dahlia 6,Poli Gigi,10,9,,2025-02-03
+R189,Ruang Peony 7,Laboratorium,6,5,,2025-06-04
+R190,Ruang Angsana 11,Rawat Inap,8,2,,2025-08-27
+R191,Ruang Kamboja 11,Isolasi,1,0,Tekanan negatif,2025-08-05
+R192,Ruang Lily 9,Isolasi,1,0,Pasien menular,2024-06-12
+R193,Ruang Lembayung 3,Ruang Operasi,1,0,Bedah minor,2025-04-17
+R194,Ruang Lembayung 3,Poli Gigi,10,10,,2024-01-21
+R195,Ruang Tulip 6,Poli Gigi,10,10,,2024-07-14
+R196,Ruang Krisan 6,Bersalin,2,0,,2024-05-30
+R197,Ruang Kupu-Kupu 7,ICU,1,1,Pasien kritis; 1 bed,2024-12-10
+R198,Ruang Lily 6,Laboratorium,6,5,,2025-08-05
+R199,Ruang Turi 10,Poli Anak,10,6,,2025-04-28
+R200,Ruang Nusa Indah 5,Poli Anak,10,5,,2025-07-15
+R201,Ruang Angsana 3,Radiologi,6,0,,2025-06-19
+R202,Ruang Kenanga 8,Isolasi,1,0,PPE wajib,2025-04-14
+R203,Ruang Kenikir 9,Ruang Operasi,1,0,Bedah minor,2024-04-01
+R204,Ruang Krisan 12,Laboratorium,6,1,,2024-03-01
+R205,Ruang Seruni 4,Rawat Inap,8,8,,2025-05-05
+R206,Ruang Tulip 6,Poli Gigi,10,8,,2025-10-13
+R207,Ruang Soka 3,Rawat Inap,6,3,,2024-02-29
+R208,Ruang Pucuk Merah 7,Laboratorium,6,3,,2024-04-09
+R209,Ruang Seruni 12,Ruang Operasi,1,0,Bedah mayor,2025-05-23
+R210,Ruang Lavender 7,ICU,1,1,Pasien kritis; 1 bed,2024-10-20
+R211,Ruang Seruni 3,Laboratorium,8,0,,2024-10-12
+R212,Ruang Seroja 10,Rawat Inap,8,1,,2024-10-31
+R213,Ruang Lavender 4,Laboratorium,8,0,,2024-04-10
+R214,Ruang Cempaka 10,Laboratorium,6,1,,2025-05-19
+R215,Ruang Lavender 9,Laboratorium,4,2,,2024-02-05
+R216,Ruang Begonia 11,Laboratorium,4,3,,2024-02-13
+R217,Ruang Sakura 6,Radiologi,4,4,,2024-08-20
+R218,Ruang Sepatu 6,Ruang Operasi,1,0,Bedah mayor,2024-10-07
+R219,Ruang Peony 5,Poli Gigi,10,3,,2025-05-28
+R220,Ruang Kamboja 6,Poli Umum,10,9,,2024-12-22
+R221,Ruang Kamboja 11,NICU,1,0,Pasien kritis; 1 bed,2025-07-03
+R222,Ruang Kasturi 10,Poli Umum,10,10,,2024-11-06
+R223,Ruang Melati 4,Radiologi,2,2,,2024-07-07
+R224,Ruang Kertas 5,Poli Umum,10,5,,2025-01-14
+R225,Ruang Lily 12,Ruang Operasi,1,1,Bedah minor,2024-08-16
+R226,Ruang Asoka 4,Ruang Operasi,1,0,Bedah minor,2025-04-23
+R227,Ruang Magnolia 5,Rawat Inap,6,4,,2024-08-30
+R228,Ruang Mawar 5,Isolasi,1,1,Pasien menular,2025-02-22
+R229,Ruang Seroja 11,NICU,1,0,Pasien kritis; 1 bed,2024-08-10
+R230,Ruang Peony 9,Isolasi,1,1,PPE wajib,2024-06-07
+R231,Ruang Peony 12,Rawat Inap,4,3,,2024-03-27
+R232,Ruang Canna 10,Rawat Inap,2,0,,2024-05-26
+R233,Ruang Sepatu 7,Radiologi,2,1,,2023-11-30
+R234,Ruang Camellia 2,Laboratorium,6,3,,2024-09-06
+R235,Ruang Seruni 7,Poli Gigi,10,1,,2024-02-28
+R236,Ruang Krisan 12,ICU,1,1,Pasien kritis; 1 bed,2024-05-03
+R237,Ruang Sakura 9,Laboratorium,6,6,,2024-03-14
+R238,Ruang Kamboja 8,Poli Gigi,10,1,,2024-10-22
+R239,Ruang Kemuning 11,Bersalin,2,1,,2025-04-11
+R240,Ruang Dahlia 6,Rawat Inap,4,1,,2024-10-18
+R241,Ruang Dahlia 10,Radiologi,8,8,,2025-01-24
+R242,Ruang Anggrek 12,Poli Umum,10,7,,2025-08-30
+R243,Ruang Anggrek 7,Poli Umum,10,6,,2024-11-12
+R244,Ruang Magnolia 11,Laboratorium,8,3,,2024-05-02
+R245,Ruang Seruni 4,NICU,1,1,Pasien kritis; 1 bed,2024-09-10
+R246,Ruang Melati 11,Bersalin,2,1,,2024-11-05
+R247,Ruang Kertas 6,Rawat Inap,4,4,,2025-01-25
+R248,Ruang Krisan 11,NICU,1,1,Pasien kritis; 1 bed,2023-12-24
+R249,Ruang Kemuning 8,Poli Anak,10,6,,2024-03-22
+R250,Ruang Sedap Malam 7,Poli Umum,10,3,,2024-09-18
+R251,Ruang Anggrek 5,Laboratorium,2,1,,2025-06-04
+R252,Ruang Anyelir 12,Rawat Inap,4,3,,2025-05-10
+R253,Ruang Kemuning 7,Poli Anak,10,10,,2025-04-30
+R254,Ruang Sakura 8,Ruang Operasi,1,0,Bedah minor,2024-04-30
+R255,Ruang Lily 7,ICU,1,1,Pasien kritis; 1 bed,2025-01-18
+R256,Ruang Soka 2,ICU,1,0,Pasien kritis; 1 bed,2024-02-10
+R257,Ruang Dahlia 10,Radiologi,6,6,,2024-09-02
+R258,Ruang Canna 12,Poli Anak,10,2,,2024-01-30
+R259,Ruang Kamboja 7,Bersalin,6,0,,2024-01-08
+R260,Ruang Lembayung 2,Isolasi,1,0,Tekanan negatif,2025-09-29
+R261,Ruang Asoka 10,Ruang Operasi,1,0,Bedah mayor,2024-09-21
+R262,Ruang Cempaka 9,Radiologi,4,3,,2025-05-14
+R263,Ruang Lavender 7,Laboratorium,8,6,,2025-10-15
+R264,Ruang Peony 8,Isolasi,1,0,Pasien menular,2025-04-14
+R265,Ruang Canna 2,ICU,1,1,Pasien kritis; 1 bed,2024-11-23
+R266,Ruang Kemuning 5,NICU,1,0,Pasien kritis; 1 bed,2025-04-27
+R267,Ruang Seruni 7,NICU,1,1,Pasien kritis; 1 bed,2025-07-05
+R268,Ruang Lembayung 12,ICU,1,1,Pasien kritis; 1 bed,2024-10-22
+R269,Ruang Begonia 6,Isolasi,1,1,PPE wajib,2024-07-14
+R270,Ruang Peony 12,ICU,1,0,Pasien kritis; 1 bed,2024-10-15
+R271,Ruang Bougenville 11,Laboratorium,8,5,,2024-12-25
+R272,Ruang Bougenville 8,Radiologi,6,0,,2024-02-22
+R273,Ruang Soka 12,ICU,1,0,Pasien kritis; 1 bed,2024-07-21
+R274,Ruang Flamboyan 2,Radiologi,8,2,,2025-09-19
+R275,Ruang Pucuk Merah 3,Bersalin,4,3,,2024-11-17
+R276,Ruang Teratai 11,Laboratorium,4,3,,2025-03-04
+R277,Ruang Kasturi 11,Ruang Operasi,1,1,Bedah mayor,2024-08-07
+R278,Ruang Begonia 7,Laboratorium,8,1,,2024-03-06
+R279,Ruang Teratai 2,Rawat Inap,6,2,,2024-02-21
+R280,Ruang Asoka 5,ICU,1,0,Pasien kritis; 1 bed,2025-10-16
+R281,Ruang Dahlia 4,Radiologi,6,6,,2024-10-28
+R282,Ruang Flamboyan 8,Ruang Operasi,1,1,Bedah mayor,2024-06-10
+R283,Ruang Nusa Indah 7,Laboratorium,2,0,,2023-12-06
+R284,Ruang Seroja 9,Radiologi,4,2,,2023-12-08
+R285,Ruang Bougenville 2,Rawat Inap,8,0,,2024-12-14
+R286,Ruang Dahlia 9,Poli Anak,10,3,,2024-11-26
+R287,Ruang Seruni 6,Laboratorium,6,3,,2024-03-06
+R288,Ruang Lily 6,Radiologi,2,2,,2025-10-29
+R289,Ruang Turi 2,NICU,1,0,Pasien kritis; 1 bed,2025-09-18
+R290,Ruang Rafflesia 9,Isolasi,1,0,Pasien menular,2025-05-10
+R291,Ruang Cempaka 4,ICU,1,1,Pasien kritis; 1 bed,2023-11-26
+R292,Ruang Seruni 3,NICU,1,0,Pasien kritis; 1 bed,2025-06-19
+R293,Ruang Peony 8,Radiologi,2,1,,2025-08-14
+R294,Ruang Kenikir 2,NICU,1,1,Pasien kritis; 1 bed,2025-03-24
+R295,Ruang Pucuk Merah 12,Poli Umum,10,7,,2024-11-20
+R296,Ruang Kemuning 8,Poli Umum,10,3,,2024-02-16
+R297,Ruang Flamboyan 12,NICU,1,0,Pasien kritis; 1 bed,2024-02-28
+R298,Ruang Lily 2,ICU,1,0,Pasien kritis; 1 bed,2024-04-17
+R299,Ruang Magnolia 11,Poli Anak,10,0,,2025-09-03
+R300,Ruang Kupu-Kupu 10,Poli Umum,10,10,,2024-11-20
+R301,Ruang Flamboyan 6,NICU,1,0,Pasien kritis; 1 bed,2024-03-05
+R302,Ruang Camellia 11,ICU,1,1,Pasien kritis; 1 bed,2025-10-15
+R303,Ruang Anyelir 7,Radiologi,4,4,,2025-10-30
+R304,Ruang Kupu-Kupu 11,Poli Gigi,10,0,,2025-10-25
+R305,Ruang Kenikir 7,Rawat Inap,8,4,,2023-12-15
+R306,Ruang Kertas 10,Isolasi,1,1,Tekanan negatif,2024-12-19
+R307,Ruang Flamboyan 8,Radiologi,4,1,,2025-07-26
+R308,Ruang Magnolia 10,Poli Gigi,10,7,,2025-09-01
+R309,Ruang Cempaka 5,Poli Umum,10,10,,2025-09-17
+R310,Ruang Asoka 2,Poli Anak,10,1,,2024-08-13
+R311,Ruang Mawar 10,Bersalin,2,0,,2024-01-27
+R312,Ruang Canna 2,Rawat Inap,6,5,,2024-09-17
+R313,Ruang Pucuk Merah 10,Rawat Inap,2,0,,2024-10-11
+R314,Ruang Melati 10,Rawat Inap,4,0,,2024-03-03
+R315,Ruang Asoka 8,ICU,1,1,Pasien kritis; 1 bed,2024-08-22
+R316,Ruang Lavender 9,Poli Gigi,10,1,,2024-08-05
+R317,Ruang Lily 6,Isolasi,1,0,Pasien menular,2024-06-22
+R318,Ruang Sepatu 6,Poli Umum,10,10,,2024-01-31
+R319,Ruang Cempaka 5,Isolasi,1,0,Tekanan negatif,2025-06-26
+R320,Ruang Angsana 5,Rawat Inap,4,1,,2024-09-04
+R321,Ruang Flamboyan 5,Poli Umum,10,4,,2025-06-27
+R322,Ruang Rafflesia 4,ICU,1,0,Pasien kritis; 1 bed,2024-12-07
+R323,Ruang Kenikir 8,Rawat Inap,2,0,,2023-12-23
+R324,Ruang Kamboja 3,NICU,1,0,Pasien kritis; 1 bed,2025-01-28
+R325,Ruang Sakura 5,Isolasi,1,0,Pasien menular,2024-06-18
+R326,Ruang Cempaka 9,Poli Anak,10,10,,2024-07-23
+R327,Ruang Sepatu 12,ICU,1,1,Pasien kritis; 1 bed,2023-12-24
+R328,Ruang Anggrek 7,Poli Umum,10,3,,2025-09-07
+R329,Ruang Anggrek 10,Laboratorium,2,0,,2025-02-25
+R330,Ruang Seroja 12,Bersalin,2,1,,2024-03-23
+R331,Ruang Kertas 5,Rawat Inap,4,1,,2025-03-17
+R332,Ruang Anyelir 7,Isolasi,1,0,PPE wajib,2025-02-25
+R333,Ruang Lembayung 11,NICU,1,0,Pasien kritis; 1 bed,2024-07-31
+R334,Ruang Kasturi 6,Radiologi,4,0,,2024-12-18
+R335,Ruang Lily 7,Rawat Inap,4,0,,2024-09-28
+R336,Ruang Mawar 8,ICU,1,1,Pasien kritis; 1 bed,2025-08-19
+R337,Ruang Asoka 4,Poli Gigi,10,2,,2025-03-05
+R338,Ruang Kamboja 11,Radiologi,6,6,,2025-06-07
+R339,Ruang Jasmine 3,Rawat Inap,6,2,,2024-01-21
+R340,Ruang Kasturi 2,Laboratorium,4,1,,2024-11-10
+R341,Ruang Seruni 3,Bersalin,4,0,,2024-01-28
+R342,Ruang Kenikir 8,Laboratorium,2,0,,2025-09-12
+R343,Ruang Turi 5,NICU,1,1,Pasien kritis; 1 bed,2025-06-26
+R344,Ruang Sedap Malam 10,Ruang Operasi,1,1,Bedah mayor,2023-11-11
+R345,Ruang Turi 11,Bersalin,2,1,,2024-11-10
+R346,Ruang Dahlia 2,Bersalin,8,8,,2025-09-11
+R347,Ruang Sakura 7,Isolasi,1,0,Tekanan negatif,2024-01-05
+R348,Ruang Magnolia 7,Rawat Inap,2,0,,2025-01-04
+R349,Ruang Begonia 8,Poli Umum,10,10,,2024-11-29
+R350,Ruang Lembayung 10,Radiologi,6,3,,2023-11-23
+R351,Ruang Lily 11,Ruang Operasi,1,0,Bedah minor,2024-02-26
+R352,Ruang Kemuning 4,Poli Gigi,10,0,,2025-03-25
+R353,Ruang Peony 6,Ruang Operasi,1,0,Bedah minor,2025-07-11
+R354,Ruang Kertas 12,Bersalin,4,1,,2023-11-16
+R355,Ruang Teratai 5,ICU,1,1,Pasien kritis; 1 bed,2024-08-26
+R356,Ruang Anyelir 11,Rawat Inap,8,1,,2024-08-23
+R357,Ruang Lembayung 5,Laboratorium,4,0,,2024-01-04
+R358,Ruang Seroja 7,Ruang Operasi,1,0,Bedah minor,2024-08-22
+R359,Ruang Angsana 10,Isolasi,1,1,Tekanan negatif,2025-06-05
+R360,Ruang Kemuning 4,Bersalin,2,2,,2025-05-01
+R361,Ruang Sakura 4,Laboratorium,2,0,,2025-04-21
+R362,Ruang Sakura 10,Laboratorium,4,4,,2025-10-21
+R363,Ruang Teratai 3,Isolasi,1,0,PPE wajib,2024-06-03
+R364,Ruang Kasturi 11,Radiologi,6,6,,2024-02-16
+R365,Ruang Camellia 10,Poli Umum,10,10,,2024-11-15
+R366,Ruang Tulip 2,Rawat Inap,8,5,,2024-07-20
+R367,Ruang Lavender 10,Poli Umum,10,0,,2025-03-04
+R368,Ruang Kenikir 6,Rawat Inap,6,3,,2023-11-25
+R369,Ruang Seroja 3,Ruang Operasi,1,1,Bedah mayor,2024-03-03
+R370,Ruang Bougenville 11,Radiologi,8,8,,2024-01-23
+R371,Ruang Sepatu 5,Poli Umum,10,3,,2024-05-21
+R372,Ruang Jasmine 2,Radiologi,2,1,,2024-11-16
+R373,Ruang Jasmine 3,Poli Umum,10,3,,2024-11-03
+R374,Ruang Mawar 5,Rawat Inap,8,4,,2024-06-30
+R375,Ruang Jasmine 5,NICU,1,0,Pasien kritis; 1 bed,2025-05-12
+R376,Ruang Jasmine 7,Isolasi,1,1,PPE wajib,2024-09-23
+R377,Ruang Kenanga 9,Radiologi,6,6,,2025-02-02
+R378,Ruang Teratai 12,ICU,1,1,Pasien kritis; 1 bed,2024-12-05
+R379,Ruang Seroja 2,Isolasi,1,0,Tekanan negatif,2025-05-22
+R380,Ruang Canna 7,Radiologi,4,1,,2024-07-25
+R381,Ruang Lavender 8,Rawat Inap,4,1,,2024-02-08
+R382,Ruang Kertas 12,Isolasi,1,1,PPE wajib,2025-04-29
+R383,Ruang Kamboja 3,Radiologi,4,3,,2024-02-19
+R384,Ruang Jasmine 10,Laboratorium,2,0,,2024-04-20
+R385,Ruang Kamboja 11,ICU,1,0,Pasien kritis; 1 bed,2024-06-08
+R386,Ruang Peony 7,Poli Gigi,10,8,,2024-12-27
+R387,Ruang Jasmine 10,Poli Gigi,10,0,,2024-06-24
+R388,Ruang Seruni 5,Isolasi,1,0,PPE wajib,2024-06-18
+R389,Ruang Kenikir 11,Bersalin,6,0,,2024-09-30
+R390,Ruang Melati 4,Poli Anak,10,1,,2025-02-26
+R391,Ruang Melati 9,Bersalin,2,0,,2025-01-03
+R392,Ruang Anggrek 9,ICU,1,0,Pasien kritis; 1 bed,2024-08-05
+R393,Ruang Kenikir 11,Poli Anak,10,7,,2025-04-17
+R394,Ruang Seruni 10,Poli Anak,10,8,,2025-09-07
+R395,Ruang Begonia 10,Radiologi,8,6,,2025-04-17
+R396,Ruang Kertas 2,Rawat Inap,4,1,,2024-10-10
+R397,Ruang Pucuk Merah 4,NICU,1,0,Pasien kritis; 1 bed,2024-11-08
+R398,Ruang Camellia 10,Isolasi,1,1,Tekanan negatif,2025-02-09
+R399,Ruang Jasmine 3,Laboratorium,2,1,,2023-12-27
+R400,Ruang Dahlia 4,Poli Anak,10,7,,2024-02-22

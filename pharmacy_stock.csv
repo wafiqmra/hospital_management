@@ -1,0 +1,1301 @@
+﻿drug_id,drug_name,category,stock_in,stock_out,stock_date,expiry_date,supplier
+D00001,Insulin,Bronkodilator,355,264,2025-10-27,2027-08-31,Prima Pharma
+D00002,Azithromycin,Antibiotik,77,0,2024-04-04,2026-07-26,Prima Pharma
+D00003,Vitamin C,Vitamin,282,0,2025-01-21,2026-07-29,Prima Pharma
+D00004,Metformin,Antibiotik,399,0,2025-10-14,2026-11-01,Cipta Sejahtera
+D00005,Vitamin C,Vitamin,441,0,2024-11-27,2026-09-27,Medika Nusantara
+D00006,Metformin,Antasida,0,131,2025-11-02,2027-08-30,Prima Pharma
+D00007,Omeprazole,Antidiabetik,310,0,2024-11-05,2027-04-06,Prima Pharma
+D00008,Amlodipine,Antasida,290,67,2025-02-06,2027-07-24,Prima Pharma
+D00009,Antasida,Antibiotik,273,269,2025-09-25,2026-12-11,Prima Pharma
+D00010,Zinc,Antasida,436,0,2024-02-23,2025-02-01,Prima Pharma
+D00011,Zinc,Analgesik,0,0,2025-06-24,2026-05-17,PT Farma Sehat
+D00012,Zinc,Antibiotik,0,36,2025-04-22,2026-01-26,Cipta Sejahtera
+D00013,Paracetamol,Antidiabetik,310,0,2025-09-25,2026-05-13,PT Farma Sehat
+D00014,ORS,Antibiotik,163,0,2025-07-20,2027-07-17,PT Farma Sehat
+D00015,Ciprofloxacin,Antibiotik,0,183,2024-06-22,2026-04-18,Prima Pharma
+D00016,Zinc,Antasida,0,184,2025-01-21,2027-07-03,PT Farma Sehat
+D00017,Amoxicillin,Antidiabetik,139,256,2023-12-03,2025-01-20,Cipta Sejahtera
+D00018,Antasida,Analgesik,73,0,2023-11-29,2025-06-10,Medika Nusantara
+D00019,Antasida,Antidiabetik,122,140,2025-06-05,2026-01-02,Medika Nusantara
+D00020,Omeprazole,Bronkodilator,0,0,2024-01-15,2026-04-22,Cipta Sejahtera
+D00021,Paracetamol,Antidiabetik,248,0,2025-04-01,2027-04-05,Prima Pharma
+D00022,Antasida,Antidiabetik,46,0,2023-12-18,2024-10-20,PT Farma Sehat
+D00023,Salbutamol,Antidiabetik,0,204,2025-10-26,2027-03-16,Global Medika
+D00024,Azithromycin,Analgesik,370,84,2024-12-03,2026-01-08,Global Medika
+D00025,Zinc,Antidiabetik,0,0,2025-06-25,2026-01-13,PT Farma Sehat
+D00026,Cetirizine,Antibiotik,0,0,2024-12-15,2026-03-21,PT Farma Sehat
+D00027,Paracetamol,Antibiotik,0,0,2024-07-09,2025-11-12,Medika Nusantara
+D00028,Amlodipine,Antasida,0,226,2025-08-20,2027-06-25,Medika Nusantara
+D00029,Cetirizine,Antibiotik,203,152,2024-12-20,2026-10-19,Global Medika
+D00030,Ciprofloxacin,Analgesik,437,98,2024-12-25,2026-11-21,PT Farma Sehat
+D00031,Insulin,Bronkodilator,45,244,2024-04-28,2025-11-28,Medika Nusantara
+D00032,Antasida,Antibiotik,264,144,2024-05-10,2026-09-02,Prima Pharma
+D00033,Amoxicillin,Antidiabetik,0,54,2024-01-01,2024-09-14,Global Medika
+D00034,Salbutamol,Antidiabetik,0,0,2025-10-15,2027-08-18,Medika Nusantara
+D00035,Vitamin C,Vitamin,0,34,2025-08-16,2026-12-20,Medika Nusantara
+D00036,Insulin,Antidiabetik,449,0,2024-12-12,2026-10-03,Prima Pharma
+D00037,Salbutamol,Antidiabetik,0,240,2024-05-07,2025-10-07,Global Medika
+D00038,Amlodipine,Antasida,337,126,2024-02-27,2025-01-10,Prima Pharma
+D00039,Salbutamol,Antidiabetik,332,261,2025-01-17,2026-08-25,Medika Nusantara
+D00040,Zinc,Antidiabetik,90,277,2024-01-25,2026-05-26,Medika Nusantara
+D00041,ORS,Bronkodilator,154,188,2023-11-11,2024-04-24,Cipta Sejahtera
+D00042,Ibuprofen,Antibiotik,138,0,2024-04-25,2025-04-14,Medika Nusantara
+D00043,Paracetamol,Antasida,0,101,2025-06-22,2026-02-16,Prima Pharma
+D00044,Amoxicillin,Antidiabetik,0,171,2024-07-31,2025-07-21,Cipta Sejahtera
+D00045,Omeprazole,Antibiotik,221,68,2024-09-21,2026-01-11,PT Farma Sehat
+D00046,Azithromycin,Antasida,37,107,2024-12-23,2026-02-24,Prima Pharma
+D00047,Vitamin C,Vitamin,455,106,2025-06-02,2026-01-07,Global Medika
+D00048,Metformin,Antidiabetik,199,274,2024-11-18,2026-08-09,Medika Nusantara
+D00049,ORS,Analgesik,0,0,2024-12-05,2026-01-07,Global Medika
+D00050,Salbutamol,Antasida,46,69,2025-03-15,2025-12-10,Cipta Sejahtera
+D00051,Antasida,Antibiotik,184,19,2024-03-18,2026-06-12,Cipta Sejahtera
+D00052,Metformin,Bronkodilator,320,0,2024-09-23,2026-06-29,Global Medika
+D00053,Azithromycin,Antasida,196,210,2024-09-18,2025-09-21,PT Farma Sehat
+D00054,Vitamin C,Vitamin,0,0,2024-12-30,2027-03-28,Cipta Sejahtera
+D00055,Vitamin C,Vitamin,0,183,2024-10-25,2026-05-10,Cipta Sejahtera
+D00056,Omeprazole,Analgesik,216,282,2024-08-28,2025-02-09,Prima Pharma
+D00057,Amoxicillin,Bronkodilator,0,43,2025-09-23,2026-09-08,PT Farma Sehat
+D00058,Amoxicillin,Antidiabetik,170,0,2024-05-07,2026-02-11,Cipta Sejahtera
+D00059,Antasida,Antibiotik,0,0,2023-12-22,2026-04-29,Global Medika
+D00060,Insulin,Antidiabetik,0,0,2025-08-07,2026-09-25,Prima Pharma
+D00061,Metformin,Antasida,0,0,2024-02-24,2025-08-05,Cipta Sejahtera
+D00062,Ibuprofen,Analgesik,99,296,2024-06-12,2026-07-27,PT Farma Sehat
+D00063,Omeprazole,Antibiotik,340,197,2024-07-21,2026-06-09,PT Farma Sehat
+D00064,Paracetamol,Antibiotik,0,204,2025-03-01,2026-05-01,Global Medika
+D00065,Azithromycin,Antidiabetik,246,0,2025-02-04,2026-01-29,Cipta Sejahtera
+D00066,Omeprazole,Analgesik,0,0,2025-01-17,2026-12-16,Medika Nusantara
+D00067,Salbutamol,Antasida,200,0,2024-10-01,2025-06-30,PT Farma Sehat
+D00068,Insulin,Antidiabetik,37,171,2025-03-30,2027-02-20,Cipta Sejahtera
+D00069,Amoxicillin,Antasida,275,0,2024-05-28,2026-07-12,Cipta Sejahtera
+D00070,Azithromycin,Antibiotik,380,210,2024-10-31,2025-10-18,Prima Pharma
+D00071,Insulin,Antidiabetik,0,167,2024-07-25,2026-07-08,Medika Nusantara
+D00072,Azithromycin,Antibiotik,0,0,2025-07-04,2026-07-10,Prima Pharma
+D00073,Paracetamol,Antidiabetik,0,162,2024-02-14,2026-01-08,Global Medika
+D00074,Antasida,Analgesik,0,0,2024-06-14,2025-09-13,PT Farma Sehat
+D00075,Amlodipine,Antasida,81,85,2024-01-29,2024-07-13,Medika Nusantara
+D00076,Metformin,Bronkodilator,0,0,2024-08-14,2025-05-10,Cipta Sejahtera
+D00077,Omeprazole,Analgesik,304,0,2024-04-17,2026-02-11,Global Medika
+D00078,Amoxicillin,Analgesik,430,281,2025-01-15,2026-01-23,Cipta Sejahtera
+D00079,Amlodipine,Antidiabetik,0,158,2024-02-10,2024-06-28,Prima Pharma
+D00080,Salbutamol,Antasida,162,0,2025-01-03,2026-07-20,Cipta Sejahtera
+D00081,Ibuprofen,Antidiabetik,39,0,2025-07-12,2026-11-16,Medika Nusantara
+D00082,Omeprazole,Bronkodilator,0,0,2024-06-12,2025-01-16,Medika Nusantara
+D00083,Amlodipine,Antibiotik,0,0,2025-01-03,2026-09-17,PT Farma Sehat
+D00084,Insulin,Antidiabetik,176,0,2024-05-29,2025-11-01,Medika Nusantara
+D00085,Amoxicillin,Analgesik,0,205,2024-03-12,2025-05-24,Medika Nusantara
+D00086,Amoxicillin,Antasida,425,41,2025-10-01,2026-04-08,PT Farma Sehat
+D00087,Azithromycin,Antasida,0,180,2024-10-21,2026-04-02,Global Medika
+D00088,Salbutamol,Analgesik,0,178,2024-08-28,2025-11-10,Cipta Sejahtera
+D00089,Insulin,Antidiabetik,0,231,2025-07-12,2026-06-18,Cipta Sejahtera
+D00090,ORS,Antasida,0,0,2025-04-28,2027-05-15,Global Medika
+D00091,ORS,Antibiotik,0,225,2025-04-25,2026-05-29,Medika Nusantara
+D00092,Paracetamol,Bronkodilator,334,91,2023-12-12,2025-03-22,Medika Nusantara
+D00093,Amlodipine,Analgesik,329,0,2025-06-16,2027-02-01,Prima Pharma
+D00094,Antasida,Antasida,0,142,2025-01-20,2027-06-27,PT Farma Sehat
+D00095,Ciprofloxacin,Analgesik,0,0,2025-11-06,2027-07-08,Prima Pharma
+D00096,Amoxicillin,Antasida,0,0,2023-11-24,2024-06-11,Global Medika
+D00097,Cetirizine,Antasida,390,0,2025-03-17,2025-08-01,Medika Nusantara
+D00098,Paracetamol,Analgesik,0,0,2025-06-23,2026-04-24,Prima Pharma
+D00099,Vitamin C,Vitamin,0,0,2023-11-15,2025-04-15,Cipta Sejahtera
+D00100,Vitamin C,Vitamin,0,162,2024-09-14,2025-04-09,Global Medika
+D00101,Amoxicillin,Antidiabetik,0,114,2024-06-07,2025-06-25,Global Medika
+D00102,Salbutamol,Antidiabetik,374,0,2024-01-19,2025-04-18,PT Farma Sehat
+D00103,Insulin,Analgesik,0,0,2025-10-07,2027-05-18,PT Farma Sehat
+D00104,Metformin,Antidiabetik,0,215,2024-10-31,2027-01-21,PT Farma Sehat
+D00105,Amoxicillin,Analgesik,442,0,2024-08-10,2026-10-18,Prima Pharma
+D00106,Paracetamol,Bronkodilator,0,120,2024-01-28,2025-12-24,Cipta Sejahtera
+D00107,Amoxicillin,Antasida,141,0,2024-07-28,2025-11-10,Medika Nusantara
+D00108,Paracetamol,Antasida,0,0,2024-05-06,2026-01-01,Cipta Sejahtera
+D00109,Zinc,Analgesik,0,95,2025-08-19,2026-04-21,Cipta Sejahtera
+D00110,Antasida,Antasida,0,177,2024-02-01,2025-12-09,Cipta Sejahtera
+D00111,Vitamin C,Vitamin,95,53,2024-09-15,2026-07-28,PT Farma Sehat
+D00112,Paracetamol,Bronkodilator,33,275,2024-05-28,2026-07-03,Global Medika
+D00113,ORS,Antibiotik,0,54,2024-10-09,2025-08-20,Prima Pharma
+D00114,Zinc,Antasida,0,42,2025-01-01,2025-08-22,Medika Nusantara
+D00115,Insulin,Bronkodilator,0,0,2024-10-22,2025-07-04,Prima Pharma
+D00116,Zinc,Antidiabetik,0,0,2025-08-24,2026-03-21,Cipta Sejahtera
+D00117,ORS,Analgesik,247,36,2024-05-05,2025-12-07,Global Medika
+D00118,Insulin,Bronkodilator,359,0,2024-07-13,2026-06-15,Prima Pharma
+D00119,Vitamin C,Vitamin,357,95,2025-07-01,2026-09-22,Cipta Sejahtera
+D00120,Paracetamol,Antidiabetik,0,0,2023-12-06,2026-04-17,Medika Nusantara
+D00121,Paracetamol,Antibiotik,415,94,2025-06-06,2027-06-10,Global Medika
+D00122,Azithromycin,Antidiabetik,285,0,2024-05-05,2025-09-18,Medika Nusantara
+D00123,ORS,Bronkodilator,0,0,2024-09-22,2027-02-09,PT Farma Sehat
+D00124,Omeprazole,Bronkodilator,95,0,2025-01-09,2025-09-25,Cipta Sejahtera
+D00125,Insulin,Antasida,0,0,2025-06-22,2026-04-29,PT Farma Sehat
+D00126,ORS,Antidiabetik,0,0,2024-05-14,2026-05-12,Medika Nusantara
+D00127,Insulin,Bronkodilator,57,169,2024-06-09,2025-10-11,Medika Nusantara
+D00128,Vitamin C,Vitamin,450,246,2025-04-14,2027-04-01,PT Farma Sehat
+D00129,Insulin,Antasida,0,0,2025-07-21,2025-11-22,Cipta Sejahtera
+D00130,Insulin,Antidiabetik,0,262,2025-01-21,2027-06-05,Cipta Sejahtera
+D00131,Salbutamol,Bronkodilator,0,0,2025-01-19,2026-06-28,Prima Pharma
+D00132,Vitamin C,Vitamin,0,0,2024-01-06,2025-08-22,Global Medika
+D00133,Metformin,Antasida,0,0,2023-11-22,2025-02-12,Medika Nusantara
+D00134,Vitamin C,Vitamin,156,0,2025-07-11,2027-01-02,Prima Pharma
+D00135,Cetirizine,Bronkodilator,0,187,2024-10-29,2026-03-20,Prima Pharma
+D00136,Ibuprofen,Antasida,0,0,2024-03-11,2024-12-29,Medika Nusantara
+D00137,Vitamin C,Vitamin,403,153,2024-01-12,2026-02-26,Global Medika
+D00138,Azithromycin,Bronkodilator,297,0,2025-10-17,2028-02-17,Global Medika
+D00139,Paracetamol,Antibiotik,0,0,2024-12-18,2026-08-27,Prima Pharma
+D00140,Metformin,Bronkodilator,34,0,2024-07-25,2026-08-27,Cipta Sejahtera
+D00141,Vitamin C,Vitamin,0,0,2024-11-09,2025-03-23,PT Farma Sehat
+D00142,Vitamin C,Vitamin,334,171,2024-07-28,2025-07-19,Prima Pharma
+D00143,ORS,Analgesik,0,255,2024-01-28,2024-10-22,Global Medika
+D00144,Antasida,Analgesik,0,0,2025-07-19,2027-10-17,Prima Pharma
+D00145,Salbutamol,Antibiotik,127,0,2024-11-14,2025-06-25,Cipta Sejahtera
+D00146,Paracetamol,Antidiabetik,0,41,2025-01-06,2025-08-20,PT Farma Sehat
+D00147,Azithromycin,Antasida,103,222,2025-07-18,2027-11-20,Medika Nusantara
+D00148,ORS,Antidiabetik,0,139,2024-04-30,2025-06-17,Prima Pharma
+D00149,Amlodipine,Antasida,394,146,2025-08-03,2025-12-04,Global Medika
+D00150,ORS,Bronkodilator,477,104,2024-04-11,2026-05-18,Cipta Sejahtera
+D00151,Metformin,Antidiabetik,0,52,2024-06-22,2026-09-07,Medika Nusantara
+D00152,Cetirizine,Antasida,216,143,2024-01-04,2025-03-08,Cipta Sejahtera
+D00153,Insulin,Antidiabetik,0,112,2024-05-26,2025-03-01,Prima Pharma
+D00154,Zinc,Bronkodilator,310,253,2024-01-13,2025-05-12,Global Medika
+D00155,Metformin,Antibiotik,0,0,2024-12-28,2026-10-13,Prima Pharma
+D00156,Vitamin C,Vitamin,147,16,2024-08-22,2026-09-02,Prima Pharma
+D00157,Metformin,Antibiotik,0,232,2024-01-17,2025-10-14,PT Farma Sehat
+D00158,Vitamin C,Vitamin,254,0,2024-07-31,2026-12-04,Medika Nusantara
+D00159,Insulin,Bronkodilator,153,73,2023-12-26,2026-02-03,PT Farma Sehat
+D00160,Salbutamol,Antibiotik,191,0,2024-12-17,2026-11-04,PT Farma Sehat
+D00161,Paracetamol,Bronkodilator,0,0,2024-01-17,2025-05-02,Global Medika
+D00162,Antasida,Antibiotik,322,0,2023-12-09,2025-04-12,Global Medika
+D00163,Insulin,Bronkodilator,102,124,2024-11-30,2026-10-26,PT Farma Sehat
+D00164,Antasida,Bronkodilator,460,76,2025-04-16,2025-08-25,PT Farma Sehat
+D00165,Insulin,Bronkodilator,0,0,2024-10-30,2026-01-04,Cipta Sejahtera
+D00166,ORS,Analgesik,0,0,2025-03-09,2025-12-04,Global Medika
+D00167,Amoxicillin,Antibiotik,312,91,2025-06-13,2026-06-14,Cipta Sejahtera
+D00168,Azithromycin,Antibiotik,229,0,2023-12-16,2025-01-02,Global Medika
+D00169,Azithromycin,Antasida,86,0,2024-08-10,2025-05-24,Prima Pharma
+D00170,Vitamin C,Vitamin,0,0,2025-03-25,2025-12-09,PT Farma Sehat
+D00171,Metformin,Antidiabetik,471,0,2025-06-06,2027-10-31,Prima Pharma
+D00172,Omeprazole,Antidiabetik,0,0,2024-10-10,2026-05-10,Prima Pharma
+D00173,Zinc,Antasida,0,0,2024-01-03,2025-05-31,PT Farma Sehat
+D00174,Vitamin C,Vitamin,26,278,2024-10-18,2026-09-09,PT Farma Sehat
+D00175,Antasida,Antidiabetik,0,0,2025-07-26,2026-07-29,Cipta Sejahtera
+D00176,Amlodipine,Antidiabetik,0,0,2023-11-30,2025-07-20,Prima Pharma
+D00177,Ciprofloxacin,Antasida,0,0,2025-10-17,2027-09-18,Global Medika
+D00178,Omeprazole,Analgesik,303,0,2024-06-20,2025-06-23,Global Medika
+D00179,Vitamin C,Vitamin,321,0,2025-05-12,2025-11-15,PT Farma Sehat
+D00180,Azithromycin,Analgesik,0,172,2024-05-24,2026-09-06,PT Farma Sehat
+D00181,Insulin,Antasida,51,189,2025-09-08,2027-12-11,Cipta Sejahtera
+D00182,Salbutamol,Bronkodilator,318,0,2024-09-16,2026-04-03,Prima Pharma
+D00183,Insulin,Antasida,0,0,2024-08-16,2026-07-02,Medika Nusantara
+D00184,Ciprofloxacin,Antibiotik,0,98,2025-07-21,2027-08-11,Cipta Sejahtera
+D00185,Ciprofloxacin,Analgesik,0,0,2024-09-22,2025-12-28,Global Medika
+D00186,Insulin,Antasida,260,260,2024-08-20,2026-03-13,Global Medika
+D00187,Antasida,Bronkodilator,432,0,2025-02-26,2026-11-21,PT Farma Sehat
+D00188,Antasida,Analgesik,0,248,2025-01-21,2026-08-10,Prima Pharma
+D00189,Insulin,Antasida,0,237,2025-09-28,2026-09-21,Cipta Sejahtera
+D00190,Azithromycin,Antibiotik,465,0,2023-11-19,2025-04-22,Medika Nusantara
+D00191,Paracetamol,Bronkodilator,175,0,2024-01-10,2026-03-20,PT Farma Sehat
+D00192,Zinc,Bronkodilator,459,112,2024-10-24,2026-10-03,PT Farma Sehat
+D00193,Ciprofloxacin,Bronkodilator,32,0,2025-02-05,2027-06-25,Prima Pharma
+D00194,Insulin,Antasida,388,44,2025-05-15,2027-03-16,Cipta Sejahtera
+D00195,Salbutamol,Antidiabetik,420,0,2024-01-23,2025-12-10,Prima Pharma
+D00196,Omeprazole,Analgesik,0,151,2025-07-17,2027-10-05,Medika Nusantara
+D00197,Vitamin C,Vitamin,0,48,2024-03-29,2024-09-08,Global Medika
+D00198,Insulin,Antasida,331,0,2025-03-15,2026-03-04,Medika Nusantara
+D00199,Amoxicillin,Antasida,319,194,2025-01-05,2026-12-13,PT Farma Sehat
+D00200,ORS,Analgesik,322,251,2024-02-26,2025-06-08,PT Farma Sehat
+D00201,Antasida,Antibiotik,0,229,2023-12-20,2025-05-02,Medika Nusantara
+D00202,ORS,Antidiabetik,0,73,2024-12-05,2027-04-25,Global Medika
+D00203,Metformin,Antibiotik,0,0,2024-11-22,2026-09-16,Prima Pharma
+D00204,Insulin,Antibiotik,0,0,2024-10-21,2025-08-27,Cipta Sejahtera
+D00205,Metformin,Bronkodilator,0,0,2024-08-30,2025-09-27,Cipta Sejahtera
+D00206,Metformin,Antasida,0,193,2025-03-23,2026-10-20,Prima Pharma
+D00207,Zinc,Antasida,399,0,2023-12-01,2025-08-28,Medika Nusantara
+D00208,Azithromycin,Antidiabetik,443,188,2024-06-02,2025-05-18,Prima Pharma
+D00209,Vitamin C,Vitamin,0,260,2024-07-08,2026-02-14,Prima Pharma
+D00210,Metformin,Antasida,139,240,2024-08-26,2025-03-12,Medika Nusantara
+D00211,Antasida,Antasida,0,274,2024-07-29,2026-08-12,Cipta Sejahtera
+D00212,Azithromycin,Antidiabetik,460,0,2024-08-11,2026-02-13,PT Farma Sehat
+D00213,Insulin,Bronkodilator,126,0,2023-12-07,2025-02-22,Cipta Sejahtera
+D00214,Paracetamol,Bronkodilator,0,71,2025-06-08,2026-06-19,Prima Pharma
+D00215,Antasida,Antidiabetik,0,69,2023-11-14,2025-05-14,Medika Nusantara
+D00216,ORS,Bronkodilator,58,115,2024-11-29,2026-03-04,PT Farma Sehat
+D00217,ORS,Antasida,214,0,2024-06-07,2026-01-15,Global Medika
+D00218,Vitamin C,Vitamin,0,262,2024-08-10,2025-04-15,Cipta Sejahtera
+D00219,Metformin,Bronkodilator,0,0,2025-07-07,2026-05-30,Medika Nusantara
+D00220,Amlodipine,Analgesik,230,0,2025-02-05,2026-01-14,Prima Pharma
+D00221,Paracetamol,Antibiotik,282,214,2024-01-22,2024-10-29,Prima Pharma
+D00222,Zinc,Bronkodilator,405,0,2025-02-27,2025-11-19,Prima Pharma
+D00223,Cetirizine,Antibiotik,0,0,2025-05-29,2026-09-21,Cipta Sejahtera
+D00224,Omeprazole,Bronkodilator,352,126,2024-02-18,2024-11-10,Prima Pharma
+D00225,Amlodipine,Antasida,227,111,2023-12-11,2024-10-22,PT Farma Sehat
+D00226,Salbutamol,Antasida,0,22,2024-06-03,2026-05-24,PT Farma Sehat
+D00227,Omeprazole,Antasida,464,76,2024-08-21,2025-09-07,Cipta Sejahtera
+D00228,Amlodipine,Analgesik,0,283,2024-02-15,2025-08-22,PT Farma Sehat
+D00229,Zinc,Bronkodilator,308,107,2025-10-24,2027-11-07,Prima Pharma
+D00230,ORS,Bronkodilator,0,78,2025-06-17,2027-10-21,Medika Nusantara
+D00231,Amoxicillin,Antidiabetik,0,185,2025-06-13,2026-05-19,Medika Nusantara
+D00232,Insulin,Antidiabetik,0,0,2025-01-25,2026-10-20,Medika Nusantara
+D00233,Cetirizine,Bronkodilator,110,0,2024-10-27,2027-01-16,Global Medika
+D00234,Ibuprofen,Antidiabetik,478,0,2024-04-19,2025-01-18,Cipta Sejahtera
+D00235,Insulin,Antibiotik,0,230,2023-11-13,2025-10-09,Prima Pharma
+D00236,Zinc,Antibiotik,0,173,2025-01-26,2026-06-14,Medika Nusantara
+D00237,Vitamin C,Vitamin,0,0,2025-01-31,2025-07-29,PT Farma Sehat
+D00238,Ciprofloxacin,Bronkodilator,351,0,2025-02-13,2026-12-13,Cipta Sejahtera
+D00239,Insulin,Antidiabetik,0,153,2025-02-11,2025-12-17,PT Farma Sehat
+D00240,Insulin,Antasida,0,0,2025-10-30,2026-10-13,Cipta Sejahtera
+D00241,Ibuprofen,Antasida,0,0,2025-01-12,2025-11-08,Medika Nusantara
+D00242,Antasida,Bronkodilator,435,155,2024-04-11,2025-12-17,Medika Nusantara
+D00243,Salbutamol,Antidiabetik,0,0,2025-01-02,2025-12-17,Medika Nusantara
+D00244,Insulin,Analgesik,0,17,2024-03-15,2025-10-27,Global Medika
+D00245,Metformin,Antibiotik,0,0,2024-11-20,2026-10-17,Cipta Sejahtera
+D00246,Ibuprofen,Bronkodilator,0,123,2025-07-31,2026-12-14,PT Farma Sehat
+D00247,Vitamin C,Vitamin,0,145,2025-08-20,2027-09-03,Medika Nusantara
+D00248,Vitamin C,Vitamin,432,0,2024-04-13,2026-09-04,PT Farma Sehat
+D00249,Omeprazole,Antasida,400,0,2024-01-12,2025-08-31,Medika Nusantara
+D00250,Amlodipine,Antibiotik,0,0,2025-02-09,2025-09-13,Prima Pharma
+D00251,Omeprazole,Antidiabetik,305,262,2024-04-01,2025-11-01,Cipta Sejahtera
+D00252,Omeprazole,Antidiabetik,0,0,2025-10-18,2027-04-17,Prima Pharma
+D00253,Antasida,Antibiotik,407,67,2025-04-03,2027-05-08,Prima Pharma
+D00254,Salbutamol,Antasida,451,27,2025-03-23,2026-02-24,PT Farma Sehat
+D00255,Antasida,Analgesik,235,193,2025-10-21,2027-10-27,Medika Nusantara
+D00256,Omeprazole,Analgesik,0,0,2025-08-15,2027-04-06,Cipta Sejahtera
+D00257,Antasida,Analgesik,0,186,2023-12-29,2026-05-18,Medika Nusantara
+D00258,Azithromycin,Antibiotik,292,297,2025-01-16,2025-07-06,Cipta Sejahtera
+D00259,Ibuprofen,Analgesik,308,0,2025-07-19,2027-08-01,Prima Pharma
+D00260,ORS,Bronkodilator,0,93,2024-12-16,2025-10-28,Prima Pharma
+D00261,Salbutamol,Antidiabetik,496,10,2024-09-06,2026-08-20,Cipta Sejahtera
+D00262,Metformin,Analgesik,0,195,2023-11-28,2024-07-01,PT Farma Sehat
+D00263,Metformin,Antidiabetik,481,0,2024-10-14,2026-07-06,PT Farma Sehat
+D00264,ORS,Analgesik,0,0,2024-03-14,2025-05-30,PT Farma Sehat
+D00265,Ibuprofen,Bronkodilator,399,0,2024-02-01,2024-07-01,Prima Pharma
+D00266,Amoxicillin,Antidiabetik,0,0,2024-07-06,2026-07-29,Prima Pharma
+D00267,Azithromycin,Analgesik,0,0,2024-06-28,2025-07-20,Prima Pharma
+D00268,Antasida,Antasida,403,0,2024-04-25,2025-01-18,PT Farma Sehat
+D00269,Metformin,Antasida,0,149,2025-04-26,2027-06-04,Global Medika
+D00270,Omeprazole,Antibiotik,0,127,2024-03-10,2025-08-16,Medika Nusantara
+D00271,Metformin,Analgesik,0,66,2024-05-01,2025-12-24,Prima Pharma
+D00272,Azithromycin,Antasida,0,0,2023-11-09,2026-03-24,Medika Nusantara
+D00273,Azithromycin,Analgesik,0,0,2024-05-16,2024-10-19,Global Medika
+D00274,Ciprofloxacin,Bronkodilator,196,0,2023-11-22,2024-12-11,PT Farma Sehat
+D00275,Vitamin C,Vitamin,82,0,2025-03-10,2026-08-08,Cipta Sejahtera
+D00276,ORS,Bronkodilator,338,0,2024-09-29,2026-07-04,Global Medika
+D00277,ORS,Antidiabetik,0,103,2025-04-17,2025-09-02,Prima Pharma
+D00278,Ibuprofen,Analgesik,0,0,2023-12-04,2025-06-12,PT Farma Sehat
+D00279,Insulin,Antidiabetik,0,0,2024-07-25,2025-08-13,Global Medika
+D00280,Azithromycin,Analgesik,52,0,2025-09-18,2027-01-25,PT Farma Sehat
+D00281,Cetirizine,Bronkodilator,426,0,2024-06-22,2025-06-25,Prima Pharma
+D00282,Insulin,Bronkodilator,0,0,2024-09-11,2025-01-31,Medika Nusantara
+D00283,Amlodipine,Antasida,0,0,2023-12-21,2024-06-13,Medika Nusantara
+D00284,Salbutamol,Antidiabetik,108,95,2025-08-03,2026-12-01,Global Medika
+D00285,Antasida,Antidiabetik,0,35,2024-10-10,2025-10-22,Cipta Sejahtera
+D00286,Vitamin C,Vitamin,0,0,2025-10-15,2026-08-28,Prima Pharma
+D00287,Ciprofloxacin,Antidiabetik,158,203,2025-02-12,2027-07-09,Global Medika
+D00288,Amlodipine,Analgesik,392,201,2024-12-25,2027-04-20,Cipta Sejahtera
+D00289,Cetirizine,Antasida,318,148,2024-05-03,2025-05-04,Medika Nusantara
+D00290,Omeprazole,Analgesik,100,0,2024-03-07,2025-01-17,PT Farma Sehat
+D00291,Vitamin C,Vitamin,169,0,2025-03-25,2026-08-15,Prima Pharma
+D00292,Azithromycin,Antasida,0,56,2024-01-05,2025-06-01,Global Medika
+D00293,Paracetamol,Antibiotik,88,277,2025-02-18,2027-01-05,Medika Nusantara
+D00294,Insulin,Analgesik,179,0,2024-10-18,2026-07-18,Cipta Sejahtera
+D00295,Ibuprofen,Antasida,0,0,2024-07-05,2025-02-09,Prima Pharma
+D00296,Amoxicillin,Antibiotik,0,55,2025-01-03,2027-03-30,Global Medika
+D00297,Salbutamol,Antidiabetik,0,0,2025-08-22,2027-05-15,Global Medika
+D00298,Cetirizine,Antibiotik,249,0,2025-02-09,2027-05-25,Global Medika
+D00299,Paracetamol,Bronkodilator,0,0,2025-10-27,2028-04-01,Prima Pharma
+D00300,Amoxicillin,Antasida,0,101,2025-02-13,2025-11-03,Prima Pharma
+D00301,ORS,Analgesik,0,131,2024-04-23,2026-09-25,Prima Pharma
+D00302,Amlodipine,Antasida,398,22,2025-06-28,2026-03-24,PT Farma Sehat
+D00303,Ibuprofen,Antibiotik,0,0,2024-02-24,2025-06-24,Prima Pharma
+D00304,Cetirizine,Antibiotik,196,0,2024-09-10,2025-08-29,Cipta Sejahtera
+D00305,Salbutamol,Bronkodilator,187,173,2024-12-12,2027-05-07,Global Medika
+D00306,Omeprazole,Bronkodilator,0,0,2024-03-31,2025-02-17,Global Medika
+D00307,Paracetamol,Analgesik,29,71,2023-11-19,2025-12-31,PT Farma Sehat
+D00308,Insulin,Bronkodilator,81,0,2023-12-21,2025-05-02,Prima Pharma
+D00309,Paracetamol,Antibiotik,0,42,2025-09-14,2028-02-17,Cipta Sejahtera
+D00310,Cetirizine,Antidiabetik,0,0,2025-09-02,2027-04-07,Medika Nusantara
+D00311,Salbutamol,Bronkodilator,0,0,2024-01-09,2025-03-28,Cipta Sejahtera
+D00312,Ibuprofen,Antasida,97,0,2024-04-19,2024-09-08,Cipta Sejahtera
+D00313,Metformin,Bronkodilator,112,0,2024-10-24,2027-03-13,Global Medika
+D00314,Paracetamol,Bronkodilator,353,0,2024-06-28,2026-04-15,Cipta Sejahtera
+D00315,Cetirizine,Antibiotik,0,0,2024-06-18,2025-07-08,Cipta Sejahtera
+D00316,Azithromycin,Antibiotik,471,0,2025-09-23,2027-09-05,Global Medika
+D00317,Salbutamol,Analgesik,214,36,2024-03-04,2025-06-28,Medika Nusantara
+D00318,Ciprofloxacin,Analgesik,0,110,2024-05-13,2026-01-25,Prima Pharma
+D00319,Metformin,Antidiabetik,136,0,2025-02-02,2026-07-20,Cipta Sejahtera
+D00320,Vitamin C,Vitamin,0,19,2024-09-25,2026-04-30,Prima Pharma
+D00321,Ibuprofen,Analgesik,86,120,2025-10-18,2027-08-10,Medika Nusantara
+D00322,Salbutamol,Antibiotik,0,0,2025-08-30,2026-11-04,Global Medika
+D00323,Azithromycin,Bronkodilator,0,78,2024-06-12,2025-08-15,Global Medika
+D00324,Amlodipine,Antibiotik,0,0,2025-10-20,2026-08-04,PT Farma Sehat
+D00325,Antasida,Antibiotik,0,0,2025-10-21,2026-09-28,Cipta Sejahtera
+D00326,Vitamin C,Vitamin,235,0,2024-08-18,2026-08-27,Global Medika
+D00327,Cetirizine,Antibiotik,0,88,2024-11-03,2026-09-15,Cipta Sejahtera
+D00328,Cetirizine,Bronkodilator,0,124,2024-02-28,2026-06-05,Prima Pharma
+D00329,Cetirizine,Antasida,485,184,2025-06-01,2027-02-20,Cipta Sejahtera
+D00330,Antasida,Antibiotik,0,158,2024-01-08,2025-08-10,Medika Nusantara
+D00331,Insulin,Antasida,0,0,2025-04-02,2026-07-18,PT Farma Sehat
+D00332,Ciprofloxacin,Antidiabetik,28,75,2024-10-20,2027-02-04,Prima Pharma
+D00333,Metformin,Analgesik,252,201,2024-04-07,2026-04-27,Prima Pharma
+D00334,Azithromycin,Bronkodilator,103,124,2024-11-01,2026-11-06,PT Farma Sehat
+D00335,Amlodipine,Antibiotik,0,268,2024-08-23,2024-12-23,Cipta Sejahtera
+D00336,Amlodipine,Bronkodilator,0,97,2024-01-07,2024-12-05,Medika Nusantara
+D00337,Ibuprofen,Antasida,0,33,2025-06-09,2027-05-30,Medika Nusantara
+D00338,Omeprazole,Antasida,133,0,2025-05-29,2025-12-14,Global Medika
+D00339,Paracetamol,Bronkodilator,292,234,2024-01-22,2026-06-23,Medika Nusantara
+D00340,Zinc,Antasida,0,155,2023-12-11,2026-02-15,Cipta Sejahtera
+D00341,Ibuprofen,Bronkodilator,0,0,2024-05-14,2025-12-04,Medika Nusantara
+D00342,Vitamin C,Vitamin,0,0,2025-03-09,2025-08-31,Prima Pharma
+D00343,Omeprazole,Antasida,129,69,2024-12-28,2025-05-16,Medika Nusantara
+D00344,Vitamin C,Vitamin,0,110,2024-02-17,2024-11-30,PT Farma Sehat
+D00345,Ciprofloxacin,Antasida,399,0,2024-02-18,2024-06-28,Global Medika
+D00346,Paracetamol,Antibiotik,111,299,2024-05-01,2025-06-28,Cipta Sejahtera
+D00347,Ibuprofen,Antidiabetik,0,0,2025-05-22,2025-11-20,Medika Nusantara
+D00348,Vitamin C,Vitamin,377,286,2025-02-05,2026-05-20,PT Farma Sehat
+D00349,Antasida,Antidiabetik,202,103,2023-12-28,2024-07-25,PT Farma Sehat
+D00350,Azithromycin,Antasida,343,250,2024-06-12,2024-11-17,PT Farma Sehat
+D00351,Vitamin C,Vitamin,0,93,2025-10-20,2027-06-01,Cipta Sejahtera
+D00352,Ciprofloxacin,Analgesik,68,135,2025-09-24,2027-12-30,Global Medika
+D00353,Vitamin C,Vitamin,174,0,2025-03-28,2025-08-29,Medika Nusantara
+D00354,Cetirizine,Antasida,0,0,2025-09-22,2026-06-22,Global Medika
+D00355,Zinc,Antidiabetik,0,0,2024-07-10,2026-01-30,Cipta Sejahtera
+D00356,Amoxicillin,Antidiabetik,396,254,2025-04-12,2026-03-22,Global Medika
+D00357,Paracetamol,Antibiotik,310,0,2025-10-11,2027-09-14,Medika Nusantara
+D00358,Salbutamol,Analgesik,0,0,2025-07-18,2027-06-17,Medika Nusantara
+D00359,Ciprofloxacin,Antidiabetik,126,298,2025-04-12,2026-02-10,PT Farma Sehat
+D00360,Paracetamol,Antibiotik,0,0,2024-02-22,2025-04-02,PT Farma Sehat
+D00361,Ibuprofen,Bronkodilator,0,212,2025-10-26,2026-06-14,Prima Pharma
+D00362,Metformin,Antasida,476,192,2025-10-27,2026-11-16,PT Farma Sehat
+D00363,Paracetamol,Antidiabetik,307,88,2025-07-31,2027-02-13,Global Medika
+D00364,Amlodipine,Antidiabetik,33,0,2024-01-20,2025-12-25,Medika Nusantara
+D00365,Ciprofloxacin,Antidiabetik,0,0,2023-11-11,2025-07-22,Cipta Sejahtera
+D00366,ORS,Antasida,395,0,2025-03-24,2025-08-03,Prima Pharma
+D00367,Insulin,Antasida,0,254,2024-01-02,2026-05-31,Cipta Sejahtera
+D00368,Azithromycin,Analgesik,0,29,2025-04-04,2027-02-26,Medika Nusantara
+D00369,Omeprazole,Antasida,281,292,2025-08-26,2026-11-08,Medika Nusantara
+D00370,Paracetamol,Antasida,0,64,2025-07-26,2027-08-17,Prima Pharma
+D00371,Antasida,Bronkodilator,0,0,2025-03-31,2026-04-12,Cipta Sejahtera
+D00372,Amlodipine,Analgesik,39,0,2024-05-15,2026-08-19,Global Medika
+D00373,ORS,Bronkodilator,0,0,2024-06-21,2025-10-10,Global Medika
+D00374,Insulin,Antidiabetik,85,0,2024-09-14,2025-11-05,Cipta Sejahtera
+D00375,Ciprofloxacin,Antibiotik,451,0,2024-10-16,2025-12-06,Global Medika
+D00376,Salbutamol,Bronkodilator,462,0,2025-06-08,2027-03-26,Global Medika
+D00377,Omeprazole,Antibiotik,0,280,2024-10-07,2025-12-14,PT Farma Sehat
+D00378,Salbutamol,Antasida,251,66,2025-04-28,2026-03-05,Prima Pharma
+D00379,Zinc,Bronkodilator,495,201,2024-06-06,2025-05-15,PT Farma Sehat
+D00380,Zinc,Analgesik,0,0,2025-02-22,2025-08-27,Cipta Sejahtera
+D00381,Amoxicillin,Antidiabetik,0,0,2025-04-13,2027-08-10,Medika Nusantara
+D00382,Azithromycin,Antibiotik,0,0,2025-06-21,2026-12-24,Global Medika
+D00383,Vitamin C,Vitamin,52,0,2025-08-09,2026-10-05,Prima Pharma
+D00384,Cetirizine,Bronkodilator,0,116,2025-06-28,2026-08-23,Prima Pharma
+D00385,Salbutamol,Analgesik,0,0,2025-03-13,2027-01-05,Prima Pharma
+D00386,Cetirizine,Antibiotik,366,260,2024-01-22,2025-02-03,Cipta Sejahtera
+D00387,Ibuprofen,Analgesik,0,250,2024-11-15,2026-01-11,Cipta Sejahtera
+D00388,Antasida,Antibiotik,0,290,2025-05-25,2026-11-25,PT Farma Sehat
+D00389,Insulin,Antasida,313,0,2024-09-22,2026-02-05,Global Medika
+D00390,Insulin,Analgesik,193,0,2024-05-22,2025-02-28,Global Medika
+D00391,Amlodipine,Analgesik,244,0,2024-07-14,2026-08-28,Global Medika
+D00392,Insulin,Analgesik,469,0,2024-10-30,2026-12-21,Medika Nusantara
+D00393,Amlodipine,Bronkodilator,0,47,2025-03-16,2025-09-21,Prima Pharma
+D00394,Ciprofloxacin,Bronkodilator,0,108,2025-01-06,2026-09-04,Medika Nusantara
+D00395,ORS,Antibiotik,0,47,2025-05-19,2026-08-19,PT Farma Sehat
+D00396,Azithromycin,Analgesik,0,0,2025-08-07,2026-04-24,Medika Nusantara
+D00397,Omeprazole,Antibiotik,0,0,2024-04-23,2026-08-06,Medika Nusantara
+D00398,Amoxicillin,Bronkodilator,275,0,2025-06-13,2026-01-29,PT Farma Sehat
+D00399,Azithromycin,Analgesik,0,0,2025-05-12,2026-03-29,Global Medika
+D00400,Ibuprofen,Antasida,0,146,2025-03-30,2026-12-02,Prima Pharma
+D00401,Antasida,Antidiabetik,0,10,2024-08-21,2025-06-06,Cipta Sejahtera
+D00402,Ibuprofen,Antidiabetik,0,0,2024-10-03,2025-05-17,Prima Pharma
+D00403,Amoxicillin,Antibiotik,0,27,2024-01-10,2025-12-17,Prima Pharma
+D00404,Vitamin C,Vitamin,272,0,2025-11-03,2026-05-23,PT Farma Sehat
+D00405,Azithromycin,Bronkodilator,0,0,2024-03-15,2025-01-10,Prima Pharma
+D00406,Salbutamol,Antidiabetik,297,158,2025-05-11,2026-05-01,Prima Pharma
+D00407,Ciprofloxacin,Antidiabetik,320,0,2025-11-03,2026-06-28,Medika Nusantara
+D00408,Azithromycin,Bronkodilator,0,48,2025-09-07,2026-09-21,Cipta Sejahtera
+D00409,Ibuprofen,Antibiotik,0,121,2025-08-01,2028-01-07,Medika Nusantara
+D00410,Salbutamol,Antibiotik,0,247,2024-04-10,2025-01-05,Global Medika
+D00411,Zinc,Antibiotik,45,0,2024-12-24,2026-02-03,PT Farma Sehat
+D00412,Omeprazole,Antasida,293,115,2025-04-22,2026-09-16,Global Medika
+D00413,Amoxicillin,Bronkodilator,0,0,2025-04-18,2026-11-23,Cipta Sejahtera
+D00414,Amlodipine,Antidiabetik,0,0,2025-02-18,2026-08-26,Prima Pharma
+D00415,Insulin,Antibiotik,0,0,2024-09-28,2025-08-28,PT Farma Sehat
+D00416,Salbutamol,Bronkodilator,310,101,2025-07-02,2026-09-22,PT Farma Sehat
+D00417,Amlodipine,Antibiotik,0,0,2025-05-03,2026-12-20,Prima Pharma
+D00418,Antasida,Antidiabetik,0,239,2023-11-24,2026-04-07,Medika Nusantara
+D00419,Insulin,Analgesik,0,189,2025-06-19,2027-01-22,Global Medika
+D00420,Vitamin C,Vitamin,0,0,2025-05-22,2026-12-21,Cipta Sejahtera
+D00421,Antasida,Antasida,0,134,2024-04-15,2026-08-24,Medika Nusantara
+D00422,Antasida,Antidiabetik,102,0,2024-10-22,2025-05-18,Cipta Sejahtera
+D00423,Antasida,Antibiotik,0,0,2025-04-26,2026-02-01,Prima Pharma
+D00424,ORS,Analgesik,0,208,2024-06-02,2026-08-30,Global Medika
+D00425,Ibuprofen,Antasida,26,0,2023-12-28,2025-01-16,Prima Pharma
+D00426,Vitamin C,Vitamin,361,212,2025-01-04,2026-01-19,Medika Nusantara
+D00427,Amoxicillin,Antibiotik,0,284,2024-11-13,2027-02-09,Cipta Sejahtera
+D00428,Omeprazole,Analgesik,0,0,2025-04-19,2026-02-25,Global Medika
+D00429,Antasida,Antibiotik,0,252,2024-11-20,2025-06-08,PT Farma Sehat
+D00430,Amlodipine,Antidiabetik,0,0,2025-09-04,2026-08-05,Global Medika
+D00431,Insulin,Antasida,0,216,2024-02-14,2025-02-08,Cipta Sejahtera
+D00432,ORS,Antidiabetik,0,210,2024-12-15,2026-11-21,PT Farma Sehat
+D00433,Amoxicillin,Antidiabetik,416,0,2024-01-15,2024-09-16,Prima Pharma
+D00434,Salbutamol,Antasida,438,0,2025-04-05,2027-06-22,PT Farma Sehat
+D00435,Zinc,Bronkodilator,0,188,2025-06-06,2027-04-22,Prima Pharma
+D00436,Cetirizine,Antibiotik,263,28,2024-09-06,2026-06-20,Global Medika
+D00437,Salbutamol,Antibiotik,189,0,2024-10-27,2026-08-31,Cipta Sejahtera
+D00438,Ciprofloxacin,Antasida,0,149,2024-09-22,2025-04-14,Prima Pharma
+D00439,Paracetamol,Antasida,45,38,2024-12-19,2027-03-01,PT Farma Sehat
+D00440,Vitamin C,Vitamin,0,0,2024-10-31,2027-03-06,Global Medika
+D00441,Zinc,Analgesik,0,172,2024-10-10,2026-08-15,PT Farma Sehat
+D00442,Azithromycin,Antasida,0,0,2024-12-19,2025-09-16,PT Farma Sehat
+D00443,Cetirizine,Analgesik,0,0,2025-01-04,2026-07-22,Cipta Sejahtera
+D00444,Amlodipine,Antidiabetik,0,0,2025-06-14,2026-09-18,Cipta Sejahtera
+D00445,Metformin,Antasida,0,0,2024-07-30,2026-08-22,Prima Pharma
+D00446,Paracetamol,Analgesik,0,40,2025-09-09,2027-05-28,Global Medika
+D00447,Insulin,Antibiotik,435,0,2025-02-13,2026-07-26,Prima Pharma
+D00448,Omeprazole,Bronkodilator,434,33,2024-11-19,2026-10-01,PT Farma Sehat
+D00449,Amlodipine,Bronkodilator,0,0,2025-02-18,2025-11-07,Medika Nusantara
+D00450,Omeprazole,Antasida,50,81,2025-06-05,2027-08-15,Prima Pharma
+D00451,Zinc,Analgesik,409,0,2024-03-22,2025-09-05,Global Medika
+D00452,Vitamin C,Vitamin,0,267,2025-07-12,2025-12-11,Global Medika
+D00453,Vitamin C,Vitamin,0,0,2025-04-27,2026-01-25,Medika Nusantara
+D00454,Zinc,Antidiabetik,0,248,2025-10-07,2026-04-16,PT Farma Sehat
+D00455,Paracetamol,Antidiabetik,162,82,2025-06-21,2026-06-25,Cipta Sejahtera
+D00456,Cetirizine,Bronkodilator,0,0,2025-01-21,2026-12-22,PT Farma Sehat
+D00457,Cetirizine,Bronkodilator,342,241,2025-01-21,2025-10-26,Cipta Sejahtera
+D00458,Amlodipine,Bronkodilator,0,0,2025-08-11,2026-06-07,Medika Nusantara
+D00459,Zinc,Analgesik,409,156,2023-12-02,2025-11-24,Global Medika
+D00460,Salbutamol,Bronkodilator,0,0,2024-03-26,2024-12-02,Cipta Sejahtera
+D00461,Omeprazole,Analgesik,0,0,2024-01-16,2025-10-08,Medika Nusantara
+D00462,Ciprofloxacin,Antasida,398,22,2024-02-14,2026-07-15,Cipta Sejahtera
+D00463,Amlodipine,Antibiotik,98,189,2025-01-19,2026-02-27,Medika Nusantara
+D00464,ORS,Antibiotik,0,0,2024-08-12,2025-02-19,Prima Pharma
+D00465,Amlodipine,Antidiabetik,452,245,2025-06-05,2027-02-06,Medika Nusantara
+D00466,ORS,Antasida,0,0,2024-06-15,2024-10-22,PT Farma Sehat
+D00467,Paracetamol,Analgesik,106,259,2025-09-02,2026-12-27,Global Medika
+D00468,Vitamin C,Vitamin,26,227,2024-12-21,2026-08-04,Medika Nusantara
+D00469,Salbutamol,Antasida,48,0,2023-11-13,2024-09-06,Cipta Sejahtera
+D00470,Antasida,Antibiotik,0,22,2024-01-10,2024-10-20,PT Farma Sehat
+D00471,Vitamin C,Vitamin,0,46,2024-08-30,2026-05-22,Medika Nusantara
+D00472,Antasida,Antasida,97,272,2025-06-25,2025-12-31,Medika Nusantara
+D00473,Azithromycin,Bronkodilator,0,192,2025-01-29,2026-06-14,Cipta Sejahtera
+D00474,Zinc,Antibiotik,0,193,2024-05-16,2026-08-28,Global Medika
+D00475,Omeprazole,Analgesik,245,250,2024-11-15,2027-05-04,PT Farma Sehat
+D00476,Metformin,Analgesik,493,0,2025-05-29,2026-12-05,Prima Pharma
+D00477,Amoxicillin,Bronkodilator,0,0,2024-12-11,2026-10-20,Prima Pharma
+D00478,Insulin,Antidiabetik,207,100,2025-07-28,2026-04-05,Prima Pharma
+D00479,Salbutamol,Analgesik,0,57,2025-02-15,2026-08-16,Medika Nusantara
+D00480,Vitamin C,Vitamin,0,0,2025-06-13,2026-01-03,Prima Pharma
+D00481,Omeprazole,Antibiotik,99,117,2025-09-07,2027-06-10,Prima Pharma
+D00482,Vitamin C,Vitamin,0,264,2025-05-09,2026-04-10,Global Medika
+D00483,Omeprazole,Antibiotik,425,76,2025-06-24,2026-05-25,Cipta Sejahtera
+D00484,Zinc,Antasida,0,17,2025-03-14,2026-05-01,Global Medika
+D00485,Paracetamol,Antasida,0,0,2024-11-30,2025-04-16,Cipta Sejahtera
+D00486,Vitamin C,Vitamin,0,0,2025-04-18,2025-11-14,Medika Nusantara
+D00487,Metformin,Antibiotik,153,266,2024-02-12,2025-04-05,Global Medika
+D00488,Azithromycin,Bronkodilator,0,153,2025-08-05,2026-03-13,Global Medika
+D00489,ORS,Antidiabetik,446,157,2024-08-08,2025-07-27,Prima Pharma
+D00490,Cetirizine,Antibiotik,0,0,2024-08-12,2025-01-04,PT Farma Sehat
+D00491,Antasida,Antasida,0,0,2024-11-24,2025-12-23,Cipta Sejahtera
+D00492,Ciprofloxacin,Analgesik,0,0,2024-05-10,2025-10-20,Global Medika
+D00493,Metformin,Analgesik,0,239,2024-04-07,2025-02-05,PT Farma Sehat
+D00494,Ciprofloxacin,Bronkodilator,452,0,2025-04-24,2026-12-18,Cipta Sejahtera
+D00495,Insulin,Antidiabetik,283,265,2025-08-04,2026-08-02,Prima Pharma
+D00496,Salbutamol,Antidiabetik,97,240,2025-01-06,2025-05-21,Prima Pharma
+D00497,Amlodipine,Analgesik,417,72,2025-06-12,2027-06-22,Prima Pharma
+D00498,Ciprofloxacin,Antidiabetik,434,0,2024-02-05,2026-03-19,Global Medika
+D00499,Metformin,Bronkodilator,0,247,2024-08-30,2025-01-11,Medika Nusantara
+D00500,Amoxicillin,Antasida,0,219,2023-11-20,2025-07-28,Global Medika
+D00501,Amlodipine,Antidiabetik,0,277,2025-05-09,2025-10-25,Global Medika
+D00502,Azithromycin,Antidiabetik,20,0,2025-11-06,2027-07-26,Medika Nusantara
+D00503,Antasida,Bronkodilator,195,0,2024-08-15,2026-03-02,Cipta Sejahtera
+D00504,ORS,Bronkodilator,150,261,2024-12-21,2026-07-06,Global Medika
+D00505,Insulin,Antasida,412,0,2025-04-30,2026-10-20,Medika Nusantara
+D00506,Salbutamol,Antidiabetik,0,291,2025-02-15,2026-11-25,Cipta Sejahtera
+D00507,Zinc,Antasida,20,0,2024-10-19,2025-06-30,Cipta Sejahtera
+D00508,Metformin,Analgesik,0,0,2024-12-11,2025-04-16,Cipta Sejahtera
+D00509,Paracetamol,Antibiotik,245,0,2024-05-09,2026-07-04,Medika Nusantara
+D00510,Cetirizine,Antibiotik,171,246,2025-07-25,2026-01-10,Global Medika
+D00511,Salbutamol,Antidiabetik,0,0,2024-09-27,2025-02-25,Cipta Sejahtera
+D00512,Vitamin C,Vitamin,0,71,2024-07-20,2026-02-21,Medika Nusantara
+D00513,Amoxicillin,Antidiabetik,0,270,2025-04-06,2027-09-20,PT Farma Sehat
+D00514,Amlodipine,Antibiotik,0,175,2024-08-03,2026-02-27,Prima Pharma
+D00515,Vitamin C,Vitamin,0,0,2025-07-09,2025-12-19,Prima Pharma
+D00516,Salbutamol,Bronkodilator,285,162,2024-05-22,2024-09-21,Medika Nusantara
+D00517,Ciprofloxacin,Analgesik,500,0,2024-12-17,2025-08-14,Cipta Sejahtera
+D00518,ORS,Antidiabetik,392,0,2025-04-26,2026-03-17,Medika Nusantara
+D00519,Antasida,Analgesik,76,52,2025-04-27,2026-06-12,Cipta Sejahtera
+D00520,Omeprazole,Bronkodilator,0,179,2024-09-26,2026-06-16,Global Medika
+D00521,Ibuprofen,Antibiotik,303,0,2024-10-13,2027-02-04,Medika Nusantara
+D00522,Amlodipine,Antibiotik,156,0,2025-01-13,2027-04-07,PT Farma Sehat
+D00523,Omeprazole,Antidiabetik,444,126,2025-09-14,2028-02-08,PT Farma Sehat
+D00524,Metformin,Antibiotik,0,209,2025-02-12,2025-09-06,Prima Pharma
+D00525,Metformin,Analgesik,0,212,2024-04-11,2026-07-15,Cipta Sejahtera
+D00526,Amlodipine,Antibiotik,116,121,2025-06-04,2026-03-05,Medika Nusantara
+D00527,Paracetamol,Antidiabetik,30,0,2025-07-08,2026-10-07,Cipta Sejahtera
+D00528,Paracetamol,Antasida,0,0,2025-07-25,2026-06-06,Medika Nusantara
+D00529,ORS,Antasida,225,0,2024-03-22,2026-02-28,Medika Nusantara
+D00530,Salbutamol,Antasida,0,103,2025-02-25,2027-05-04,PT Farma Sehat
+D00531,Amlodipine,Bronkodilator,0,0,2024-02-15,2025-12-02,Cipta Sejahtera
+D00532,Metformin,Bronkodilator,133,215,2025-10-28,2027-06-26,Medika Nusantara
+D00533,Ibuprofen,Bronkodilator,467,46,2025-09-12,2028-02-01,Prima Pharma
+D00534,Insulin,Bronkodilator,25,0,2024-08-24,2025-10-05,Medika Nusantara
+D00535,Salbutamol,Antasida,0,0,2024-04-06,2025-11-17,Medika Nusantara
+D00536,Azithromycin,Analgesik,0,213,2024-06-22,2026-10-29,Global Medika
+D00537,Ciprofloxacin,Analgesik,151,0,2025-08-28,2027-03-07,PT Farma Sehat
+D00538,Metformin,Analgesik,184,0,2024-06-16,2025-11-24,PT Farma Sehat
+D00539,Omeprazole,Bronkodilator,0,128,2024-08-10,2025-03-11,Medika Nusantara
+D00540,Metformin,Antasida,0,94,2024-04-12,2024-09-15,Cipta Sejahtera
+D00541,Vitamin C,Vitamin,0,73,2024-07-19,2026-10-13,Cipta Sejahtera
+D00542,Amlodipine,Analgesik,0,298,2025-10-20,2027-07-29,Global Medika
+D00543,Omeprazole,Antasida,87,0,2024-12-27,2026-06-12,Global Medika
+D00544,Azithromycin,Antidiabetik,323,0,2024-05-06,2026-07-16,Medika Nusantara
+D00545,Amlodipine,Bronkodilator,0,0,2023-12-19,2024-12-30,Medika Nusantara
+D00546,ORS,Antasida,238,0,2024-12-24,2026-12-11,Cipta Sejahtera
+D00547,Salbutamol,Analgesik,0,257,2025-10-05,2026-04-30,Prima Pharma
+D00548,Amoxicillin,Analgesik,0,91,2025-08-09,2027-08-20,Global Medika
+D00549,Vitamin C,Vitamin,233,46,2025-08-18,2026-01-17,Global Medika
+D00550,Amlodipine,Antasida,174,119,2023-12-23,2025-06-12,Global Medika
+D00551,Salbutamol,Antibiotik,0,0,2024-10-16,2027-01-05,Medika Nusantara
+D00552,Zinc,Antidiabetik,0,0,2024-02-17,2024-07-11,Medika Nusantara
+D00553,Ciprofloxacin,Analgesik,0,157,2024-04-25,2025-03-01,Global Medika
+D00554,Vitamin C,Vitamin,498,12,2024-09-22,2025-04-16,PT Farma Sehat
+D00555,Ibuprofen,Antidiabetik,0,185,2025-05-23,2025-10-01,Medika Nusantara
+D00556,Insulin,Analgesik,0,0,2024-03-31,2024-10-28,Medika Nusantara
+D00557,Insulin,Antidiabetik,82,139,2025-06-20,2027-01-10,Prima Pharma
+D00558,Omeprazole,Antasida,278,0,2025-05-29,2026-04-12,Global Medika
+D00559,Metformin,Analgesik,0,276,2024-11-09,2026-04-24,Medika Nusantara
+D00560,Salbutamol,Antidiabetik,0,0,2023-11-20,2026-02-24,PT Farma Sehat
+D00561,Amoxicillin,Antibiotik,324,0,2024-06-11,2025-11-22,PT Farma Sehat
+D00562,Amoxicillin,Antibiotik,468,0,2025-03-23,2027-01-02,Medika Nusantara
+D00563,ORS,Bronkodilator,35,152,2024-08-26,2026-04-21,Medika Nusantara
+D00564,Salbutamol,Analgesik,0,0,2025-05-23,2027-10-26,Cipta Sejahtera
+D00565,Amoxicillin,Antidiabetik,0,260,2024-08-11,2025-10-21,Medika Nusantara
+D00566,Omeprazole,Analgesik,0,0,2025-07-31,2026-04-06,Medika Nusantara
+D00567,Omeprazole,Bronkodilator,0,0,2025-06-10,2025-10-17,PT Farma Sehat
+D00568,Ciprofloxacin,Antasida,459,203,2024-02-11,2024-07-29,Medika Nusantara
+D00569,Azithromycin,Antidiabetik,0,265,2025-07-05,2026-08-18,PT Farma Sehat
+D00570,Paracetamol,Antidiabetik,446,192,2024-06-11,2026-07-02,Prima Pharma
+D00571,Zinc,Antibiotik,274,0,2024-06-20,2026-10-04,Global Medika
+D00572,Antasida,Antasida,0,165,2025-05-04,2027-04-30,Cipta Sejahtera
+D00573,Paracetamol,Antibiotik,40,0,2025-08-17,2027-01-26,PT Farma Sehat
+D00574,Amoxicillin,Antidiabetik,216,0,2024-06-13,2026-02-22,PT Farma Sehat
+D00575,Cetirizine,Antibiotik,427,261,2025-01-14,2026-12-19,Prima Pharma
+D00576,Omeprazole,Antidiabetik,0,113,2024-10-06,2026-08-31,Global Medika
+D00577,Insulin,Bronkodilator,302,83,2024-04-23,2025-09-28,Global Medika
+D00578,Azithromycin,Antasida,0,86,2024-05-09,2025-06-30,Cipta Sejahtera
+D00579,Omeprazole,Bronkodilator,0,0,2024-12-27,2026-11-20,Medika Nusantara
+D00580,Azithromycin,Antidiabetik,330,0,2025-04-24,2025-09-15,Global Medika
+D00581,Ciprofloxacin,Antasida,88,86,2024-08-12,2025-01-07,PT Farma Sehat
+D00582,Paracetamol,Analgesik,472,0,2024-02-10,2024-10-31,PT Farma Sehat
+D00583,Cetirizine,Analgesik,468,0,2023-12-07,2025-10-13,Cipta Sejahtera
+D00584,ORS,Antidiabetik,0,0,2024-08-04,2025-05-02,Medika Nusantara
+D00585,Insulin,Antidiabetik,430,0,2025-09-28,2027-09-04,PT Farma Sehat
+D00586,Insulin,Antasida,0,203,2024-05-01,2024-09-08,Cipta Sejahtera
+D00587,Cetirizine,Antidiabetik,348,0,2025-08-04,2026-11-14,Medika Nusantara
+D00588,Amlodipine,Antasida,0,46,2024-03-20,2024-08-17,Global Medika
+D00589,Ciprofloxacin,Antibiotik,202,184,2024-09-16,2026-03-05,Cipta Sejahtera
+D00590,Zinc,Antibiotik,382,0,2024-07-10,2025-01-13,Medika Nusantara
+D00591,Metformin,Analgesik,0,0,2025-05-26,2026-12-27,Prima Pharma
+D00592,Metformin,Bronkodilator,140,0,2025-05-26,2026-11-24,Global Medika
+D00593,Cetirizine,Analgesik,230,0,2024-07-31,2025-09-24,Cipta Sejahtera
+D00594,Amoxicillin,Antasida,157,0,2024-03-01,2026-03-23,PT Farma Sehat
+D00595,Azithromycin,Analgesik,397,101,2024-05-26,2026-05-16,Cipta Sejahtera
+D00596,Antasida,Bronkodilator,0,128,2024-06-16,2025-10-25,Prima Pharma
+D00597,Azithromycin,Bronkodilator,382,0,2023-12-07,2025-12-31,Global Medika
+D00598,Metformin,Antidiabetik,0,0,2025-06-13,2027-04-23,Global Medika
+D00599,Omeprazole,Antibiotik,0,0,2025-05-01,2025-11-19,Cipta Sejahtera
+D00600,Ciprofloxacin,Antasida,0,300,2024-12-13,2026-04-15,Cipta Sejahtera
+D00601,Insulin,Analgesik,232,0,2024-12-09,2026-06-07,PT Farma Sehat
+D00602,ORS,Antidiabetik,0,267,2025-02-12,2027-05-03,Cipta Sejahtera
+D00603,Antasida,Bronkodilator,465,0,2023-11-30,2025-06-04,Global Medika
+D00604,Cetirizine,Antibiotik,0,0,2025-02-03,2026-10-18,Medika Nusantara
+D00605,ORS,Analgesik,0,0,2025-11-02,2027-02-02,Cipta Sejahtera
+D00606,Antasida,Bronkodilator,335,14,2024-04-07,2025-02-12,Cipta Sejahtera
+D00607,Insulin,Antidiabetik,475,0,2025-10-19,2027-12-26,Medika Nusantara
+D00608,Amoxicillin,Analgesik,0,0,2025-02-20,2026-04-28,Prima Pharma
+D00609,Azithromycin,Antidiabetik,0,58,2025-02-01,2027-06-16,Medika Nusantara
+D00610,Metformin,Antasida,429,0,2024-07-31,2025-07-07,Cipta Sejahtera
+D00611,Cetirizine,Antidiabetik,106,296,2025-09-11,2026-09-14,Global Medika
+D00612,Amlodipine,Bronkodilator,258,0,2024-05-20,2025-02-04,Cipta Sejahtera
+D00613,Metformin,Antibiotik,267,268,2025-11-04,2026-12-24,Cipta Sejahtera
+D00614,Cetirizine,Analgesik,0,0,2024-02-10,2026-06-02,Global Medika
+D00615,Paracetamol,Antasida,65,215,2024-12-19,2026-03-16,Cipta Sejahtera
+D00616,Vitamin C,Vitamin,0,43,2024-03-05,2025-11-02,Prima Pharma
+D00617,Paracetamol,Antibiotik,482,0,2024-03-27,2025-02-13,PT Farma Sehat
+D00618,Azithromycin,Antidiabetik,43,45,2024-11-09,2025-10-12,Global Medika
+D00619,Antasida,Analgesik,0,219,2025-10-06,2027-11-28,PT Farma Sehat
+D00620,Omeprazole,Analgesik,0,237,2025-05-07,2026-01-06,Global Medika
+D00621,Vitamin C,Vitamin,381,187,2025-02-12,2026-03-21,Cipta Sejahtera
+D00622,Omeprazole,Antidiabetik,0,0,2024-07-14,2026-01-02,Global Medika
+D00623,Cetirizine,Antasida,398,300,2025-09-01,2026-04-19,Medika Nusantara
+D00624,Azithromycin,Bronkodilator,0,138,2023-12-28,2024-10-21,Medika Nusantara
+D00625,Cetirizine,Antasida,207,0,2024-06-23,2026-11-26,Prima Pharma
+D00626,Insulin,Antibiotik,74,112,2025-01-14,2027-01-05,Medika Nusantara
+D00627,Metformin,Antidiabetik,0,0,2025-01-03,2025-11-26,Prima Pharma
+D00628,Ibuprofen,Antibiotik,0,0,2025-08-15,2027-06-21,Prima Pharma
+D00629,ORS,Antidiabetik,0,268,2024-06-08,2026-09-15,Cipta Sejahtera
+D00630,Omeprazole,Antasida,186,0,2024-06-06,2025-04-26,Prima Pharma
+D00631,Antasida,Bronkodilator,0,35,2024-04-22,2024-10-01,Global Medika
+D00632,Vitamin C,Vitamin,313,90,2024-09-26,2025-12-29,Cipta Sejahtera
+D00633,Antasida,Antasida,37,101,2025-08-01,2026-12-02,Global Medika
+D00634,Amoxicillin,Antidiabetik,0,240,2024-06-19,2024-11-16,Prima Pharma
+D00635,Amlodipine,Antibiotik,0,0,2024-09-30,2025-11-28,Prima Pharma
+D00636,Azithromycin,Antibiotik,458,0,2024-04-28,2025-03-19,Global Medika
+D00637,Insulin,Antidiabetik,369,0,2024-12-13,2027-05-23,Prima Pharma
+D00638,Salbutamol,Antasida,0,0,2025-10-09,2028-03-19,Prima Pharma
+D00639,Ibuprofen,Analgesik,0,121,2024-06-20,2026-03-19,PT Farma Sehat
+D00640,Antasida,Antidiabetik,0,167,2025-02-22,2025-11-21,PT Farma Sehat
+D00641,Cetirizine,Bronkodilator,0,290,2024-07-16,2025-11-05,Medika Nusantara
+D00642,Metformin,Antibiotik,157,83,2024-07-18,2026-08-23,Prima Pharma
+D00643,Insulin,Antidiabetik,0,0,2025-08-25,2026-09-17,Medika Nusantara
+D00644,Vitamin C,Vitamin,0,224,2025-04-07,2025-08-23,Prima Pharma
+D00645,Ciprofloxacin,Antasida,0,170,2023-12-27,2025-11-18,Global Medika
+D00646,Omeprazole,Antibiotik,374,211,2024-06-22,2026-06-01,Cipta Sejahtera
+D00647,Antasida,Bronkodilator,0,180,2025-08-07,2027-08-01,Global Medika
+D00648,Insulin,Antidiabetik,75,128,2025-07-28,2027-05-21,Global Medika
+D00649,Omeprazole,Antasida,311,0,2024-04-24,2025-04-14,Prima Pharma
+D00650,Amlodipine,Antasida,357,150,2024-12-25,2026-02-19,Global Medika
+D00651,Paracetamol,Antibiotik,0,234,2024-09-29,2026-06-10,Global Medika
+D00652,Amoxicillin,Antasida,0,0,2025-05-10,2025-11-03,PT Farma Sehat
+D00653,Metformin,Bronkodilator,102,172,2025-10-23,2027-08-22,PT Farma Sehat
+D00654,Paracetamol,Antasida,211,20,2025-03-06,2026-12-28,Prima Pharma
+D00655,Ciprofloxacin,Analgesik,159,0,2024-03-04,2025-07-27,Medika Nusantara
+D00656,Insulin,Analgesik,485,18,2025-03-13,2027-01-21,PT Farma Sehat
+D00657,Zinc,Analgesik,0,179,2024-11-28,2025-08-26,Prima Pharma
+D00658,Ibuprofen,Antibiotik,420,120,2024-07-16,2026-01-13,Cipta Sejahtera
+D00659,Cetirizine,Antidiabetik,340,0,2025-10-22,2026-11-04,Global Medika
+D00660,Metformin,Bronkodilator,0,218,2024-12-31,2026-05-24,Medika Nusantara
+D00661,Vitamin C,Vitamin,0,12,2024-08-23,2027-01-10,Medika Nusantara
+D00662,Zinc,Antasida,0,0,2025-04-06,2027-09-06,Global Medika
+D00663,Salbutamol,Antibiotik,0,0,2024-10-19,2025-11-13,Prima Pharma
+D00664,ORS,Antasida,0,0,2024-03-21,2025-02-15,Medika Nusantara
+D00665,Azithromycin,Analgesik,172,79,2025-01-29,2026-01-31,PT Farma Sehat
+D00666,Amlodipine,Antidiabetik,0,107,2025-10-11,2028-03-12,Global Medika
+D00667,Metformin,Antasida,0,240,2025-03-05,2025-09-25,Medika Nusantara
+D00668,Antasida,Analgesik,0,47,2025-08-07,2027-09-13,Global Medika
+D00669,Zinc,Antidiabetik,193,106,2024-06-20,2026-05-30,Global Medika
+D00670,ORS,Antasida,248,172,2025-05-24,2026-02-07,Medika Nusantara
+D00671,Omeprazole,Analgesik,443,0,2024-02-16,2025-08-29,Cipta Sejahtera
+D00672,Omeprazole,Analgesik,0,0,2025-01-21,2026-04-07,Prima Pharma
+D00673,Omeprazole,Antibiotik,211,0,2025-08-02,2027-04-05,Cipta Sejahtera
+D00674,Azithromycin,Bronkodilator,211,0,2025-05-05,2026-09-03,Global Medika
+D00675,Omeprazole,Antasida,0,0,2025-04-28,2027-03-16,Medika Nusantara
+D00676,Antasida,Antidiabetik,0,0,2024-07-08,2025-08-17,Global Medika
+D00677,ORS,Antasida,0,0,2024-10-10,2025-05-21,Cipta Sejahtera
+D00678,Antasida,Antasida,455,101,2025-01-29,2025-11-09,Medika Nusantara
+D00679,Antasida,Antidiabetik,174,0,2025-09-04,2026-10-25,Global Medika
+D00680,Zinc,Bronkodilator,0,0,2025-09-30,2026-03-05,Medika Nusantara
+D00681,Vitamin C,Vitamin,0,90,2025-01-21,2026-05-16,PT Farma Sehat
+D00682,Azithromycin,Antasida,381,226,2024-10-16,2026-10-25,Prima Pharma
+D00683,Metformin,Analgesik,493,0,2025-01-31,2025-10-16,Global Medika
+D00684,Azithromycin,Antidiabetik,64,275,2025-06-07,2026-02-23,Medika Nusantara
+D00685,Paracetamol,Antidiabetik,0,276,2024-02-25,2025-12-19,PT Farma Sehat
+D00686,Zinc,Antasida,21,152,2024-03-05,2024-10-02,Cipta Sejahtera
+D00687,Ciprofloxacin,Antasida,0,0,2024-08-15,2026-08-15,Medika Nusantara
+D00688,Ibuprofen,Antidiabetik,0,47,2025-01-19,2026-11-15,Medika Nusantara
+D00689,Metformin,Antidiabetik,0,0,2024-10-23,2026-07-23,PT Farma Sehat
+D00690,Omeprazole,Antibiotik,0,0,2023-11-16,2026-03-08,Cipta Sejahtera
+D00691,Vitamin C,Vitamin,59,87,2025-06-25,2026-02-08,Global Medika
+D00692,Paracetamol,Antidiabetik,0,0,2024-09-26,2026-03-13,Medika Nusantara
+D00693,Omeprazole,Bronkodilator,127,0,2025-09-25,2027-02-16,Prima Pharma
+D00694,Amlodipine,Bronkodilator,0,37,2024-02-26,2025-10-21,Cipta Sejahtera
+D00695,Ciprofloxacin,Analgesik,133,0,2025-08-09,2027-09-09,PT Farma Sehat
+D00696,Azithromycin,Antibiotik,477,0,2024-04-29,2025-07-25,PT Farma Sehat
+D00697,Ibuprofen,Antibiotik,0,131,2024-04-01,2025-05-09,Medika Nusantara
+D00698,Salbutamol,Antidiabetik,0,0,2024-02-28,2025-07-25,PT Farma Sehat
+D00699,Azithromycin,Antibiotik,34,299,2025-07-23,2026-09-03,Medika Nusantara
+D00700,Amlodipine,Antasida,41,0,2024-01-26,2026-02-28,Prima Pharma
+D00701,Metformin,Antidiabetik,371,150,2024-03-26,2025-10-23,Global Medika
+D00702,Omeprazole,Antasida,0,0,2023-12-08,2025-07-11,Cipta Sejahtera
+D00703,Omeprazole,Bronkodilator,154,0,2023-12-19,2024-07-06,Prima Pharma
+D00704,Vitamin C,Vitamin,0,0,2025-03-28,2025-09-28,PT Farma Sehat
+D00705,ORS,Antibiotik,484,230,2024-02-26,2024-09-28,Cipta Sejahtera
+D00706,Omeprazole,Antidiabetik,0,203,2024-02-09,2024-09-28,Medika Nusantara
+D00707,Ciprofloxacin,Analgesik,212,150,2024-03-28,2025-09-28,PT Farma Sehat
+D00708,Amoxicillin,Antibiotik,228,86,2025-05-29,2026-08-09,Global Medika
+D00709,Paracetamol,Antibiotik,231,295,2023-11-08,2025-01-22,Prima Pharma
+D00710,Cetirizine,Antasida,0,0,2024-04-29,2026-02-28,Global Medika
+D00711,Amoxicillin,Antasida,301,0,2024-12-05,2026-09-21,Prima Pharma
+D00712,Amlodipine,Analgesik,250,107,2024-04-04,2025-02-11,Global Medika
+D00713,Vitamin C,Vitamin,0,0,2024-10-31,2025-02-28,Global Medika
+D00714,Salbutamol,Analgesik,323,220,2025-03-07,2026-04-11,Global Medika
+D00715,Ciprofloxacin,Analgesik,143,201,2025-04-14,2026-06-12,Cipta Sejahtera
+D00716,Metformin,Antasida,294,0,2025-01-14,2026-04-04,PT Farma Sehat
+D00717,Azithromycin,Bronkodilator,393,209,2024-11-03,2026-09-06,Prima Pharma
+D00718,Ciprofloxacin,Bronkodilator,456,0,2025-08-13,2026-01-23,Medika Nusantara
+D00719,Zinc,Analgesik,0,0,2025-04-20,2026-02-26,Medika Nusantara
+D00720,Cetirizine,Antasida,138,0,2025-07-02,2026-02-22,Cipta Sejahtera
+D00721,Ciprofloxacin,Antidiabetik,0,11,2025-09-25,2026-03-07,Global Medika
+D00722,Ciprofloxacin,Bronkodilator,0,65,2025-09-18,2026-11-08,PT Farma Sehat
+D00723,Azithromycin,Antidiabetik,447,0,2024-10-29,2025-05-25,Global Medika
+D00724,Cetirizine,Antidiabetik,0,0,2024-03-03,2025-02-23,Cipta Sejahtera
+D00725,ORS,Antasida,255,0,2025-04-17,2026-01-16,Prima Pharma
+D00726,Insulin,Bronkodilator,86,0,2024-05-17,2025-02-18,Medika Nusantara
+D00727,ORS,Antibiotik,0,0,2024-09-02,2025-01-11,Cipta Sejahtera
+D00728,Salbutamol,Antidiabetik,0,0,2025-05-21,2026-09-27,PT Farma Sehat
+D00729,Salbutamol,Antidiabetik,0,0,2025-06-21,2026-07-25,Global Medika
+D00730,Insulin,Analgesik,0,193,2025-09-04,2027-02-14,Cipta Sejahtera
+D00731,Metformin,Bronkodilator,131,0,2025-05-17,2026-08-05,Medika Nusantara
+D00732,Ciprofloxacin,Antasida,0,0,2024-08-01,2026-11-09,Global Medika
+D00733,Ibuprofen,Analgesik,0,0,2025-03-18,2025-11-01,PT Farma Sehat
+D00734,Antasida,Analgesik,0,0,2025-02-17,2026-08-14,Medika Nusantara
+D00735,Omeprazole,Antibiotik,0,142,2025-01-29,2025-11-22,Medika Nusantara
+D00736,Paracetamol,Bronkodilator,0,0,2024-09-28,2026-11-06,Prima Pharma
+D00737,Omeprazole,Antibiotik,0,248,2025-05-31,2026-08-26,PT Farma Sehat
+D00738,Antasida,Analgesik,0,0,2024-03-15,2024-07-16,Prima Pharma
+D00739,Metformin,Antasida,0,153,2024-06-01,2026-06-30,PT Farma Sehat
+D00740,Ibuprofen,Bronkodilator,272,220,2025-09-21,2028-01-03,Medika Nusantara
+D00741,ORS,Analgesik,44,149,2024-01-22,2025-11-24,Prima Pharma
+D00742,Cetirizine,Bronkodilator,112,56,2024-05-15,2024-10-07,Global Medika
+D00743,Ibuprofen,Antasida,0,0,2024-10-28,2026-11-28,Global Medika
+D00744,Ibuprofen,Antidiabetik,387,163,2024-02-24,2024-12-22,PT Farma Sehat
+D00745,Amlodipine,Antidiabetik,0,20,2024-10-12,2026-06-07,Cipta Sejahtera
+D00746,Omeprazole,Bronkodilator,0,0,2025-08-15,2027-01-26,Cipta Sejahtera
+D00747,Amoxicillin,Analgesik,400,0,2025-03-05,2026-03-28,Prima Pharma
+D00748,Omeprazole,Analgesik,0,0,2024-09-11,2025-05-28,Prima Pharma
+D00749,Cetirizine,Antidiabetik,126,280,2024-12-26,2026-03-15,Prima Pharma
+D00750,Paracetamol,Antidiabetik,0,279,2024-08-03,2025-12-02,Prima Pharma
+D00751,Zinc,Bronkodilator,74,0,2024-04-01,2024-10-24,Global Medika
+D00752,Amlodipine,Antasida,0,0,2024-10-27,2027-04-11,Global Medika
+D00753,Zinc,Antidiabetik,0,264,2024-08-09,2025-01-17,PT Farma Sehat
+D00754,Cetirizine,Bronkodilator,54,0,2025-04-03,2027-02-26,Prima Pharma
+D00755,Azithromycin,Analgesik,387,0,2023-11-26,2026-02-06,Cipta Sejahtera
+D00756,Azithromycin,Antibiotik,312,217,2024-02-22,2025-11-06,Prima Pharma
+D00757,Ibuprofen,Analgesik,0,10,2025-02-19,2026-05-26,Global Medika
+D00758,Azithromycin,Antibiotik,0,28,2025-08-11,2027-08-31,Cipta Sejahtera
+D00759,Zinc,Antasida,0,188,2025-09-20,2027-05-26,Global Medika
+D00760,Paracetamol,Analgesik,187,177,2024-06-14,2026-02-12,Cipta Sejahtera
+D00761,Cetirizine,Antibiotik,473,11,2024-11-01,2025-03-03,Prima Pharma
+D00762,Zinc,Analgesik,0,0,2024-06-12,2026-10-07,PT Farma Sehat
+D00763,Antasida,Antasida,0,0,2025-01-21,2027-05-30,PT Farma Sehat
+D00764,Insulin,Antibiotik,0,0,2024-02-26,2026-05-31,PT Farma Sehat
+D00765,Paracetamol,Antibiotik,0,298,2025-07-18,2027-07-10,Prima Pharma
+D00766,Amlodipine,Antibiotik,394,0,2025-08-01,2027-12-12,PT Farma Sehat
+D00767,Antasida,Antidiabetik,0,281,2024-06-06,2025-01-02,Global Medika
+D00768,Metformin,Analgesik,399,160,2023-12-27,2025-03-06,Medika Nusantara
+D00769,Zinc,Bronkodilator,183,26,2024-05-09,2025-12-02,Global Medika
+D00770,Antasida,Antasida,371,0,2024-10-21,2025-10-27,Prima Pharma
+D00771,Amoxicillin,Analgesik,290,105,2024-11-12,2025-11-05,Cipta Sejahtera
+D00772,Cetirizine,Bronkodilator,0,0,2024-12-19,2025-08-23,Prima Pharma
+D00773,Azithromycin,Antasida,0,0,2025-04-16,2026-02-25,Global Medika
+D00774,Salbutamol,Antibiotik,363,108,2023-12-18,2025-08-25,Cipta Sejahtera
+D00775,Insulin,Antidiabetik,99,0,2024-08-29,2025-01-12,Medika Nusantara
+D00776,Amlodipine,Antibiotik,382,0,2025-01-17,2026-01-25,PT Farma Sehat
+D00777,Ciprofloxacin,Analgesik,350,122,2023-12-23,2024-10-08,Prima Pharma
+D00778,Azithromycin,Antibiotik,0,115,2024-04-19,2025-11-01,Global Medika
+D00779,Metformin,Antidiabetik,0,0,2025-02-04,2027-03-24,PT Farma Sehat
+D00780,Ibuprofen,Analgesik,91,0,2024-01-13,2025-03-11,Medika Nusantara
+D00781,Amlodipine,Antibiotik,362,0,2024-01-04,2025-06-15,Global Medika
+D00782,Insulin,Analgesik,376,0,2024-09-10,2026-01-12,Global Medika
+D00783,Insulin,Antasida,374,218,2024-02-11,2026-01-21,PT Farma Sehat
+D00784,Ibuprofen,Antibiotik,377,0,2025-10-09,2027-04-21,Prima Pharma
+D00785,Ibuprofen,Antasida,0,0,2024-07-02,2025-12-21,Medika Nusantara
+D00786,Omeprazole,Antasida,352,91,2024-05-10,2026-03-06,Cipta Sejahtera
+D00787,ORS,Analgesik,0,0,2025-01-08,2027-01-13,Prima Pharma
+D00788,Omeprazole,Analgesik,0,0,2023-11-11,2025-02-12,Cipta Sejahtera
+D00789,Metformin,Antibiotik,0,60,2024-08-16,2025-03-24,Global Medika
+D00790,Cetirizine,Bronkodilator,156,266,2023-11-26,2024-07-28,Prima Pharma
+D00791,Ibuprofen,Bronkodilator,52,0,2025-08-23,2028-01-21,Global Medika
+D00792,Antasida,Analgesik,297,260,2025-09-12,2027-02-11,Cipta Sejahtera
+D00793,Insulin,Antasida,150,0,2024-08-17,2025-07-15,Medika Nusantara
+D00794,Amlodipine,Antasida,229,290,2024-07-05,2026-02-14,PT Farma Sehat
+D00795,Cetirizine,Antidiabetik,0,0,2024-12-08,2026-01-02,Medika Nusantara
+D00796,Azithromycin,Bronkodilator,426,0,2024-11-11,2025-12-05,Medika Nusantara
+D00797,Paracetamol,Antasida,291,0,2023-11-16,2025-09-22,Medika Nusantara
+D00798,Insulin,Bronkodilator,430,187,2024-02-14,2025-02-05,Cipta Sejahtera
+D00799,Zinc,Antidiabetik,127,94,2025-05-26,2026-07-15,Global Medika
+D00800,Cetirizine,Analgesik,78,0,2024-02-29,2025-03-16,Cipta Sejahtera
+D00801,Amoxicillin,Analgesik,67,0,2025-08-22,2027-06-25,PT Farma Sehat
+D00802,Ciprofloxacin,Antasida,328,130,2025-03-24,2027-06-22,Prima Pharma
+D00803,Cetirizine,Bronkodilator,410,0,2024-01-01,2024-06-08,Global Medika
+D00804,Ciprofloxacin,Bronkodilator,196,0,2024-02-18,2025-03-16,Prima Pharma
+D00805,Insulin,Antidiabetik,202,0,2025-01-11,2027-01-08,Prima Pharma
+D00806,Paracetamol,Antibiotik,0,0,2025-01-03,2026-10-24,Cipta Sejahtera
+D00807,Amlodipine,Antidiabetik,0,0,2024-09-15,2025-07-25,PT Farma Sehat
+D00808,Omeprazole,Antidiabetik,428,0,2025-06-21,2027-09-29,Medika Nusantara
+D00809,Paracetamol,Antidiabetik,0,0,2024-03-30,2025-05-10,Medika Nusantara
+D00810,ORS,Bronkodilator,0,134,2024-12-05,2025-07-15,Medika Nusantara
+D00811,Zinc,Bronkodilator,0,0,2025-08-30,2027-11-29,PT Farma Sehat
+D00812,Azithromycin,Analgesik,144,159,2025-02-06,2026-09-14,Prima Pharma
+D00813,Paracetamol,Antibiotik,247,0,2025-06-13,2026-06-28,Global Medika
+D00814,Amoxicillin,Bronkodilator,0,82,2024-08-16,2026-09-02,Cipta Sejahtera
+D00815,Omeprazole,Analgesik,266,112,2024-05-27,2025-06-04,Medika Nusantara
+D00816,Metformin,Antidiabetik,219,13,2025-08-17,2027-10-28,Prima Pharma
+D00817,Amoxicillin,Analgesik,0,150,2025-02-02,2026-05-29,Cipta Sejahtera
+D00818,ORS,Antasida,0,0,2024-03-26,2025-03-17,Prima Pharma
+D00819,Salbutamol,Analgesik,234,0,2024-08-20,2026-03-16,Cipta Sejahtera
+D00820,Insulin,Bronkodilator,0,212,2025-04-01,2025-08-22,PT Farma Sehat
+D00821,Azithromycin,Antasida,242,0,2024-08-03,2026-01-26,Cipta Sejahtera
+D00822,Salbutamol,Bronkodilator,345,192,2024-02-26,2025-04-12,Medika Nusantara
+D00823,Cetirizine,Antibiotik,0,0,2024-03-20,2025-07-13,Cipta Sejahtera
+D00824,Omeprazole,Antibiotik,235,54,2023-11-19,2025-02-05,Prima Pharma
+D00825,Paracetamol,Antidiabetik,425,0,2024-12-03,2027-02-02,Prima Pharma
+D00826,Insulin,Antasida,419,21,2025-10-09,2027-03-31,PT Farma Sehat
+D00827,Insulin,Antasida,0,0,2024-06-18,2026-09-27,Prima Pharma
+D00828,Amlodipine,Antasida,449,174,2024-04-20,2025-04-01,PT Farma Sehat
+D00829,Omeprazole,Antasida,0,33,2024-05-27,2026-11-05,Global Medika
+D00830,Amlodipine,Antidiabetik,286,212,2025-10-03,2027-01-28,Prima Pharma
+D00831,Insulin,Antasida,0,51,2025-10-10,2026-07-29,PT Farma Sehat
+D00832,Salbutamol,Antidiabetik,329,0,2025-04-07,2026-02-04,Medika Nusantara
+D00833,Insulin,Analgesik,308,0,2024-08-12,2026-10-08,Prima Pharma
+D00834,Omeprazole,Antasida,0,0,2025-04-25,2026-07-25,Medika Nusantara
+D00835,Ciprofloxacin,Analgesik,0,37,2025-07-30,2026-12-10,PT Farma Sehat
+D00836,Vitamin C,Vitamin,0,0,2025-07-15,2026-05-21,Cipta Sejahtera
+D00837,Vitamin C,Vitamin,0,236,2025-04-22,2025-11-05,Global Medika
+D00838,Ciprofloxacin,Bronkodilator,0,157,2025-08-30,2027-04-19,Medika Nusantara
+D00839,Cetirizine,Antibiotik,457,236,2024-08-20,2026-03-12,Cipta Sejahtera
+D00840,Ibuprofen,Antasida,432,0,2025-06-18,2026-08-01,Medika Nusantara
+D00841,Paracetamol,Analgesik,0,35,2025-09-11,2026-11-29,PT Farma Sehat
+D00842,Azithromycin,Antibiotik,0,0,2024-03-28,2024-12-17,Global Medika
+D00843,Antasida,Antibiotik,0,0,2023-12-04,2025-01-25,PT Farma Sehat
+D00844,Insulin,Analgesik,0,0,2025-05-20,2026-01-11,Cipta Sejahtera
+D00845,Amlodipine,Antibiotik,0,0,2024-04-30,2025-05-21,Global Medika
+D00846,ORS,Antasida,0,283,2024-01-14,2025-04-29,Medika Nusantara
+D00847,Ibuprofen,Bronkodilator,28,260,2025-09-10,2026-05-04,Medika Nusantara
+D00848,Metformin,Analgesik,25,169,2025-08-30,2026-01-13,Prima Pharma
+D00849,Azithromycin,Antidiabetik,0,270,2024-09-24,2026-07-20,Global Medika
+D00850,Amlodipine,Analgesik,0,0,2024-12-02,2025-09-14,PT Farma Sehat
+D00851,Azithromycin,Antasida,0,0,2024-02-11,2025-04-09,Cipta Sejahtera
+D00852,Cetirizine,Analgesik,0,0,2025-07-22,2027-05-11,PT Farma Sehat
+D00853,Salbutamol,Antidiabetik,51,0,2025-10-31,2027-11-16,Prima Pharma
+D00854,Insulin,Analgesik,434,115,2024-01-24,2026-02-01,Global Medika
+D00855,Metformin,Bronkodilator,0,0,2023-11-23,2025-08-08,Cipta Sejahtera
+D00856,Ibuprofen,Antasida,0,25,2025-03-31,2026-04-23,Medika Nusantara
+D00857,Ibuprofen,Antidiabetik,428,249,2025-10-21,2027-09-30,Global Medika
+D00858,Omeprazole,Analgesik,188,225,2023-11-26,2024-06-27,Cipta Sejahtera
+D00859,Zinc,Antidiabetik,255,0,2024-05-31,2025-03-04,Prima Pharma
+D00860,Vitamin C,Vitamin,0,0,2024-03-12,2025-10-15,Medika Nusantara
+D00861,Amlodipine,Antidiabetik,0,0,2025-02-22,2025-07-15,Cipta Sejahtera
+D00862,Salbutamol,Antidiabetik,488,83,2025-02-19,2026-11-23,Cipta Sejahtera
+D00863,Omeprazole,Antidiabetik,213,167,2023-11-24,2025-11-17,Cipta Sejahtera
+D00864,Salbutamol,Antidiabetik,465,0,2025-05-14,2027-04-23,Medika Nusantara
+D00865,Omeprazole,Antibiotik,0,0,2024-06-13,2025-09-09,Cipta Sejahtera
+D00866,Vitamin C,Vitamin,224,0,2024-01-04,2025-12-29,Prima Pharma
+D00867,Zinc,Bronkodilator,0,95,2025-03-19,2027-01-30,Global Medika
+D00868,ORS,Antasida,0,0,2024-05-26,2025-07-03,Global Medika
+D00869,Antasida,Antibiotik,0,0,2025-09-10,2027-10-25,Prima Pharma
+D00870,Cetirizine,Antasida,460,0,2023-11-07,2025-02-13,Global Medika
+D00871,Azithromycin,Analgesik,55,225,2024-08-22,2025-06-15,PT Farma Sehat
+D00872,Amoxicillin,Bronkodilator,165,0,2024-11-03,2027-02-08,Prima Pharma
+D00873,ORS,Analgesik,79,299,2024-06-01,2024-11-01,Medika Nusantara
+D00874,Amlodipine,Bronkodilator,0,0,2025-06-03,2027-08-17,Medika Nusantara
+D00875,Zinc,Antidiabetik,252,225,2024-06-13,2024-11-13,PT Farma Sehat
+D00876,Antasida,Bronkodilator,0,187,2025-10-21,2027-04-27,PT Farma Sehat
+D00877,Metformin,Antibiotik,0,286,2025-03-06,2026-08-07,Medika Nusantara
+D00878,Vitamin C,Vitamin,431,82,2025-03-21,2026-04-25,Medika Nusantara
+D00879,Paracetamol,Antidiabetik,0,0,2024-12-15,2026-11-09,Medika Nusantara
+D00880,Omeprazole,Antidiabetik,0,0,2025-09-14,2027-01-14,PT Farma Sehat
+D00881,Omeprazole,Antidiabetik,471,0,2024-06-11,2026-04-20,Cipta Sejahtera
+D00882,Omeprazole,Antibiotik,286,0,2024-06-06,2026-10-29,Medika Nusantara
+D00883,Ibuprofen,Antibiotik,232,0,2025-05-16,2027-10-20,PT Farma Sehat
+D00884,Azithromycin,Antasida,0,0,2024-01-28,2025-01-20,Prima Pharma
+D00885,Omeprazole,Antasida,0,0,2024-08-20,2026-03-05,Medika Nusantara
+D00886,Ciprofloxacin,Antasida,0,224,2025-05-18,2026-12-14,Cipta Sejahtera
+D00887,Vitamin C,Vitamin,257,0,2025-06-11,2027-06-17,Global Medika
+D00888,ORS,Antasida,0,32,2023-11-14,2024-08-21,Medika Nusantara
+D00889,ORS,Bronkodilator,0,86,2024-12-28,2026-10-05,PT Farma Sehat
+D00890,Azithromycin,Analgesik,0,132,2025-04-12,2025-09-01,Medika Nusantara
+D00891,Antasida,Antasida,0,0,2023-11-17,2024-10-01,Global Medika
+D00892,Antasida,Bronkodilator,441,0,2025-06-25,2026-08-09,Medika Nusantara
+D00893,Amlodipine,Bronkodilator,182,0,2025-06-02,2026-03-06,Cipta Sejahtera
+D00894,Amlodipine,Bronkodilator,264,0,2025-03-30,2027-08-26,Prima Pharma
+D00895,Insulin,Antasida,0,0,2025-11-05,2027-06-13,Global Medika
+D00896,Omeprazole,Antidiabetik,231,105,2024-07-09,2026-03-11,Prima Pharma
+D00897,ORS,Antibiotik,0,0,2024-03-27,2025-09-20,PT Farma Sehat
+D00898,Insulin,Analgesik,0,0,2024-06-11,2026-02-10,Medika Nusantara
+D00899,ORS,Antibiotik,358,65,2025-09-02,2026-02-04,PT Farma Sehat
+D00900,Paracetamol,Analgesik,0,0,2024-04-24,2025-10-19,Medika Nusantara
+D00901,Vitamin C,Vitamin,36,151,2024-01-11,2026-03-26,Cipta Sejahtera
+D00902,Metformin,Antidiabetik,0,0,2024-06-07,2026-09-22,Medika Nusantara
+D00903,Amlodipine,Analgesik,355,10,2023-11-18,2024-05-29,Medika Nusantara
+D00904,Vitamin C,Vitamin,0,0,2025-07-27,2027-05-03,Global Medika
+D00905,Metformin,Antibiotik,307,132,2025-03-24,2027-06-03,Cipta Sejahtera
+D00906,Azithromycin,Bronkodilator,0,0,2025-03-13,2027-05-05,Cipta Sejahtera
+D00907,Vitamin C,Vitamin,190,0,2025-05-23,2026-07-10,Medika Nusantara
+D00908,Salbutamol,Antasida,0,0,2025-05-02,2025-12-16,Medika Nusantara
+D00909,Cetirizine,Analgesik,443,26,2024-05-05,2026-02-12,Cipta Sejahtera
+D00910,Cetirizine,Analgesik,49,263,2025-02-24,2026-06-30,Prima Pharma
+D00911,Paracetamol,Antidiabetik,39,152,2025-07-31,2025-12-05,PT Farma Sehat
+D00912,Antasida,Antasida,284,211,2024-04-29,2026-06-16,Prima Pharma
+D00913,Amlodipine,Antibiotik,0,0,2025-09-13,2026-09-11,Prima Pharma
+D00914,ORS,Antibiotik,0,227,2025-06-04,2025-11-29,Cipta Sejahtera
+D00915,Ciprofloxacin,Analgesik,145,260,2024-09-07,2025-11-15,Prima Pharma
+D00916,Ciprofloxacin,Antidiabetik,461,0,2025-01-26,2026-08-30,PT Farma Sehat
+D00917,Paracetamol,Analgesik,0,193,2024-09-20,2025-03-28,Cipta Sejahtera
+D00918,Amoxicillin,Bronkodilator,0,0,2024-06-22,2026-02-06,PT Farma Sehat
+D00919,Omeprazole,Antasida,120,56,2025-03-15,2026-02-16,Prima Pharma
+D00920,Antasida,Bronkodilator,0,0,2024-09-14,2026-08-10,PT Farma Sehat
+D00921,Insulin,Antidiabetik,280,270,2025-02-16,2025-07-05,Cipta Sejahtera
+D00922,Metformin,Antasida,0,241,2025-05-25,2027-10-18,Global Medika
+D00923,Antasida,Bronkodilator,361,0,2025-01-31,2026-07-25,PT Farma Sehat
+D00924,Antasida,Bronkodilator,0,0,2024-01-05,2024-12-07,PT Farma Sehat
+D00925,Ibuprofen,Antasida,0,0,2024-04-07,2025-12-14,Global Medika
+D00926,Vitamin C,Vitamin,0,0,2024-05-20,2026-03-18,Medika Nusantara
+D00927,Insulin,Analgesik,0,0,2025-01-08,2026-05-06,Global Medika
+D00928,Azithromycin,Antasida,0,0,2024-07-22,2026-02-15,Medika Nusantara
+D00929,Metformin,Antasida,432,0,2024-05-22,2026-03-04,Prima Pharma
+D00930,Vitamin C,Vitamin,157,179,2025-07-10,2026-08-12,Medika Nusantara
+D00931,Ibuprofen,Antidiabetik,457,101,2025-03-02,2027-03-27,Cipta Sejahtera
+D00932,Paracetamol,Antasida,154,0,2024-04-25,2024-12-27,PT Farma Sehat
+D00933,Ibuprofen,Bronkodilator,403,0,2025-02-25,2025-08-01,Prima Pharma
+D00934,Amoxicillin,Analgesik,0,167,2024-07-12,2026-08-08,Medika Nusantara
+D00935,Antasida,Bronkodilator,0,0,2024-06-12,2025-08-22,Global Medika
+D00936,Ibuprofen,Antidiabetik,0,0,2025-08-25,2026-03-10,PT Farma Sehat
+D00937,Zinc,Bronkodilator,135,126,2024-12-07,2025-08-11,Prima Pharma
+D00938,Antasida,Antasida,118,200,2024-01-23,2026-05-03,Prima Pharma
+D00939,Vitamin C,Vitamin,355,211,2024-01-08,2025-10-27,Medika Nusantara
+D00940,Insulin,Bronkodilator,0,0,2023-12-25,2024-06-27,Medika Nusantara
+D00941,Paracetamol,Antibiotik,485,278,2025-10-10,2027-12-13,PT Farma Sehat
+D00942,Cetirizine,Antidiabetik,482,0,2024-10-09,2026-12-12,Prima Pharma
+D00943,Insulin,Bronkodilator,251,144,2024-12-03,2027-01-02,Medika Nusantara
+D00944,Ibuprofen,Antasida,0,0,2024-08-07,2025-01-22,Global Medika
+D00945,Zinc,Antasida,61,0,2024-03-17,2026-06-20,Medika Nusantara
+D00946,Ibuprofen,Antibiotik,0,0,2023-11-10,2024-05-06,Cipta Sejahtera
+D00947,Salbutamol,Antasida,0,234,2024-03-26,2025-02-05,Medika Nusantara
+D00948,Metformin,Antidiabetik,95,0,2024-07-22,2025-03-08,Medika Nusantara
+D00949,Paracetamol,Antidiabetik,0,0,2024-06-04,2024-10-11,Global Medika
+D00950,Paracetamol,Antasida,211,0,2025-07-31,2026-12-07,Prima Pharma
+D00951,Insulin,Antidiabetik,365,222,2025-02-11,2027-04-16,Medika Nusantara
+D00952,Salbutamol,Bronkodilator,32,104,2024-02-24,2026-02-08,Prima Pharma
+D00953,Metformin,Antidiabetik,228,0,2024-12-14,2026-08-07,Global Medika
+D00954,Antasida,Bronkodilator,0,75,2024-03-23,2025-08-07,Cipta Sejahtera
+D00955,Antasida,Antasida,95,237,2024-03-17,2026-06-12,Cipta Sejahtera
+D00956,Ibuprofen,Antidiabetik,0,0,2024-03-05,2026-04-18,Global Medika
+D00957,Metformin,Antibiotik,0,192,2024-05-21,2025-04-16,Prima Pharma
+D00958,Antasida,Bronkodilator,0,162,2024-07-09,2024-12-20,Medika Nusantara
+D00959,Ibuprofen,Analgesik,0,75,2025-01-17,2026-03-29,PT Farma Sehat
+D00960,Antasida,Antidiabetik,0,154,2024-01-07,2024-05-18,Medika Nusantara
+D00961,Amoxicillin,Antidiabetik,480,0,2025-07-31,2026-03-22,Prima Pharma
+D00962,Ibuprofen,Antidiabetik,0,221,2024-12-24,2026-05-12,Medika Nusantara
+D00963,Cetirizine,Antibiotik,45,250,2024-06-09,2025-05-27,Cipta Sejahtera
+D00964,Ibuprofen,Antibiotik,0,284,2024-10-06,2027-03-09,Cipta Sejahtera
+D00965,Antasida,Antidiabetik,211,182,2025-06-16,2027-06-07,Global Medika
+D00966,Azithromycin,Bronkodilator,0,235,2025-01-12,2025-11-10,Cipta Sejahtera
+D00967,Paracetamol,Antasida,375,110,2025-02-23,2026-06-15,Global Medika
+D00968,Ciprofloxacin,Antasida,131,0,2024-08-12,2024-12-16,PT Farma Sehat
+D00969,Salbutamol,Antibiotik,61,0,2024-03-14,2024-11-22,Cipta Sejahtera
+D00970,Insulin,Antibiotik,0,259,2024-01-02,2025-01-20,Cipta Sejahtera
+D00971,Metformin,Antidiabetik,0,0,2025-10-04,2027-12-25,Prima Pharma
+D00972,Salbutamol,Antidiabetik,119,232,2025-10-04,2027-01-05,Cipta Sejahtera
+D00973,Paracetamol,Antasida,0,0,2024-08-17,2026-09-07,PT Farma Sehat
+D00974,Omeprazole,Antasida,0,0,2025-05-06,2026-01-27,Global Medika
+D00975,Amlodipine,Bronkodilator,0,250,2024-02-17,2024-12-24,PT Farma Sehat
+D00976,Cetirizine,Analgesik,0,177,2024-01-29,2025-04-04,PT Farma Sehat
+D00977,Zinc,Bronkodilator,25,143,2025-10-28,2027-04-16,Medika Nusantara
+D00978,Vitamin C,Vitamin,0,39,2025-07-01,2026-10-24,Global Medika
+D00979,Zinc,Bronkodilator,353,0,2024-10-30,2027-01-26,Medika Nusantara
+D00980,Ciprofloxacin,Bronkodilator,429,0,2024-12-29,2027-02-25,PT Farma Sehat
+D00981,Insulin,Antasida,285,0,2025-08-14,2027-02-25,Global Medika
+D00982,ORS,Antidiabetik,0,46,2024-08-30,2026-01-28,Cipta Sejahtera
+D00983,Antasida,Analgesik,76,142,2025-09-29,2026-11-08,Prima Pharma
+D00984,Azithromycin,Analgesik,0,289,2024-01-07,2024-09-03,Prima Pharma
+D00985,Metformin,Antasida,337,0,2025-11-03,2028-02-14,PT Farma Sehat
+D00986,Paracetamol,Bronkodilator,337,270,2025-07-24,2026-05-20,Global Medika
+D00987,Azithromycin,Analgesik,0,0,2024-12-28,2025-12-28,Global Medika
+D00988,Amoxicillin,Antidiabetik,329,0,2025-03-27,2026-07-15,Prima Pharma
+D00989,Amoxicillin,Antidiabetik,0,248,2025-07-11,2027-02-09,Cipta Sejahtera
+D00990,Vitamin C,Vitamin,444,0,2025-03-25,2026-02-28,Global Medika
+D00991,ORS,Antasida,0,0,2024-09-28,2025-10-01,PT Farma Sehat
+D00992,Salbutamol,Analgesik,267,103,2024-12-05,2025-05-01,PT Farma Sehat
+D00993,Ibuprofen,Bronkodilator,405,144,2024-12-29,2026-03-15,Cipta Sejahtera
+D00994,Paracetamol,Antasida,215,0,2025-02-22,2026-03-04,Medika Nusantara
+D00995,Ciprofloxacin,Antibiotik,0,0,2023-11-28,2025-04-23,Global Medika
+D00996,Metformin,Antidiabetik,363,210,2024-10-15,2026-12-29,PT Farma Sehat
+D00997,Antasida,Analgesik,0,58,2025-06-22,2027-06-14,Prima Pharma
+D00998,Insulin,Analgesik,0,172,2024-01-04,2024-10-16,PT Farma Sehat
+D00999,Salbutamol,Bronkodilator,0,0,2025-09-04,2027-12-11,Prima Pharma
+D01000,Paracetamol,Antibiotik,223,119,2024-12-30,2026-05-29,PT Farma Sehat
+D01001,Ciprofloxacin,Antidiabetik,0,264,2024-04-04,2025-10-19,PT Farma Sehat
+D01002,Amlodipine,Analgesik,0,290,2025-02-26,2026-10-19,Cipta Sejahtera
+D01003,Insulin,Antidiabetik,56,247,2025-01-19,2027-05-05,Medika Nusantara
+D01004,Salbutamol,Antasida,0,0,2025-07-25,2027-10-01,Medika Nusantara
+D01005,Amlodipine,Antidiabetik,82,0,2024-11-22,2026-10-26,Cipta Sejahtera
+D01006,Ciprofloxacin,Antidiabetik,84,105,2025-05-12,2025-11-18,Prima Pharma
+D01007,Metformin,Antasida,376,0,2025-03-07,2025-12-24,Prima Pharma
+D01008,Insulin,Bronkodilator,0,0,2024-12-25,2025-06-04,Global Medika
+D01009,Vitamin C,Vitamin,198,0,2024-03-20,2025-01-28,Medika Nusantara
+D01010,Amlodipine,Analgesik,278,0,2025-05-23,2026-08-27,PT Farma Sehat
+D01011,Amlodipine,Antidiabetik,0,241,2025-09-20,2027-09-23,Cipta Sejahtera
+D01012,Paracetamol,Antibiotik,340,0,2024-02-06,2025-09-29,PT Farma Sehat
+D01013,Amoxicillin,Antidiabetik,337,225,2024-06-26,2025-01-17,Cipta Sejahtera
+D01014,Zinc,Antasida,0,107,2024-06-06,2025-07-26,Prima Pharma
+D01015,Metformin,Antidiabetik,52,0,2025-10-10,2027-10-09,Global Medika
+D01016,Omeprazole,Analgesik,119,0,2024-01-22,2024-06-13,PT Farma Sehat
+D01017,Salbutamol,Analgesik,106,0,2024-01-31,2025-10-11,Cipta Sejahtera
+D01018,ORS,Antasida,314,75,2024-10-02,2026-02-20,Medika Nusantara
+D01019,Antasida,Antibiotik,161,88,2024-04-05,2025-05-04,PT Farma Sehat
+D01020,Ciprofloxacin,Antibiotik,434,164,2025-05-10,2025-10-30,Prima Pharma
+D01021,Salbutamol,Antibiotik,459,0,2024-02-20,2025-09-08,Cipta Sejahtera
+D01022,Antasida,Antibiotik,33,0,2023-12-16,2026-04-13,Global Medika
+D01023,Amlodipine,Antasida,0,0,2024-07-19,2025-05-20,Medika Nusantara
+D01024,Antasida,Antasida,0,289,2024-08-26,2026-11-23,PT Farma Sehat
+D01025,Zinc,Antasida,0,0,2024-05-22,2025-08-30,PT Farma Sehat
+D01026,Ibuprofen,Antidiabetik,0,253,2023-11-27,2024-09-23,PT Farma Sehat
+D01027,ORS,Bronkodilator,0,43,2023-12-08,2024-10-14,Global Medika
+D01028,ORS,Antasida,0,0,2024-06-13,2026-04-22,Prima Pharma
+D01029,Amlodipine,Antidiabetik,0,280,2024-06-27,2026-03-12,Cipta Sejahtera
+D01030,Metformin,Antibiotik,0,0,2024-10-12,2025-06-01,Prima Pharma
+D01031,ORS,Antidiabetik,0,0,2024-11-21,2027-04-26,Prima Pharma
+D01032,ORS,Antidiabetik,0,150,2025-01-28,2026-01-07,Global Medika
+D01033,Insulin,Analgesik,458,0,2024-01-06,2024-08-15,Medika Nusantara
+D01034,Metformin,Bronkodilator,105,129,2024-01-23,2026-07-08,Cipta Sejahtera
+D01035,Cetirizine,Antibiotik,148,30,2024-09-06,2026-08-08,Prima Pharma
+D01036,Azithromycin,Antidiabetik,0,94,2024-07-06,2026-11-27,Global Medika
+D01037,Insulin,Antidiabetik,156,0,2024-04-07,2025-01-24,Medika Nusantara
+D01038,Zinc,Analgesik,0,285,2023-11-22,2025-11-23,Cipta Sejahtera
+D01039,Insulin,Bronkodilator,0,0,2024-03-31,2025-03-20,Cipta Sejahtera
+D01040,Omeprazole,Antidiabetik,375,280,2025-05-01,2027-08-30,PT Farma Sehat
+D01041,Salbutamol,Antibiotik,0,0,2025-05-11,2027-08-26,Prima Pharma
+D01042,Ciprofloxacin,Antidiabetik,0,0,2024-01-19,2025-03-13,Global Medika
+D01043,Amlodipine,Antasida,0,124,2023-12-10,2024-11-11,Medika Nusantara
+D01044,Insulin,Antibiotik,428,0,2024-07-22,2026-12-26,PT Farma Sehat
+D01045,Paracetamol,Antibiotik,0,0,2024-02-25,2026-08-07,Cipta Sejahtera
+D01046,Metformin,Antidiabetik,0,270,2024-08-22,2025-12-13,Global Medika
+D01047,Ciprofloxacin,Bronkodilator,35,0,2024-07-09,2025-06-15,Prima Pharma
+D01048,Metformin,Antidiabetik,0,0,2024-01-14,2025-08-16,PT Farma Sehat
+D01049,Vitamin C,Vitamin,0,0,2024-12-29,2026-05-14,Medika Nusantara
+D01050,Ibuprofen,Antidiabetik,404,253,2025-10-28,2027-09-02,PT Farma Sehat
+D01051,ORS,Antibiotik,343,37,2025-03-12,2027-03-23,Prima Pharma
+D01052,ORS,Antasida,0,50,2025-05-23,2026-11-22,Prima Pharma
+D01053,Metformin,Analgesik,0,45,2025-01-18,2026-08-29,Cipta Sejahtera
+D01054,Insulin,Antibiotik,0,0,2025-10-06,2026-05-05,Medika Nusantara
+D01055,Ibuprofen,Bronkodilator,416,26,2024-04-26,2024-09-09,PT Farma Sehat
+D01056,ORS,Antibiotik,250,0,2025-05-07,2027-03-26,Prima Pharma
+D01057,Vitamin C,Vitamin,0,0,2025-06-27,2026-06-09,Cipta Sejahtera
+D01058,Vitamin C,Vitamin,61,261,2024-09-09,2026-12-24,PT Farma Sehat
+D01059,Vitamin C,Vitamin,0,27,2024-03-22,2024-12-14,Cipta Sejahtera
+D01060,Vitamin C,Vitamin,244,251,2025-04-18,2026-10-09,Cipta Sejahtera
+D01061,Amlodipine,Antidiabetik,0,23,2024-11-28,2026-08-16,PT Farma Sehat
+D01062,Antasida,Analgesik,209,0,2025-10-14,2026-11-05,Global Medika
+D01063,Omeprazole,Bronkodilator,285,257,2023-11-21,2024-08-11,Global Medika
+D01064,ORS,Bronkodilator,0,0,2024-02-20,2025-12-16,PT Farma Sehat
+D01065,Amoxicillin,Analgesik,451,13,2024-10-14,2025-10-17,Global Medika
+D01066,Zinc,Antasida,273,190,2025-01-27,2026-11-28,PT Farma Sehat
+D01067,Cetirizine,Antasida,101,87,2025-09-28,2026-07-27,Cipta Sejahtera
+D01068,Ciprofloxacin,Analgesik,0,222,2024-06-03,2024-12-02,Medika Nusantara
+D01069,Ibuprofen,Bronkodilator,0,24,2025-04-22,2027-09-21,Global Medika
+D01070,Ciprofloxacin,Antibiotik,0,224,2024-01-03,2025-06-18,Cipta Sejahtera
+D01071,Cetirizine,Antasida,151,0,2023-11-23,2024-06-03,PT Farma Sehat
+D01072,Paracetamol,Bronkodilator,0,0,2024-09-11,2025-11-10,Medika Nusantara
+D01073,Antasida,Antibiotik,370,109,2025-10-09,2027-01-01,Cipta Sejahtera
+D01074,Insulin,Antidiabetik,0,0,2024-07-28,2026-03-19,Medika Nusantara
+D01075,Azithromycin,Antasida,366,13,2024-06-23,2026-07-25,Medika Nusantara
+D01076,Salbutamol,Antidiabetik,49,140,2025-05-06,2027-03-20,PT Farma Sehat
+D01077,Cetirizine,Antibiotik,500,266,2024-04-29,2026-10-16,Prima Pharma
+D01078,Cetirizine,Antidiabetik,452,82,2024-09-24,2025-06-03,Cipta Sejahtera
+D01079,Vitamin C,Vitamin,0,0,2025-07-03,2026-08-26,Medika Nusantara
+D01080,Paracetamol,Antidiabetik,486,0,2025-04-28,2026-04-23,Cipta Sejahtera
+D01081,Omeprazole,Analgesik,0,0,2025-06-28,2027-11-12,PT Farma Sehat
+D01082,Vitamin C,Vitamin,0,222,2025-10-29,2026-03-22,PT Farma Sehat
+D01083,ORS,Analgesik,371,151,2024-06-11,2026-07-10,Prima Pharma
+D01084,Omeprazole,Bronkodilator,230,0,2025-06-13,2027-06-24,Medika Nusantara
+D01085,Insulin,Analgesik,300,0,2024-01-06,2026-01-24,PT Farma Sehat
+D01086,Ciprofloxacin,Analgesik,0,182,2023-12-12,2026-05-19,Global Medika
+D01087,Azithromycin,Bronkodilator,422,0,2025-03-05,2026-06-15,Global Medika
+D01088,Cetirizine,Antibiotik,457,255,2024-07-26,2025-03-11,Prima Pharma
+D01089,Amoxicillin,Antidiabetik,0,0,2025-10-04,2028-03-07,Prima Pharma
+D01090,Azithromycin,Antidiabetik,417,0,2025-02-05,2026-07-02,Medika Nusantara
+D01091,Salbutamol,Antidiabetik,0,0,2024-09-26,2025-02-11,Global Medika
+D01092,Vitamin C,Vitamin,331,0,2025-05-13,2025-09-21,PT Farma Sehat
+D01093,Paracetamol,Antidiabetik,76,0,2025-04-04,2025-10-15,Medika Nusantara
+D01094,Insulin,Analgesik,0,0,2024-12-31,2026-01-10,Medika Nusantara
+D01095,Insulin,Bronkodilator,300,0,2024-11-05,2026-11-02,Global Medika
+D01096,Zinc,Antasida,0,156,2025-06-30,2026-12-17,Global Medika
+D01097,Azithromycin,Antasida,174,0,2024-06-26,2026-09-02,PT Farma Sehat
+D01098,Omeprazole,Analgesik,0,0,2024-10-27,2025-11-25,Global Medika
+D01099,ORS,Analgesik,0,0,2025-08-05,2027-03-25,Prima Pharma
+D01100,Ciprofloxacin,Antasida,0,0,2025-03-26,2026-08-04,Global Medika
+D01101,Omeprazole,Bronkodilator,0,190,2024-10-26,2025-03-10,Medika Nusantara
+D01102,Omeprazole,Antasida,241,23,2025-03-02,2027-06-08,Cipta Sejahtera
+D01103,Paracetamol,Antasida,84,0,2025-06-07,2027-04-08,Global Medika
+D01104,Zinc,Analgesik,333,123,2024-02-27,2026-06-13,Cipta Sejahtera
+D01105,Metformin,Analgesik,64,22,2024-03-18,2026-01-26,Global Medika
+D01106,Paracetamol,Antasida,0,0,2024-09-23,2026-07-25,Global Medika
+D01107,Ciprofloxacin,Antidiabetik,0,0,2024-04-10,2025-09-27,PT Farma Sehat
+D01108,Amoxicillin,Antasida,198,294,2025-07-25,2026-09-30,Prima Pharma
+D01109,Vitamin C,Vitamin,0,201,2025-08-12,2027-03-29,Global Medika
+D01110,Ciprofloxacin,Antidiabetik,0,0,2024-10-14,2026-11-18,Cipta Sejahtera
+D01111,Insulin,Antibiotik,0,0,2025-07-05,2026-04-24,Cipta Sejahtera
+D01112,Omeprazole,Antibiotik,0,0,2024-01-10,2026-06-07,Prima Pharma
+D01113,Metformin,Bronkodilator,0,0,2025-07-23,2026-06-20,Global Medika
+D01114,Vitamin C,Vitamin,0,0,2025-08-16,2027-05-02,Global Medika
+D01115,Omeprazole,Analgesik,0,0,2023-11-07,2025-10-18,PT Farma Sehat
+D01116,Insulin,Analgesik,45,0,2025-07-28,2027-10-03,Cipta Sejahtera
+D01117,ORS,Analgesik,0,290,2024-01-11,2024-12-09,Cipta Sejahtera
+D01118,Insulin,Antidiabetik,190,215,2024-05-16,2025-01-15,Medika Nusantara
+D01119,Omeprazole,Analgesik,0,0,2025-10-21,2027-05-27,Prima Pharma
+D01120,ORS,Antasida,0,0,2024-04-27,2026-08-04,Global Medika
+D01121,Azithromycin,Antasida,0,179,2025-09-28,2028-01-08,Prima Pharma
+D01122,Metformin,Antidiabetik,0,0,2024-01-26,2026-04-09,Cipta Sejahtera
+D01123,Ciprofloxacin,Antidiabetik,0,148,2025-07-06,2027-02-24,Global Medika
+D01124,Insulin,Antibiotik,0,0,2025-08-31,2027-06-03,Prima Pharma
+D01125,Amoxicillin,Antasida,0,183,2025-03-19,2026-07-07,PT Farma Sehat
+D01126,Cetirizine,Antibiotik,0,172,2025-07-04,2027-06-17,Cipta Sejahtera
+D01127,Amoxicillin,Antasida,247,280,2024-05-06,2025-08-08,PT Farma Sehat
+D01128,Amoxicillin,Bronkodilator,444,172,2024-09-03,2025-08-03,PT Farma Sehat
+D01129,Ibuprofen,Antibiotik,0,0,2023-12-08,2024-07-06,Prima Pharma
+D01130,Insulin,Analgesik,264,81,2025-05-31,2026-10-09,Medika Nusantara
+D01131,Salbutamol,Analgesik,0,0,2024-09-02,2025-05-01,Medika Nusantara
+D01132,Ciprofloxacin,Bronkodilator,58,195,2024-04-01,2025-06-11,Cipta Sejahtera
+D01133,Insulin,Antidiabetik,24,158,2025-09-23,2026-05-17,Medika Nusantara
+D01134,Antasida,Analgesik,196,252,2024-07-05,2026-10-24,Prima Pharma
+D01135,Ibuprofen,Bronkodilator,295,15,2025-02-13,2025-08-31,Global Medika
+D01136,Paracetamol,Antidiabetik,0,197,2025-09-17,2026-01-27,Cipta Sejahtera
+D01137,Amlodipine,Bronkodilator,143,0,2024-04-27,2025-03-24,Global Medika
+D01138,Zinc,Antasida,27,0,2025-10-01,2027-01-29,Global Medika
+D01139,Insulin,Antidiabetik,0,20,2024-09-05,2025-08-13,Cipta Sejahtera
+D01140,Amlodipine,Antasida,406,279,2024-09-17,2026-11-03,Cipta Sejahtera
+D01141,Insulin,Antibiotik,53,111,2024-01-31,2025-11-05,Global Medika
+D01142,Azithromycin,Bronkodilator,0,0,2024-08-31,2025-09-21,Prima Pharma
+D01143,Cetirizine,Analgesik,0,267,2023-12-31,2024-12-22,Prima Pharma
+D01144,Azithromycin,Antibiotik,0,0,2025-07-23,2025-11-22,Cipta Sejahtera
+D01145,Insulin,Antibiotik,0,0,2025-09-20,2027-02-05,Prima Pharma
+D01146,Metformin,Antidiabetik,0,0,2025-01-20,2026-05-09,Global Medika
+D01147,Paracetamol,Bronkodilator,473,0,2024-08-25,2026-07-03,Prima Pharma
+D01148,Zinc,Antasida,215,46,2024-07-07,2025-03-09,Medika Nusantara
+D01149,Vitamin C,Vitamin,133,0,2023-12-27,2024-12-20,Cipta Sejahtera
+D01150,Ciprofloxacin,Antidiabetik,384,0,2025-09-10,2026-09-13,Global Medika
+D01151,Paracetamol,Antidiabetik,0,0,2025-02-09,2026-09-02,Global Medika
+D01152,Antasida,Antasida,0,111,2024-05-27,2026-05-04,Global Medika
+D01153,Azithromycin,Antidiabetik,378,0,2025-08-16,2027-08-19,PT Farma Sehat
+D01154,Ciprofloxacin,Analgesik,0,0,2025-02-11,2026-08-27,PT Farma Sehat
+D01155,Omeprazole,Antidiabetik,260,0,2023-12-18,2025-02-13,PT Farma Sehat
+D01156,Ciprofloxacin,Antibiotik,0,0,2024-02-01,2026-06-08,PT Farma Sehat
+D01157,Omeprazole,Antidiabetik,0,248,2024-10-10,2026-02-22,Prima Pharma
+D01158,Ibuprofen,Antibiotik,169,0,2024-01-16,2026-04-20,Global Medika
+D01159,Ciprofloxacin,Analgesik,120,0,2025-05-06,2027-01-01,Prima Pharma
+D01160,Ciprofloxacin,Antidiabetik,0,0,2025-04-11,2027-03-04,Global Medika
+D01161,Ibuprofen,Antibiotik,305,0,2024-06-27,2026-05-24,Global Medika
+D01162,ORS,Antibiotik,52,0,2024-06-13,2026-11-16,Prima Pharma
+D01163,Amlodipine,Antasida,237,58,2024-12-23,2025-10-31,Prima Pharma
+D01164,Vitamin C,Vitamin,227,175,2025-05-08,2027-08-26,Medika Nusantara
+D01165,Amlodipine,Antasida,0,0,2024-03-15,2025-11-14,Prima Pharma
+D01166,Paracetamol,Analgesik,0,292,2024-07-09,2025-07-08,PT Farma Sehat
+D01167,Amlodipine,Antidiabetik,0,61,2025-10-07,2026-08-23,Prima Pharma
+D01168,Insulin,Antidiabetik,0,0,2025-09-09,2026-04-30,Cipta Sejahtera
+D01169,Metformin,Antasida,0,181,2024-01-25,2025-02-12,Global Medika
+D01170,Ciprofloxacin,Antidiabetik,331,0,2024-04-01,2025-05-18,Medika Nusantara
+D01171,Azithromycin,Antidiabetik,0,0,2023-11-25,2025-03-11,Cipta Sejahtera
+D01172,Ibuprofen,Analgesik,0,0,2025-07-17,2027-10-14,Global Medika
+D01173,Vitamin C,Vitamin,412,0,2025-01-25,2026-02-02,PT Farma Sehat
+D01174,Vitamin C,Vitamin,101,0,2024-12-01,2026-12-03,PT Farma Sehat
+D01175,Omeprazole,Antibiotik,47,0,2024-11-05,2026-04-08,Cipta Sejahtera
+D01176,Paracetamol,Antidiabetik,185,55,2025-05-13,2026-06-11,Cipta Sejahtera
+D01177,Zinc,Bronkodilator,0,45,2025-06-30,2026-09-28,Cipta Sejahtera
+D01178,Paracetamol,Antidiabetik,268,0,2025-04-17,2026-09-08,Prima Pharma
+D01179,Zinc,Antidiabetik,495,0,2023-12-31,2026-03-15,Global Medika
+D01180,Salbutamol,Antasida,0,294,2024-11-03,2025-05-04,Prima Pharma
+D01181,Ciprofloxacin,Bronkodilator,0,36,2024-07-01,2026-10-23,Global Medika
+D01182,Paracetamol,Antidiabetik,443,294,2024-11-17,2026-04-17,Global Medika
+D01183,Amlodipine,Antasida,377,74,2025-05-11,2026-01-07,Prima Pharma
+D01184,Paracetamol,Antibiotik,472,236,2024-04-08,2024-08-21,Prima Pharma
+D01185,Ciprofloxacin,Analgesik,272,0,2025-09-17,2026-07-21,Prima Pharma
+D01186,Omeprazole,Antidiabetik,320,0,2024-04-06,2025-07-30,PT Farma Sehat
+D01187,Cetirizine,Antasida,0,158,2025-04-13,2026-12-09,Global Medika
+D01188,Insulin,Antibiotik,0,0,2025-08-27,2027-07-30,Medika Nusantara
+D01189,Salbutamol,Antasida,0,73,2024-12-08,2026-08-07,Global Medika
+D01190,Insulin,Analgesik,0,117,2024-01-27,2026-01-03,Prima Pharma
+D01191,Salbutamol,Antidiabetik,238,253,2025-10-23,2027-01-20,PT Farma Sehat
+D01192,Amoxicillin,Antidiabetik,357,108,2024-05-18,2024-11-09,Global Medika
+D01193,Vitamin C,Vitamin,0,29,2025-07-22,2027-01-09,Global Medika
+D01194,Insulin,Antasida,0,0,2025-06-24,2026-01-31,Prima Pharma
+D01195,Ibuprofen,Antidiabetik,0,141,2023-12-22,2025-03-31,Cipta Sejahtera
+D01196,Antasida,Bronkodilator,0,0,2025-03-03,2026-03-05,Cipta Sejahtera
+D01197,Azithromycin,Antidiabetik,385,0,2024-08-24,2025-01-22,Cipta Sejahtera
+D01198,Metformin,Antasida,102,0,2023-11-16,2024-06-20,PT Farma Sehat
+D01199,Zinc,Analgesik,215,0,2025-01-02,2025-09-17,Cipta Sejahtera
+D01200,Paracetamol,Antibiotik,234,0,2025-10-07,2027-06-02,Cipta Sejahtera
+D01201,Vitamin C,Vitamin,0,0,2024-02-25,2024-07-16,Cipta Sejahtera
+D01202,Metformin,Antidiabetik,0,271,2024-06-08,2024-11-16,PT Farma Sehat
+D01203,Vitamin C,Vitamin,0,13,2024-10-12,2026-07-06,PT Farma Sehat
+D01204,Amoxicillin,Bronkodilator,0,285,2025-08-02,2027-12-13,Global Medika
+D01205,Antasida,Antasida,0,171,2024-03-23,2025-08-06,Medika Nusantara
+D01206,Metformin,Antasida,471,0,2025-08-09,2026-08-23,Prima Pharma
+D01207,Zinc,Antasida,0,0,2025-09-08,2027-01-16,Cipta Sejahtera
+D01208,Metformin,Antidiabetik,0,0,2024-04-15,2025-10-20,PT Farma Sehat
+D01209,Vitamin C,Vitamin,439,282,2024-03-02,2024-08-11,Medika Nusantara
+D01210,Vitamin C,Vitamin,0,0,2024-04-04,2026-07-07,Medika Nusantara
+D01211,Paracetamol,Analgesik,0,0,2024-03-08,2025-09-06,Cipta Sejahtera
+D01212,Antasida,Bronkodilator,0,87,2024-12-01,2025-11-11,PT Farma Sehat
+D01213,Cetirizine,Analgesik,139,167,2025-09-18,2026-05-20,Medika Nusantara
+D01214,Vitamin C,Vitamin,162,198,2025-10-09,2027-04-16,Medika Nusantara
+D01215,Paracetamol,Antibiotik,212,236,2025-07-23,2026-05-22,PT Farma Sehat
+D01216,Azithromycin,Antidiabetik,0,114,2024-12-22,2027-02-27,Global Medika
+D01217,Omeprazole,Antidiabetik,367,0,2024-02-15,2026-04-17,Medika Nusantara
+D01218,Omeprazole,Antibiotik,0,0,2024-12-01,2025-09-11,Medika Nusantara
+D01219,Cetirizine,Bronkodilator,0,192,2025-05-29,2026-10-31,Cipta Sejahtera
+D01220,Zinc,Antibiotik,0,104,2025-08-28,2026-10-07,Medika Nusantara
+D01221,Antasida,Analgesik,287,0,2025-04-22,2027-09-15,Cipta Sejahtera
+D01222,Metformin,Analgesik,46,0,2025-09-06,2028-01-22,Medika Nusantara
+D01223,Paracetamol,Analgesik,0,0,2023-11-14,2024-05-09,Global Medika
+D01224,Salbutamol,Antidiabetik,0,0,2025-08-25,2026-04-15,Cipta Sejahtera
+D01225,Ciprofloxacin,Bronkodilator,333,191,2025-11-02,2027-11-20,Medika Nusantara
+D01226,Ibuprofen,Antibiotik,138,0,2023-11-14,2025-03-05,PT Farma Sehat
+D01227,Omeprazole,Antibiotik,179,0,2023-12-11,2024-05-19,PT Farma Sehat
+D01228,Ibuprofen,Antibiotik,297,0,2024-06-30,2025-04-09,Global Medika
+D01229,Metformin,Antidiabetik,191,0,2024-06-02,2024-12-13,Medika Nusantara
+D01230,Ibuprofen,Bronkodilator,324,263,2025-07-15,2027-04-07,Cipta Sejahtera
+D01231,Antasida,Bronkodilator,0,212,2025-04-28,2027-05-07,Cipta Sejahtera
+D01232,Vitamin C,Vitamin,0,98,2025-02-19,2025-11-15,PT Farma Sehat
+D01233,Antasida,Analgesik,21,126,2024-10-09,2026-02-07,Global Medika
+D01234,Cetirizine,Analgesik,0,0,2024-05-11,2026-10-17,Prima Pharma
+D01235,Zinc,Antasida,0,0,2024-01-31,2025-08-23,Prima Pharma
+D01236,Ciprofloxacin,Antasida,0,120,2024-04-16,2025-01-13,Cipta Sejahtera
+D01237,Salbutamol,Analgesik,256,0,2024-06-28,2024-11-25,Medika Nusantara
+D01238,Antasida,Analgesik,270,0,2024-02-06,2025-09-29,PT Farma Sehat
+D01239,Amoxicillin,Bronkodilator,160,113,2025-08-20,2026-03-13,Medika Nusantara
+D01240,Amoxicillin,Antibiotik,42,150,2025-07-15,2027-04-16,Global Medika
+D01241,Ciprofloxacin,Bronkodilator,0,0,2024-08-18,2025-09-11,PT Farma Sehat
+D01242,Omeprazole,Bronkodilator,0,67,2025-07-26,2025-12-13,Medika Nusantara
+D01243,Salbutamol,Antasida,0,0,2025-10-16,2027-08-28,Global Medika
+D01244,Salbutamol,Antidiabetik,277,0,2024-05-24,2024-11-23,Cipta Sejahtera
+D01245,Cetirizine,Antibiotik,0,0,2024-09-02,2026-05-26,Prima Pharma
+D01246,Vitamin C,Vitamin,218,157,2024-01-10,2024-08-14,Global Medika
+D01247,Omeprazole,Analgesik,0,173,2024-09-01,2025-09-11,Cipta Sejahtera
+D01248,Azithromycin,Antibiotik,0,136,2024-04-23,2026-04-04,Prima Pharma
+D01249,Vitamin C,Vitamin,0,114,2024-11-01,2026-03-29,Prima Pharma
+D01250,Zinc,Antidiabetik,0,142,2025-01-15,2026-07-05,PT Farma Sehat
+D01251,Metformin,Analgesik,288,149,2023-11-25,2025-03-18,Medika Nusantara
+D01252,Vitamin C,Vitamin,161,288,2025-01-12,2025-11-06,Global Medika
+D01253,Vitamin C,Vitamin,254,0,2024-12-17,2026-11-10,Cipta Sejahtera
+D01254,Metformin,Antasida,28,0,2025-06-16,2025-12-29,Global Medika
+D01255,Insulin,Antibiotik,0,0,2024-10-24,2026-08-15,Cipta Sejahtera
+D01256,Metformin,Bronkodilator,0,0,2024-11-04,2027-03-27,PT Farma Sehat
+D01257,Metformin,Bronkodilator,48,0,2024-05-10,2026-03-15,Medika Nusantara
+D01258,ORS,Antidiabetik,0,201,2024-01-23,2026-02-16,PT Farma Sehat
+D01259,Ciprofloxacin,Antidiabetik,271,132,2024-08-08,2026-03-29,Medika Nusantara
+D01260,Cetirizine,Antasida,0,0,2025-08-10,2027-06-27,Global Medika
+D01261,ORS,Antidiabetik,346,282,2024-11-10,2026-12-28,Cipta Sejahtera
+D01262,Ibuprofen,Antibiotik,336,254,2024-02-28,2026-04-16,Cipta Sejahtera
+D01263,Salbutamol,Bronkodilator,44,0,2024-02-06,2025-05-04,Prima Pharma
+D01264,Vitamin C,Vitamin,0,257,2024-08-31,2025-08-24,Prima Pharma
+D01265,Ibuprofen,Antidiabetik,177,25,2025-04-06,2025-12-12,Medika Nusantara
+D01266,Salbutamol,Bronkodilator,0,161,2024-01-20,2025-11-21,PT Farma Sehat
+D01267,Metformin,Antidiabetik,0,237,2025-06-23,2026-07-10,Global Medika
+D01268,ORS,Antasida,0,231,2024-04-25,2025-12-26,Prima Pharma
+D01269,ORS,Antidiabetik,0,89,2024-08-29,2026-04-13,Prima Pharma
+D01270,Ciprofloxacin,Analgesik,0,190,2024-08-07,2026-02-05,PT Farma Sehat
+D01271,Salbutamol,Antasida,481,0,2025-09-04,2028-01-24,Cipta Sejahtera
+D01272,Salbutamol,Antasida,77,298,2025-02-18,2027-03-22,PT Farma Sehat
+D01273,Ibuprofen,Bronkodilator,413,113,2024-02-15,2026-02-20,PT Farma Sehat
+D01274,Amlodipine,Antasida,185,0,2024-02-18,2025-12-24,Prima Pharma
+D01275,Paracetamol,Analgesik,0,211,2024-05-31,2025-05-13,Prima Pharma
+D01276,Ciprofloxacin,Antidiabetik,68,0,2024-09-28,2025-08-07,Global Medika
+D01277,Zinc,Antibiotik,0,225,2025-09-04,2028-01-15,Prima Pharma
+D01278,Cetirizine,Antibiotik,101,0,2025-07-31,2026-04-06,Prima Pharma
+D01279,Paracetamol,Antibiotik,241,0,2024-02-26,2024-07-16,Global Medika
+D01280,Omeprazole,Antidiabetik,31,0,2025-05-27,2026-04-29,Medika Nusantara
+D01281,Ibuprofen,Analgesik,0,209,2025-11-06,2026-09-15,Medika Nusantara
+D01282,Zinc,Analgesik,0,0,2023-12-03,2024-12-17,PT Farma Sehat
+D01283,Omeprazole,Antibiotik,233,209,2024-07-11,2025-11-05,PT Farma Sehat
+D01284,Azithromycin,Bronkodilator,0,0,2024-09-24,2026-06-09,Medika Nusantara
+D01285,Insulin,Antidiabetik,64,0,2024-03-14,2026-06-01,Cipta Sejahtera
+D01286,ORS,Bronkodilator,157,0,2024-01-01,2026-05-19,Cipta Sejahtera
+D01287,Vitamin C,Vitamin,407,0,2025-02-24,2026-08-10,Global Medika
+D01288,Metformin,Antidiabetik,285,45,2024-07-23,2027-01-01,Cipta Sejahtera
+D01289,Azithromycin,Antasida,0,0,2024-01-04,2025-10-17,Prima Pharma
+D01290,Amoxicillin,Antasida,0,0,2024-05-23,2026-05-14,PT Farma Sehat
+D01291,Omeprazole,Antidiabetik,0,58,2025-10-11,2026-12-07,Prima Pharma
+D01292,Insulin,Antibiotik,208,0,2024-06-16,2025-02-20,Prima Pharma
+D01293,Vitamin C,Vitamin,145,0,2025-06-02,2025-11-19,Cipta Sejahtera
+D01294,Antasida,Antibiotik,0,0,2025-05-24,2027-05-04,PT Farma Sehat
+D01295,Amoxicillin,Antasida,118,143,2024-09-10,2025-10-18,Global Medika
+D01296,Amoxicillin,Antasida,233,0,2025-07-14,2027-02-03,Medika Nusantara
+D01297,Omeprazole,Analgesik,0,0,2025-07-07,2025-12-22,Cipta Sejahtera
+D01298,ORS,Analgesik,0,0,2025-10-07,2027-07-26,Global Medika
+D01299,Antasida,Antasida,91,0,2023-12-15,2024-08-18,PT Farma Sehat
+D01300,Azithromycin,Antasida,120,102,2024-09-07,2026-10-26,Global Medika

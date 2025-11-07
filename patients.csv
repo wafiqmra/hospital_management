@@ -1,0 +1,901 @@
+﻿patient_id,name,gender,birth_date,phone,address,city,payment_type,insurance_provider
+P00001,Wirda Mangunsong,P,1967-12-26,+62-0529-502-8562,"Jl. Medokan Ayu No. 8, Samarinda, ST 33998",Depok,BPJS,BPJS Kesehatan
+P00002,Melinda Hastuti,P,1977-04-09,+62 (067) 430-7765,"Gg. Wonoayu No. 91, Tual, SB 85026",Banda Aceh,Umum,
+P00003,Kajen Mandala,P,1962-01-13,0887311858,"Gg. Stasiun Wonokromo No. 37, Metro, KI 79093",Sawahlunto,BPJS,BPJS Kesehatan
+P00004,Tgk. Hari Wacana,L,1986-09-07,086 175 2890,"Gg. Jend. A. Yani No. 3, Makassar, Sulawesi Tenggara 50869",Dumai,Asuransi Swasta,Manulife
+P00005,dr. Rini Wibowo,P,1997-03-23,+62 (0883) 203 8518,"Jalan Peta No. 304, Palembang, Lampung 22953",Sabang,Umum,
+P00006,H. Purwanto Aryani,P,1986-11-21,(0510) 963-7971,"Jalan Waringin No. 80, Magelang, ST 50395",Tual,BPJS,BPJS Kesehatan
+P00007,Dt. Purwanto Kusumo,L,1972-09-13,+62 (0264) 434 2040,"Jl. Soekarno Hatta No. 1, Bitung, BE 64195",Ternate,Umum,
+P00008,Sari Januar,P,1982-09-11,+62 (0281) 115-3838,"Gang Peta No. 296, Palangkaraya, AC 86778",Tual,Asuransi Swasta,Prudential
+P00009,Ana Gunawan,P,1999-05-21,+62 (815) 091-0113,"Jl. Lembong No. 74, Sibolga, Kalimantan Timur 86107",Tangerang,Umum,
+P00010,"R. Ami Ardianto, S.I.Kom",P,1957-03-18,+62-0083-835-7139,"Jalan Jend. A. Yani No. 22, Bukittinggi, Kalimantan Selatan 14423",Kota Administrasi Jakarta Selatan,BPJS,BPJS Kesehatan
+P00011,Jatmiko Halim,L,2013-08-29,(0625) 878 1542,"Gg. Jakarta No. 221, Cilegon, SS 88586",Kotamobagu,BPJS,BPJS Kesehatan
+P00012,Cinthia Pertiwi,P,2002-05-29,+62-078-769-9600,"Gg. Kapten Muslihat No. 635, Salatiga, MA 70057",Bau-Bau,Umum,
+P00013,Ida Novitasari,P,1960-01-08,+62 (0878) 045-8240,"Jalan K.H. Wahid Hasyim No. 1, Banda Aceh, Maluku 48131",Magelang,BPJS,BPJS Kesehatan
+P00014,"R.M. Imam Uwais, S.Pt",P,1960-12-09,+62-093-139-3677,"Gg. Rajawali Timur No. 5, Pematangsiantar, JB 85020",Palangkaraya,Umum,
+P00015,Cawuk Utama,L,1981-09-11,+62-974-370-4054,"Jl. Merdeka No. 605, Cirebon, KS 26145",Pontianak,Umum,
+P00016,Dr. Genta Lazuardi,P,2020-06-06,(0241) 620 6606,"Gg. Rajawali Barat No. 4, Salatiga, YO 27006",Palopo,BPJS,BPJS Kesehatan
+P00017,"Dr. Aslijan Najmudin, M.Farm",L,1966-06-02,+62 (22) 045-9570,"Jl. Medokan Ayu No. 00, Tebingtinggi, BE 31163",Samarinda,Asuransi Swasta,Allianz
+P00018,Lili Mustofa,P,1978-07-06,089 307 5217,"Gg. Rajawali Barat No. 251, Mataram, SU 47394",Padangpanjang,BPJS,BPJS Kesehatan
+P00019,R. Yance Prastuti,L,2024-07-17,(098) 860 6691,"Jalan Ciwastra No. 12, Pagaralam, Nusa Tenggara Barat 35336",Bekasi,BPJS,BPJS Kesehatan
+P00020,Hj. Queen Latupono,P,2021-09-22,+62 (015) 940 3937,"Gang Gegerkalong Hilir No. 7, Pekalongan, NB 23194",Jambi,BPJS,BPJS Kesehatan
+P00021,"T. Tri Nurdiyanti, S.T.",P,1976-09-01,+62-003-505-1245,"Jalan Peta No. 0, Tual, Jawa Barat 29251",Pekalongan,BPJS,BPJS Kesehatan
+P00022,Rahayu Gunawan,L,1987-02-19,085 558 8221,"Gang Dr. Djunjunan No. 791, Blitar, SB 22681",Sungai Penuh,BPJS,BPJS Kesehatan
+P00023,Prayitna Sitompul,P,2009-07-23,+62 (023) 767 3373,"Jl. Pasirkoja No. 292, Metro, SB 56064",Cirebon,Umum,
+P00024,Cindy Utama,P,2023-01-26,+62-0565-609-2169,"Gang Indragiri No. 2, Tidore Kepulauan, SR 30113",Cilegon,Asuransi Swasta,Allianz
+P00025,Kiandra Mangunsong,L,1977-08-21,+62 (205) 623 5028,"Gg. Moch. Ramdan No. 1, Prabumulih, Jawa Timur 50849",Sukabumi,Umum,
+P00026,Carub Habibi,P,2019-02-23,+62 (058) 260-1675,"Jl. Jend. A. Yani No. 95, Bekasi, PA 63346",Solok,Asuransi Swasta,Manulife
+P00027,H. Timbul Waluyo,P,2004-09-04,+62 (0995) 140-3974,"Jl. Monginsidi No. 05, Manado, PA 68633",Tangerang,BPJS,BPJS Kesehatan
+P00028,"KH. Baktiadi Saragih, M.Farm",P,1958-05-16,(031) 848 2626,"Gang Cihampelas No. 475, Ternate, Gorontalo 60719",Tanjungbalai,Umum,
+P00029,Ganda Wasita,P,1958-09-13,+62 (0095) 914-3416,"Jalan Soekarno Hatta No. 114, Solok, NT 70636",Bekasi,BPJS,BPJS Kesehatan
+P00030,Titin Permata,P,1966-12-12,0867079370,"Jl. Suryakencana No. 090, Kota Administrasi Jakarta Barat, BT 55897",Tasikmalaya,BPJS,BPJS Kesehatan
+P00031,Maria Mandasari,L,1956-01-26,+62 (0879) 484-5202,"Gg. Erlangga No. 32, Pariaman, JB 04395",Depok,Asuransi Swasta,Allianz
+P00032,"Dr. Ratna Wijayanti, M.Farm",P,1994-07-28,(0897) 158-3934,"Gang Siliwangi No. 1, Kotamobagu, Sulawesi Utara 08391",Sabang,BPJS,BPJS Kesehatan
+P00033,Balapati Sirait,L,1976-12-02,+62-673-634-5329,"Gang Yos Sudarso No. 228, Padang Sidempuan, DKI Jakarta 33023",Jayapura,BPJS,BPJS Kesehatan
+P00034,Nardi Iswahyudi,L,2022-12-13,(0640) 528 1269,"Gg. Waringin No. 35, Ternate, JB 65343",Payakumbuh,Umum,
+P00035,"Puti Olivia Hidayanto, S.Farm",L,1960-02-05,+62 (0569) 029 0201,"Jalan Kebonjati No. 32, Gorontalo, Jawa Tengah 94528",Palopo,BPJS,BPJS Kesehatan
+P00036,"Drs. Alambana Budiman, M.Farm",P,1956-03-21,+62 (0447) 607-0690,"Gg. Merdeka No. 09, Tarakan, JA 25410",Banjarbaru,BPJS,BPJS Kesehatan
+P00037,Aris Winarno,P,2021-08-23,+62-0924-208-0503,"Jl. Kapten Muslihat No. 992, Jayapura, SN 31585",Makassar,Asuransi Swasta,Allianz
+P00038,"Febi Hutapea, M.Ak",L,1965-12-26,+62 (0997) 670-6227,"Jl. R.E Martadinata No. 959, Tanjungbalai, Sulawesi Tenggara 15802",Sungai Penuh,BPJS,BPJS Kesehatan
+P00039,Gawati Novitasari,P,1969-12-15,+62-38-716-3828,"Gg. Soekarno Hatta No. 375, Malang, Jawa Barat 52641",Manado,Asuransi Swasta,Sinarmas
+P00040,dr. Kadir Budiyanto,P,1952-05-09,+62 (0012) 201-5846,"Gang R.E Martadinata No. 4, Prabumulih, BE 45468",Tegal,BPJS,BPJS Kesehatan
+P00041,Nugraha Waluyo,L,1982-01-25,+62 (49) 017-8936,"Gang Soekarno Hatta No. 9, Salatiga, SU 42212",Pontianak,BPJS,BPJS Kesehatan
+P00042,Cawuk Uwais,P,1977-07-07,+62 (925) 776-7798,"Gg. H.J Maemunah No. 768, Bekasi, MU 27358",Tangerang Selatan,Umum,
+P00043,Sabri Prasetya,P,1974-11-08,0813898682,"Jalan Soekarno Hatta No. 3, Manado, Gorontalo 53980",Dumai,BPJS,BPJS Kesehatan
+P00044,"Makuta Napitupulu, S.IP",L,1964-11-16,(0736) 465-5232,"Jalan Rawamangun No. 77, Manado, Riau 34119",Mataram,Asuransi Swasta,AIA
+P00045,Halim Firgantoro,L,2020-01-07,+62-020-393-7449,"Jalan Indragiri No. 33, Padang Sidempuan, Papua Barat 56322",Tomohon,Asuransi Swasta,Prudential
+P00046,Ir. Ina Nashiruddin,P,2015-04-25,0854900073,"Gg. Pasteur No. 1, Kota Administrasi Jakarta Timur, Jawa Tengah 75627",Pekalongan,Umum,
+P00047,"Vera Wacana, S.Sos",P,2019-07-12,(078) 835 7005,"Jl. Cihampelas No. 3, Palembang, GO 16067",Samarinda,Umum,
+P00048,Umar Mustofa,P,1980-04-01,+62-16-453-9831,"Jl. Kendalsari No. 2, Metro, AC 09032",Palangkaraya,BPJS,BPJS Kesehatan
+P00049,"Cut Salimah Dabukke, S.Ked",P,1975-12-29,+62 (91) 322 9026,"Jalan Kendalsari No. 611, Samarinda, Sumatera Barat 83990",Mataram,BPJS,BPJS Kesehatan
+P00050,"Tgk. Puti Laksmiwati, S.Farm",L,2018-02-11,+62-0231-144-7011,"Gang Ahmad Yani No. 75, Banjarmasin, Sulawesi Tenggara 87770",Banjar,Asuransi Swasta,Prudential
+P00051,Vicky Firmansyah,P,2002-01-31,+62-366-580-9183,"Gg. Gedebage Selatan No. 0, Batam, KR 67947",Prabumulih,Asuransi Swasta,AXA Mandiri
+P00052,Nyoman Hutasoit,L,2010-04-08,+62 (189) 773-4532,"Jl. BKR No. 780, Kota Administrasi Jakarta Utara, Kalimantan Timur 31419",Bengkulu,BPJS,BPJS Kesehatan
+P00053,Hesti Nasyidah,L,2002-04-29,+62 (662) 192 1164,"Jl. Jakarta No. 32, Langsa, SG 04883",Cimahi,BPJS,BPJS Kesehatan
+P00054,Jindra Iswahyudi,L,1997-09-23,(0093) 257-2007,"Gang Pasirkoja No. 1, Samarinda, Kepulauan Bangka Belitung 81757",Jambi,BPJS,BPJS Kesehatan
+P00055,Ivan Sitorus,L,2010-10-17,080 952 1967,"Gg. Bangka Raya No. 38, Kotamobagu, Nusa Tenggara Barat 85114",Palopo,BPJS,BPJS Kesehatan
+P00056,R. Ilsa Hakim,P,1997-05-31,+62 (0280) 981 2425,"Jl. Dipenogoro No. 254, Palembang, PB 46403",Cimahi,Umum,
+P00057,Ibrani Salahudin,L,1950-11-30,+62 (23) 270-9038,"Jl. Pasteur No. 96, Ternate, SR 03566",Parepare,Umum,
+P00058,Siska Utama,P,1973-12-13,0814093340,"Gg. Ir. H. Djuanda No. 75, Banjarmasin, Sumatera Utara 60150",Kota Administrasi Jakarta Selatan,Asuransi Swasta,AXA Mandiri
+P00059,"R. Patricia Halim, S.IP",P,1949-12-05,+62-0757-641-7378,"Jalan Raya Setiabudhi No. 244, Subulussalam, Maluku 86077",Denpasar,BPJS,BPJS Kesehatan
+P00060,"Tgk. Pia Kusmawati, S.Kom",L,1947-05-01,+62 (29) 356 4972,"Gang Cikapayang No. 07, Bau-Bau, BT 83992",Bontang,BPJS,BPJS Kesehatan
+P00061,Kamal Iswahyudi,P,2022-01-07,+62-058-889-9968,"Gang Indragiri No. 40, Jayapura, Maluku Utara 48885",Kotamobagu,BPJS,BPJS Kesehatan
+P00062,"dr. Cagak Pertiwi, S.Ked",L,1953-06-12,+62 (063) 127-6289,"Gang Ronggowarsito No. 41, Bau-Bau, LA 04307",Tangerang Selatan,Umum,
+P00063,H. Harjasa Rahayu,L,1969-06-21,+62 (0491) 819 0011,"Jl. Antapani Lama No. 84, Kota Administrasi Jakarta Utara, SN 17415",Padang,Umum,
+P00064,"Gasti Susanti, M.Kom.",P,1969-06-11,+62 (75) 446-0219,"Jl. Ronggowarsito No. 76, Palembang, Jambi 87193",Padang Sidempuan,BPJS,BPJS Kesehatan
+P00065,Mursinin Tamba,L,1963-02-17,(0362) 272-6634,"Gang Lembong No. 968, Surakarta, Bali 08656",Kota Administrasi Jakarta Utara,BPJS,BPJS Kesehatan
+P00066,Talia Kusmawati,P,2013-01-02,(033) 217-1483,"Gang Gedebage Selatan No. 85, Medan, KT 82848",Sukabumi,Asuransi Swasta,Allianz
+P00067,"Ir. Jaka Saragih, S.T.",P,1958-03-04,084 387 0202,"Jl. Pasir Koja No. 716, Banjar, SU 51614",Sungai Penuh,Asuransi Swasta,Sinarmas
+P00068,Ir. Vera Thamrin,P,1979-05-07,+62 (517) 274-5894,"Jl. Rajawali Barat No. 096, Bitung, JA 20631",Jambi,BPJS,BPJS Kesehatan
+P00069,drg. Lintang Ardianto,L,1984-07-25,(0730) 821-6505,"Jalan Veteran No. 56, Madiun, DI Yogyakarta 81798",Binjai,BPJS,BPJS Kesehatan
+P00070,"Drs. Maria Habibi, S.E.",L,1992-07-26,+62 (060) 417 6931,"Jalan Kutai No. 68, Sibolga, Sulawesi Tenggara 03992",Palu,Asuransi Swasta,AIA
+P00071,Amalia Haryanto,L,1951-07-21,+62-18-672-4711,"Gang Ahmad Dahlan No. 1, Batam, Sulawesi Tengah 72596",Bekasi,BPJS,BPJS Kesehatan
+P00072,Cayadi Rajata,L,1995-07-12,(0001) 318 6047,"Gang Jend. A. Yani No. 076, Ternate, KS 52963",Padangpanjang,Asuransi Swasta,AIA
+P00073,Bambang Nasyiah,P,1945-01-19,+62 (092) 228 3815,"Gang Rawamangun No. 65, Kota Administrasi Jakarta Utara, Maluku Utara 98951",Pariaman,BPJS,BPJS Kesehatan
+P00074,Nyoman Maryati,P,1988-12-12,+62 (089) 549 1812,"Jl. Jakarta No. 246, Singkawang, SS 84201",Manado,BPJS,BPJS Kesehatan
+P00075,Azalea Lazuardi,L,2001-04-05,+62 (434) 028-8401,"Jalan Kiaracondong No. 5, Bekasi, JA 48042",Serang,BPJS,BPJS Kesehatan
+P00076,Sabrina Anggraini,L,1951-06-22,+62 (0888) 643 9244,"Gang R.E Martadinata No. 27, Sawahlunto, GO 09110",Parepare,BPJS,BPJS Kesehatan
+P00077,drg. Ajeng Pranowo,P,1958-01-20,(086) 074 8922,"Jl. Astana Anyar No. 554, Palopo, Kepulauan Bangka Belitung 44912",Tual,Umum,
+P00078,"dr. Aisyah Usamah, M.Kom.",P,1941-10-21,(0345) 416-0398,"Jl. Kiaracondong No. 216, Bitung, Bengkulu 13713",Sabang,BPJS,BPJS Kesehatan
+P00079,Tomi Putra,L,1962-05-23,(0692) 551 9388,"Jl. Medokan Ayu No. 247, Cirebon, SB 27592",Bitung,BPJS,BPJS Kesehatan
+P00080,Dian Adriansyah,P,2006-10-20,(054) 750-1323,"Jl. Kebonjati No. 104, Madiun, Sumatera Utara 81158",Semarang,BPJS,BPJS Kesehatan
+P00081,Putri Budiyanto,P,1969-09-08,+62 (492) 860 5125,"Gang Veteran No. 40, Bitung, Riau 72671",Kendari,BPJS,BPJS Kesehatan
+P00082,Dimas Sihotang,L,2003-06-10,+62 (0513) 654-7842,"Gg. Sadang Serang No. 0, Sorong, NB 60219",Cilegon,BPJS,BPJS Kesehatan
+P00083,Gatra Suwarno,P,1989-09-24,+62 (0488) 706-1714,"Gang Sukajadi No. 0, Kota Administrasi Jakarta Timur, BA 02041",Lhokseumawe,Asuransi Swasta,AXA Mandiri
+P00084,Aurora Winarno,L,2018-08-26,0818801516,"Gg. Merdeka No. 14, Padang Sidempuan, Kepulauan Riau 60833",Tasikmalaya,BPJS,BPJS Kesehatan
+P00085,"R.A. Dewi Handayani, M.Ak",P,1949-06-13,086 156 4494,"Jalan Ahmad Yani No. 8, Cirebon, Kalimantan Selatan 37703",Kendari,BPJS,BPJS Kesehatan
+P00086,Soleh Suwarno,P,1950-08-26,(0450) 864-5073,"Gg. Antapani Lama No. 53, Kota Administrasi Jakarta Timur, PB 40474",Magelang,BPJS,BPJS Kesehatan
+P00087,"Umar Wijaya, S.Sos",P,1957-09-04,0853942938,"Gg. Astana Anyar No. 35, Makassar, Banten 65869",Tasikmalaya,Asuransi Swasta,Allianz
+P00088,"Dr. Michelle Sihotang, S.E.I",L,2017-02-05,+62-19-085-6915,"Gang Otto Iskandardinata No. 4, Lhokseumawe, Papua Barat 90762",Payakumbuh,Umum,
+P00089,Mutia Prasasta,P,1951-06-14,+62-060-303-0478,"Gang Jend. Sudirman No. 955, Palangkaraya, JT 87354",Bandar Lampung,BPJS,BPJS Kesehatan
+P00090,"Ulya Hastuti, S.Sos",L,1985-07-07,+62 (073) 212-1309,"Gang Asia Afrika No. 9, Dumai, KT 13751",Banjar,BPJS,BPJS Kesehatan
+P00091,"Rahmi Usada, S.E.",L,1984-08-07,(051) 736-0884,"Gg. Moch. Ramdan No. 27, Surabaya, SU 67976",Kupang,Asuransi Swasta,Manulife
+P00092,"Lasmono Permadi, M.Ak",L,1989-04-04,+62 (0142) 459-3150,"Jalan Gedebage Selatan No. 7, Jambi, ST 84968",Balikpapan,BPJS,BPJS Kesehatan
+P00093,Zahra Simbolon,L,1959-03-15,+62 (44) 727 2734,"Gg. Soekarno Hatta No. 3, Medan, Sumatera Selatan 64209",Surabaya,Asuransi Swasta,AXA Mandiri
+P00094,Banara Winarno,P,1983-02-09,+62-0187-775-3664,"Gg. Kebonjati No. 3, Denpasar, JI 74410",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00095,Eka Prasasta,P,1958-09-13,0820420677,"Gang Rajawali Timur No. 6, Pematangsiantar, Jawa Timur 16323",Lubuklinggau,BPJS,BPJS Kesehatan
+P00096,"Drs. Yunita Ramadan, M.Pd",L,1988-12-31,(041) 127 1827,"Gg. Dipenogoro No. 08, Kota Administrasi Jakarta Barat, KR 10225",Sabang,Umum,
+P00097,"Dr. Tania Uyainah, S.E.I",L,2010-03-24,+62 (065) 212 0742,"Gang Gedebage Selatan No. 703, Batu, SR 30729",Binjai,BPJS,BPJS Kesehatan
+P00098,"Tgk. Banawa Tampubolon, M.M.",L,2021-07-01,(058) 914-5843,"Jalan Pasir Koja No. 14, Banjarmasin, Sulawesi Barat 91835",Tebingtinggi,Umum,
+P00099,Harjasa Puspasari,P,1997-11-02,(016) 399-5004,"Gg. Kapten Muslihat No. 943, Sukabumi, Sumatera Barat 17595",Pekalongan,Asuransi Swasta,Prudential
+P00100,Hardana Gunawan,L,2024-08-30,+62 (0311) 046 6619,"Gang Monginsidi No. 581, Solok, Jawa Barat 60991",Palopo,BPJS,BPJS Kesehatan
+P00101,Omar Melani,L,2016-04-01,+62 (47) 211-2642,"Gg. Stasiun Wonokromo No. 372, Ternate, KB 51919",Pangkalpinang,BPJS,BPJS Kesehatan
+P00102,Cakrabirawa Wahyuni,P,2006-12-06,(035) 487-6947,"Gg. Pasir Koja No. 056, Makassar, Kepulauan Bangka Belitung 51459",Salatiga,Umum,
+P00103,Yuliana Dabukke,L,1988-09-28,(056) 770-5958,"Gg. Erlangga No. 625, Sungai Penuh, Papua 04462",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00104,"Hj. Zelaya Pratiwi, S.I.Kom",P,1968-12-05,+62 (760) 458-6494,"Jl. Sukajadi No. 27, Manado, Riau 56958",Bukittinggi,BPJS,BPJS Kesehatan
+P00105,"Drs. Mila Saragih, M.M.",L,1980-09-04,+62 (0084) 092-1466,"Jalan Laswi No. 93, Kota Administrasi Jakarta Utara, JI 41026",Padangpanjang,BPJS,BPJS Kesehatan
+P00106,"Yani Prastuti, M.Ak",L,1999-01-04,+62 (378) 834-7926,"Jl. Bangka Raya No. 82, Lubuklinggau, PB 51783",Bontang,BPJS,BPJS Kesehatan
+P00107,Utama Latupono,L,1967-03-07,+62 (22) 576 3953,"Jl. Bangka Raya No. 26, Banjar, KU 30610",Mojokerto,Umum,
+P00108,Carub Pertiwi,L,1969-04-23,085 210 0564,"Jl. Pasir Koja No. 3, Payakumbuh, Maluku Utara 32652",Bandar Lampung,BPJS,BPJS Kesehatan
+P00109,Cager Suartini,L,2001-03-31,(0729) 911 0547,"Gg. Gedebage Selatan No. 216, Binjai, RI 78890",Banda Aceh,BPJS,BPJS Kesehatan
+P00110,"Kuncara Agustina, S.Farm",L,1982-08-30,+62-59-536-7528,"Gg. Kutisari Selatan No. 08, Mataram, Papua 39389",Tomohon,Umum,
+P00111,Jamil Maheswara,L,2014-01-27,+62-017-826-8490,"Gg. Indragiri No. 47, Bontang, Nusa Tenggara Barat 04865",Pekalongan,BPJS,BPJS Kesehatan
+P00112,Ani Anggriawan,L,1953-06-22,(043) 425-5518,"Jl. Waringin No. 53, Blitar, Riau 52465",Sabang,Umum,
+P00113,"Leo Pranowo, S.Pd",L,1963-11-27,+62 (558) 061 1669,"Gg. Kutisari Selatan No. 51, Bengkulu, Lampung 36716",Denpasar,Umum,
+P00114,"Tgk. Yessi Suryatmi, S.Sos",P,1948-09-16,+62 (22) 970-3497,"Jalan Kendalsari No. 97, Bau-Bau, PA 49152",Kota Administrasi Jakarta Barat,Umum,
+P00115,Uli Mulyani,P,1944-02-28,+62 (095) 217-4074,"Jalan Rajiman No. 56, Sabang, AC 08864",Gorontalo,Umum,
+P00116,dr. Wulan Kuswandari,L,1998-01-14,+62 (572) 928-1466,"Jl. Rawamangun No. 34, Padang, KR 37213",Tebingtinggi,Umum,
+P00117,Emong Wijaya,P,1981-09-08,+62-56-772-6807,"Gang Waringin No. 53, Tarakan, KR 80406",Probolinggo,Asuransi Swasta,Allianz
+P00118,R. Dariati Rahimah,P,1983-01-22,+62 (13) 208-1063,"Gang Rajawali Timur No. 9, Bogor, DKI Jakarta 32676",Pasuruan,Asuransi Swasta,Sinarmas
+P00119,"Ratih Najmudin, S.E.",L,1981-05-05,+62 (31) 541-1827,"Jalan Bangka Raya No. 40, Tual, Sumatera Barat 56335",Pagaralam,BPJS,BPJS Kesehatan
+P00120,Satya Novitasari,L,1952-02-04,+62 (027) 141 5543,"Gang Peta No. 061, Samarinda, SN 20841",Bandar Lampung,Umum,
+P00121,Mala Saptono,L,2013-03-24,(0824) 602 9594,"Jalan Ahmad Dahlan No. 8, Probolinggo, Sulawesi Barat 87493",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00122,Vicky Saragih,L,1991-04-26,0842833279,"Gang Sentot Alibasa No. 407, Surabaya, SR 16158",Malang,Asuransi Swasta,Manulife
+P00123,Carub Kuswoyo,L,2015-11-24,+62 (0466) 104 7934,"Jl. Setiabudhi No. 044, Bukittinggi, SN 90615",Bitung,Asuransi Swasta,Prudential
+P00124,"Drs. Viman Utami, M.M.",L,1986-06-05,+62 (0281) 873-4456,"Jl. Rungkut Industri No. 14, Batam, NB 53526",Prabumulih,BPJS,BPJS Kesehatan
+P00125,Prayitna Fujiati,L,2015-03-25,(058) 917 1910,"Jalan Astana Anyar No. 6, Samarinda, Jawa Tengah 71555",Tidore Kepulauan,Umum,
+P00126,R. Hana Januar,P,1991-07-28,+62 (0676) 716-6679,"Jl. Tubagus Ismail No. 20, Banda Aceh, Maluku Utara 02471",Payakumbuh,BPJS,BPJS Kesehatan
+P00127,Indra Damanik,L,1967-10-16,+62 (037) 391 7651,"Gg. Ronggowarsito No. 309, Pekalongan, JB 50223",Kotamobagu,Asuransi Swasta,AIA
+P00128,"Dt. Daryani Anggraini, S.Kom",P,1983-10-03,+62-029-171-6730,"Jalan Dipatiukur No. 818, Subulussalam, BT 28602",Pagaralam,Umum,
+P00129,Almira Saefullah,P,2012-05-30,+62-153-161-4830,"Gang Rungkut Industri No. 09, Kota Administrasi Jakarta Pusat, Kepulauan Riau 07128",Yogyakarta,BPJS,BPJS Kesehatan
+P00130,"Tgk. Martani Nashiruddin, M.Farm",L,1964-04-09,(0677) 049-5116,"Jalan Sentot Alibasa No. 40, Jayapura, DKI Jakarta 17423",Kotamobagu,Asuransi Swasta,Allianz
+P00131,Jarwa Prasetyo,P,1992-12-02,+62-141-794-1399,"Jl. Ronggowarsito No. 068, Medan, Jawa Tengah 27804",Jambi,Asuransi Swasta,AXA Mandiri
+P00132,Patricia Hariyah,P,2013-04-10,+62-25-409-4183,"Gg. Kiaracondong No. 117, Tangerang, PB 21567",Mataram,BPJS,BPJS Kesehatan
+P00133,Raditya Iswahyudi,L,1989-03-03,+62 (022) 128-0812,"Jalan Tubagus Ismail No. 855, Ambon, JK 11090",Kota Administrasi Jakarta Timur,Umum,
+P00134,Gamani Pudjiastuti,P,1968-05-30,+62 (025) 304-8068,"Jalan Suniaraja No. 051, Surakarta, NB 21844",Padang,BPJS,BPJS Kesehatan
+P00135,Jagapati Habibi,L,1984-05-21,+62 (063) 577 9320,"Gg. Dipenogoro No. 94, Metro, Sulawesi Tengah 83721",Bitung,Asuransi Swasta,Prudential
+P00136,Gawati Prastuti,L,1972-06-06,+62-740-575-6484,"Jalan Veteran No. 27, Batam, Nusa Tenggara Timur 53153",Tegal,Umum,
+P00137,Ani Prasetya,P,1963-01-19,+62 (0216) 639 8125,"Gg. Jend. Sudirman No. 470, Mataram, KU 12218",Sukabumi,Asuransi Swasta,Manulife
+P00138,Talia Puspasari,P,1988-04-06,(0866) 134-2093,"Gang Merdeka No. 63, Sorong, ST 71809",Lubuklinggau,Umum,
+P00139,Olivia Pranowo,P,1974-03-13,(004) 986-6476,"Jl. Cikutra Timur No. 6, Surabaya, Aceh 28556",Salatiga,BPJS,BPJS Kesehatan
+P00140,"Dt. Jamil Yuniar, S.Farm",L,1976-01-04,+62-017-442-1381,"Jl. Monginsidi No. 2, Tanjungbalai, BB 53161",Binjai,BPJS,BPJS Kesehatan
+P00141,"Drs. Nalar Pradipta, S.E.I",P,1972-10-22,+62-53-608-0268,"Jl. Pacuan Kuda No. 33, Batu, Jawa Timur 54425",Pariaman,BPJS,BPJS Kesehatan
+P00142,"Ulva Hardiansyah, S.Gz",P,2005-02-03,+62 (49) 070 4285,"Gang Soekarno Hatta No. 98, Samarinda, JB 23779",Medan,BPJS,BPJS Kesehatan
+P00143,Kamila Zulkarnain,P,2008-10-20,(0599) 657-1314,"Gg. Surapati No. 4, Samarinda, JI 15557",Tanjungbalai,BPJS,BPJS Kesehatan
+P00144,Drs. Ismail Andriani,L,2018-07-18,(017) 485 2832,"Jl. H.J Maemunah No. 834, Blitar, Banten 62509",Tasikmalaya,Umum,
+P00145,Daliman Saragih,P,1978-01-26,+62-0992-948-4873,"Gang KH Amin Jasuta No. 3, Tasikmalaya, Papua Barat 82571",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00146,"drg. Ratih Kuswoyo, S.Psi",P,1977-02-06,+62-658-177-9251,"Gg. Raya Ujungberung No. 987, Tanjungpinang, KU 51418",Solok,Asuransi Swasta,AIA
+P00147,Rahmi Samosir,L,2011-12-10,(057) 311 6572,"Jl. Bangka Raya No. 987, Langsa, Sulawesi Tengah 79371",Samarinda,Asuransi Swasta,AIA
+P00148,Luis Gunawan,L,1977-07-07,+62 (0613) 724 9041,"Jl. Sadang Serang No. 51, Bekasi, SN 70201",Singkawang,Umum,
+P00149,Maman Mahendra,P,1970-07-04,+62 (039) 772 3356,"Jl. Dipatiukur No. 0, Meulaboh, KT 23803",Mataram,BPJS,BPJS Kesehatan
+P00150,"Hana Rajata, S.Gz",P,2005-07-22,086 219 3555,"Jalan Indragiri No. 491, Lhokseumawe, SS 13405",Metro,BPJS,BPJS Kesehatan
+P00151,"Cinthia Putra, S.I.Kom",P,1983-11-04,0871246687,"Gg. PHH. Mustofa No. 4, Palangkaraya, SU 47602",Kotamobagu,Umum,
+P00152,Jais Utami,P,2018-06-12,(053) 752 7554,"Jl. Gardujati No. 253, Tanjungpinang, Banten 70844",Surabaya,Asuransi Swasta,Prudential
+P00153,Taswir Natsir,L,1951-05-22,+62 (655) 364 3754,"Jalan Gegerkalong Hilir No. 755, Bogor, Sulawesi Barat 59129",Jayapura,BPJS,BPJS Kesehatan
+P00154,Yusuf Rahmawati,P,1959-02-16,(073) 647 7495,"Gg. Ahmad Yani No. 814, Pasuruan, Sulawesi Selatan 22114",Ternate,BPJS,BPJS Kesehatan
+P00155,"Xanana Mansur, S.Farm",P,2023-05-25,087 855 1125,"Gg. Raya Ujungberung No. 050, Bandung, Sulawesi Selatan 46027",Subulussalam,Umum,
+P00156,"Drs. Jasmin Winarsih, M.Pd",L,2022-12-29,+62-12-839-2565,"Gg. W.R. Supratman No. 532, Pariaman, Lampung 27707",Madiun,Asuransi Swasta,Allianz
+P00157,"Dr. Chelsea Nugroho, S.Ked",P,1972-05-26,(040) 745-6376,"Jalan Raya Ujungberung No. 157, Banjarbaru, Sumatera Selatan 74919",Bandung,Umum,
+P00158,"drg. Farhunnisa Suryono, S.Pt",P,2015-09-17,+62-373-708-4865,"Jalan Cikutra Barat No. 279, Surabaya, SR 75634",Cilegon,BPJS,BPJS Kesehatan
+P00159,Ghani Irawan,L,1951-09-02,(0033) 905-3677,"Gg. Ahmad Dahlan No. 786, Tanjungbalai, Sumatera Barat 44059",Pekalongan,Umum,
+P00160,Raden Hutasoit,L,2005-07-01,+62 (0371) 353-6713,"Gg. Ahmad Yani No. 4, Dumai, Kalimantan Selatan 75660",Probolinggo,BPJS,BPJS Kesehatan
+P00161,"Drs. Maimunah Permadi, S.H.",P,2014-12-16,+62 (32) 844 2761,"Gg. Ronggowarsito No. 434, Blitar, Jambi 45207",Palembang,BPJS,BPJS Kesehatan
+P00162,Tgk. Ozy Wijaya,L,1967-12-12,+62 (0942) 049-5081,"Gang Dipatiukur No. 71, Purwokerto, JB 47323",Parepare,BPJS,BPJS Kesehatan
+P00163,"R. Ellis Wastuti, S.IP",P,1973-07-27,+62 (194) 315 9566,"Jl. Pasteur No. 212, Bukittinggi, Aceh 86642",Ternate,BPJS,BPJS Kesehatan
+P00164,Rendy Lestari,L,1941-04-11,0895791929,"Jl. Otto Iskandardinata No. 0, Bogor, Sumatera Barat 23570",Sorong,BPJS,BPJS Kesehatan
+P00165,Fitria Wahyudin,L,2021-09-21,(0251) 797-8061,"Jl. Gegerkalong Hilir No. 90, Palu, JK 41727",Bitung,Umum,
+P00166,Tgk. Puti Jailani,L,2004-10-24,0873589321,"Gang Yos Sudarso No. 992, Banjarmasin, JK 81875",Subulussalam,Umum,
+P00167,"Drs. Tirta Uwais, S.Ked",L,2015-06-29,+62-16-117-5188,"Gang Jend. A. Yani No. 6, Semarang, BT 13223",Subulussalam,Asuransi Swasta,AXA Mandiri
+P00168,Jayadi Mandala,P,2014-05-19,+62-25-430-1030,"Gg. Lembong No. 753, Banjar, DKI Jakarta 10207",Pematangsiantar,Asuransi Swasta,Allianz
+P00169,Ani Sitompul,P,2005-01-13,+62 (049) 100 1777,"Jalan Medokan Ayu No. 3, Tanjungpinang, YO 87903",Pariaman,Umum,
+P00170,Candra Wijaya,L,1960-06-29,(0468) 869 0706,"Gg. Raya Setiabudhi No. 04, Salatiga, Gorontalo 16385",Malang,Umum,
+P00171,Maria Nurdiyanti,P,2014-11-26,(0837) 127-8783,"Gg. Jamika No. 8, Banjar, Kepulauan Riau 22321",Tebingtinggi,Asuransi Swasta,AIA
+P00172,Marwata Wibisono,P,1965-07-18,(026) 069-6333,"Jalan Pasteur No. 2, Kediri, KT 93666",Batam,Umum,
+P00173,Ir. Catur Wacana,L,2009-11-17,(0404) 946-2135,"Gg. Ciwastra No. 40, Medan, SU 18480",Serang,BPJS,BPJS Kesehatan
+P00174,Vinsen Wastuti,L,2006-09-21,(071) 393-4357,"Gang Ir. H. Djuanda No. 09, Salatiga, Sulawesi Tenggara 37460",Bandar Lampung,BPJS,BPJS Kesehatan
+P00175,Hj. Calista Pangestu,P,1983-03-26,+62 (96) 439 9051,"Gg. Cikapayang No. 99, Surakarta, Lampung 27749",Padangpanjang,BPJS,BPJS Kesehatan
+P00176,"Dr. Ciaobella Wulandari, S.H.",L,1989-08-02,0896595123,"Gg. Ciumbuleuit No. 9, Banjar, BT 64023",Surabaya,Umum,
+P00177,Ajiono Suartini,L,2015-01-20,+62 (699) 709-6825,"Gang Ir. H. Djuanda No. 800, Palu, DKI Jakarta 78836",Bitung,BPJS,BPJS Kesehatan
+P00178,"Atmaja Astuti, S.T.",L,1966-04-21,(008) 742-5243,"Jalan Bangka Raya No. 17, Sungai Penuh, Jawa Timur 54612",Singkawang,BPJS,BPJS Kesehatan
+P00179,Maida Nasyidah,P,1984-11-13,+62 (604) 204-7317,"Gg. Merdeka No. 482, Lhokseumawe, Papua Barat 11008",Manado,Umum,
+P00180,Prasetyo Napitupulu,P,2021-09-20,+62-0285-234-8830,"Gg. Ciwastra No. 80, Pekalongan, Aceh 52713",Singkawang,BPJS,BPJS Kesehatan
+P00181,Ratna Hidayanto,P,1952-10-30,+62 (0712) 059-5410,"Gg. Kutisari Selatan No. 8, Tangerang, PA 38908",Bukittinggi,Asuransi Swasta,Sinarmas
+P00182,Bakiadi Pratiwi,L,1955-12-13,+62 (51) 136 5567,"Jl. Monginsidi No. 45, Lhokseumawe, Kalimantan Timur 41668",Tegal,Asuransi Swasta,Prudential
+P00183,dr. Tari Mangunsong,L,1949-09-09,+62 (036) 235-2242,"Gang Kiaracondong No. 3, Batu, BE 35126",Tegal,BPJS,BPJS Kesehatan
+P00184,Asman Sihotang,P,2011-12-18,+62-0235-525-5923,"Jalan Medokan Ayu No. 82, Metro, KR 51122",Bekasi,BPJS,BPJS Kesehatan
+P00185,Warji Usamah,L,1952-11-11,+62 (023) 814 2885,"Jalan Medokan Ayu No. 1, Pariaman, JA 16256",Sawahlunto,Umum,
+P00186,"Dr. Nadine Yolanda, S.Farm",L,1977-07-17,0899140939,"Gang KH Amin Jasuta No. 51, Banjarbaru, KR 54304",Cirebon,BPJS,BPJS Kesehatan
+P00187,Catur Simanjuntak,L,2015-07-26,083 814 8344,"Jl. Yos Sudarso No. 86, Pekanbaru, KT 99705",Kupang,Asuransi Swasta,AIA
+P00188,Titi Mustofa,P,1999-06-11,+62 (0224) 734 2839,"Gg. Dr. Djunjunan No. 3, Madiun, Lampung 49890",Medan,BPJS,BPJS Kesehatan
+P00189,Hamima Thamrin,L,1957-10-23,+62 (0404) 240 7910,"Gg. Suniaraja No. 5, Jayapura, Kepulauan Bangka Belitung 67700",Kota Administrasi Jakarta Utara,Umum,
+P00190,Arsipatra Nuraini,L,1962-02-24,(038) 817-9148,"Jalan Jend. A. Yani No. 9, Dumai, Bali 94491",Blitar,Umum,
+P00191,"Cinthia Prasetya, S.I.Kom",P,2000-10-08,+62-87-918-9994,"Gang Lembong No. 0, Magelang, RI 57206",Pariaman,Umum,
+P00192,Joko Hutagalung,L,1959-05-27,(0324) 922-9539,"Gg. Kiaracondong No. 0, Kupang, Kalimantan Utara 17350",Parepare,Asuransi Swasta,Sinarmas
+P00193,Ir. Natalia Suwarno,P,2002-06-23,(0802) 444 1288,"Jl. Laswi No. 740, Subulussalam, RI 10280",Serang,Umum,
+P00194,Sakura Sitompul,P,1951-06-14,+62 (064) 586 4334,"Jalan Cikutra Timur No. 662, Kupang, Banten 45367",Tangerang Selatan,Umum,
+P00195,Jinawi Pudjiastuti,P,2012-05-07,+62 (53) 107-7993,"Gang Moch. Toha No. 9, Sorong, KT 31890",Madiun,BPJS,BPJS Kesehatan
+P00196,Muhammad Tarihoran,L,1944-11-19,086 401 7048,"Gang Moch. Ramdan No. 61, Makassar, Lampung 25155",Tual,BPJS,BPJS Kesehatan
+P00197,Cawuk Wahyudin,L,2015-12-05,083 523 9862,"Jl. Pasteur No. 69, Sukabumi, BT 97027",Cimahi,Asuransi Swasta,AXA Mandiri
+P00198,Drs. Bakiadi Gunarto,P,2001-06-20,+62 (157) 053-2308,"Jalan Suryakencana No. 20, Medan, MU 25965",Purwokerto,Umum,
+P00199,Tri Nuraini,L,1968-10-09,(0190) 076-1720,"Jalan Peta No. 0, Tegal, Kalimantan Utara 56953",Bitung,Asuransi Swasta,Sinarmas
+P00200,"Bakijan Natsir, S.Pd",P,1947-12-08,+62 (88) 607-9707,"Gg. Astana Anyar No. 860, Bekasi, BE 25924",Binjai,Umum,
+P00201,Cut Safina Salahudin,L,1982-01-09,+62-37-072-6085,"Jl. Surapati No. 7, Pontianak, NT 80469",Magelang,BPJS,BPJS Kesehatan
+P00202,Queen Mahendra,L,1987-10-09,+62-69-594-7621,"Gang Gardujati No. 976, Salatiga, KT 14026",Binjai,Umum,
+P00203,Lukman Hutasoit,L,1997-01-31,+62-391-233-7469,"Jalan Ciumbuleuit No. 96, Bengkulu, BE 86575",Tanjungbalai,BPJS,BPJS Kesehatan
+P00204,Nadine Yolanda,L,2007-08-23,+62-0363-705-5127,"Gg. Indragiri No. 61, Surakarta, Kalimantan Tengah 71723",Bitung,BPJS,BPJS Kesehatan
+P00205,"drg. Jagaraga Haryanto, S.Gz",P,1979-11-13,+62-945-564-8117,"Gg. Dipatiukur No. 9, Kendari, SG 97068",Dumai,BPJS,BPJS Kesehatan
+P00206,Satya Wahyudin,P,1973-12-07,+62 (385) 433-2040,"Gang Jend. Sudirman No. 2, Kota Administrasi Jakarta Utara, SR 51431",Manado,Umum,
+P00207,Arta Damanik,P,1951-11-30,+62 (009) 679-5018,"Jl. Jend. Sudirman No. 640, Pontianak, Sumatera Barat 45159",Cirebon,BPJS,BPJS Kesehatan
+P00208,Umaya Sihombing,P,1995-08-16,+62-099-161-0923,"Gg. Kebonjati No. 905, Blitar, Sulawesi Barat 63581",Palangkaraya,Asuransi Swasta,Sinarmas
+P00209,"Purwadi Laksita, M.Pd",L,1944-11-27,+62 (097) 750-1314,"Gang Veteran No. 3, Tangerang Selatan, Sumatera Selatan 22201",Cilegon,Asuransi Swasta,Allianz
+P00210,"Dr. Eka Budiyanto, S.Farm",P,2005-10-08,+62-092-836-3967,"Gg. Cikutra Timur No. 592, Madiun, KS 99295",Madiun,Umum,
+P00211,Dr. Adiarja Samosir,L,1957-09-05,+62-036-921-4600,"Jl. Indragiri No. 226, Kota Administrasi Jakarta Pusat, Bengkulu 18727",Pagaralam,BPJS,BPJS Kesehatan
+P00212,"Ir. Zelaya Melani, S.I.Kom",P,1973-09-09,+62 (28) 243 5193,"Gg. BKR No. 3, Bukittinggi, JK 12287",Medan,Umum,
+P00213,Elisa Pradana,L,2000-07-07,+62 (0948) 272-6015,"Gang R.E Martadinata No. 2, Tasikmalaya, MA 62319",Kota Administrasi Jakarta Selatan,Asuransi Swasta,Prudential
+P00214,R. Ifa Sihombing,L,1977-03-07,+62-0350-135-1459,"Gang Cihampelas No. 3, Bandung, ST 42848",Tanjungbalai,BPJS,BPJS Kesehatan
+P00215,Kusuma Hutapea,P,2021-08-30,+62-342-404-1106,"Gg. Siliwangi No. 73, Padangpanjang, KB 23334",Banjar,Asuransi Swasta,Allianz
+P00216,"Dimaz Habibi, S.E.I",P,1981-05-27,(008) 393 0032,"Jl. Gegerkalong Hilir No. 1, Kota Administrasi Jakarta Pusat, JA 54459",Tual,Asuransi Swasta,Allianz
+P00217,Rafid Puspita,P,1963-09-23,(059) 943 5514,"Gang Cempaka No. 364, Bitung, Sulawesi Selatan 11876",Samarinda,Umum,
+P00218,"Tgk. Margana Novitasari, S.Pd",L,1965-04-27,+62 (0585) 110 5809,"Jl. Abdul Muis No. 218, Payakumbuh, LA 21576",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00219,Ifa Puspasari,P,2017-03-22,+62 (099) 196-3180,"Jl. Cikapayang No. 718, Palangkaraya, Lampung 91978",Ambon,BPJS,BPJS Kesehatan
+P00220,Kiandra Mayasari,P,1967-11-08,088 656 4203,"Gang Pasir Koja No. 9, Jayapura, MU 71228",Kota Administrasi Jakarta Selatan,BPJS,BPJS Kesehatan
+P00221,Prabawa Hartati,P,1985-05-20,0813454071,"Gang Raya Setiabudhi No. 3, Ambon, MU 14712",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00222,Cemeti Saragih,P,1947-04-28,0852519595,"Gg. Ciwastra No. 4, Kota Administrasi Jakarta Pusat, Papua 21111",Payakumbuh,BPJS,BPJS Kesehatan
+P00223,"drg. Aisyah Suryono, S.Kom",P,2009-08-13,+62 (0491) 007 1484,"Jl. Rumah Sakit No. 4, Sibolga, Aceh 23500",Bukittinggi,Umum,
+P00224,Cut Rahayu Simbolon,P,2002-04-15,+62 (64) 403 6058,"Jl. Dr. Djunjunan No. 661, Mojokerto, Riau 18430",Binjai,BPJS,BPJS Kesehatan
+P00225,Luluh Januar,L,1944-09-25,+62 (074) 992 7568,"Gang Kiaracondong No. 3, Tomohon, Banten 09417",Banda Aceh,BPJS,BPJS Kesehatan
+P00226,Eli Wahyuni,P,1978-06-16,+62-0952-897-4099,"Gg. Pasirkoja No. 8, Surabaya, RI 03735",Palembang,BPJS,BPJS Kesehatan
+P00227,Teddy Siregar,L,1977-12-02,0893583545,"Gg. Dipenogoro No. 0, Blitar, LA 28458",Parepare,Asuransi Swasta,Sinarmas
+P00228,Clara Hutagalung,P,1976-08-14,+62-096-473-7086,"Jl. Yos Sudarso No. 11, Tangerang, Sumatera Barat 33782",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00229,"Dt. Capa Kuswandari, S.Gz",P,2023-06-29,+62-20-712-5134,"Gg. Gedebage Selatan No. 32, Subulussalam, RI 89231",Langsa,Umum,
+P00230,"Natalia Irawan, S.Gz",L,1953-03-18,+62 (47) 077 7795,"Jalan Pasteur No. 4, Sawahlunto, KU 58252",Samarinda,BPJS,BPJS Kesehatan
+P00231,R.A. Sari Hutagalung,L,1997-09-16,+62 (0083) 603-6451,"Jalan Moch. Ramdan No. 317, Cimahi, Sumatera Barat 13632",Dumai,Asuransi Swasta,Prudential
+P00232,Indra Dongoran,P,1958-05-01,+62 (706) 192 6097,"Jl. Bangka Raya No. 3, Batu, Kepulauan Bangka Belitung 71284",Cirebon,Asuransi Swasta,Allianz
+P00233,Makara Prasetya,P,1960-08-26,+62-047-383-7656,"Jl. Lembong No. 805, Blitar, Kalimantan Tengah 74934",Cirebon,Umum,
+P00234,Nurul Mangunsong,L,1964-01-12,+62 (417) 874-6730,"Gang Peta No. 4, Tangerang, SG 14337",Cilegon,BPJS,BPJS Kesehatan
+P00235,Asmuni Napitupulu,P,1961-03-26,+62 (472) 655 9036,"Gg. Ronggowarsito No. 25, Bau-Bau, MA 85097",Sukabumi,Asuransi Swasta,Allianz
+P00236,Cakrawangsa Tampubolon,L,1969-04-17,(077) 195 8385,"Gang Rajawali Timur No. 4, Pontianak, SR 49308",Tebingtinggi,Asuransi Swasta,AXA Mandiri
+P00237,Prabowo Zulkarnain,P,1959-10-10,+62-630-147-2444,"Jl. Pasteur No. 7, Manado, KT 86823",Jambi,Umum,
+P00238,R. Xanana Saptono,L,1984-08-06,+62 (048) 983-8569,"Gg. Rungkut Industri No. 969, Padang Sidempuan, Kepulauan Bangka Belitung 39572",Bandar Lampung,BPJS,BPJS Kesehatan
+P00239,Warta Laksita,L,1987-10-07,(069) 342 8699,"Jl. Jamika No. 8, Kota Administrasi Jakarta Utara, Kalimantan Barat 53865",Singkawang,BPJS,BPJS Kesehatan
+P00240,Tgk. Baktianto Latupono,P,2011-04-02,(080) 438-9433,"Gang Pasirkoja No. 292, Bekasi, SN 00523",Blitar,Asuransi Swasta,Prudential
+P00241,"dr. Johan Anggriawan, S.Kom",L,2017-08-17,+62 (019) 381 1444,"Gg. Sadang Serang No. 500, Pekalongan, Sulawesi Barat 90178",Bandung,BPJS,BPJS Kesehatan
+P00242,"Kamila Megantara, S.H.",P,1985-12-07,+62 (0441) 594-3692,"Jl. Abdul Muis No. 95, Bogor, SR 45774",Cirebon,BPJS,BPJS Kesehatan
+P00243,R. Laras Agustina,P,1960-05-08,+62-066-272-4414,"Jl. Sukajadi No. 878, Padangpanjang, Banten 90603",Cimahi,BPJS,BPJS Kesehatan
+P00244,Galur Kuswoyo,P,2005-09-04,+62 (06) 927 7029,"Jalan Ronggowarsito No. 4, Sungai Penuh, Kepulauan Bangka Belitung 88783",Blitar,Asuransi Swasta,AXA Mandiri
+P00245,Olivia Budiman,L,1954-01-23,+62 (27) 925 1924,"Jalan M.T Haryono No. 22, Payakumbuh, YO 26334",Sabang,BPJS,BPJS Kesehatan
+P00246,Tgk. Tira Marpaung,P,1994-04-18,+62 (08) 087 4857,"Gang BKR No. 9, Lhokseumawe, Nusa Tenggara Timur 74493",Semarang,Umum,
+P00247,Reza Suartini,L,1978-07-20,(099) 361 1959,"Jalan Suryakencana No. 20, Kupang, Nusa Tenggara Timur 06465",Kupang,BPJS,BPJS Kesehatan
+P00248,Vivi Permadi,P,2010-03-25,+62-12-936-6623,"Jl. Otto Iskandardinata No. 46, Banda Aceh, Kalimantan Tengah 37821",Pariaman,BPJS,BPJS Kesehatan
+P00249,Drs. Lurhur Mansur,P,1970-03-22,+62 (0641) 798-3484,"Gang Cikapayang No. 2, Tebingtinggi, ST 49481",Bontang,BPJS,BPJS Kesehatan
+P00250,Hairyanto Pertiwi,P,2007-05-20,+62 (839) 329-1687,"Jl. Medokan Ayu No. 116, Samarinda, NT 40022",Tebingtinggi,BPJS,BPJS Kesehatan
+P00251,Ridwan Tamba,P,2011-01-06,087 783 2709,"Gg. Tebet Barat Dalam No. 13, Cirebon, DI Yogyakarta 01433",Lhokseumawe,Asuransi Swasta,Prudential
+P00252,Vero Pratama,L,1997-11-29,+62 (055) 377 6942,"Jl. PHH. Mustofa No. 33, Lubuklinggau, Bengkulu 66700",Serang,Umum,
+P00253,Dt. Mitra Wasita,P,2006-04-02,(0313) 656-0327,"Gg. Yos Sudarso No. 7, Banjarbaru, Jambi 58612",Pangkalpinang,BPJS,BPJS Kesehatan
+P00254,Labuh Marpaung,L,1957-06-14,+62 (065) 621-7648,"Jl. Kendalsari No. 245, Sorong, Kalimantan Tengah 05529",Bandar Lampung,Umum,
+P00255,"KH. Ikin Pradipta, M.Kom.",L,2021-04-30,+62-069-375-6315,"Gg. R.E Martadinata No. 0, Medan, PA 55868",Kota Administrasi Jakarta Barat,Umum,
+P00256,"KH. Daliman Rajasa, S.IP",P,1998-06-28,+62 (065) 612-3623,"Gang Setiabudhi No. 578, Tangerang Selatan, Kalimantan Tengah 61174",Pekalongan,BPJS,BPJS Kesehatan
+P00257,Drs. Yani Saptono,L,1987-10-10,+62 (222) 113 0273,"Jalan Setiabudhi No. 86, Payakumbuh, Papua Barat 85606",Sabang,BPJS,BPJS Kesehatan
+P00258,"drg. Dewi Prasetya, S.Gz",L,2021-05-07,+62 (0611) 789 1837,"Jl. Jamika No. 306, Kota Administrasi Jakarta Selatan, DKI Jakarta 49746",Tual,BPJS,BPJS Kesehatan
+P00259,Tirta Putra,P,2015-01-25,+62-25-872-4178,"Gang Jend. Sudirman No. 19, Subulussalam, Lampung 42259",Tanjungbalai,BPJS,BPJS Kesehatan
+P00260,Maria Hutapea,L,1950-08-04,0842110109,"Jl. Kebonjati No. 174, Bitung, SU 83290",Cirebon,BPJS,BPJS Kesehatan
+P00261,drg. Malika Hidayanto,P,2002-03-31,+62 (685) 154 0622,"Jalan Antapani Lama No. 6, Tangerang, Kepulauan Riau 55396",Makassar,BPJS,BPJS Kesehatan
+P00262,Puti Lintang Hutasoit,L,1979-12-20,+62 (815) 506 1763,"Jalan Surapati No. 2, Palu, MU 45214",Bogor,Umum,
+P00263,Prayogo Anggriawan,L,2000-03-09,+62-75-479-4197,"Gg. Sukajadi No. 28, Bogor, Jawa Barat 62286",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00264,Vanya Zulkarnain,P,1990-01-10,+62 (49) 782 9647,"Jalan Rumah Sakit No. 9, Ambon, NB 24548",Pangkalpinang,Asuransi Swasta,Allianz
+P00265,Bakda Pangestu,L,2000-04-16,+62 (0536) 527 2083,"Gg. M.H Thamrin No. 4, Palopo, JA 90856",Serang,Umum,
+P00266,Narji Wijaya,L,1942-12-10,+62 (79) 768 8982,"Jalan Ronggowarsito No. 2, Pekalongan, AC 68202",Tarakan,Umum,
+P00267,"Hasna Puspita, S.Ked",L,1989-04-29,+62 (0252) 675-5396,"Jl. Waringin No. 12, Tanjungbalai, Kalimantan Tengah 55733",Semarang,BPJS,BPJS Kesehatan
+P00268,"Pangestu Saefullah, S.E.",P,1964-11-19,(0918) 861 5050,"Jalan Veteran No. 1, Tanjungbalai, KT 32809",Mojokerto,BPJS,BPJS Kesehatan
+P00269,drg. Ulva Usada,P,2010-02-28,+62-308-340-3347,"Jl. Astana Anyar No. 53, Bukittinggi, GO 50071",Banjar,BPJS,BPJS Kesehatan
+P00270,Tgk. Tania Mustofa,L,1941-11-26,(009) 680 8831,"Gg. Jakarta No. 4, Solok, Jambi 17771",Blitar,BPJS,BPJS Kesehatan
+P00271,"KH. Kanda Anggraini, M.TI.",L,2001-04-04,+62-668-942-3760,"Jl. Pasir Koja No. 9, Depok, Kalimantan Tengah 10266",Mojokerto,BPJS,BPJS Kesehatan
+P00272,drg. Jamalia Manullang,P,2003-06-08,+62 (366) 036-5243,"Gg. Abdul Muis No. 03, Denpasar, Jawa Tengah 77804",Medan,Asuransi Swasta,Allianz
+P00273,Tirta Marbun,P,1960-12-12,+62-0723-676-2169,"Jalan Kutai No. 13, Bukittinggi, Lampung 42115",Jayapura,BPJS,BPJS Kesehatan
+P00274,Ophelia Purnawati,L,1973-12-10,(066) 475-0828,"Gg. Tebet Barat Dalam No. 63, Pekanbaru, Kalimantan Utara 45857",Malang,BPJS,BPJS Kesehatan
+P00275,drg. Radika Laksita,P,2013-10-21,(0935) 299-3281,"Gang Raya Ujungberung No. 319, Tarakan, NB 22907",Kota Administrasi Jakarta Barat,Umum,
+P00276,Dina Nababan,L,1945-04-26,+62-049-568-2766,"Gang Kutai No. 84, Payakumbuh, Maluku Utara 79591",Payakumbuh,BPJS,BPJS Kesehatan
+P00277,"drg. Baktiadi Suryono, M.Kom.",L,1981-11-15,081 209 6642,"Jl. Sentot Alibasa No. 674, Mojokerto, SS 99106",Mojokerto,BPJS,BPJS Kesehatan
+P00278,Ganda Prabowo,L,1988-04-14,+62 (96) 633-1722,"Jl. Lembong No. 13, Sungai Penuh, Sulawesi Selatan 94637",Kotamobagu,BPJS,BPJS Kesehatan
+P00279,"Tgk. Mahesa Halim, S.IP",P,1941-12-27,+62 (016) 451-9459,"Jalan Tebet Barat Dalam No. 6, Sungai Penuh, Lampung 58177",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00280,"Clara Nuraini, S.Pd",L,1982-11-26,081 136 6568,"Jalan Cihampelas No. 50, Jambi, Lampung 74004",Medan,BPJS,BPJS Kesehatan
+P00281,Farhunnisa Manullang,P,1976-02-13,+62 (873) 470 1424,"Gang Sadang Serang No. 3, Jayapura, Gorontalo 51348",Gorontalo,BPJS,BPJS Kesehatan
+P00282,Putri Anggraini,L,2001-07-12,+62 (083) 248-7952,"Gg. Jend. A. Yani No. 84, Mojokerto, SU 26625",Padang,Umum,
+P00283,Mutia Nashiruddin,P,2010-10-01,+62-25-915-5280,"Jalan Dipenogoro No. 655, Pariaman, SU 82894",Mojokerto,BPJS,BPJS Kesehatan
+P00284,Lalita Dongoran,L,1998-08-10,+62-071-585-1845,"Gg. Dr. Djunjunan No. 037, Bekasi, ST 95328",Cimahi,Asuransi Swasta,AXA Mandiri
+P00285,Aditya Simbolon,L,1953-01-13,+62 (273) 325 2854,"Gg. Suniaraja No. 87, Ambon, Sumatera Selatan 33562",Serang,BPJS,BPJS Kesehatan
+P00286,Marwata Wastuti,P,1945-10-25,+62 (010) 013 4304,"Jl. Suryakencana No. 94, Batu, Banten 25254",Binjai,Umum,
+P00287,Zelda Latupono,P,1964-04-13,(085) 596 0973,"Gang R.E Martadinata No. 30, Jayapura, LA 16224",Sungai Penuh,Umum,
+P00288,"Mursita Hakim, S.Sos",L,1997-12-06,+62-96-637-5935,"Jl. Veteran No. 3, Meulaboh, Banten 14935",Makassar,Umum,
+P00289,Keisha Permadi,L,1996-09-21,089 739 0350,"Jl. Ronggowarsito No. 87, Prabumulih, Riau 31119",Madiun,BPJS,BPJS Kesehatan
+P00290,Tgk. Tari Lailasari,L,1943-08-25,+62 (028) 753-8108,"Jl. Pasirkoja No. 062, Batam, YO 38324",Surakarta,Asuransi Swasta,Allianz
+P00291,Bakiman Kusmawati,P,2009-03-26,+62 (0379) 627 7591,"Jalan Jayawijaya No. 98, Denpasar, RI 08052",Sibolga,Umum,
+P00292,Padmi Dabukke,L,2011-07-06,(040) 213 6422,"Jalan Monginsidi No. 51, Singkawang, Riau 94704",Banjarmasin,BPJS,BPJS Kesehatan
+P00293,"R.M. Garan Pratiwi, M.Ak",L,2020-04-24,(0401) 682-5429,"Jalan Surapati No. 437, Kota Administrasi Jakarta Barat, Nusa Tenggara Timur 83885",Mataram,BPJS,BPJS Kesehatan
+P00294,Shania Padmasari,P,1966-04-25,085 514 1828,"Jalan Antapani Lama No. 55, Surakarta, Sulawesi Selatan 14548",Ternate,Umum,
+P00295,"Paramita Prayoga, S.IP",L,2012-11-29,+62 (457) 914 5232,"Gang Joyoboyo No. 665, Tidore Kepulauan, Kalimantan Tengah 53375",Jambi,BPJS,BPJS Kesehatan
+P00296,Ana Pradana,P,1964-11-30,081 973 1437,"Gang Sukabumi No. 43, Semarang, Kepulauan Riau 54403",Tebingtinggi,BPJS,BPJS Kesehatan
+P00297,Iriana Situmorang,P,1983-09-10,+62 (203) 650-4295,"Gg. Ahmad Dahlan No. 278, Bandar Lampung, JK 16427",Bontang,BPJS,BPJS Kesehatan
+P00298,drg. Kani Laksmiwati,L,1951-10-27,+62 (0117) 702 5466,"Jalan Bangka Raya No. 234, Singkawang, JI 99505",Pangkalpinang,BPJS,BPJS Kesehatan
+P00299,Tugiman Siregar,P,2008-03-01,+62 (0795) 419 0700,"Jalan Joyoboyo No. 20, Tangerang Selatan, Nusa Tenggara Barat 22993",Tasikmalaya,Umum,
+P00300,Tira Prasetyo,L,1969-01-05,+62 (0575) 029-2845,"Gg. Bangka Raya No. 838, Bukittinggi, AC 27086",Pariaman,Umum,
+P00301,Sabar Wijaya,L,2020-01-06,+62-973-826-5008,"Jl. Pasteur No. 4, Malang, GO 86966",Tanjungbalai,BPJS,BPJS Kesehatan
+P00302,Oni Farida,P,1974-01-07,+62 (02) 435 2847,"Jalan Indragiri No. 41, Lhokseumawe, Sumatera Barat 49655",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00303,Michelle Nainggolan,L,2010-12-04,+62 (0818) 400 2774,"Jalan Pacuan Kuda No. 96, Kediri, Bengkulu 16979",Banjar,BPJS,BPJS Kesehatan
+P00304,Paramita Hardiansyah,L,1974-08-31,(0067) 398 1195,"Jalan Dipatiukur No. 6, Manado, Sulawesi Utara 15340",Parepare,BPJS,BPJS Kesehatan
+P00305,Lidya Pratama,L,1946-11-04,+62 (89) 000-6809,"Gang Cikapayang No. 72, Tarakan, Kalimantan Timur 94625",Padangpanjang,BPJS,BPJS Kesehatan
+P00306,Lalita Hidayanto,P,2014-02-04,+62-021-159-6165,"Jalan W.R. Supratman No. 90, Pematangsiantar, SG 76767",Surakarta,BPJS,BPJS Kesehatan
+P00307,Darman Siregar,L,1954-12-16,080 192 9834,"Gg. Cikutra Barat No. 01, Cilegon, SS 19000",Purwokerto,BPJS,BPJS Kesehatan
+P00308,Puput Pradipta,P,2006-09-07,+62 (076) 269-8084,"Jl. K.H. Wahid Hasyim No. 498, Kendari, SS 42072",Tual,Asuransi Swasta,AXA Mandiri
+P00309,Eli Wastuti,L,1986-10-31,(093) 014-8548,"Jl. Dipenogoro No. 572, Bau-Bau, KS 34037",Jayapura,Umum,
+P00310,"Galuh Zulaika, S.Pt",L,1950-05-17,(0010) 406-0234,"Jalan Kendalsari No. 833, Kota Administrasi Jakarta Selatan, ST 43343",Tual,BPJS,BPJS Kesehatan
+P00311,Adinata Wijayanti,P,1966-12-10,+62-065-258-2435,"Jl. Siliwangi No. 850, Bitung, NT 79610",Surakarta,BPJS,BPJS Kesehatan
+P00312,Cagak Haryanti,L,1943-12-06,+62 (0474) 999-4424,"Jalan Cihampelas No. 13, Kediri, Lampung 17601",Cimahi,BPJS,BPJS Kesehatan
+P00313,Tasnim Saragih,L,1968-09-03,(044) 841 4657,"Jalan Raya Ujungberung No. 9, Tangerang Selatan, JT 40041",Gorontalo,Asuransi Swasta,Manulife
+P00314,Hj. Jamalia Melani,P,1956-06-19,+62 (00) 657-4391,"Jalan Jakarta No. 88, Tarakan, Maluku 45803",Kupang,Umum,
+P00315,"Perkasa Dabukke, S.Pd",L,2017-04-22,0888773014,"Jalan Rajawali Barat No. 17, Bontang, YO 59119",Palopo,BPJS,BPJS Kesehatan
+P00316,Emas Zulaika,P,1984-01-12,(0991) 669-4501,"Jl. Bangka Raya No. 942, Solok, KT 72954",Bengkulu,Umum,
+P00317,"Cahya Marbun, M.Ak",L,1986-03-21,080 104 5195,"Gg. Antapani Lama No. 692, Padang, Sumatera Selatan 18203",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00318,Cager Nugroho,P,1942-11-28,+62 (0263) 326 2994,"Jl. W.R. Supratman No. 1, Padangpanjang, SG 13950",Bekasi,BPJS,BPJS Kesehatan
+P00319,Ozy Lazuardi,L,1956-02-16,+62 (87) 943-4994,"Gg. Pasirkoja No. 047, Bandar Lampung, Gorontalo 28587",Pontianak,Asuransi Swasta,Allianz
+P00320,"Kawaca Haryanto, M.M.",L,1990-04-29,+62 (023) 118-2807,"Gang KH Amin Jasuta No. 7, Jambi, Sumatera Barat 31137",Tebingtinggi,BPJS,BPJS Kesehatan
+P00321,Dalimin Kurniawan,P,1955-02-11,(023) 826-7335,"Jl. Rumah Sakit No. 1, Tegal, NB 91691",Bukittinggi,Asuransi Swasta,Allianz
+P00322,Jessica Siregar,L,1971-02-28,(0722) 889 6986,"Jl. BKR No. 203, Kota Administrasi Jakarta Barat, Jawa Barat 04895",Parepare,BPJS,BPJS Kesehatan
+P00323,R. Gawati Fujiati,P,1980-01-22,+62-0345-387-2557,"Gang Surapati No. 38, Cimahi, Gorontalo 94132",Serang,BPJS,BPJS Kesehatan
+P00324,Dr. Lurhur Mangunsong,L,1956-08-06,(0582) 778-9362,"Gg. Stasiun Wonokromo No. 77, Sorong, KT 06256",Tasikmalaya,BPJS,BPJS Kesehatan
+P00325,Jumari Marpaung,L,1944-01-30,081 059 8207,"Gang KH Amin Jasuta No. 9, Lhokseumawe, Nusa Tenggara Timur 10500",Pontianak,BPJS,BPJS Kesehatan
+P00326,R.M. Wira Pradipta,L,2020-04-30,086 734 5144,"Jalan Dipatiukur No. 6, Pematangsiantar, JK 05230",Banjar,BPJS,BPJS Kesehatan
+P00327,"Victoria Sinaga, S.H.",L,1970-03-25,(0437) 305-0437,"Gang Tebet Barat Dalam No. 9, Kota Administrasi Jakarta Selatan, Sulawesi Selatan 86744",Tomohon,BPJS,BPJS Kesehatan
+P00328,Sutan Jatmiko Hutasoit,P,1968-07-02,+62 (13) 693 7476,"Jl. Dipatiukur No. 14, Palangkaraya, Sulawesi Selatan 79853",Binjai,BPJS,BPJS Kesehatan
+P00329,Rangga Sudiati,P,1997-12-31,+62 (061) 495-9387,"Gang Pacuan Kuda No. 96, Kota Administrasi Jakarta Utara, BB 71679",Parepare,BPJS,BPJS Kesehatan
+P00330,Salsabila Kurniawan,P,2018-06-14,+62 (992) 013 7057,"Gg. Ahmad Yani No. 560, Bengkulu, KU 41842",Bandar Lampung,Asuransi Swasta,AXA Mandiri
+P00331,"Puput Nuraini, S.H.",L,2024-10-04,+62 (077) 092-5721,"Jl. Bangka Raya No. 50, Kota Administrasi Jakarta Pusat, Jawa Timur 75357",Lubuklinggau,Asuransi Swasta,Allianz
+P00332,Laksana Kurniawan,L,2014-04-28,+62-048-765-2111,"Jalan Jayawijaya No. 33, Sawahlunto, JT 90588",Tarakan,BPJS,BPJS Kesehatan
+P00333,Kasiyah Marpaung,P,1970-09-22,+62 (011) 182-7294,"Jalan BKR No. 62, Kota Administrasi Jakarta Pusat, KB 16967",Lhokseumawe,Asuransi Swasta,AIA
+P00334,"Halima Halim, S.E.I",L,1976-10-14,0842914545,"Gg. Wonoayu No. 23, Kota Administrasi Jakarta Pusat, JK 71523",Kendari,Asuransi Swasta,AIA
+P00335,Wardaya Pradana,L,1947-02-28,+62 (222) 181-8280,"Jalan Veteran No. 041, Meulaboh, Sulawesi Tengah 36438",Cirebon,BPJS,BPJS Kesehatan
+P00336,Mila Januar,P,1971-07-26,+62-995-518-1063,"Gang Rumah Sakit No. 9, Magelang, Bengkulu 86452",Pematangsiantar,BPJS,BPJS Kesehatan
+P00337,Prayogo Kusmawati,L,1948-02-19,(0495) 870 1913,"Jl. Sukajadi No. 7, Tomohon, Sulawesi Tengah 36523",Binjai,BPJS,BPJS Kesehatan
+P00338,Bambang Winarno,P,1950-07-05,+62 (894) 893-9653,"Gang Otto Iskandardinata No. 6, Purwokerto, Papua Barat 92092",Pasuruan,BPJS,BPJS Kesehatan
+P00339,"Edi Budiyanto, M.TI.",P,1991-12-14,+62 (83) 509 7163,"Gang Monginsidi No. 75, Yogyakarta, PA 88880",Padang Sidempuan,Umum,
+P00340,"R. Heryanto Gunawan, S.Pt",L,2010-12-15,+62-58-234-1938,"Jl. Cikutra Timur No. 6, Kotamobagu, SR 47142",Kotamobagu,BPJS,BPJS Kesehatan
+P00341,Talia Susanti,L,2004-09-30,+62 (079) 749-7862,"Gang Peta No. 3, Banjarbaru, DKI Jakarta 26409",Mataram,Asuransi Swasta,AXA Mandiri
+P00342,Maida Wijaya,P,1951-09-22,+62 (075) 388-1201,"Jl. Laswi No. 37, Pagaralam, BT 79911",Serang,BPJS,BPJS Kesehatan
+P00343,Genta Mahendra,L,1979-11-23,+62-0488-779-9514,"Jalan Otto Iskandardinata No. 244, Binjai, Kepulauan Bangka Belitung 98019",Manado,BPJS,BPJS Kesehatan
+P00344,Jabal Ardianto,P,1994-09-15,(002) 257 7136,"Jl. Pasir Koja No. 108, Kotamobagu, Jawa Tengah 27087",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00345,"Laksana Pudjiastuti, M.TI.",P,1957-10-10,+62 (430) 754 8521,"Jalan Ahmad Yani No. 6, Batu, Jambi 86256",Cimahi,BPJS,BPJS Kesehatan
+P00346,"Sutan Candrakanta Kusmawati, S.T.",P,2017-07-02,(018) 924-7466,"Jl. Lembong No. 677, Tanjungbalai, Sulawesi Barat 37654",Tanjungbalai,BPJS,BPJS Kesehatan
+P00347,"Faizah Maheswara, M.Pd",P,1950-02-27,+62 (31) 437 8876,"Gg. Cikutra Timur No. 4, Blitar, MU 39598",Mojokerto,BPJS,BPJS Kesehatan
+P00348,"Tgk. Maria Samosir, S.Gz",L,1963-09-16,+62 (85) 788-0070,"Jalan Monginsidi No. 5, Padang, Kalimantan Barat 32872",Bandung,Umum,
+P00349,Lanjar Hidayat,P,2014-02-14,+62-80-403-4294,"Jalan Dipenogoro No. 786, Kendari, PB 43115",Kupang,BPJS,BPJS Kesehatan
+P00350,Salsabila Wijayanti,L,1976-08-25,(098) 373 8950,"Gg. S. Parman No. 8, Madiun, Riau 71428",Bengkulu,BPJS,BPJS Kesehatan
+P00351,"Hj. Restu Budiman, S.Farm",L,2004-05-10,(0903) 966 6063,"Gang Moch. Toha No. 6, Serang, ST 54839",Pematangsiantar,Umum,
+P00352,R. Paris Pudjiastuti,P,2022-03-04,(042) 168-7283,"Gg. Moch. Toha No. 466, Sabang, Jawa Tengah 87950",Mojokerto,BPJS,BPJS Kesehatan
+P00353,Cecep Prabowo,P,2015-09-29,+62-48-039-4502,"Jl. Cihampelas No. 716, Cimahi, AC 72510",Yogyakarta,BPJS,BPJS Kesehatan
+P00354,Drs. Banara Permata,P,1981-06-11,0861387861,"Jl. Sentot Alibasa No. 6, Singkawang, SG 35821",Jambi,BPJS,BPJS Kesehatan
+P00355,"Wasis Agustina, S.E.I",L,1942-07-24,+62-031-523-6701,"Jalan Raya Setiabudhi No. 2, Kota Administrasi Jakarta Selatan, Sumatera Barat 31532",Tanjungbalai,BPJS,BPJS Kesehatan
+P00356,"T. Taswir Winarno, S.Pd",L,1968-04-01,(029) 135 2376,"Jl. Antapani Lama No. 1, Cilegon, SR 68730",Bontang,BPJS,BPJS Kesehatan
+P00357,Raditya Tarihoran,P,1942-07-11,(009) 098-1718,"Jl. HOS. Cokroaminoto No. 566, Bandung, MA 74704",Kendari,BPJS,BPJS Kesehatan
+P00358,Harja Wahyudin,P,2014-02-26,(013) 941 9467,"Gang Pacuan Kuda No. 8, Singkawang, Jambi 21232",Subulussalam,BPJS,BPJS Kesehatan
+P00359,Tami Sihombing,L,1954-09-16,(024) 505-1383,"Gg. Kapten Muslihat No. 6, Bandar Lampung, BE 58160",Bandung,BPJS,BPJS Kesehatan
+P00360,Maya Utami,P,1969-06-01,+62 (0660) 630 6815,"Jl. Rumah Sakit No. 6, Tarakan, Kalimantan Tengah 87152",Mataram,Umum,
+P00361,R. Tania Habibi,P,2009-06-13,+62 (0031) 249 2233,"Jalan Pacuan Kuda No. 048, Cirebon, KT 82109",Banjarbaru,Asuransi Swasta,AXA Mandiri
+P00362,"Tari Mangunsong, M.M.",P,1997-07-21,+62-076-543-7941,"Jl. HOS. Cokroaminoto No. 737, Sabang, RI 76973",Sibolga,BPJS,BPJS Kesehatan
+P00363,R. Kiandra Usamah,P,1950-10-08,+62-698-084-1956,"Gang Cikutra Barat No. 154, Balikpapan, Nusa Tenggara Timur 40263",Metro,Umum,
+P00364,Hendra Pertiwi,L,1950-04-11,(0189) 897 3816,"Gang M.H Thamrin No. 5, Samarinda, Papua Barat 16485",Cirebon,BPJS,BPJS Kesehatan
+P00365,"Anastasia Saragih, S.Pt",P,2000-01-25,+62-084-211-0756,"Jalan Medokan Ayu No. 465, Kota Administrasi Jakarta Utara, BE 51306",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00366,"Lili Dabukke, S.Psi",L,1990-06-02,(0071) 415-8495,"Gg. Astana Anyar No. 2, Banjarmasin, JI 33624",Pagaralam,BPJS,BPJS Kesehatan
+P00367,Dasa Damanik,P,2003-01-17,+62 (01) 850-5773,"Jalan Indragiri No. 36, Prabumulih, Kalimantan Utara 31783",Purwokerto,BPJS,BPJS Kesehatan
+P00368,"Drs. Kasiran Hastuti, S.I.Kom",P,1955-01-23,+62 (374) 422-8037,"Jalan M.H Thamrin No. 45, Probolinggo, Bali 99033",Dumai,Umum,
+P00369,"Karya Napitupulu, M.Farm",L,1984-06-05,(0798) 598-2947,"Gang Dr. Djunjunan No. 415, Banjarmasin, BA 36525",Tangerang Selatan,BPJS,BPJS Kesehatan
+P00370,Viktor Agustina,P,1996-05-14,083 351 2446,"Gg. KH Amin Jasuta No. 94, Kota Administrasi Jakarta Barat, Jawa Barat 69358",Palopo,BPJS,BPJS Kesehatan
+P00371,Mursinin Usamah,L,2011-12-30,(016) 806 1892,"Jalan Otto Iskandardinata No. 97, Pangkalpinang, Maluku Utara 07334",Sorong,Asuransi Swasta,Manulife
+P00372,Radika Wibisono,L,1988-01-05,+62-0150-322-8896,"Gang Jakarta No. 206, Semarang, KR 19651",Blitar,BPJS,BPJS Kesehatan
+P00373,"Tgk. Uchita Namaga, S.T.",P,1946-04-06,087 670 8398,"Jl. Kiaracondong No. 158, Semarang, SG 74623",Padang,Umum,
+P00374,Naradi Gunawan,L,1967-11-16,+62 (029) 930-2196,"Jl. Pasirkoja No. 202, Bandar Lampung, Bali 39547",Bogor,Asuransi Swasta,Allianz
+P00375,Clara Halim,L,1941-10-11,+62-0648-851-7704,"Gg. Abdul Muis No. 342, Palu, KT 72030",Padang Sidempuan,BPJS,BPJS Kesehatan
+P00376,Ir. Ajeng Nurdiyanti,P,1991-06-15,(0334) 446 1129,"Jl. Gegerkalong Hilir No. 3, Bau-Bau, SR 51070",Madiun,Asuransi Swasta,AIA
+P00377,Aurora Oktaviani,L,1946-02-13,+62 (13) 746-1213,"Gang Cikapayang No. 69, Subulussalam, Jawa Barat 74030",Palopo,BPJS,BPJS Kesehatan
+P00378,"Suci Haryanti, S.I.Kom",L,2019-06-14,(079) 615-9824,"Gg. Pelajar Pejuang No. 7, Yogyakarta, MA 86422",Madiun,BPJS,BPJS Kesehatan
+P00379,Amalia Hidayanto,L,1969-07-24,+62-75-779-7229,"Jl. Rawamangun No. 973, Tegal, MA 39735",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00380,"Febi Setiawan, S.Pd",L,1970-06-25,(0382) 517-4714,"Jl. Laswi No. 7, Bogor, Bali 54612",Samarinda,BPJS,BPJS Kesehatan
+P00381,Vicky Zulkarnain,P,1960-07-11,+62 (749) 300 8128,"Gang Wonoayu No. 7, Bandung, RI 64930",Bogor,Umum,
+P00382,Ir. Hesti Andriani,P,1992-02-26,+62 (67) 106-9480,"Jl. Jend. Sudirman No. 1, Batu, Kepulauan Riau 38427",Ternate,BPJS,BPJS Kesehatan
+P00383,Belinda Kuswandari,L,1961-12-12,082 407 8287,"Jl. Gardujati No. 79, Bitung, KT 14182",Bengkulu,Umum,
+P00384,Syahrini Wijaya,L,2005-01-06,+62 (91) 495-2437,"Jl. Raya Setiabudhi No. 39, Padang Sidempuan, Sulawesi Tengah 43392",Tangerang Selatan,Umum,
+P00385,Suci Rajata,P,1949-07-20,+62 (013) 188-4974,"Gang Cikutra Barat No. 93, Sibolga, Kalimantan Selatan 83701",Blitar,Umum,
+P00386,Imam Firgantoro,L,1969-07-23,+62-095-178-9182,"Jalan K.H. Wahid Hasyim No. 4, Solok, Aceh 47610",Bandung,BPJS,BPJS Kesehatan
+P00387,Cahyono Hassanah,L,2023-04-17,+62 (39) 648-9671,"Jl. Indragiri No. 0, Bima, DI Yogyakarta 90577",Balikpapan,BPJS,BPJS Kesehatan
+P00388,Rina Winarsih,P,1945-06-08,+62-073-948-0839,"Jl. Waringin No. 860, Jayapura, Sulawesi Selatan 57087",Bau-Bau,Umum,
+P00389,Adikara Sihotang,L,1952-11-05,0857619982,"Jalan Jakarta No. 91, Pangkalpinang, Kalimantan Tengah 41247",Bandung,BPJS,BPJS Kesehatan
+P00390,Edison Prastuti,L,1973-10-09,+62 (918) 249-8063,"Jalan Kendalsari No. 1, Sukabumi, Sumatera Barat 52404",Manado,BPJS,BPJS Kesehatan
+P00391,Aisyah Widodo,P,2022-04-28,+62 (092) 994-3267,"Gang S. Parman No. 67, Batu, KS 26654",Tebingtinggi,BPJS,BPJS Kesehatan
+P00392,"Langgeng Situmorang, M.M.",L,1951-01-11,(0541) 828 1242,"Gg. Gegerkalong Hilir No. 2, Langsa, YO 25647",Denpasar,Umum,
+P00393,"dr. Umay Oktaviani, S.E.I",P,1984-03-24,+62-019-894-2919,"Jl. Pasteur No. 601, Bontang, KB 28322",Pariaman,Asuransi Swasta,Manulife
+P00394,Drs. Latika Tamba,P,2004-12-22,0893970384,"Jl. Sukabumi No. 155, Jayapura, KS 00514",Kota Administrasi Jakarta Timur,Umum,
+P00395,Putri Prastuti,L,1988-03-07,(061) 477 9000,"Jalan KH Amin Jasuta No. 670, Serang, BB 36566",Metro,Asuransi Swasta,Manulife
+P00396,Marwata Wahyuni,L,2011-03-10,+62-73-031-8608,"Jalan Jayawijaya No. 8, Kota Administrasi Jakarta Barat, Sulawesi Tengah 13599",Batu,BPJS,BPJS Kesehatan
+P00397,Gaman Laksmiwati,L,1953-02-25,+62-608-558-8850,"Jalan Peta No. 504, Semarang, Bengkulu 94280",Surakarta,Umum,
+P00398,"Dt. Asirwanda Hardiansyah, M.Pd",P,1941-06-09,+62 (0450) 576-9641,"Gang Pasirkoja No. 404, Ambon, Kepulauan Riau 61762",Tasikmalaya,Umum,
+P00399,"Ir. Padma Mulyani, M.TI.",L,2008-06-19,+62-209-665-1764,"Gg. Laswi No. 1, Kediri, Sumatera Selatan 27147",Tarakan,Umum,
+P00400,"Drs. Kamaria Suryono, M.Kom.",P,1944-09-05,+62-0516-030-6270,"Gg. Tebet Barat Dalam No. 623, Pariaman, Kalimantan Selatan 47944",Lhokseumawe,Umum,
+P00401,Banawi Hartati,P,1971-06-08,(078) 681-3622,"Gang M.T Haryono No. 13, Pariaman, Jambi 57417",Pangkalpinang,Asuransi Swasta,Manulife
+P00402,"Panca Iswahyudi, S.Gz",P,1943-12-26,(090) 252 7812,"Jl. Jakarta No. 744, Tangerang Selatan, Banten 18357",Banjar,BPJS,BPJS Kesehatan
+P00403,Karen Permadi,L,2008-07-09,+62-0930-107-8529,"Jalan Dipenogoro No. 167, Purwokerto, BA 82770",Bandar Lampung,BPJS,BPJS Kesehatan
+P00404,Harsanto Hutasoit,L,1963-08-28,+62 (719) 325 5709,"Gang Rawamangun No. 68, Bengkulu, SS 02668",Mojokerto,BPJS,BPJS Kesehatan
+P00405,Ami Kusmawati,P,1996-04-16,088 085 6787,"Gg. Ahmad Yani No. 1, Payakumbuh, MU 20286",Salatiga,BPJS,BPJS Kesehatan
+P00406,R.A. Jane Hariyah,P,1965-01-02,+62-03-561-3159,"Jalan M.H Thamrin No. 034, Surabaya, ST 68391",Palangkaraya,Asuransi Swasta,Allianz
+P00407,"Hj. Jessica Wibowo, S.Pd",L,1976-05-25,+62-0960-878-8247,"Gang Cihampelas No. 86, Solok, Sumatera Barat 26281",Bontang,BPJS,BPJS Kesehatan
+P00408,"Abyasa Adriansyah, M.Pd",L,1994-08-28,(090) 503 1923,"Jalan Moch. Ramdan No. 043, Tidore Kepulauan, KU 65788",Semarang,BPJS,BPJS Kesehatan
+P00409,Kayun Pratama,L,1978-10-24,(0915) 502-2765,"Gg. K.H. Wahid Hasyim No. 1, Bogor, DKI Jakarta 72231",Bau-Bau,BPJS,BPJS Kesehatan
+P00410,Hj. Ifa Hartati,L,2018-05-30,+62 (007) 534 8125,"Gang Tubagus Ismail No. 8, Tidore Kepulauan, NB 31752",Kotamobagu,Umum,
+P00411,Zahra Latupono,P,1943-08-02,+62 (0976) 524 2204,"Gg. Soekarno Hatta No. 225, Kediri, SN 78807",Ternate,Asuransi Swasta,Manulife
+P00412,Joko Aryani,L,1942-12-06,+62 (03) 109 0233,"Gang Moch. Toha No. 465, Probolinggo, Nusa Tenggara Timur 55277",Tanjungpinang,Umum,
+P00413,Puspa Anggriawan,L,1961-05-24,+62 (690) 185 2194,"Gang Tubagus Ismail No. 3, Tangerang, Bengkulu 90506",Yogyakarta,Asuransi Swasta,Sinarmas
+P00414,"Dina Mustofa, S.Ked",P,1986-02-09,+62-325-867-7516,"Gg. Rajawali Barat No. 486, Malang, JK 30117",Bukittinggi,BPJS,BPJS Kesehatan
+P00415,"Drs. Zalindra Rahimah, M.Farm",P,2010-11-18,+62 (10) 359-4775,"Gg. Suryakencana No. 26, Manado, Nusa Tenggara Timur 29606",Pematangsiantar,BPJS,BPJS Kesehatan
+P00416,Widya Sinaga,P,1944-10-24,+62 (051) 003 5118,"Jalan Setiabudhi No. 698, Banjar, LA 68184",Padang,Asuransi Swasta,Allianz
+P00417,Vanesa Tarihoran,L,1978-01-22,+62-0710-232-5698,"Gg. Cikapayang No. 7, Surakarta, Kalimantan Timur 07179",Bau-Bau,Umum,
+P00418,Ir. Ayu Budiman,P,1981-02-27,+62 (65) 253 7776,"Gg. Cikutra Timur No. 10, Palu, Jawa Timur 57544",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00419,"Nova Wacana, M.Ak",P,2000-09-17,(0742) 323 1412,"Jalan PHH. Mustofa No. 4, Tarakan, AC 70463",Bukittinggi,BPJS,BPJS Kesehatan
+P00420,Elisa Suryatmi,P,2000-04-13,(087) 194 6671,"Jalan HOS. Cokroaminoto No. 57, Tangerang Selatan, Nusa Tenggara Barat 06169",Tegal,BPJS,BPJS Kesehatan
+P00421,R. Kayla Mustofa,L,2019-04-02,+62-0742-305-9121,"Gg. Raya Setiabudhi No. 3, Makassar, KI 66914",Bima,Asuransi Swasta,Prudential
+P00422,"Fitria Widodo, S.Kom",P,1969-11-10,+62 (086) 922-0236,"Jalan Rajawali Timur No. 229, Tomohon, KS 61729",Kediri,BPJS,BPJS Kesehatan
+P00423,Raharja Prasasta,L,1991-03-11,+62 (983) 737-9137,"Jalan Pasteur No. 456, Surakarta, KT 41346",Mojokerto,BPJS,BPJS Kesehatan
+P00424,"Cut Kamila Zulkarnain, M.M.",L,2002-04-30,+62 (0024) 928 8424,"Gang Rajawali Timur No. 0, Kupang, Jawa Tengah 11782",Tegal,BPJS,BPJS Kesehatan
+P00425,"Cahya Hutagalung, S.T.",P,1990-01-04,+62 (15) 902-2558,"Jalan R.E Martadinata No. 54, Magelang, NB 00955",Sungai Penuh,BPJS,BPJS Kesehatan
+P00426,R. Lembah Prasetyo,L,1977-04-25,(005) 372 8755,"Gg. Monginsidi No. 89, Tomohon, KS 57950",Pekalongan,BPJS,BPJS Kesehatan
+P00427,Olga Wijaya,L,2015-01-31,+62 (0330) 581 8168,"Gg. Pasir Koja No. 9, Batam, KT 51746",Tanjungpinang,BPJS,BPJS Kesehatan
+P00428,"R. Rika Hutagalung, S.Farm",P,1947-12-22,+62-144-131-2799,"Jl. Abdul Muis No. 29, Tebingtinggi, Nusa Tenggara Barat 30429",Bau-Bau,BPJS,BPJS Kesehatan
+P00429,"drg. Almira Safitri, S.T.",P,1946-02-28,+62 (001) 212-3879,"Gg. Pacuan Kuda No. 7, Banjar, Sumatera Barat 84861",Pekalongan,Asuransi Swasta,Manulife
+P00430,Drajat Susanti,P,1948-05-02,+62-0038-280-2021,"Jalan Pacuan Kuda No. 66, Dumai, RI 20928",Banda Aceh,BPJS,BPJS Kesehatan
+P00431,Hamima Wibowo,L,1971-08-29,+62-0672-489-0069,"Jalan Astana Anyar No. 649, Kota Administrasi Jakarta Utara, KR 21642",Singkawang,Umum,
+P00432,"Adiarja Najmudin, S.Kom",P,2007-01-11,+62 (654) 724-9088,"Jl. Laswi No. 800, Samarinda, Jawa Tengah 45636",Tegal,BPJS,BPJS Kesehatan
+P00433,Dr. Gangsar Zulaika,L,1946-01-10,+62 (0569) 259 4921,"Jalan H.J Maemunah No. 742, Pematangsiantar, Nusa Tenggara Timur 66865",Mataram,BPJS,BPJS Kesehatan
+P00434,"Cut Febi Tampubolon, S.Sos",L,1969-12-06,+62 (35) 289 1230,"Jl. Kutisari Selatan No. 8, Banjarbaru, BE 91001",Depok,BPJS,BPJS Kesehatan
+P00435,Vino Sihombing,P,1944-11-20,+62 (072) 452 0161,"Jalan Kutisari Selatan No. 9, Probolinggo, Kalimantan Barat 67802",Kota Administrasi Jakarta Selatan,Umum,
+P00436,Raisa Manullang,L,1977-03-31,(037) 866 9771,"Gg. Jend. Sudirman No. 4, Bekasi, KS 13610",Langsa,Asuransi Swasta,AIA
+P00437,Zaenab Handayani,L,1944-12-14,+62-03-967-4382,"Jalan Soekarno Hatta No. 682, Solok, SG 16260",Ternate,BPJS,BPJS Kesehatan
+P00438,"Bagus Lazuardi, S.Ked",P,2011-11-08,(0919) 575 2109,"Jl. Ir. H. Djuanda No. 5, Lubuklinggau, MU 09841",Mojokerto,BPJS,BPJS Kesehatan
+P00439,Daniswara Pangestu,P,1984-08-24,+62 (011) 796-7291,"Jl. Pacuan Kuda No. 53, Banda Aceh, Jawa Tengah 26134",Kediri,Asuransi Swasta,Sinarmas
+P00440,drg. Kamidin Lazuardi,P,1958-08-18,+62 (50) 305 7338,"Gg. Yos Sudarso No. 28, Palopo, SB 34450",Pagaralam,BPJS,BPJS Kesehatan
+P00441,Tina Halimah,L,1993-08-27,+62 (032) 511-9557,"Jalan Raya Setiabudhi No. 265, Parepare, JB 81248",Payakumbuh,Umum,
+P00442,"Hj. Padma Usada, S.H.",P,1969-05-08,+62 (0672) 664 8409,"Jl. Pasir Koja No. 077, Probolinggo, Kalimantan Selatan 37730",Subulussalam,BPJS,BPJS Kesehatan
+P00443,"H. Harto Farida, S.Sos",L,2010-11-17,+62 (0630) 899 9709,"Jalan Otto Iskandardinata No. 66, Tanjungbalai, KB 78114",Singkawang,BPJS,BPJS Kesehatan
+P00444,Hesti Permata,P,2024-04-10,+62 (0572) 815 3006,"Jalan Cikutra Barat No. 899, Pekalongan, JT 16358",Palopo,BPJS,BPJS Kesehatan
+P00445,Victoria Widiastuti,L,1960-07-24,+62-0069-102-1298,"Jalan Medokan Ayu No. 489, Subulussalam, Gorontalo 05906",Depok,Umum,
+P00446,"R. Damar Saefullah, M.Farm",P,2019-12-15,+62-061-349-2218,"Gg. Ciwastra No. 9, Kotamobagu, BA 17360",Dumai,Asuransi Swasta,Allianz
+P00447,R.A. Eva Budiman,L,2016-08-10,0838660016,"Jalan Lembong No. 86, Tomohon, Sumatera Selatan 65172",Padang,Asuransi Swasta,Allianz
+P00448,Bahuwarna Prastuti,P,1994-07-08,+62 (095) 659 0940,"Gg. Rawamangun No. 8, Prabumulih, Jawa Tengah 78020",Prabumulih,Asuransi Swasta,AIA
+P00449,Dimaz Permadi,L,2004-06-28,+62 (0995) 420-7439,"Gg. Raya Ujungberung No. 38, Sibolga, PB 22449",Banjarmasin,BPJS,BPJS Kesehatan
+P00450,"Panca Rahayu, S.I.Kom",P,1974-11-03,0896817741,"Jalan Cihampelas No. 56, Kediri, BE 44372",Tebingtinggi,Asuransi Swasta,AXA Mandiri
+P00451,Gasti Lailasari,P,1947-11-08,+62-90-781-3907,"Jalan Abdul Muis No. 36, Denpasar, LA 34914",Purwokerto,Umum,
+P00452,Fathonah Melani,P,1988-10-03,+62 (309) 871-9922,"Gg. Moch. Ramdan No. 11, Mataram, Lampung 22250",Serang,BPJS,BPJS Kesehatan
+P00453,Salsabila Aryani,L,1969-05-23,(0801) 850-9600,"Gang Pasteur No. 98, Solok, JI 00336",Bekasi,BPJS,BPJS Kesehatan
+P00454,Citra Namaga,L,1983-07-07,+62 (412) 287 0737,"Jalan Rajawali Timur No. 58, Pangkalpinang, AC 70947",Tual,Umum,
+P00455,"Kawaya Nashiruddin, S.H.",P,2007-06-30,+62 (90) 908 4342,"Gg. Stasiun Wonokromo No. 553, Bandung, KB 92932",Sukabumi,BPJS,BPJS Kesehatan
+P00456,Nova Mangunsong,P,2008-04-04,+62 (086) 934 3964,"Jalan PHH. Mustofa No. 451, Jayapura, JT 18274",Bau-Bau,BPJS,BPJS Kesehatan
+P00457,Sutan Jamal Kuswandari,P,1946-05-05,0863005022,"Jl. Joyoboyo No. 52, Banda Aceh, KB 98814",Ternate,Umum,
+P00458,"Cut Salsabila Nugroho, S.IP",P,1977-03-10,+62 (0704) 822-9270,"Gang Kutai No. 6, Jayapura, ST 87118",Depok,Asuransi Swasta,Manulife
+P00459,Karsana Maryadi,P,1960-03-03,+62-060-367-3949,"Gang Waringin No. 29, Balikpapan, JT 50539",Solok,BPJS,BPJS Kesehatan
+P00460,Sutan Emin Farida,L,2003-02-16,+62-062-069-2332,"Jalan Ahmad Dahlan No. 9, Depok, Sumatera Utara 53084",Jambi,Asuransi Swasta,AXA Mandiri
+P00461,Cecep Winarno,L,1954-10-16,(0464) 089-0748,"Jl. Rajawali Barat No. 8, Banjarmasin, JK 37743",Surakarta,BPJS,BPJS Kesehatan
+P00462,Wawan Usada,P,1943-08-09,(0211) 030-8637,"Gang Monginsidi No. 776, Kotamobagu, GO 31403",Magelang,BPJS,BPJS Kesehatan
+P00463,Gangsa Permadi,P,1945-08-09,+62-652-377-1935,"Jl. PHH. Mustofa No. 9, Singkawang, SN 52037",Kota Administrasi Jakarta Timur,Asuransi Swasta,AXA Mandiri
+P00464,"Hamzah Wasita, M.Farm",P,2005-06-14,+62-517-207-6673,"Gg. Rungkut Industri No. 77, Bandung, Nusa Tenggara Barat 48120",Padang,Umum,
+P00465,"Hartana Prasetyo, M.TI.",P,1975-03-05,(064) 727-1852,"Jalan Surapati No. 7, Salatiga, PB 34268",Probolinggo,BPJS,BPJS Kesehatan
+P00466,Soleh Widodo,L,1991-05-11,+62-53-548-0811,"Gang Surapati No. 0, Bandung, Jawa Barat 62931",Bontang,BPJS,BPJS Kesehatan
+P00467,Ellis Riyanti,P,1970-06-10,0844523779,"Jalan Abdul Muis No. 02, Madiun, Sulawesi Selatan 02066",Padang,Asuransi Swasta,AIA
+P00468,Kusuma Pradipta,L,1996-11-21,+62-27-433-9034,"Jalan Asia Afrika No. 402, Tarakan, MU 13170",Bekasi,BPJS,BPJS Kesehatan
+P00469,Tgk. Kenzie Ardianto,L,1965-03-05,+62 (0372) 569-2725,"Gang Kutai No. 450, Cilegon, Nusa Tenggara Barat 24256",Madiun,Asuransi Swasta,Allianz
+P00470,"Puti Violet Hidayat, S.Ked",P,1992-09-04,(0309) 187 9013,"Jl. Kiaracondong No. 2, Langsa, Kalimantan Utara 77020",Singkawang,BPJS,BPJS Kesehatan
+P00471,drg. Cawisono Riyanti,P,1955-09-29,+62 (0146) 954-2096,"Jalan Moch. Toha No. 61, Bogor, Sumatera Barat 52772",Cilegon,Asuransi Swasta,AIA
+P00472,Ir. Aurora Thamrin,P,1946-11-08,+62 (0242) 271 7061,"Gang Wonoayu No. 04, Palangkaraya, Maluku 56817",Tidore Kepulauan,Asuransi Swasta,AIA
+P00473,"Kasim Prasetya, S.Kom",L,1954-11-10,+62-55-289-8476,"Gg. Tebet Barat Dalam No. 429, Sawahlunto, Sulawesi Barat 41492",Blitar,BPJS,BPJS Kesehatan
+P00474,Dt. Narji Purnawati,P,1969-02-20,(0549) 924 8171,"Gg. Sentot Alibasa No. 42, Bandar Lampung, KR 45756",Batu,BPJS,BPJS Kesehatan
+P00475,Aurora Widiastuti,L,1964-10-24,+62 (0191) 812 7014,"Gang Tubagus Ismail No. 76, Mataram, Sumatera Selatan 59279",Banjarmasin,BPJS,BPJS Kesehatan
+P00476,Edi Maryadi,P,1961-12-01,+62 (48) 825 2200,"Jl. Lembong No. 1, Sukabumi, Kepulauan Bangka Belitung 28360",Kotamobagu,Asuransi Swasta,Sinarmas
+P00477,Lamar Pradipta,P,1989-05-21,+62 (822) 074-0894,"Jalan M.T Haryono No. 661, Kota Administrasi Jakarta Selatan, Bengkulu 19552",Balikpapan,Umum,
+P00478,Citra Dabukke,L,1993-12-11,+62-82-411-8184,"Jl. Rajawali Barat No. 2, Kota Administrasi Jakarta Timur, PB 39896",Meulaboh,Umum,
+P00479,"Puti Farhunnisa Uwais, S.IP",P,1981-12-11,0847231058,"Gg. Sukabumi No. 29, Kediri, BA 08108",Pariaman,Asuransi Swasta,Manulife
+P00480,Wahyu Nuraini,L,1945-04-09,(0195) 274 9770,"Jalan Stasiun Wonokromo No. 50, Kupang, ST 53587",Parepare,Umum,
+P00481,Maryadi Prakasa,L,1988-07-15,+62 (006) 626-9124,"Jl. Veteran No. 493, Tasikmalaya, JK 32732",Pariaman,Asuransi Swasta,Prudential
+P00482,Dipa Nasyiah,P,1953-03-11,+62 (0557) 241-0165,"Gg. Joyoboyo No. 7, Surabaya, BA 64215",Pekalongan,BPJS,BPJS Kesehatan
+P00483,"Danang Puspita, S.Gz",P,1961-01-05,(0487) 725-0339,"Gang Pasteur No. 049, Banjar, Maluku Utara 94209",Magelang,Asuransi Swasta,AIA
+P00484,"Ajimin Aryani, M.Pd",L,1948-05-21,+62 (0283) 582-1981,"Gg. Gardujati No. 59, Mataram, Kalimantan Timur 17692",Surakarta,BPJS,BPJS Kesehatan
+P00485,Lalita Rajata,P,1997-03-07,+62-927-367-4490,"Jl. Rajiman No. 3, Parepare, BT 86608",Bontang,Umum,
+P00486,Anastasia Megantara,L,1960-04-26,(0670) 559 7573,"Gang Cikapayang No. 567, Kota Administrasi Jakarta Selatan, SS 75954",Cilegon,Asuransi Swasta,Sinarmas
+P00487,Garan Tarihoran,P,1956-11-08,+62 (40) 724-4310,"Gang Ir. H. Djuanda No. 0, Denpasar, KU 26844",Sorong,Umum,
+P00488,Lasmono Setiawan,P,1991-08-07,+62 (44) 712 1786,"Gang Tubagus Ismail No. 80, Semarang, SN 26869",Banjarbaru,BPJS,BPJS Kesehatan
+P00489,"Drs. Tania Pradana, S.E.",P,1992-09-16,+62 (69) 500 9181,"Jalan Sadang Serang No. 5, Sawahlunto, AC 47124",Meulaboh,Asuransi Swasta,Manulife
+P00490,"Hj. Kezia Sirait, S.E.I",L,1992-08-13,+62 (099) 341-0244,"Jalan Gedebage Selatan No. 06, Banjarbaru, SU 58882",Sawahlunto,BPJS,BPJS Kesehatan
+P00491,Dewi Prastuti,P,1963-05-04,+62-0505-762-1514,"Gang Jayawijaya No. 85, Samarinda, SN 87565",Kota Administrasi Jakarta Utara,BPJS,BPJS Kesehatan
+P00492,Bakianto Andriani,L,2009-09-11,(001) 757-8662,"Gang Kapten Muslihat No. 23, Singkawang, Kalimantan Barat 71268",Bitung,BPJS,BPJS Kesehatan
+P00493,Martaka Budiyanto,P,2023-04-18,(0049) 610 3900,"Jl. Raya Ujungberung No. 2, Tual, Sulawesi Tengah 27402",Tangerang Selatan,BPJS,BPJS Kesehatan
+P00494,"Faizah Rahimah, M.Pd",P,1958-03-16,+62 (54) 540 4925,"Jalan Ciwastra No. 31, Tangerang, Maluku 08978",Pangkalpinang,BPJS,BPJS Kesehatan
+P00495,Dt. Adikara Kusumo,L,1960-09-03,+62 (094) 617 5011,"Gang Cikutra Timur No. 52, Padang, Kepulauan Bangka Belitung 44125",Probolinggo,Umum,
+P00496,Dipa Aryani,P,1988-10-22,+62 (454) 927-7303,"Jl. Erlangga No. 2, Parepare, Kalimantan Barat 32586",Bandung,Umum,
+P00497,Drs. Lidya Lestari,P,1989-03-23,(091) 698-5201,"Gang Sukabumi No. 6, Pekalongan, Riau 76543",Sabang,Asuransi Swasta,Sinarmas
+P00498,Maras Melani,L,1993-06-22,+62 (077) 546 8351,"Gg. Ciumbuleuit No. 78, Bima, Kalimantan Utara 57586",Bandung,BPJS,BPJS Kesehatan
+P00499,Ciaobella Kusumo,P,1950-01-31,+62 (82) 397 4055,"Gang Siliwangi No. 468, Subulussalam, NT 17340",Metro,BPJS,BPJS Kesehatan
+P00500,Aswani Sitorus,P,1958-02-25,(096) 837-9170,"Jl. Setiabudhi No. 0, Palu, JT 97552",Bogor,Asuransi Swasta,Manulife
+P00501,Rini Budiyanto,P,1976-12-26,(0941) 576-4716,"Jalan H.J Maemunah No. 25, Palopo, LA 42658",Tegal,Umum,
+P00502,Eka Prayoga,L,1959-01-17,(094) 407 8287,"Gang Ronggowarsito No. 6, Tanjungbalai, SU 69714",Meulaboh,Asuransi Swasta,Prudential
+P00503,Leo Widodo,P,2014-08-06,+62-28-923-9152,"Jalan Rajawali Timur No. 2, Palangkaraya, LA 78581",Binjai,Umum,
+P00504,R. Legawa Adriansyah,L,1962-10-26,+62-087-944-8367,"Gg. Kutai No. 44, Bau-Bau, SR 96341",Langsa,BPJS,BPJS Kesehatan
+P00505,Maimunah Utami,L,2015-02-06,+62 (098) 891-4918,"Gang Gedebage Selatan No. 951, Bekasi, Bali 37022",Pontianak,Umum,
+P00506,Amelia Wastuti,L,1952-02-07,+62 (078) 360 0248,"Gg. Gedebage Selatan No. 4, Salatiga, NT 24477",Mojokerto,BPJS,BPJS Kesehatan
+P00507,Ika Mandala,P,1990-06-23,086 206 7139,"Gang HOS. Cokroaminoto No. 34, Kota Administrasi Jakarta Selatan, Sulawesi Selatan 09644",Yogyakarta,Umum,
+P00508,"Lalita Wasita, S.E.I",P,1948-10-29,(036) 028-0127,"Gang Joyoboyo No. 3, Mojokerto, Jambi 87688",Jambi,Umum,
+P00509,Baktiono Pradipta,P,1949-01-18,(098) 867 6505,"Gg. R.E Martadinata No. 065, Serang, KR 07203",Pasuruan,Umum,
+P00510,Kezia Puspasari,P,2011-08-04,+62 (093) 116-2340,"Jl. HOS. Cokroaminoto No. 669, Tual, Sulawesi Utara 99966",Probolinggo,Umum,
+P00511,Laila Andriani,P,1946-11-23,+62 (126) 396 8480,"Jalan Erlangga No. 726, Palembang, Maluku 90887",Bau-Bau,Asuransi Swasta,AXA Mandiri
+P00512,Vicky Firgantoro,L,1992-04-05,+62-094-782-2821,"Jalan Gardujati No. 282, Bandung, SR 01485",Cilegon,BPJS,BPJS Kesehatan
+P00513,Gara Putra,L,2018-06-20,+62-0783-007-8639,"Jl. Merdeka No. 436, Pekalongan, KU 39595",Bogor,Umum,
+P00514,Lamar Irawan,P,1967-06-11,+62 (88) 551-4719,"Jalan Cikapayang No. 5, Kediri, Bali 94483",Blitar,BPJS,BPJS Kesehatan
+P00515,Anita Wijayanti,L,1993-02-14,+62 (010) 042 0369,"Gang Jend. Sudirman No. 7, Blitar, Sumatera Selatan 62806",Tomohon,Umum,
+P00516,"Dr. Widya Hutagalung, S.IP",P,1954-09-11,+62-378-876-1668,"Gang Gedebage Selatan No. 870, Binjai, Sumatera Selatan 30270",Surakarta,Umum,
+P00517,Kunthara Gunarto,P,1961-05-02,(0899) 326 7652,"Gang Cikutra Barat No. 671, Sungai Penuh, JK 85782",Pekalongan,BPJS,BPJS Kesehatan
+P00518,Laksana Utami,P,1967-06-04,(0294) 072 4112,"Gg. M.H Thamrin No. 1, Kendari, SU 27384",Pekalongan,Asuransi Swasta,Allianz
+P00519,"Laras Prasetyo, M.TI.",L,1974-11-07,(0795) 116 5649,"Jalan Tubagus Ismail No. 1, Bengkulu, KU 09689",Sorong,Asuransi Swasta,Manulife
+P00520,Gandi Lestari,L,1973-03-11,+62 (0087) 655-9527,"Jalan Sadang Serang No. 912, Cimahi, Gorontalo 73553",Subulussalam,BPJS,BPJS Kesehatan
+P00521,"H. Cecep Rahimah, M.Farm",P,2006-12-13,+62 (0220) 442 5190,"Jl. Otto Iskandardinata No. 550, Cimahi, BB 05315",Madiun,BPJS,BPJS Kesehatan
+P00522,Tgk. Cawisadi Anggraini,P,2000-02-04,+62 (561) 108-9941,"Gg. Cikutra Barat No. 8, Tegal, Sumatera Barat 64535",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00523,Gatot Widodo,L,2020-02-09,+62-517-529-9081,"Jalan Rawamangun No. 9, Pematangsiantar, JI 84969",Bau-Bau,BPJS,BPJS Kesehatan
+P00524,"Hj. Carla Permadi, S.H.",P,1986-12-25,+62 (036) 373-8318,"Gang Raya Setiabudhi No. 75, Tanjungpinang, Riau 67336",Manado,Asuransi Swasta,AXA Mandiri
+P00525,"H. Heryanto Waskita, S.Farm",P,2020-03-16,+62 (09) 818-0429,"Jl. K.H. Wahid Hasyim No. 7, Sorong, KT 50267",Sukabumi,Umum,
+P00526,Kasiyah Widodo,L,1976-05-07,+62 (0528) 442-4454,"Gang Kendalsari No. 65, Tanjungbalai, MU 38854",Lhokseumawe,Umum,
+P00527,Wira Mandasari,P,1963-05-11,(079) 696 4605,"Gang Cihampelas No. 684, Batam, Kalimantan Timur 93450",Pasuruan,Umum,
+P00528,Talia Jailani,L,1944-08-11,(012) 388 1546,"Gang Sukajadi No. 175, Tangerang, Jambi 25467",Pagaralam,BPJS,BPJS Kesehatan
+P00529,Ika Sirait,P,1949-08-21,+62 (001) 698-2853,"Gang Rajiman No. 614, Makassar, Bengkulu 67213",Bontang,BPJS,BPJS Kesehatan
+P00530,"Saiful Hastuti, M.Pd",L,1976-04-03,+62 (33) 386 4855,"Gg. KH Amin Jasuta No. 68, Banda Aceh, PA 95539",Balikpapan,Umum,
+P00531,Galih Manullang,L,2000-03-06,+62 (095) 635 9107,"Jalan Kapten Muslihat No. 963, Medan, KI 91633",Payakumbuh,BPJS,BPJS Kesehatan
+P00532,"Ajeng Marpaung, M.Pd",P,2019-03-27,(0951) 100 6823,"Gang Ir. H. Djuanda No. 433, Subulussalam, SS 65349",Blitar,BPJS,BPJS Kesehatan
+P00533,"Drs. Danuja Habibi, S.E.I",P,2017-02-05,+62-84-594-3708,"Gang Jakarta No. 85, Salatiga, Kalimantan Timur 64611",Batam,BPJS,BPJS Kesehatan
+P00534,"Jatmiko Kusumo, S.Psi",P,2022-02-19,+62-790-378-8650,"Jl. Laswi No. 832, Tasikmalaya, MU 07801",Pagaralam,BPJS,BPJS Kesehatan
+P00535,R. Elon Sihotang,L,1973-03-16,+62-265-567-8635,"Gg. Peta No. 8, Tidore Kepulauan, Lampung 62446",Bandar Lampung,Asuransi Swasta,Allianz
+P00536,"Queen Hutagalung, S.T.",L,2014-09-09,(040) 310 0199,"Jalan Medokan Ayu No. 692, Madiun, Kalimantan Selatan 73120",Samarinda,Asuransi Swasta,Sinarmas
+P00537,Diah Januar,L,1978-01-08,082 125 0335,"Gg. Indragiri No. 85, Sabang, Sulawesi Tengah 09093",Prabumulih,BPJS,BPJS Kesehatan
+P00538,"Drs. Dipa Napitupulu, S.Psi",L,1982-08-30,+62-34-180-9955,"Jalan Yos Sudarso No. 154, Kota Administrasi Jakarta Utara, Gorontalo 70701",Pasuruan,BPJS,BPJS Kesehatan
+P00539,R. Kamidin Pratama,P,2001-11-21,+62 (99) 408 8953,"Gang Pasteur No. 0, Mataram, JA 22844",Singkawang,Umum,
+P00540,Oni Saputra,L,1979-12-19,+62 (736) 372 1184,"Gg. Tubagus Ismail No. 5, Banjarbaru, Sumatera Selatan 73661",Pematangsiantar,BPJS,BPJS Kesehatan
+P00541,Yunita Prabowo,L,1949-05-03,+62 (73) 436 9594,"Jalan Setiabudhi No. 192, Blitar, SS 85456",Sibolga,Umum,
+P00542,Keisha Wulandari,L,2024-01-03,+62-0015-505-1392,"Jl. Jamika No. 196, Batu, JB 51462",Tarakan,Umum,
+P00543,Cut Nilam Yolanda,P,1975-09-01,+62-085-912-7733,"Gang Jend. Sudirman No. 9, Ambon, Jawa Tengah 35679",Banda Aceh,BPJS,BPJS Kesehatan
+P00544,"Tgk. Uchita Saputra, S.Pt",P,1974-06-18,+62 (0364) 468-7372,"Gg. Kutisari Selatan No. 630, Ambon, SU 82939",Bontang,BPJS,BPJS Kesehatan
+P00545,R. Lasmanto Hasanah,P,1943-03-10,(036) 061 3397,"Gg. Rungkut Industri No. 7, Serang, Jambi 51289",Kota Administrasi Jakarta Timur,Asuransi Swasta,Prudential
+P00546,Abyasa Uwais,P,2015-09-06,+62 (0594) 709-3349,"Gang Cempaka No. 5, Kota Administrasi Jakarta Barat, KT 95821",Banjarmasin,BPJS,BPJS Kesehatan
+P00547,Nova Oktaviani,L,1968-05-26,+62 (711) 618 4679,"Jalan Dr. Djunjunan No. 577, Dumai, ST 89987",Prabumulih,Asuransi Swasta,Allianz
+P00548,Omar Lazuardi,P,1974-09-16,(056) 365 7655,"Jl. Surapati No. 60, Probolinggo, JB 95118",Tegal,BPJS,BPJS Kesehatan
+P00549,"R. Julia Usamah, S.E.I",P,2023-12-14,086 584 2421,"Gg. Rumah Sakit No. 36, Bogor, Nusa Tenggara Barat 77408",Pangkalpinang,BPJS,BPJS Kesehatan
+P00550,Bahuraksa Budiyanto,L,1964-09-26,(0143) 652 0165,"Jalan Joyoboyo No. 489, Semarang, Gorontalo 25369",Surabaya,Asuransi Swasta,AXA Mandiri
+P00551,"Dr. Elisa Damanik, M.M.",L,1960-11-08,(049) 547-4669,"Gang Pasir Koja No. 65, Pasuruan, Sulawesi Tenggara 86652",Denpasar,BPJS,BPJS Kesehatan
+P00552,R.A. Winda Latupono,L,1978-03-29,+62 (0069) 742 6151,"Gg. Jamika No. 72, Pasuruan, Sulawesi Utara 62333",Prabumulih,BPJS,BPJS Kesehatan
+P00553,"Qori Suryono, S.Psi",P,1960-12-30,+62-67-852-5203,"Jl. Sentot Alibasa No. 2, Padang Sidempuan, Sulawesi Barat 19002",Surakarta,BPJS,BPJS Kesehatan
+P00554,Ika Sitorus,L,2015-03-31,087 687 7821,"Jl. Rajiman No. 00, Cilegon, Sulawesi Barat 31798",Padangpanjang,Umum,
+P00555,Kartika Zulaika,L,1942-09-22,+62 (681) 147 5580,"Gang Kapten Muslihat No. 2, Lhokseumawe, Papua 39541",Makassar,BPJS,BPJS Kesehatan
+P00556,Halima Sihombing,P,1957-01-18,+62-0095-127-5429,"Jl. Soekarno Hatta No. 32, Depok, KU 85564",Tomohon,BPJS,BPJS Kesehatan
+P00557,Luthfi Winarno,P,2017-07-06,+62 (010) 292 9610,"Jl. Indragiri No. 001, Pekanbaru, JT 18124",Malang,BPJS,BPJS Kesehatan
+P00558,Lasmanto Lailasari,P,1962-02-26,(047) 059 1625,"Jl. Soekarno Hatta No. 70, Probolinggo, Kepulauan Riau 87941",Cimahi,BPJS,BPJS Kesehatan
+P00559,"Maya Purwanti, M.Pd",P,2013-10-12,+62 (063) 271-6732,"Jalan Kebonjati No. 19, Manado, SS 63758",Bogor,BPJS,BPJS Kesehatan
+P00560,"Eja Anggriawan, S.E.I",P,2007-10-11,+62 (0802) 380-5403,"Gang Cikutra Barat No. 52, Depok, LA 92483",Kupang,Umum,
+P00561,"Balidin Oktaviani, S.Sos",L,1997-05-10,+62-003-593-7627,"Gg. Dr. Djunjunan No. 978, Tual, BB 12934",Prabumulih,Asuransi Swasta,Sinarmas
+P00562,Artawan Megantara,L,1967-09-22,(0537) 721-9092,"Jl. Cikutra Barat No. 4, Mataram, MU 98009",Bekasi,Umum,
+P00563,"Dasa Wulandari, S.Kom",L,1954-02-20,(000) 177 0587,"Jalan Gardujati No. 950, Kota Administrasi Jakarta Selatan, BB 37690",Pekalongan,Umum,
+P00564,Lala Novitasari,L,2007-04-05,(0560) 159 2738,"Gang Sadang Serang No. 6, Denpasar, JA 25545",Yogyakarta,BPJS,BPJS Kesehatan
+P00565,Bagiya Nasyidah,L,2008-12-30,+62-0710-373-3059,"Jl. Kendalsari No. 6, Subulussalam, RI 18701",Gorontalo,BPJS,BPJS Kesehatan
+P00566,Danu Melani,L,2016-08-12,083 801 1580,"Gg. Antapani Lama No. 70, Prabumulih, SR 25269",Prabumulih,BPJS,BPJS Kesehatan
+P00567,Balamantri Purwanti,P,1962-10-11,(088) 613 8052,"Jalan Rawamangun No. 82, Subulussalam, Banten 45865",Kota Administrasi Jakarta Selatan,BPJS,BPJS Kesehatan
+P00568,Johan Kuswoyo,L,1989-03-02,+62 (485) 848-7564,"Gang Kapten Muslihat No. 6, Tanjungpinang, BT 34818",Jambi,BPJS,BPJS Kesehatan
+P00569,Dono Palastri,L,2012-11-20,(066) 795 5466,"Jl. Kiaracondong No. 898, Kupang, KU 65932",Meulaboh,BPJS,BPJS Kesehatan
+P00570,"Cahyanto Maryati, M.Ak",L,2021-06-01,+62-015-834-0566,"Jl. Raya Setiabudhi No. 5, Binjai, SU 70545",Bogor,BPJS,BPJS Kesehatan
+P00571,"Yunita Megantara, S.Sos",L,2017-11-13,(0693) 076 2622,"Gg. Surapati No. 29, Salatiga, LA 24976",Pangkalpinang,BPJS,BPJS Kesehatan
+P00572,Dono Hutagalung,P,1956-11-25,081 548 8519,"Gg. Jayawijaya No. 3, Kota Administrasi Jakarta Pusat, LA 40053",Kota Administrasi Jakarta Timur,Umum,
+P00573,"H. Edi Haryanto, S.Pt",P,2018-08-30,+62-501-001-3743,"Jl. Antapani Lama No. 765, Surakarta, RI 60391",Mojokerto,Asuransi Swasta,Manulife
+P00574,Jefri Wijayanti,L,1970-11-05,+62-0759-947-3774,"Gang Ciumbuleuit No. 25, Payakumbuh, ST 74918",Padang Sidempuan,BPJS,BPJS Kesehatan
+P00575,"Dian Wasita, M.Ak",L,2019-10-11,+62-0398-360-7527,"Jalan Asia Afrika No. 651, Surabaya, Maluku 53928",Kendari,BPJS,BPJS Kesehatan
+P00576,Dr. Pandu Widodo,P,1945-05-31,+62 (500) 612-9723,"Jl. Pacuan Kuda No. 5, Batu, KI 30043",Solok,BPJS,BPJS Kesehatan
+P00577,Jail Hardiansyah,P,2007-05-07,0866904443,"Gg. Joyoboyo No. 062, Kota Administrasi Jakarta Selatan, Kalimantan Selatan 48861",Bandar Lampung,Umum,
+P00578,T. Nalar Prabowo,L,1976-05-03,+62-029-910-2125,"Gg. H.J Maemunah No. 11, Denpasar, Jawa Timur 19128",Kota Administrasi Jakarta Selatan,Umum,
+P00579,Jinawi Rahmawati,L,2004-01-13,+62 (079) 838-5234,"Gg. Kiaracondong No. 064, Tual, Riau 24245",Sawahlunto,BPJS,BPJS Kesehatan
+P00580,Drs. Halim Pranowo,P,2016-08-23,0827115469,"Gang Sentot Alibasa No. 435, Mojokerto, Kalimantan Timur 82279",Bogor,BPJS,BPJS Kesehatan
+P00581,"Tgk. Luluh Wibowo, S.IP",P,1963-08-31,(099) 840-7882,"Gang Jayawijaya No. 148, Bandung, JI 11303",Payakumbuh,BPJS,BPJS Kesehatan
+P00582,Dr. Cecep Pradana,P,1945-03-05,+62-0288-156-6807,"Jl. Cikutra Timur No. 696, Palopo, JI 48007",Kupang,BPJS,BPJS Kesehatan
+P00583,Marwata Winarno,L,1972-11-23,(010) 172-7513,"Jl. Asia Afrika No. 877, Sawahlunto, KR 26033",Langsa,BPJS,BPJS Kesehatan
+P00584,Nurul Prasetyo,L,1943-04-20,+62 (0828) 848-0205,"Jl. Dipenogoro No. 43, Pematangsiantar, KI 58615",Bukittinggi,BPJS,BPJS Kesehatan
+P00585,Gasti Saragih,P,1966-05-20,+62 (032) 018-4729,"Jl. Gardujati No. 37, Sawahlunto, Sumatera Barat 23673",Makassar,BPJS,BPJS Kesehatan
+P00586,Gina Widodo,L,1996-01-19,087 999 9007,"Jl. Waringin No. 69, Banjarmasin, BA 92437",Parepare,BPJS,BPJS Kesehatan
+P00587,Jamalia Manullang,P,1951-04-01,+62-166-493-9457,"Gang Rajiman No. 592, Jayapura, GO 24102",Blitar,BPJS,BPJS Kesehatan
+P00588,Laras Mardhiyah,P,1994-12-08,(015) 425-9973,"Gang Raya Setiabudhi No. 6, Pangkalpinang, Jambi 63855",Solok,Umum,
+P00589,Eva Ardianto,P,1946-02-07,(078) 144-6291,"Gang Kebonjati No. 39, Sukabumi, RI 25027",Batam,BPJS,BPJS Kesehatan
+P00590,"Citra Simbolon, M.Ak",L,1960-02-01,(059) 797-7871,"Gg. Indragiri No. 0, Tangerang Selatan, Maluku Utara 23809",Kediri,BPJS,BPJS Kesehatan
+P00591,Kasim Sihombing,L,1966-12-15,+62-0708-621-0775,"Jalan Gardujati No. 8, Kota Administrasi Jakarta Timur, Kalimantan Selatan 18398",Tangerang Selatan,BPJS,BPJS Kesehatan
+P00592,Gadang Mayasari,L,2023-08-10,+62 (54) 750-5349,"Jalan Ronggowarsito No. 1, Ternate, Jawa Tengah 55715",Kotamobagu,BPJS,BPJS Kesehatan
+P00593,Kawaca Sitorus,P,1972-08-03,+62-463-544-5462,"Jl. K.H. Wahid Hasyim No. 579, Kota Administrasi Jakarta Selatan, Jawa Barat 30748",Banjarmasin,Asuransi Swasta,AXA Mandiri
+P00594,Rosman Damanik,L,1968-07-28,+62 (725) 166-3618,"Jalan Raya Setiabudhi No. 59, Lubuklinggau, JI 07748",Tegal,BPJS,BPJS Kesehatan
+P00595,Dt. Argono Nainggolan,P,1982-02-18,+62-095-599-6961,"Jalan Rumah Sakit No. 51, Binjai, NB 34175",Madiun,BPJS,BPJS Kesehatan
+P00596,"R.M. Mujur Jailani, M.TI.",L,1990-02-27,+62-29-113-4708,"Gang Pasirkoja No. 81, Tangerang, Sulawesi Barat 05192",Batu,BPJS,BPJS Kesehatan
+P00597,Parman Firmansyah,P,1978-05-31,+62 (018) 526 5900,"Gang S. Parman No. 98, Pariaman, JA 52087",Meulaboh,BPJS,BPJS Kesehatan
+P00598,Leo Namaga,L,1976-01-17,(0140) 696 5536,"Jalan Rajiman No. 2, Banjarbaru, Sulawesi Barat 16282",Tangerang,BPJS,BPJS Kesehatan
+P00599,Baktiono Suryatmi,P,1967-04-24,0800108409,"Jalan Antapani Lama No. 385, Tidore Kepulauan, MU 28123",Bandar Lampung,BPJS,BPJS Kesehatan
+P00600,"Hj. Padmi Wahyudin, S.Gz",L,1993-03-21,+62-973-936-8134,"Jl. Ahmad Yani No. 472, Ternate, SB 22722",Binjai,Umum,
+P00601,Daliman Sitorus,L,1993-01-29,(0327) 646 2495,"Jl. Dr. Djunjunan No. 11, Padangpanjang, KU 00316",Kupang,BPJS,BPJS Kesehatan
+P00602,"Wani Yuniar, S.Farm",L,1952-05-29,+62 (0864) 097-5206,"Jl. Raya Ujungberung No. 6, Cirebon, Jambi 64694",Pekalongan,BPJS,BPJS Kesehatan
+P00603,"Samsul Ramadan, M.Ak",P,1978-06-12,+62 (0734) 149 4561,"Jl. Antapani Lama No. 3, Padang, Kepulauan Riau 85821",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00604,Gamani Marbun,P,2023-09-25,+62 (013) 553-2081,"Gang Cempaka No. 349, Sukabumi, SG 53296",Pariaman,Umum,
+P00605,R. Betania Najmudin,P,1996-01-14,+62 (0913) 221 5306,"Jalan Abdul Muis No. 279, Banjarbaru, SN 46213",Banda Aceh,BPJS,BPJS Kesehatan
+P00606,T. Ridwan Namaga,L,2007-02-22,0815653060,"Gang Lembong No. 788, Kota Administrasi Jakarta Barat, Kalimantan Selatan 21831",Padang Sidempuan,Umum,
+P00607,Puti Hassanah,L,1983-09-07,+62-020-684-9083,"Gang Soekarno Hatta No. 211, Jambi, Kalimantan Timur 94947",Palembang,BPJS,BPJS Kesehatan
+P00608,Dr. Mujur Saefullah,L,2014-12-18,+62-086-223-5386,"Jalan Merdeka No. 887, Makassar, LA 63466",Malang,Asuransi Swasta,Prudential
+P00609,"Jono Usamah, S.Sos",P,1970-08-14,+62 (921) 884-9426,"Gg. Ahmad Yani No. 5, Serang, NB 20663",Sawahlunto,Asuransi Swasta,AIA
+P00610,Akarsana Wahyudin,L,1970-01-04,080 899 8784,"Gang Moch. Ramdan No. 7, Binjai, Riau 15983",Payakumbuh,Asuransi Swasta,Sinarmas
+P00611,Jelita Rahimah,P,1946-05-22,+62-084-676-3080,"Gang K.H. Wahid Hasyim No. 8, Denpasar, Maluku 66933",Binjai,BPJS,BPJS Kesehatan
+P00612,Murti Agustina,P,1956-06-23,+62-014-115-7117,"Jl. Raya Ujungberung No. 4, Depok, KR 97580",Kota Administrasi Jakarta Utara,Umum,
+P00613,Raina Prasasta,L,2024-08-29,(008) 924 3789,"Jl. Gegerkalong Hilir No. 13, Kotamobagu, Gorontalo 69278",Manado,Umum,
+P00614,"Drs. Kayun Mandala, M.TI.",P,1975-02-16,+62 (98) 254-6831,"Gg. HOS. Cokroaminoto No. 49, Sorong, SS 72828",Cimahi,Umum,
+P00615,Drs. Luhung Firgantoro,P,1947-09-05,+62 (0025) 409-9421,"Jalan M.T Haryono No. 4, Mojokerto, KU 15564",Metro,BPJS,BPJS Kesehatan
+P00616,Anita Damanik,L,1986-07-12,(0045) 216 6675,"Gang Tebet Barat Dalam No. 189, Tasikmalaya, KS 31713",Bengkulu,BPJS,BPJS Kesehatan
+P00617,Prima Tampubolon,L,2012-01-07,+62 (078) 093 3751,"Gang Dr. Djunjunan No. 49, Tanjungpinang, Jawa Timur 74955",Sorong,BPJS,BPJS Kesehatan
+P00618,Dalima Iswahyudi,L,1981-11-09,+62 (458) 242 5838,"Gang Kiaracondong No. 949, Tanjungpinang, JB 49596",Serang,BPJS,BPJS Kesehatan
+P00619,"T. Kadir Yuniar, S.Pt",L,1983-07-07,(074) 452-8994,"Gg. Soekarno Hatta No. 5, Bitung, Sumatera Barat 29377",Cilegon,BPJS,BPJS Kesehatan
+P00620,Edi Pratiwi,P,1968-03-29,+62 (88) 314-4167,"Jl. Moch. Toha No. 9, Solok, Sumatera Utara 36620",Jayapura,BPJS,BPJS Kesehatan
+P00621,Harsanto Pratiwi,L,1975-09-07,+62 (33) 723 8022,"Jalan Jakarta No. 388, Jayapura, Sumatera Utara 32870",Serang,BPJS,BPJS Kesehatan
+P00622,Eja Gunarto,L,2000-04-26,(0687) 983 7793,"Gang Rajawali Barat No. 6, Tomohon, Kalimantan Selatan 50748",Bima,Asuransi Swasta,AIA
+P00623,"Ganda Pradana, S.Gz",P,1962-05-16,+62-610-723-2952,"Gang Soekarno Hatta No. 92, Cilegon, PA 38117",Tanjungpinang,BPJS,BPJS Kesehatan
+P00624,Rini Napitupulu,L,1994-03-09,+62-04-995-7138,"Jl. R.E Martadinata No. 43, Bandung, Kalimantan Timur 55961",Mojokerto,BPJS,BPJS Kesehatan
+P00625,Najwa Januar,L,1985-10-28,+62 (69) 115-2258,"Gang Rawamangun No. 540, Sabang, SG 74264",Cimahi,BPJS,BPJS Kesehatan
+P00626,"Drs. Rahayu Yolanda, S.Farm",L,1952-05-01,+62 (95) 267 6728,"Jl. Dipenogoro No. 878, Makassar, NT 15729",Kotamobagu,BPJS,BPJS Kesehatan
+P00627,Abyasa Wahyudin,L,1996-02-22,+62-041-144-4045,"Jl. Lembong No. 60, Ternate, RI 51856",Bandar Lampung,Umum,
+P00628,Raharja Nainggolan,L,1956-12-17,(0539) 359 6407,"Gang Ciumbuleuit No. 14, Tegal, RI 22720",Blitar,Umum,
+P00629,Vivi Mulyani,P,1956-07-22,+62 (0057) 686-2603,"Jalan Rumah Sakit No. 97, Meulaboh, NB 24927",Palangkaraya,Asuransi Swasta,AXA Mandiri
+P00630,"R.M. Jaya Hasanah, M.M.",P,2002-10-04,+62 (0028) 978 8403,"Gg. Kutai No. 0, Magelang, Papua Barat 18146",Sukabumi,Umum,
+P00631,"Danang Pangestu, M.Farm",P,1942-04-08,+62 (637) 365-0678,"Jl. Jamika No. 0, Bima, KS 91878",Kediri,BPJS,BPJS Kesehatan
+P00632,Salman Nurdiyanti,L,1982-03-12,+62 (037) 025-5347,"Gg. Cikapayang No. 6, Balikpapan, KS 03769",Tangerang,BPJS,BPJS Kesehatan
+P00633,Karen Budiman,L,2006-07-10,(019) 647-9014,"Gang Medokan Ayu No. 1, Banjarbaru, Sulawesi Utara 95254",Binjai,BPJS,BPJS Kesehatan
+P00634,"Dt. Hardana Mayasari, S.Ked",L,1970-01-28,+62 (0014) 081 6470,"Gg. Jakarta No. 2, Bima, Sumatera Utara 17986",Bukittinggi,BPJS,BPJS Kesehatan
+P00635,Cakrajiya Sitorus,L,1951-12-11,087 334 7382,"Jl. KH Amin Jasuta No. 296, Malang, SU 68229",Cirebon,Asuransi Swasta,AXA Mandiri
+P00636,Koko Dabukke,P,1978-04-18,+62 (51) 970-4327,"Gg. Pacuan Kuda No. 735, Padangpanjang, KS 15805",Pagaralam,BPJS,BPJS Kesehatan
+P00637,Rahmi Kurniawan,L,1982-09-07,(060) 258 4171,"Gg. Jayawijaya No. 287, Bandung, PB 22619",Kediri,BPJS,BPJS Kesehatan
+P00638,Yunita Marbun,P,1995-10-15,+62 (070) 872 7827,"Gang Laswi No. 56, Pagaralam, Maluku Utara 48157",Banjarbaru,BPJS,BPJS Kesehatan
+P00639,Ika Prastuti,L,1964-11-29,0817494024,"Gang Kendalsari No. 3, Subulussalam, NT 76983",Tarakan,Asuransi Swasta,Sinarmas
+P00640,"T. Yoga Suartini, S.Sos",P,1945-07-16,+62 (073) 619-7447,"Gg. Cikutra Timur No. 807, Kota Administrasi Jakarta Barat, DKI Jakarta 88791",Pariaman,BPJS,BPJS Kesehatan
+P00641,Tira Hariyah,P,2016-11-10,0829053843,"Jalan Ronggowarsito No. 0, Pekanbaru, Sulawesi Barat 36003",Kota Administrasi Jakarta Timur,Asuransi Swasta,Allianz
+P00642,Nova Siregar,P,1949-05-04,(0688) 670-2087,"Gg. W.R. Supratman No. 0, Mojokerto, DI Yogyakarta 12721",Gorontalo,Umum,
+P00643,Kani Hutagalung,L,1988-06-17,+62-0150-472-6628,"Jalan Pasteur No. 651, Parepare, GO 06904",Pontianak,Asuransi Swasta,Sinarmas
+P00644,R. Irwan Samosir,P,1973-10-10,(050) 560 7752,"Jalan Sukabumi No. 1, Gorontalo, SS 35895",Tidore Kepulauan,Asuransi Swasta,Prudential
+P00645,Puti Zamira Pranowo,L,2018-02-11,+62 (845) 458-5435,"Gg. Pasirkoja No. 420, Jambi, Maluku Utara 98011",Gorontalo,BPJS,BPJS Kesehatan
+P00646,"Fitriani Dabukke, S.Gz",P,1965-02-25,+62 (44) 573-0348,"Jalan Rungkut Industri No. 063, Pangkalpinang, JB 37490",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00647,Embuh Maryadi,L,1986-12-03,+62-08-015-7563,"Gg. Wonoayu No. 689, Samarinda, KB 72374",Kota Administrasi Jakarta Selatan,Umum,
+P00648,Karimah Iswahyudi,L,2001-09-22,+62-070-024-2513,"Jl. Rungkut Industri No. 0, Bandung, Papua 76734",Palembang,BPJS,BPJS Kesehatan
+P00649,Ir. Paris Pradipta,P,2021-12-09,(0349) 342-5350,"Jalan Suryakencana No. 21, Meulaboh, Sumatera Utara 40934",Prabumulih,Umum,
+P00650,Widya Saragih,L,2020-02-19,+62-046-137-8713,"Jl. Surapati No. 236, Medan, Kepulauan Riau 35641",Lubuklinggau,BPJS,BPJS Kesehatan
+P00651,Hamima Sihombing,P,1994-05-01,(034) 750 8902,"Gg. Sukajadi No. 21, Banjarbaru, Nusa Tenggara Timur 73185",Padang,Asuransi Swasta,AIA
+P00652,"Kenes Usada, S.E.",L,1951-07-18,+62 (0720) 316-1888,"Gang Waringin No. 238, Jambi, BE 21933",Sungai Penuh,Umum,
+P00653,Ophelia Najmudin,P,1977-07-28,+62 (242) 862-7514,"Gg. Ciumbuleuit No. 6, Medan, Aceh 98404",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00654,dr. Tasdik Susanti,L,2010-12-29,+62 (0704) 516 2313,"Jl. Astana Anyar No. 73, Banjar, NT 37007",Kota Administrasi Jakarta Pusat,Umum,
+P00655,"Hj. Kasiyah Mayasari, S.Gz",L,2003-10-27,+62-68-357-6949,"Jl. Rajawali Barat No. 2, Padangpanjang, Sulawesi Utara 30108",Bontang,BPJS,BPJS Kesehatan
+P00656,"H. Gandi Pudjiastuti, S.E.",P,2010-08-28,(0932) 926-6200,"Gg. HOS. Cokroaminoto No. 2, Solok, Nusa Tenggara Barat 42504",Bandar Lampung,Asuransi Swasta,AXA Mandiri
+P00657,Okto Prasasta,P,2014-08-12,+62-0317-059-0939,"Jl. Sentot Alibasa No. 8, Tegal, GO 01364",Magelang,BPJS,BPJS Kesehatan
+P00658,Ismail Uyainah,L,2013-10-10,+62-043-703-4307,"Jalan Asia Afrika No. 2, Kota Administrasi Jakarta Selatan, SB 60610",Kota Administrasi Jakarta Utara,Umum,
+P00659,"Caraka Rahayu, M.M.",P,1951-10-28,+62 (010) 722-0016,"Jalan Kutai No. 7, Batam, Papua Barat 98207",Lubuklinggau,BPJS,BPJS Kesehatan
+P00660,Jamalia Kurniawan,P,2005-03-12,+62-0577-979-8846,"Jl. M.T Haryono No. 574, Tasikmalaya, Kalimantan Tengah 53659",Ambon,Asuransi Swasta,Sinarmas
+P00661,Oni Wijaya,L,1998-04-28,+62 (61) 003 5861,"Jalan M.H Thamrin No. 46, Tanjungpinang, Lampung 59701",Gorontalo,Asuransi Swasta,Allianz
+P00662,Agus Sihombing,P,2005-04-07,+62 (0527) 286 4030,"Gang Kendalsari No. 53, Depok, Sulawesi Utara 71811",Bogor,BPJS,BPJS Kesehatan
+P00663,Faizah Santoso,P,1963-04-12,+62 (0686) 364 8942,"Gang Ciwastra No. 76, Serang, Aceh 50231",Pagaralam,Umum,
+P00664,Nurul Wahyudin,P,2016-09-10,+62-94-098-9057,"Gg. Soekarno Hatta No. 506, Tual, Jawa Timur 42097",Dumai,Asuransi Swasta,Manulife
+P00665,Patricia Prasetya,P,2023-01-02,+62-063-931-6022,"Gang Kutisari Selatan No. 33, Ambon, KB 11419",Tangerang Selatan,Umum,
+P00666,Lembah Damanik,L,1975-07-07,(082) 538-8912,"Gang R.E Martadinata No. 38, Tangerang, Sumatera Utara 02769",Sukabumi,BPJS,BPJS Kesehatan
+P00667,Jarwadi Aryani,L,1979-03-23,(004) 567 3260,"Jl. Moch. Toha No. 9, Kota Administrasi Jakarta Timur, YO 84434",Tegal,Asuransi Swasta,AXA Mandiri
+P00668,Warta Wasita,P,2005-11-24,+62-145-839-1206,"Gg. Otto Iskandardinata No. 2, Serang, Kalimantan Timur 01380",Sibolga,BPJS,BPJS Kesehatan
+P00669,Ifa Tampubolon,L,1972-04-25,+62 (0328) 770 2898,"Gang Stasiun Wonokromo No. 61, Banjarmasin, SN 34230",Lhokseumawe,BPJS,BPJS Kesehatan
+P00670,Yunita Pratama,L,1947-07-18,+62 (0590) 216 2384,"Gang Pasteur No. 163, Kediri, Sulawesi Selatan 14352",Manado,Umum,
+P00671,"Zamira Pratama, M.Kom.",L,1958-10-30,(093) 518-8675,"Jl. Surapati No. 9, Makassar, SR 90003",Makassar,BPJS,BPJS Kesehatan
+P00672,"H. Edison Marbun, S.Sos",L,1978-11-16,(017) 426 1704,"Gg. Waringin No. 10, Cimahi, Sulawesi Tengah 01874",Salatiga,BPJS,BPJS Kesehatan
+P00673,"Puti Zalindra Ardianto, S.Psi",P,1997-10-14,+62 (0234) 197 1490,"Jalan H.J Maemunah No. 5, Banjarbaru, DI Yogyakarta 04665",Ternate,BPJS,BPJS Kesehatan
+P00674,Jamal Rajasa,P,1978-09-05,+62 (23) 682-4800,"Jalan KH Amin Jasuta No. 2, Batam, KR 87164",Batu,BPJS,BPJS Kesehatan
+P00675,"Zulfa Nuraini, S.Farm",P,1974-06-24,0869343115,"Gang KH Amin Jasuta No. 989, Cilegon, SU 95966",Ternate,Asuransi Swasta,AXA Mandiri
+P00676,Dr. Gawati Firgantoro,L,1949-12-31,(046) 303-2544,"Jl. K.H. Wahid Hasyim No. 003, Sawahlunto, Jawa Tengah 89966",Binjai,BPJS,BPJS Kesehatan
+P00677,Puti Sirait,L,2011-08-23,0838188131,"Jalan Antapani Lama No. 7, Blitar, PB 70155",Magelang,Umum,
+P00678,"R.M. Wakiman Kusmawati, M.Farm",P,1973-11-19,(033) 588 1463,"Gg. Jend. Sudirman No. 642, Bitung, KT 73521",Lhokseumawe,BPJS,BPJS Kesehatan
+P00679,Jasmin Sihombing,P,2024-07-22,+62-056-254-1973,"Jl. Suryakencana No. 9, Banjar, KR 85926",Cimahi,Umum,
+P00680,"Raihan Rahimah, S.Ked",L,2006-04-11,+62-664-668-6084,"Jalan Rajawali Barat No. 450, Tidore Kepulauan, Sulawesi Tenggara 67269",Lhokseumawe,BPJS,BPJS Kesehatan
+P00681,drg. Clara Handayani,L,2011-07-26,+62-933-188-4143,"Gg. Kebonjati No. 688, Purwokerto, AC 59919",Sorong,Umum,
+P00682,Gandi Kurniawan,L,1946-09-11,+62 (529) 659-8644,"Gg. Cihampelas No. 501, Jayapura, Lampung 48713",Prabumulih,Umum,
+P00683,Laila Haryanti,P,1998-06-09,+62 (44) 973-2712,"Gg. BKR No. 0, Palembang, JA 75667",Payakumbuh,Asuransi Swasta,AXA Mandiri
+P00684,Balapati Nasyidah,P,1946-06-15,(0589) 541-4484,"Gang Abdul Muis No. 24, Purwokerto, Sumatera Utara 39347",Purwokerto,Umum,
+P00685,Rama Mayasari,P,1993-02-23,+62 (019) 618-2444,"Gang Jakarta No. 65, Jambi, Banten 90271",Jambi,Asuransi Swasta,Allianz
+P00686,"Iriana Irawan, M.Pd",L,1996-05-13,+62 (701) 246-1207,"Gg. Moch. Ramdan No. 49, Sibolga, JA 07125",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00687,Janet Waskita,P,1972-08-28,+62-37-758-9612,"Gang Stasiun Wonokromo No. 12, Sungai Penuh, BB 72974",Medan,Umum,
+P00688,Kacung Nasyidah,L,1978-12-31,+62-128-608-8264,"Jalan M.T Haryono No. 1, Cilegon, Sumatera Barat 31473",Padang,Umum,
+P00689,Irma Mardhiyah,P,2010-04-19,+62 (0793) 283 6659,"Gang Dipenogoro No. 899, Pekalongan, MU 78529",Pagaralam,BPJS,BPJS Kesehatan
+P00690,Hafshah Pratama,P,1955-01-08,+62-025-935-8637,"Jl. Cempaka No. 35, Surakarta, Kepulauan Bangka Belitung 65404",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00691,Anggabaya Lazuardi,L,1974-08-07,+62 (0917) 214-8600,"Jl. Kendalsari No. 0, Prabumulih, Lampung 34206",Bandar Lampung,Asuransi Swasta,Allianz
+P00692,Dr. Kasiran Pudjiastuti,P,1962-11-20,081 201 3364,"Gg. Wonoayu No. 9, Pontianak, Papua 98222",Kediri,BPJS,BPJS Kesehatan
+P00693,"drg. Tari Pradipta, S.Gz",P,2007-02-08,+62-0567-383-9941,"Gg. Waringin No. 0, Tomohon, Sumatera Barat 91241",Tebingtinggi,BPJS,BPJS Kesehatan
+P00694,"Artawan Mangunsong, M.Farm",L,2004-12-02,+62 (044) 811 9034,"Jalan Monginsidi No. 0, Semarang, Kalimantan Timur 41615",Bontang,BPJS,BPJS Kesehatan
+P00695,Abyasa Wahyuni,L,1970-10-08,0812915432,"Gg. Sadang Serang No. 9, Tegal, SG 01945",Bau-Bau,BPJS,BPJS Kesehatan
+P00696,"R.A. Ratna Kuswandari, M.Farm",P,1984-07-02,+62 (0894) 918 6560,"Jl. Moch. Ramdan No. 2, Singkawang, Kalimantan Selatan 19970",Singkawang,BPJS,BPJS Kesehatan
+P00697,"R.M. Darmanto Widiastuti, S.Kom",P,1949-06-16,+62-047-590-9317,"Jl. Moch. Toha No. 161, Manado, Jawa Barat 73591",Parepare,BPJS,BPJS Kesehatan
+P00698,"Cahya Tamba, M.Kom.",P,2004-09-25,0843193087,"Gg. Pacuan Kuda No. 16, Sorong, Kalimantan Barat 05512",Blitar,BPJS,BPJS Kesehatan
+P00699,"Ana Kurniawan, S.Psi",P,1941-07-20,084 219 5627,"Jl. Soekarno Hatta No. 156, Cilegon, Sulawesi Tenggara 32954",Malang,Asuransi Swasta,Allianz
+P00700,Virman Siregar,L,1973-11-25,+62-0105-444-2802,"Gg. Kapten Muslihat No. 639, Kota Administrasi Jakarta Utara, Maluku Utara 74453",Sukabumi,Asuransi Swasta,Prudential
+P00701,Halima Mayasari,P,1977-08-10,(0410) 247 7667,"Jl. Cempaka No. 52, Langsa, JB 80095",Madiun,BPJS,BPJS Kesehatan
+P00702,Zelaya Nasyidah,P,1951-10-14,+62 (066) 051-1111,"Gang Raya Ujungberung No. 4, Metro, Sulawesi Selatan 63575",Malang,Umum,
+P00703,KH. Darijan Setiawan,P,2005-04-11,(0995) 237 4225,"Gg. Cihampelas No. 10, Bukittinggi, Kalimantan Tengah 98854",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00704,R.A. Lintang Wijaya,L,2008-08-23,+62-0332-105-4566,"Gang Abdul Muis No. 50, Ternate, Sulawesi Tengah 56900",Serang,Asuransi Swasta,AIA
+P00705,Betania Mandala,P,2023-11-03,+62-85-729-4925,"Jalan Moch. Ramdan No. 146, Padangpanjang, JB 80527",Padang Sidempuan,Asuransi Swasta,AXA Mandiri
+P00706,Zaenab Haryanti,L,1975-05-15,+62 (039) 228 6958,"Gg. Wonoayu No. 953, Payakumbuh, KB 72273",Meulaboh,BPJS,BPJS Kesehatan
+P00707,KH. Candra Situmorang,L,1959-01-17,+62 (038) 141 1132,"Gang Peta No. 16, Meulaboh, Jambi 84728",Binjai,BPJS,BPJS Kesehatan
+P00708,Tirtayasa Suryatmi,L,1947-01-14,+62 (05) 301-9423,"Gang Monginsidi No. 35, Langsa, KI 08790",Kota Administrasi Jakarta Barat,BPJS,BPJS Kesehatan
+P00709,"Paulin Prayoga, S.Sos",P,1991-10-02,+62 (18) 923 9100,"Jl. Yos Sudarso No. 98, Padangpanjang, BT 01891",Padangpanjang,BPJS,BPJS Kesehatan
+P00710,Rudi Ramadan,L,2006-05-22,+62 (654) 302 8906,"Gang Ciumbuleuit No. 3, Palopo, JA 21432",Binjai,Umum,
+P00711,Wirda Astuti,L,1950-03-02,+62 (26) 698 7247,"Jalan KH Amin Jasuta No. 21, Depok, Maluku Utara 94002",Cirebon,BPJS,BPJS Kesehatan
+P00712,Cut Vivi Simanjuntak,L,2020-01-30,+62-026-023-5865,"Jl. Joyoboyo No. 109, Probolinggo, BB 93061",Payakumbuh,BPJS,BPJS Kesehatan
+P00713,Balamantri Rahayu,L,1956-03-17,+62 (018) 490 0136,"Jalan Cikapayang No. 50, Binjai, Maluku Utara 32187",Banjarmasin,BPJS,BPJS Kesehatan
+P00714,Lili Pratiwi,L,1979-02-16,+62 (120) 257 4487,"Gang S. Parman No. 2, Pekanbaru, ST 56088",Kota Administrasi Jakarta Barat,Umum,
+P00715,Paramita Ramadan,L,2020-01-03,+62 (0548) 364-9980,"Gg. Cempaka No. 69, Tanjungbalai, Bengkulu 93427",Banjar,Umum,
+P00716,Tgk. Kawaca Suwarno,L,1971-09-15,+62 (879) 419-4369,"Gang Dipenogoro No. 06, Bogor, KI 71418",Singkawang,BPJS,BPJS Kesehatan
+P00717,"Bakti Haryanti, S.IP",L,1969-09-02,+62-42-138-1409,"Jl. Siliwangi No. 1, Mataram, Papua Barat 53386",Gorontalo,BPJS,BPJS Kesehatan
+P00718,Bakijan Yulianti,P,1978-03-14,+62-0738-252-0360,"Gang Suryakencana No. 041, Tual, KS 64261",Tebingtinggi,BPJS,BPJS Kesehatan
+P00719,Silvia Nababan,L,2021-04-30,+62 (65) 874 4393,"Jalan Rajawali Timur No. 96, Pagaralam, PB 73513",Probolinggo,Umum,
+P00720,"drg. Lantar Samosir, M.Kom.",L,1973-12-28,0874930866,"Jl. Cikapayang No. 9, Tegal, Bali 94010",Sungai Penuh,Umum,
+P00721,Harto Kuswandari,P,1998-12-18,(008) 259 9893,"Jl. Ciwastra No. 17, Banjarmasin, Kalimantan Selatan 72769",Tangerang Selatan,BPJS,BPJS Kesehatan
+P00722,"Cut Silvia Prasetya, S.Farm",P,2024-08-21,+62-540-643-3798,"Jl. Abdul Muis No. 858, Cilegon, Papua Barat 91035",Sungai Penuh,Umum,
+P00723,Damar Purnawati,L,1966-07-01,+62 (57) 184-6233,"Jl. Kiaracondong No. 82, Tangerang, Kalimantan Barat 44538",Kota Administrasi Jakarta Barat,Umum,
+P00724,Vega Hidayat,L,2022-10-20,(048) 237 1610,"Jalan Yos Sudarso No. 3, Tangerang, SG 95558",Denpasar,BPJS,BPJS Kesehatan
+P00725,Zulaikha Hasanah,P,1979-12-26,+62-166-713-4098,"Jl. M.T Haryono No. 14, Depok, Papua Barat 06469",Ternate,Umum,
+P00726,Raden Samosir,L,1960-07-25,+62-023-825-0990,"Gg. Siliwangi No. 148, Kotamobagu, KI 47694",Tebingtinggi,BPJS,BPJS Kesehatan
+P00727,"Farhunnisa Wulandari, S.E.I",L,1949-09-22,+62-069-760-9340,"Gang Wonoayu No. 44, Batam, Kalimantan Timur 64363",Sabang,BPJS,BPJS Kesehatan
+P00728,Gandewa Laksita,P,1942-12-19,+62-0671-534-6445,"Gg. Suniaraja No. 7, Pekalongan, Maluku Utara 85588",Singkawang,BPJS,BPJS Kesehatan
+P00729,Darman Tamba,L,1987-11-05,0864046290,"Jalan Sukabumi No. 56, Palopo, BT 48112",Surabaya,BPJS,BPJS Kesehatan
+P00730,Carub Sitompul,L,1947-02-18,+62 (06) 920-5524,"Gang Gedebage Selatan No. 28, Samarinda, Nusa Tenggara Barat 28043",Padang Sidempuan,Umum,
+P00731,Wani Wahyudin,P,1994-11-04,+62 (083) 441-7307,"Gg. Ahmad Yani No. 01, Bandar Lampung, DKI Jakarta 04645",Palopo,Asuransi Swasta,Allianz
+P00732,"R.M. Gaduh Permadi, M.Pd",P,1980-11-17,+62-83-304-5728,"Jl. Pelajar Pejuang No. 8, Kendari, YO 73041",Cirebon,BPJS,BPJS Kesehatan
+P00733,"Cengkir Zulaika, S.Ked",L,1983-12-15,+62 (84) 808 8718,"Jalan Sentot Alibasa No. 98, Sukabumi, SU 02968",Serang,Umum,
+P00734,Kamaria Megantara,L,1998-10-11,+62 (005) 482-4086,"Jalan BKR No. 48, Palembang, Papua Barat 68135",Cilegon,Asuransi Swasta,Manulife
+P00735,Ratih Farida,L,1976-10-17,(0425) 040-4241,"Jl. Erlangga No. 5, Cimahi, Jawa Tengah 19197",Pematangsiantar,BPJS,BPJS Kesehatan
+P00736,Najwa Marpaung,L,1998-10-18,+62-151-526-6145,"Gang Soekarno Hatta No. 999, Palopo, JT 37311",Palu,BPJS,BPJS Kesehatan
+P00737,Padmi Mulyani,L,1945-12-21,+62 (032) 744-9542,"Gang S. Parman No. 474, Pekalongan, SU 31416",Pekanbaru,Umum,
+P00738,Irma Agustina,L,2021-11-17,(0637) 924 5370,"Jl. Kiaracondong No. 798, Cimahi, Papua 56388",Makassar,BPJS,BPJS Kesehatan
+P00739,Eva Yolanda,L,1992-08-02,+62 (0941) 192-5217,"Jalan M.T Haryono No. 039, Banjarmasin, PA 54030",Sabang,BPJS,BPJS Kesehatan
+P00740,R. Adikara Rajasa,P,2003-02-16,+62 (863) 214 8782,"Jl. Jend. Sudirman No. 916, Parepare, JB 34355",Lhokseumawe,Asuransi Swasta,Sinarmas
+P00741,dr. Akarsana Iswahyudi,P,2006-05-12,+62 (429) 798-6690,"Jalan Raya Setiabudhi No. 2, Bengkulu, GO 58650",Sorong,BPJS,BPJS Kesehatan
+P00742,Radit Fujiati,L,2017-03-07,(0545) 546 6664,"Gg. Ronggowarsito No. 558, Lhokseumawe, NB 95393",Metro,Asuransi Swasta,Manulife
+P00743,Dr. Bagas Halimah,L,2021-01-16,(0595) 288 3627,"Jl. Rajiman No. 7, Kota Administrasi Jakarta Selatan, JB 99036",Depok,Asuransi Swasta,Sinarmas
+P00744,Najib Prasetyo,L,1998-12-15,(0919) 014-3916,"Jalan Raya Ujungberung No. 9, Bukittinggi, Sulawesi Barat 59901",Batu,Umum,
+P00745,Dimaz Aryani,P,2010-06-04,(059) 209-9490,"Gg. Peta No. 843, Cirebon, SG 03388",Mojokerto,Umum,
+P00746,KH. Sabri Putra,L,1989-09-21,+62-022-131-3509,"Jalan Lembong No. 7, Bontang, JT 28881",Balikpapan,Umum,
+P00747,"Genta Hidayat, S.Gz",L,1970-08-01,+62-061-179-2719,"Gg. Dr. Djunjunan No. 1, Jambi, Kepulauan Riau 76519",Lubuklinggau,BPJS,BPJS Kesehatan
+P00748,Salsabila Hidayat,L,1966-02-01,+62-045-344-3733,"Jl. Cikapayang No. 62, Payakumbuh, PA 47520",Bau-Bau,BPJS,BPJS Kesehatan
+P00749,Hendra Rahayu,L,2014-07-10,+62 (16) 996-4835,"Jl. Sadang Serang No. 246, Tidore Kepulauan, AC 14006",Subulussalam,Umum,
+P00750,Nalar Suryatmi,P,1950-01-05,+62 (0041) 410 6301,"Gang Ciumbuleuit No. 34, Sorong, GO 47228",Bekasi,Umum,
+P00751,Dwi Wastuti,P,2006-02-08,(044) 138 2600,"Gg. Rungkut Industri No. 062, Tidore Kepulauan, SB 95286",Batam,BPJS,BPJS Kesehatan
+P00752,"drg. Uli Putra, S.T.",L,2024-05-07,+62 (0555) 435 9573,"Gang KH Amin Jasuta No. 6, Bogor, Sulawesi Utara 24778",Sorong,BPJS,BPJS Kesehatan
+P00753,"Gilang Purnawati, M.TI.",P,1973-12-05,+62 (021) 035-3466,"Gg. Sadang Serang No. 0, Binjai, Maluku Utara 08413",Kota Administrasi Jakarta Utara,Umum,
+P00754,Galih Waskita,L,2009-09-06,+62-790-277-4534,"Jalan Ir. H. Djuanda No. 07, Jambi, Kalimantan Utara 39429",Purwokerto,Umum,
+P00755,Rama Hastuti,L,1977-03-08,+62-162-977-9427,"Gang Stasiun Wonokromo No. 29, Dumai, PB 37325",Ambon,Asuransi Swasta,Prudential
+P00756,Emong Hutagalung,P,1969-07-22,(0029) 782-8503,"Gang Wonoayu No. 678, Bukittinggi, Lampung 76814",Parepare,Umum,
+P00757,Septi Pranowo,P,2004-02-27,+62 (364) 931 2136,"Gg. Kebonjati No. 587, Dumai, Sulawesi Selatan 65554",Dumai,BPJS,BPJS Kesehatan
+P00758,Maria Zulkarnain,L,1972-03-02,081 730 3859,"Jl. Gedebage Selatan No. 23, Mojokerto, Maluku Utara 24216",Surakarta,Asuransi Swasta,Prudential
+P00759,"Jaswadi Rahmawati, S.E.",P,1965-06-23,+62-78-403-8021,"Jl. Monginsidi No. 8, Mataram, DKI Jakarta 63090",Gorontalo,Asuransi Swasta,Prudential
+P00760,Clara Widiastuti,P,1988-09-23,(010) 550-9370,"Gg. Cihampelas No. 627, Jayapura, Jambi 41917",Semarang,Umum,
+P00761,Cayadi Firmansyah,P,1960-06-01,086 626 9754,"Gang Dr. Djunjunan No. 9, Tanjungpinang, Sulawesi Selatan 21857",Tanjungpinang,BPJS,BPJS Kesehatan
+P00762,"Puti Vicky Januar, M.Ak",P,2007-05-06,+62 (0647) 367-3192,"Jl. Rungkut Industri No. 43, Palembang, Gorontalo 58837",Sawahlunto,Umum,
+P00763,Septi Prasetyo,P,1963-03-03,+62 (014) 459 5777,"Jl. BKR No. 82, Kendari, Papua Barat 82915",Pekanbaru,BPJS,BPJS Kesehatan
+P00764,Jelita Utama,P,2009-06-17,+62 (065) 174 9839,"Jl. Ciumbuleuit No. 1, Denpasar, Sulawesi Tengah 10226",Lubuklinggau,Asuransi Swasta,AXA Mandiri
+P00765,Safina Dongoran,P,1984-05-16,+62 (096) 617-6488,"Gang Laswi No. 17, Palangkaraya, Jawa Timur 37817",Batam,BPJS,BPJS Kesehatan
+P00766,Eman Putra,P,1997-06-13,0823343275,"Jl. Antapani Lama No. 995, Dumai, BA 49230",Metro,BPJS,BPJS Kesehatan
+P00767,Suci Natsir,L,2001-11-29,(0353) 358 1910,"Jalan Jamika No. 134, Sibolga, Aceh 50940",Padangpanjang,BPJS,BPJS Kesehatan
+P00768,R. Amelia Nasyidah,L,2005-03-21,+62-862-164-1565,"Gang Laswi No. 215, Pekanbaru, KI 12952",Kotamobagu,Asuransi Swasta,AXA Mandiri
+P00769,Murti Suartini,P,1971-09-11,+62 (07) 283 1414,"Gang Jakarta No. 09, Pontianak, Riau 92708",Palangkaraya,Umum,
+P00770,"Bahuraksa Pradipta, S.Kom",L,1980-06-21,+62-350-483-9019,"Jalan Kutisari Selatan No. 650, Madiun, Kalimantan Utara 73230",Balikpapan,BPJS,BPJS Kesehatan
+P00771,"Dina Lestari, M.M.",P,1954-06-12,+62-544-348-8122,"Jl. Abdul Muis No. 66, Pangkalpinang, Gorontalo 04853",Sukabumi,Umum,
+P00772,Langgeng Gunarto,P,1955-07-14,+62 (019) 269-3252,"Jalan Waringin No. 97, Tangerang Selatan, SR 97557",Dumai,Umum,
+P00773,Tami Marbun,L,1944-02-14,+62 (0951) 583 0310,"Gang Sukajadi No. 2, Langsa, MU 92517",Tangerang Selatan,Asuransi Swasta,Sinarmas
+P00774,Kalim Ramadan,L,1981-07-01,(057) 519 4848,"Gang Tebet Barat Dalam No. 315, Sibolga, KT 58057",Surakarta,Umum,
+P00775,"Maria Hutagalung, S.E.",P,1947-10-26,089 407 7983,"Jalan Sentot Alibasa No. 70, Bengkulu, JI 03359",Bontang,BPJS,BPJS Kesehatan
+P00776,Vanesa Pradana,P,1947-02-12,+62 (0716) 524 7233,"Jalan Gegerkalong Hilir No. 133, Pekanbaru, JB 81735",Kota Administrasi Jakarta Selatan,Umum,
+P00777,Yunita Prabowo,L,2009-10-08,+62 (208) 963 1085,"Jl. Dipatiukur No. 5, Pagaralam, Kepulauan Riau 07380",Bima,Umum,
+P00778,Karma Maheswara,L,1949-08-23,+62 (0019) 849 7027,"Jalan Lembong No. 274, Lhokseumawe, KT 06046",Madiun,BPJS,BPJS Kesehatan
+P00779,Paris Andriani,P,2005-04-14,+62-056-708-9069,"Gang R.E Martadinata No. 324, Palangkaraya, MU 06489",Jambi,BPJS,BPJS Kesehatan
+P00780,"Kardi Kusmawati, S.Pd",P,1986-01-31,+62 (171) 226 7089,"Gg. Sadang Serang No. 27, Kota Administrasi Jakarta Selatan, Kalimantan Timur 38433",Pematangsiantar,BPJS,BPJS Kesehatan
+P00781,Ifa Maryadi,P,1956-12-04,+62 (21) 771-5722,"Gg. Sentot Alibasa No. 4, Sabang, DI Yogyakarta 65903",Palangkaraya,Umum,
+P00782,Tami Kusumo,L,1991-03-28,(0380) 643 4186,"Gg. Lembong No. 053, Padangpanjang, Sumatera Barat 43051",Cilegon,Umum,
+P00783,Caraka Halim,P,2007-02-10,0848423362,"Gg. Stasiun Wonokromo No. 442, Magelang, KS 54917",Surabaya,Umum,
+P00784,Dt. Jais Prasetya,P,2010-10-13,+62-051-334-5348,"Jalan Kutisari Selatan No. 708, Tegal, LA 22625",Bima,BPJS,BPJS Kesehatan
+P00785,Vivi Suwarno,L,2003-06-25,+62 (043) 105 4512,"Jalan HOS. Cokroaminoto No. 428, Manado, Jawa Tengah 38323",Palopo,BPJS,BPJS Kesehatan
+P00786,Abyasa Jailani,P,1942-07-13,+62 (16) 128 5748,"Gang Cihampelas No. 3, Serang, KI 64718",Dumai,BPJS,BPJS Kesehatan
+P00787,"Mahmud Padmasari, S.Gz",L,1986-11-22,+62 (98) 537-1524,"Gg. Surapati No. 50, Gorontalo, MU 07761",Pontianak,BPJS,BPJS Kesehatan
+P00788,Paris Saptono,P,2024-02-16,+62 (036) 651 2723,"Jl. Rajawali Barat No. 927, Tanjungbalai, LA 03414",Banda Aceh,BPJS,BPJS Kesehatan
+P00789,Murti Prasetya,P,1977-03-09,+62 (37) 425 0464,"Gg. Veteran No. 494, Bekasi, KS 79601",Blitar,BPJS,BPJS Kesehatan
+P00790,Gambira Saefullah,P,1993-03-05,+62 (486) 781 2309,"Gang Jamika No. 871, Pangkalpinang, Jawa Barat 25893",Bitung,Asuransi Swasta,Sinarmas
+P00791,Bagus Widodo,L,1961-10-18,+62-070-724-3185,"Jalan M.T Haryono No. 9, Magelang, NB 33138",Cilegon,Asuransi Swasta,AXA Mandiri
+P00792,Unjani Mulyani,L,2012-03-04,+62 (902) 557-8063,"Gang Veteran No. 30, Pekalongan, Papua 78235",Bandung,BPJS,BPJS Kesehatan
+P00793,Drs. Wira Maulana,L,1955-07-01,+62-382-281-2647,"Gang Rawamangun No. 39, Kota Administrasi Jakarta Pusat, KR 71419",Pekanbaru,BPJS,BPJS Kesehatan
+P00794,Lidya Hutasoit,P,2003-12-07,+62-067-833-5763,"Jalan Gardujati No. 718, Lubuklinggau, KR 25512",Purwokerto,Asuransi Swasta,Manulife
+P00795,Silvia Ramadan,P,1992-06-12,+62-558-459-9305,"Jl. Waringin No. 69, Jayapura, SG 77813",Palembang,BPJS,BPJS Kesehatan
+P00796,dr. Daliono Iswahyudi,P,1965-02-14,(056) 654 2359,"Gang Kutisari Selatan No. 9, Salatiga, BA 15477",Depok,BPJS,BPJS Kesehatan
+P00797,Waluyo Gunarto,L,1989-06-22,+62 (071) 937 2001,"Gang Bangka Raya No. 0, Magelang, BB 24743",Bengkulu,Umum,
+P00798,Gangsar Mandala,L,1988-07-01,(0960) 870 4680,"Jalan Rajawali Timur No. 285, Balikpapan, Aceh 11517",Lhokseumawe,BPJS,BPJS Kesehatan
+P00799,"Marsito Mardhiyah, S.Pd",P,1992-07-15,(0096) 480 9459,"Jalan Gegerkalong Hilir No. 65, Singkawang, Kalimantan Utara 01111",Ternate,Asuransi Swasta,Prudential
+P00800,Intan Hidayanto,L,1973-12-28,+62-099-214-6426,"Gang Sadang Serang No. 0, Prabumulih, PB 84670",Bau-Bau,BPJS,BPJS Kesehatan
+P00801,"Dian Kuswoyo, S.Pd",P,2013-04-15,+62 (17) 699-5537,"Gang Jend. Sudirman No. 121, Bau-Bau, Kalimantan Selatan 91825",Banjar,BPJS,BPJS Kesehatan
+P00802,"Raharja Sihombing, S.Sos",P,1946-08-22,(0270) 467-0009,"Jalan Jakarta No. 32, Pematangsiantar, NT 43494",Solok,BPJS,BPJS Kesehatan
+P00803,Patricia Suartini,L,1968-09-03,+62 (0976) 192-5748,"Gg. Rungkut Industri No. 358, Palangkaraya, LA 89660",Probolinggo,Umum,
+P00804,"Ratna Uyainah, S.Pd",P,1969-02-12,(052) 961-6431,"Jl. Monginsidi No. 1, Meulaboh, SG 15638",Tangerang,BPJS,BPJS Kesehatan
+P00805,Amalia Hutagalung,P,2016-08-26,(0273) 936-8556,"Jl. R.E Martadinata No. 960, Prabumulih, Jawa Timur 63951",Mataram,Asuransi Swasta,AXA Mandiri
+P00806,Adinata Irawan,P,1942-06-08,+62 (91) 638 6861,"Gang Ciumbuleuit No. 850, Madiun, Sumatera Barat 30963",Padang Sidempuan,BPJS,BPJS Kesehatan
+P00807,Emong Susanti,L,1959-12-07,+62 (0923) 909 4846,"Gang Pasteur No. 217, Pagaralam, Kepulauan Riau 08867",Pangkalpinang,BPJS,BPJS Kesehatan
+P00808,Ratna Pangestu,L,1966-11-10,+62 (0844) 093 0077,"Jalan Setiabudhi No. 621, Yogyakarta, JK 26395",Kendari,BPJS,BPJS Kesehatan
+P00809,Aswani Mangunsong,P,1978-04-08,+62 (701) 705 4917,"Jl. Jend. A. Yani No. 82, Makassar, ST 81991",Sibolga,BPJS,BPJS Kesehatan
+P00810,"drg. Wani Hutapea, S.Sos",P,2024-08-20,+62 (014) 611 7926,"Gg. Ronggowarsito No. 69, Padang, BT 77684",Palu,BPJS,BPJS Kesehatan
+P00811,"Sutan Surya Putra, S.Kom",L,1979-03-04,(077) 996-5184,"Jl. Merdeka No. 66, Subulussalam, MA 77291",Singkawang,Asuransi Swasta,Sinarmas
+P00812,"Cornelia Wibowo, S.Gz",L,2015-04-05,0858910989,"Gang Bangka Raya No. 93, Metro, KR 08047",Palembang,BPJS,BPJS Kesehatan
+P00813,R. Estiono Prakasa,P,1950-09-02,+62-49-592-5755,"Gang Cihampelas No. 52, Batu, Sulawesi Tengah 26720",Lubuklinggau,BPJS,BPJS Kesehatan
+P00814,Hasna Winarsih,L,2001-12-08,(037) 845-0678,"Gang Lembong No. 720, Pangkalpinang, Papua Barat 33941",Bandung,BPJS,BPJS Kesehatan
+P00815,Karsa Uwais,L,2020-12-23,+62 (011) 905 2899,"Gg. Wonoayu No. 3, Parepare, Riau 51543",Binjai,Umum,
+P00816,Tina Haryanti,P,2010-10-27,+62-98-613-6659,"Jl. Pelajar Pejuang No. 82, Jayapura, NT 05348",Payakumbuh,BPJS,BPJS Kesehatan
+P00817,"Putri Hardiansyah, S.I.Kom",L,1980-07-26,+62 (084) 506 2566,"Gg. Jayawijaya No. 1, Batu, Kalimantan Barat 38008",Lubuklinggau,Umum,
+P00818,"drg. Upik Dongoran, S.Gz",L,1964-09-16,+62 (0999) 914 7302,"Jl. Wonoayu No. 8, Tidore Kepulauan, ST 09382",Bengkulu,BPJS,BPJS Kesehatan
+P00819,"Rachel Sudiati, M.Kom.",L,1985-02-17,+62-77-527-4259,"Jalan Rawamangun No. 078, Kota Administrasi Jakarta Selatan, BE 85394",Ambon,BPJS,BPJS Kesehatan
+P00820,Belinda Padmasari,P,1961-09-11,+62-96-403-1930,"Jl. Ronggowarsito No. 682, Tanjungpinang, Jawa Timur 54464",Tidore Kepulauan,Umum,
+P00821,Dasa Tarihoran,P,1942-03-05,(0111) 742-9132,"Jl. Tubagus Ismail No. 3, Banjar, SN 86812",Serang,Umum,
+P00822,Sarah Permadi,P,1978-12-27,+62 (01) 279-4060,"Jl. Ahmad Dahlan No. 4, Metro, Riau 87959",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00823,Lulut Firgantoro,L,1981-08-09,(040) 061 3190,"Jl. Antapani Lama No. 53, Banjar, JK 69951",Singkawang,Asuransi Swasta,Sinarmas
+P00824,Vega Simanjuntak,P,1949-05-13,+62-034-580-0215,"Jalan Astana Anyar No. 0, Ambon, Jambi 22406",Pematangsiantar,BPJS,BPJS Kesehatan
+P00825,"drg. Kiandra Sihombing, S.Pt",L,2023-12-29,+62-0708-616-1657,"Gang Pasirkoja No. 252, Malang, Kepulauan Bangka Belitung 66879",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00826,Queen Firmansyah,P,1950-09-16,+62 (0374) 599-1553,"Jalan Cikapayang No. 965, Kota Administrasi Jakarta Timur, Sumatera Barat 97977",Depok,Umum,
+P00827,Mutia Habibi,P,1991-06-21,+62-0845-140-4156,"Jalan Ronggowarsito No. 4, Metro, JA 94052",Manado,Umum,
+P00828,Wardi Anggriawan,P,2017-09-21,+62 (09) 288-2650,"Jl. HOS. Cokroaminoto No. 6, Pekalongan, Sulawesi Tengah 24258",Cirebon,Umum,
+P00829,Olivia Waskita,P,2022-07-30,+62 (073) 882-2569,"Jalan Setiabudhi No. 66, Palembang, Sulawesi Utara 46468",Bandung,BPJS,BPJS Kesehatan
+P00830,"Dr. Fathonah Hastuti, S.Kom",P,1990-10-07,(0241) 719 2789,"Jalan Wonoayu No. 36, Pasuruan, AC 30568",Solok,Umum,
+P00831,Yuni Hardiansyah,P,1978-06-09,+62 (53) 440-6315,"Gg. Kutai No. 36, Langsa, Aceh 51279",Surakarta,BPJS,BPJS Kesehatan
+P00832,"Cut Rina Hutasoit, M.Kom.",P,1987-11-05,+62 (62) 302 9298,"Jalan Jayawijaya No. 9, Palu, Sulawesi Selatan 43574",Kotamobagu,BPJS,BPJS Kesehatan
+P00833,"dr. Rahmi Nugroho, S.Kom",L,1957-06-23,+62 (56) 572-0745,"Jalan Kutisari Selatan No. 4, Pariaman, PB 48761",Tual,BPJS,BPJS Kesehatan
+P00834,R. Kani Pudjiastuti,P,1982-09-19,+62 (0989) 709 9473,"Jl. Gardujati No. 9, Tanjungbalai, SG 77769",Magelang,BPJS,BPJS Kesehatan
+P00835,Wirda Suryatmi,P,1962-07-07,0853178692,"Gg. Cikutra Barat No. 27, Serang, JB 97839",Banjarbaru,Asuransi Swasta,Sinarmas
+P00836,"Cut Maida Wibowo, S.E.I",P,1968-12-05,(081) 940 3648,"Gg. Gardujati No. 6, Balikpapan, Maluku Utara 10208",Ambon,BPJS,BPJS Kesehatan
+P00837,Lasmono Uwais,P,2018-10-07,+62 (61) 231-3208,"Jalan Jend. Sudirman No. 3, Bekasi, MA 94593",Palu,Umum,
+P00838,Sutan Yono Maryati,P,1985-06-16,(008) 878 7090,"Jl. Jayawijaya No. 235, Tebingtinggi, JA 59448",Pagaralam,BPJS,BPJS Kesehatan
+P00839,Dr. Yessi Prasasta,L,1992-07-29,+62 (865) 591-4292,"Gang Laswi No. 5, Probolinggo, BT 53651",Pekalongan,BPJS,BPJS Kesehatan
+P00840,Hj. Cornelia Wacana,L,2002-08-09,(0053) 370-0064,"Jalan Abdul Muis No. 252, Banjar, Jawa Barat 10944",Semarang,BPJS,BPJS Kesehatan
+P00841,Karimah Yuniar,P,1953-01-16,080 117 0479,"Gg. Pelajar Pejuang No. 029, Bukittinggi, NB 76547",Pasuruan,BPJS,BPJS Kesehatan
+P00842,Paramita Prasetyo,L,2008-08-11,+62 (382) 980-2195,"Gg. Laswi No. 42, Tegal, NT 06651",Ternate,Umum,
+P00843,"Silvia Palastri, S.Gz",L,2015-04-05,+62-075-536-2265,"Jalan M.H Thamrin No. 489, Jambi, Sulawesi Barat 74552",Jayapura,BPJS,BPJS Kesehatan
+P00844,Gaiman Pertiwi,P,1982-01-14,+62 (0882) 833-6461,"Gg. Yos Sudarso No. 919, Tebingtinggi, Sumatera Barat 09720",Parepare,BPJS,BPJS Kesehatan
+P00845,"Cut Dewi Yuniar, M.Pd",L,1942-06-28,+62 (998) 846-9707,"Gg. S. Parman No. 34, Solok, Kepulauan Bangka Belitung 28124",Parepare,Asuransi Swasta,Allianz
+P00846,"dr. Danuja Laksita, S.Pd",P,1944-11-06,(003) 542-1330,"Gg. Peta No. 71, Padangpanjang, Sulawesi Tenggara 66753",Meulaboh,BPJS,BPJS Kesehatan
+P00847,Ajimat Mandala,L,2013-07-31,+62 (086) 000-3131,"Gg. Sukajadi No. 988, Ambon, Nusa Tenggara Barat 46094",Bau-Bau,BPJS,BPJS Kesehatan
+P00848,Oman Prastuti,P,2008-07-15,(033) 144-5244,"Jl. Lembong No. 5, Tidore Kepulauan, KU 81898",Surabaya,BPJS,BPJS Kesehatan
+P00849,"R. Kawaya Purwanti, S.IP",L,1966-05-07,(0557) 265 3197,"Jalan Cihampelas No. 45, Lubuklinggau, JB 56320",Bitung,Umum,
+P00850,Carub Kuswoyo,L,1979-05-25,+62 (073) 266 4401,"Jl. Cikutra Barat No. 4, Pasuruan, MU 63762",Tarakan,BPJS,BPJS Kesehatan
+P00851,Gilda Pranowo,P,1945-05-10,0863841720,"Jalan S. Parman No. 76, Denpasar, Kalimantan Tengah 89155",Binjai,BPJS,BPJS Kesehatan
+P00852,Gawati Prabowo,L,2011-08-12,+62-003-441-8954,"Gang Ahmad Yani No. 936, Samarinda, Bali 62736",Tebingtinggi,Umum,
+P00853,R. Ami Nasyidah,L,2002-10-01,088 249 7266,"Jalan Jayawijaya No. 4, Bandung, Kepulauan Bangka Belitung 57252",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00854,Puti Mandala,L,2024-07-15,+62 (00) 242 8287,"Gang Gegerkalong Hilir No. 00, Palembang, ST 50561",Cimahi,BPJS,BPJS Kesehatan
+P00855,drg. Usyi Astuti,P,1972-11-11,(0133) 730 5120,"Jalan Rawamangun No. 4, Pagaralam, Sumatera Utara 05890",Kota Administrasi Jakarta Pusat,BPJS,BPJS Kesehatan
+P00856,"R. Karimah Sitorus, S.Farm",P,2001-05-06,+62 (434) 784 5283,"Jl. Siliwangi No. 4, Kota Administrasi Jakarta Barat, RI 81052",Probolinggo,BPJS,BPJS Kesehatan
+P00857,"Heru Utami, S.Farm",L,1964-11-18,+62 (045) 497 4713,"Jalan Ahmad Yani No. 368, Banjarbaru, Nusa Tenggara Timur 70185",Surabaya,Umum,
+P00858,"Cindy Irawan, M.Farm",L,1958-04-10,(0094) 021-2031,"Gang Kendalsari No. 7, Bandung, NB 71127",Sungai Penuh,Asuransi Swasta,Manulife
+P00859,Zelaya Manullang,L,1961-03-23,085 525 5190,"Gg. BKR No. 5, Langsa, JK 70900",Bau-Bau,Umum,
+P00860,Galak Salahudin,L,1962-12-07,(0224) 417 5938,"Jalan Rajawali Barat No. 788, Tanjungpinang, Lampung 95832",Denpasar,Umum,
+P00861,"Tgk. Balidin Hutagalung, M.Farm",L,1966-07-29,+62-19-606-0269,"Gang H.J Maemunah No. 52, Serang, PB 41320",Sukabumi,Umum,
+P00862,Damu Rahayu,P,1969-01-03,+62 (79) 543-9652,"Jl. Sukabumi No. 09, Padang, Sumatera Barat 65279",Blitar,BPJS,BPJS Kesehatan
+P00863,Calista Kurniawan,L,1958-07-23,+62 (29) 400-3448,"Gg. Jend. Sudirman No. 042, Padang, Sulawesi Tengah 08315",Kotamobagu,Umum,
+P00864,Jaya Damanik,P,2017-06-26,+62 (038) 617 6864,"Gg. Bangka Raya No. 2, Tual, Maluku Utara 42873",Payakumbuh,Umum,
+P00865,Winda Sitompul,L,1987-11-11,(0290) 934-1812,"Gang Raya Ujungberung No. 83, Kendari, DI Yogyakarta 90371",Salatiga,Umum,
+P00866,Cengkal Saefullah,P,1963-12-15,+62 (92) 800 2988,"Gang Siliwangi No. 413, Kota Administrasi Jakarta Utara, JK 56243",Probolinggo,BPJS,BPJS Kesehatan
+P00867,Ir. Naradi Purnawati,P,1974-05-20,0858516250,"Gang Otto Iskandardinata No. 954, Bima, Sumatera Barat 34508",Ternate,Umum,
+P00868,Darmana Saragih,P,2002-11-18,+62-12-969-5982,"Gang Soekarno Hatta No. 1, Surakarta, JK 48060",Bengkulu,BPJS,BPJS Kesehatan
+P00869,Mila Dongoran,L,1975-11-13,+62-083-229-5540,"Gg. Tubagus Ismail No. 323, Sibolga, KT 63373",Lubuklinggau,BPJS,BPJS Kesehatan
+P00870,"Gina Simbolon, S.Sos",P,1953-07-28,+62 (72) 985-6994,"Jl. Sukabumi No. 951, Denpasar, RI 19700",Semarang,BPJS,BPJS Kesehatan
+P00871,"Elisa Waskita, S.Pt",L,1980-05-20,085 898 4088,"Jl. Gardujati No. 50, Kotamobagu, Jawa Tengah 56689",Prabumulih,Umum,
+P00872,Martani Setiawan,L,2021-12-29,(019) 860 9603,"Jl. Gardujati No. 726, Jayapura, Lampung 46692",Lhokseumawe,Umum,
+P00873,Mujur Ramadan,L,2015-12-07,+62 (357) 310 8705,"Gang S. Parman No. 118, Bitung, Jambi 11750",Jayapura,Umum,
+P00874,Yulia Anggraini,L,1972-11-20,(048) 696 9671,"Jalan Cihampelas No. 99, Bandung, Riau 88684",Probolinggo,Umum,
+P00875,Liman Simbolon,L,1993-12-03,+62-68-749-3575,"Gang Stasiun Wonokromo No. 197, Padangpanjang, Maluku Utara 61420",Kota Administrasi Jakarta Timur,BPJS,BPJS Kesehatan
+P00876,Ami Sitorus,L,1943-11-07,+62 (504) 745 5618,"Gg. Kiaracondong No. 02, Metro, SB 41193",Tarakan,Asuransi Swasta,Allianz
+P00877,Cornelia Irawan,L,1947-01-25,+62 (24) 453-8310,"Gg. Ciwastra No. 7, Banjarmasin, Jawa Tengah 81668",Denpasar,BPJS,BPJS Kesehatan
+P00878,"Tari Zulkarnain, S.Pd",L,1954-07-18,+62-0039-840-3061,"Jl. S. Parman No. 84, Depok, Kepulauan Bangka Belitung 60159",Lubuklinggau,Asuransi Swasta,AXA Mandiri
+P00879,Bakda Wulandari,L,1969-01-20,+62 (36) 530 7502,"Gang Asia Afrika No. 225, Pagaralam, Papua 22767",Payakumbuh,Asuransi Swasta,AIA
+P00880,"dr. Melinda Iswahyudi, S.H.",L,2003-05-28,+62 (042) 926-0567,"Jalan Cihampelas No. 04, Palopo, SU 07925",Cilegon,Asuransi Swasta,Allianz
+P00881,Gading Kuswandari,P,1966-11-30,+62 (009) 449 0496,"Gang M.H Thamrin No. 1, Solok, Nusa Tenggara Barat 40517",Tangerang,BPJS,BPJS Kesehatan
+P00882,"Usman Wijayanti, S.Farm",P,2015-09-09,+62 (81) 808-6617,"Jl. K.H. Wahid Hasyim No. 5, Sungai Penuh, NT 93771",Binjai,BPJS,BPJS Kesehatan
+P00883,Nrima Mansur,P,1998-02-06,(085) 552-6218,"Jalan M.H Thamrin No. 911, Jayapura, Kalimantan Utara 82324",Cilegon,BPJS,BPJS Kesehatan
+P00884,"dr. Michelle Maulana, S.Farm",L,2003-07-21,+62 (850) 561-8472,"Gg. Pasir Koja No. 0, Surakarta, Sulawesi Utara 87413",Palangkaraya,BPJS,BPJS Kesehatan
+P00885,Zulfa Pradipta,P,1941-12-31,+62 (0870) 836-8898,"Gang Waringin No. 4, Singkawang, KB 03925",Probolinggo,BPJS,BPJS Kesehatan
+P00886,"Agnes Firgantoro, S.Kom",P,2021-04-01,+62 (99) 028-3208,"Jl. Cempaka No. 590, Serang, PB 18551",Banjarbaru,BPJS,BPJS Kesehatan
+P00887,Cayadi Aryani,L,2021-11-01,0860130914,"Jl. Rajawali Timur No. 66, Dumai, JI 81179",Tidore Kepulauan,BPJS,BPJS Kesehatan
+P00888,"Ir. Viktor Setiawan, S.T.",L,1961-04-14,+62 (017) 971-6429,"Jalan Cihampelas No. 0, Batam, Sulawesi Tengah 07653",Tegal,Asuransi Swasta,Manulife
+P00889,Zahra Susanti,L,2003-07-23,+62 (0110) 158 0574,"Jl. Rawamangun No. 2, Binjai, Aceh 52826",Singkawang,Asuransi Swasta,Prudential
+P00890,"Anom Rajata, M.Farm",L,1989-06-10,+62-075-357-2099,"Gang Jamika No. 442, Subulussalam, Kalimantan Barat 37269",Bitung,BPJS,BPJS Kesehatan
+P00891,Eluh Waluyo,L,1978-05-23,+62-91-248-1542,"Jalan Abdul Muis No. 0, Malang, NT 53791",Langsa,BPJS,BPJS Kesehatan
+P00892,Karja Puspasari,P,2000-06-06,+62 (50) 721-5127,"Jalan Dipatiukur No. 483, Ternate, PA 45966",Kotamobagu,Asuransi Swasta,AXA Mandiri
+P00893,Bakijan Suartini,L,1996-03-31,+62-72-865-1341,"Jl. Gegerkalong Hilir No. 52, Padangpanjang, BE 84417",Jambi,BPJS,BPJS Kesehatan
+P00894,Cornelia Dabukke,L,1997-07-22,+62-25-396-2782,"Gg. Pasteur No. 612, Bandar Lampung, SU 88745",Batam,BPJS,BPJS Kesehatan
+P00895,"Dr. Tami Wastuti, M.TI.",P,1955-11-11,0892861949,"Jl. KH Amin Jasuta No. 1, Samarinda, Sulawesi Selatan 81630",Subulussalam,BPJS,BPJS Kesehatan
+P00896,"Cici Saptono, M.TI.",L,1982-09-06,+62-0218-286-3626,"Jalan Abdul Muis No. 2, Bontang, BE 77910",Palangkaraya,Asuransi Swasta,Sinarmas
+P00897,"Wadi Laksmiwati, S.Kom",P,1941-08-22,+62 (004) 422-2694,"Jalan Raya Setiabudhi No. 4, Gorontalo, JI 38819",Tual,Umum,
+P00898,Tgk. Halim Utami,P,1955-05-10,+62-075-474-7318,"Gang K.H. Wahid Hasyim No. 83, Banjar, BA 46135",Banda Aceh,BPJS,BPJS Kesehatan
+P00899,Gandewa Uwais,P,1977-09-01,+62 (17) 016-2256,"Jl. Bangka Raya No. 8, Kota Administrasi Jakarta Timur, PB 35896",Batam,BPJS,BPJS Kesehatan
+P00900,Winda Januar,P,1995-08-29,+62-744-846-4601,"Jalan Jakarta No. 772, Medan, Maluku 07910",Tanjungbalai,BPJS,BPJS Kesehatan

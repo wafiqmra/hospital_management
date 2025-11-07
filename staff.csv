@@ -1,0 +1,834 @@
+﻿staff_id,name,role,department,hire_date,active
+S0001,Jaiman Pertiwi,Perawat,IGD,2019-03-22,True
+S0002,Shakila Kuswoyo,Perawat,ICU,2016-08-17,True
+S0003,Titi Damanik,Perawat,ICU,2022-08-30,False
+S0004,drg. Fitria Prasetya,Petugas Lab,Keuangan,2018-12-16,True
+S0005,Cut Cici Setiawan,Petugas Lab,Operasi,2017-07-19,False
+S0006,Lantar Manullang,Admin,Keuangan,2017-01-27,True
+S0007,Wani Kusumo,Farmasis,ICU,2024-10-11,True
+S0008,"Puti Agnes Farida, M.Kom.",Perawat,Radiologi,2022-06-21,True
+S0009,Surya Rajata,Petugas Lab,Farmasi,2016-01-06,True
+S0010,Putri Napitupulu,Perawat,Laboratorium,2023-12-13,True
+S0011,Wahyu Situmorang,Perawat,Farmasi,2018-04-02,True
+S0012,"Iriana Maheswara, M.Kom.",Kasir,Laboratorium,2020-05-15,True
+S0013,dr. Yessi Palastri,Perawat,ICU,2017-05-01,False
+S0014,R. Clara Situmorang,Petugas Lab,Poli Gigi,2021-03-05,True
+S0015,"drg. Maria Agustina, S.Psi",Perawat,Laboratorium,2017-06-09,True
+S0016,Anita Farida,Perawat,NICU,2022-12-18,True
+S0017,Yulia Widiastuti,Perawat,Radiologi,2019-11-25,False
+S0018,"Febi Suartini, S.Sos",Admin,Poli Anak,2018-05-03,True
+S0019,"Darmana Puspita, S.Sos",Kasir,IGD,2017-03-28,True
+S0020,Dewi Sitompul,Security,ICU,2019-10-18,False
+S0021,"R. Padma Astuti, S.Kom",Perawat,Laboratorium,2024-11-08,True
+S0022,Hafshah Sihotang,Perawat,IGD,2023-12-21,False
+S0023,Drs. Prabawa Firgantoro,Perawat,Poli Gigi,2018-08-27,True
+S0024,"Kayla Pradipta, M.Pd",Dokter,Farmasi,2021-11-15,True
+S0025,Wani Mandasari,Admin,Radiologi,2020-04-04,True
+S0026,Ella Zulaika,Petugas Lab,NICU,2020-05-18,True
+S0027,Hamzah Lailasari,Perawat,Poli Anak,2019-01-01,True
+S0028,Clara Halimah,Security,NICU,2018-08-30,True
+S0029,Julia Wacana,Perawat,Radiologi,2017-02-15,False
+S0030,Syahrini Ardianto,Perawat,Poli Anak,2024-09-19,True
+S0031,Lala Rajata,Dokter,Farmasi,2021-05-05,False
+S0032,Maya Napitupulu,Admin,Poli Anak,2017-06-02,True
+S0033,Jinawi Hutagalung,Farmasis,Farmasi,2022-01-21,False
+S0034,Tina Manullang,Perawat,Poli Gigi,2019-05-08,True
+S0035,Amalia Sihombing,Petugas Lab,ICU,2022-06-05,True
+S0036,Nugraha Gunawan,Dokter,Keuangan,2015-11-13,True
+S0037,Harimurti Pratama,Petugas Lab,IGD,2018-11-14,True
+S0038,Dr. Prima Halim,Dokter,Operasi,2017-02-16,False
+S0039,"Laras Uwais, S.H.",Perawat,IGD,2018-12-26,True
+S0040,Jelita Mandala,Farmasis,Operasi,2019-07-13,True
+S0041,Ayu Narpati,Perawat,Poli Anak,2023-09-08,True
+S0042,Kanda Hassanah,Security,Radiologi,2023-08-10,True
+S0043,Drs. Imam Hassanah,Kasir,Keuangan,2024-09-11,True
+S0044,Puti Najwa Narpati,Perawat,Poli Gigi,2019-12-08,False
+S0045,"dr. Liman Adriansyah, S.Sos",Perawat,Radiologi,2020-07-20,True
+S0046,Agnes Anggraini,Perawat,Keuangan,2017-08-12,True
+S0047,Paramita Maheswara,Dokter,Radiologi,2019-09-20,False
+S0048,Prayoga Sinaga,Perawat,NICU,2024-01-05,True
+S0049,Karya Pudjiastuti,Admin,NICU,2018-01-27,True
+S0050,Sutan Lanjar Jailani,Admin,Operasi,2018-03-23,True
+S0051,Ir. Bakiono Saptono,Kasir,NICU,2016-07-25,True
+S0052,Cahyo Yuliarti,Farmasis,IGD,2022-04-21,True
+S0053,"Sutan Ismail Najmudin, S.IP",Perawat,Radiologi,2021-04-22,False
+S0054,Hj. Titin Simbolon,Security,NICU,2024-12-13,True
+S0055,Irsad Santoso,Security,Farmasi,2022-02-09,True
+S0056,"Paiman Prasetya, S.H.",Petugas Lab,IGD,2016-12-18,True
+S0057,Mahesa Sirait,Kasir,Farmasi,2019-08-08,False
+S0058,Elma Gunarto,Perawat,NICU,2024-10-06,False
+S0059,Daru Puspita,Kasir,Operasi,2018-09-06,True
+S0060,Titin Habibi,Admin,Poli Anak,2024-03-08,True
+S0061,Prabawa Rajasa,Security,ICU,2020-09-15,True
+S0062,"Najib Wahyudin, S.Psi",Petugas Lab,Radiologi,2020-11-17,True
+S0063,"Harjaya Wahyuni, S.Ked",Security,Poli Gigi,2024-07-13,True
+S0064,Latika Wijayanti,Perawat,NICU,2020-08-15,True
+S0065,dr. Saiful Prastuti,Perawat,IGD,2018-08-17,False
+S0066,Febi Zulkarnain,Petugas Lab,Operasi,2025-04-14,True
+S0067,Ghaliyati Andriani,Admin,NICU,2019-06-29,True
+S0068,"Zamira Gunawan, S.IP",Admin,NICU,2020-04-10,True
+S0069,"Dr. Dinda Haryanti, M.TI.",Dokter,NICU,2017-02-01,False
+S0070,"KH. Bahuwirya Prasetyo, S.IP",Perawat,Laboratorium,2021-08-19,True
+S0071,Nyoman Wijayanti,Petugas Lab,NICU,2023-08-25,False
+S0072,Dr. Dadap Sinaga,Petugas Lab,Radiologi,2018-06-12,True
+S0073,Ajiman Hutasoit,Farmasis,Farmasi,2021-07-03,True
+S0074,"R. Dian Jailani, S.Kom",Perawat,Poli Gigi,2020-01-16,True
+S0075,Ira Narpati,Dokter,Poli Umum,2019-11-23,True
+S0076,T. Caket Farida,Farmasis,Farmasi,2025-04-18,True
+S0077,Damar Habibi,Perawat,Keuangan,2020-09-02,True
+S0078,"KH. Setya Adriansyah, S.E.I",Perawat,Poli Umum,2016-12-22,True
+S0079,Silvia Palastri,Perawat,IGD,2020-08-07,True
+S0080,R. Genta Tamba,Kasir,Keuangan,2018-03-29,True
+S0081,Elvina Puspasari,Farmasis,Operasi,2021-07-18,True
+S0082,Oliva Damanik,Dokter,Laboratorium,2017-07-15,True
+S0083,"Ir. Ajimin Suryatmi, S.Pd",Perawat,Laboratorium,2019-07-30,True
+S0084,R.A. Yessi Nurdiyanti,Perawat,Operasi,2018-01-19,True
+S0085,"Zamira Saputra, S.IP",Kasir,Laboratorium,2019-04-19,True
+S0086,"drg. Anita Prasetyo, S.Pt",Perawat,Laboratorium,2023-09-08,False
+S0087,Iriana Suartini,Farmasis,IGD,2016-10-30,False
+S0088,Hani Hakim,Security,ICU,2025-06-25,True
+S0089,Ir. Puput Kurniawan,Perawat,Poli Umum,2024-08-19,True
+S0090,Sutan Nasrullah Hidayat,Petugas Lab,Operasi,2023-11-14,True
+S0091,Padmi Yolanda,Admin,Farmasi,2019-03-26,True
+S0092,Ciaobella Nashiruddin,Perawat,Laboratorium,2017-05-13,True
+S0093,"Eli Budiman, M.Ak",Perawat,Poli Gigi,2022-09-03,True
+S0094,"Raharja Budiyanto, S.Pt",Perawat,Farmasi,2016-03-18,True
+S0095,Putri Prakasa,Farmasis,Poli Gigi,2023-01-31,True
+S0096,"dr. Wulan Prasetyo, S.I.Kom",Perawat,NICU,2019-10-12,True
+S0097,Jarwa Mandala,Dokter,Keuangan,2025-06-22,True
+S0098,Dr. Jindra Purwanti,Admin,IGD,2022-07-09,True
+S0099,Zelaya Sitorus,Dokter,Poli Umum,2016-01-08,False
+S0100,Farhunnisa Kusumo,Perawat,Poli Umum,2018-10-16,True
+S0101,Gandi Kurniawan,Dokter,Farmasi,2023-09-21,False
+S0102,"Praba Sihombing, M.Pd",Perawat,Poli Gigi,2019-03-17,False
+S0103,Rama Pratama,Dokter,Operasi,2016-01-15,True
+S0104,"R.A. Zamira Samosir, S.E.",Petugas Lab,Radiologi,2018-05-07,True
+S0105,R.A. Winda Gunawan,Petugas Lab,Poli Gigi,2019-11-21,True
+S0106,Ana Marpaung,Perawat,Laboratorium,2020-10-02,False
+S0107,"Wakiman Kusmawati, S.Kom",Dokter,Poli Gigi,2018-09-02,True
+S0108,Zalindra Pertiwi,Dokter,NICU,2021-01-29,True
+S0109,Samiah Januar,Petugas Lab,ICU,2017-11-20,True
+S0110,Cemplunk Habibi,Security,Poli Umum,2020-09-03,False
+S0111,"dr. Bakidin Wahyudin, M.TI.",Perawat,Poli Gigi,2016-12-04,False
+S0112,Johan Rajata,Perawat,Poli Anak,2025-04-10,False
+S0113,Ir. Atma Narpati,Perawat,Poli Umum,2024-01-05,False
+S0114,Adhiarja Rahayu,Perawat,IGD,2021-10-28,True
+S0115,"Candrakanta Megantara, S.IP",Perawat,NICU,2022-12-25,True
+S0116,Mila Tarihoran,Petugas Lab,IGD,2023-01-15,True
+S0117,"Drs. Cakrabuana Wacana, S.Kom",Petugas Lab,Farmasi,2017-05-28,False
+S0118,"Hj. Rika Mayasari, M.Ak",Petugas Lab,NICU,2018-08-09,False
+S0119,Cagak Saptono,Dokter,IGD,2022-06-04,True
+S0120,drg. Pangeran Nasyiah,Dokter,Poli Gigi,2024-07-08,False
+S0121,Mursita Firmansyah,Perawat,IGD,2020-05-14,True
+S0122,Septi Farida,Petugas Lab,Radiologi,2017-07-26,False
+S0123,"Lulut Riyanti, S.Ked",Kasir,NICU,2024-08-07,True
+S0124,Tgk. Warsa Halim,Admin,IGD,2022-10-13,True
+S0125,Rudi Manullang,Perawat,NICU,2023-10-26,False
+S0126,Gaman Hastuti,Perawat,NICU,2024-05-25,True
+S0127,Saadat Mulyani,Petugas Lab,Radiologi,2016-08-01,True
+S0128,"drg. Kamaria Purnawati, S.Ked",Dokter,Keuangan,2019-05-08,True
+S0129,Hj. Ayu Saptono,Perawat,Operasi,2016-08-18,True
+S0130,Dt. Bagas Uyainah,Dokter,NICU,2017-09-30,True
+S0131,Martana Nashiruddin,Farmasis,Poli Umum,2017-04-09,True
+S0132,Karta Nainggolan,Kasir,Operasi,2019-02-03,False
+S0133,Ifa Laksita,Perawat,Poli Umum,2019-12-12,True
+S0134,Dr. Hana Rajasa,Petugas Lab,Laboratorium,2020-10-22,True
+S0135,"Pranata Gunarto, S.E.",Perawat,Radiologi,2020-06-15,True
+S0136,"Anggabaya Wibisono, S.Gz",Admin,Laboratorium,2023-02-26,True
+S0137,Almira Maulana,Security,NICU,2021-06-14,True
+S0138,Tgk. Hendri Kuswoyo,Dokter,IGD,2021-05-06,True
+S0139,Gina Tarihoran,Admin,IGD,2023-10-27,False
+S0140,Eka Fujiati,Perawat,NICU,2024-10-10,False
+S0141,Prabawa Mandala,Farmasis,Farmasi,2016-07-30,False
+S0142,Danang Permadi,Dokter,Poli Anak,2022-12-02,True
+S0143,Halima Agustina,Perawat,Farmasi,2021-03-18,True
+S0144,Sabar Suryatmi,Kasir,Keuangan,2023-06-03,True
+S0145,"Bagas Ardianto, S.IP",Admin,Radiologi,2025-10-14,True
+S0146,"R.A. Rini Nasyiah, S.E.I",Admin,Laboratorium,2021-03-04,True
+S0147,"Karya Nashiruddin, M.M.",Perawat,Poli Anak,2021-05-02,True
+S0148,Slamet Tampubolon,Perawat,Poli Anak,2021-05-28,True
+S0149,Bagas Utami,Farmasis,Farmasi,2023-03-05,True
+S0150,Bella Nasyiah,Perawat,Poli Gigi,2018-04-21,True
+S0151,Usyi Putra,Perawat,IGD,2016-10-29,True
+S0152,Rudi Siregar,Kasir,Farmasi,2020-04-19,True
+S0153,Prakosa Hutasoit,Perawat,Poli Gigi,2021-04-30,True
+S0154,R.M. Omar Napitupulu,Farmasis,Operasi,2024-01-12,True
+S0155,Zelaya Yuniar,Perawat,IGD,2022-08-04,False
+S0156,Maryanto Yulianti,Kasir,Operasi,2017-09-24,False
+S0157,"R.A. Ina Tamba, S.Farm",Dokter,Poli Gigi,2019-06-27,True
+S0158,R.A. Hesti Gunarto,Kasir,ICU,2021-04-22,True
+S0159,Gasti Astuti,Petugas Lab,NICU,2020-01-04,True
+S0160,Kayla Tarihoran,Perawat,ICU,2017-08-11,True
+S0161,Kani Usamah,Dokter,Operasi,2018-11-29,True
+S0162,"Ir. Shania Sitorus, M.Pd",Dokter,IGD,2018-09-11,True
+S0163,R. Genta Winarno,Perawat,Operasi,2021-10-07,True
+S0164,Drs. Panca Wibisono,Perawat,Poli Anak,2022-08-02,True
+S0165,R.M. Warta Tarihoran,Admin,Keuangan,2016-11-22,True
+S0166,Tasdik Mardhiyah,Perawat,Keuangan,2020-04-21,True
+S0167,Shakila Rahmawati,Dokter,ICU,2020-02-08,True
+S0168,Ika Puspasari,Dokter,Radiologi,2021-07-30,True
+S0169,Galih Suryono,Kasir,ICU,2017-06-17,True
+S0170,Paiman Rajasa,Dokter,Radiologi,2023-06-26,False
+S0171,Wardi Pranowo,Farmasis,Radiologi,2023-11-29,True
+S0172,"Cut Widya Waskita, M.Pd",Perawat,Poli Umum,2025-07-09,True
+S0173,Parman Winarno,Admin,IGD,2017-07-17,True
+S0174,Liman Setiawan,Kasir,ICU,2024-06-02,False
+S0175,"Rina Laksita, S.Gz",Dokter,Radiologi,2019-05-26,True
+S0176,Genta Budiman,Perawat,Keuangan,2022-04-30,True
+S0177,Cut Sari Nababan,Perawat,Operasi,2018-01-18,True
+S0178,Maras Namaga,Perawat,Poli Umum,2024-10-09,False
+S0179,dr. Jaswadi Farida,Perawat,Poli Umum,2022-05-31,False
+S0180,Dacin Astuti,Farmasis,ICU,2016-06-17,False
+S0181,"dr. Anastasia Lestari, S.T.",Perawat,Radiologi,2017-06-25,False
+S0182,Maya Rahimah,Admin,Farmasi,2024-07-13,True
+S0183,Cahyo Widiastuti,Security,ICU,2019-07-09,True
+S0184,Sabrina Hutapea,Petugas Lab,Laboratorium,2021-06-06,True
+S0185,Ivan Mansur,Admin,Poli Gigi,2020-09-23,False
+S0186,"Gabriella Simanjuntak, S.T.",Petugas Lab,Poli Gigi,2020-01-15,True
+S0187,H. Elvin Ramadan,Perawat,Keuangan,2022-02-16,False
+S0188,Cawuk Widiastuti,Kasir,Laboratorium,2018-11-11,True
+S0189,"Wakiman Siregar, S.Pd",Petugas Lab,NICU,2017-07-11,True
+S0190,T. Ozy Nainggolan,Perawat,Radiologi,2019-08-23,False
+S0191,"dr. Wani Lazuardi, M.TI.",Farmasis,Operasi,2022-04-11,False
+S0192,Kayun Irawan,Perawat,Keuangan,2022-12-12,False
+S0193,Kania Gunarto,Perawat,Radiologi,2018-04-15,True
+S0194,Tgk. Cemani Namaga,Perawat,Poli Umum,2024-08-24,True
+S0195,"Ir. Aurora Yulianti, S.H.",Dokter,ICU,2025-07-06,True
+S0196,drg. Maida Mardhiyah,Perawat,Operasi,2020-09-02,True
+S0197,Argono Uyainah,Farmasis,Poli Umum,2019-12-30,False
+S0198,Tari Waskita,Perawat,Keuangan,2017-03-30,True
+S0199,Edison Tampubolon,Petugas Lab,Poli Anak,2017-08-02,True
+S0200,Jessica Adriansyah,Petugas Lab,Keuangan,2016-12-31,True
+S0201,Ir. Ulva Budiman,Admin,Poli Anak,2018-11-28,False
+S0202,Kajen Maheswara,Admin,NICU,2022-02-09,True
+S0203,"Lasmanto Lazuardi, S.Pd",Dokter,NICU,2025-03-26,True
+S0204,Drs. Fitria Sitompul,Dokter,ICU,2019-01-14,True
+S0205,Ami Maulana,Perawat,NICU,2022-05-12,True
+S0206,Cemeti Usamah,Perawat,Operasi,2021-01-13,False
+S0207,"Tirta Hidayat, M.Kom.",Petugas Lab,Poli Umum,2018-04-27,True
+S0208,Septi Prabowo,Security,Poli Gigi,2025-09-19,False
+S0209,Maida Mardhiyah,Perawat,Poli Umum,2018-04-14,True
+S0210,Wulan Firmansyah,Petugas Lab,Poli Umum,2020-07-10,True
+S0211,Candrakanta Setiawan,Kasir,Poli Gigi,2021-01-17,True
+S0212,Gamani Prabowo,Admin,Keuangan,2025-09-19,False
+S0213,Kasusra Nasyidah,Perawat,Keuangan,2021-10-29,True
+S0214,"Dwi Purwanti, S.Kom",Perawat,NICU,2019-03-03,True
+S0215,Lasmanto Saptono,Perawat,Operasi,2025-06-05,False
+S0216,"Najwa Marbun, S.IP",Dokter,IGD,2017-05-25,True
+S0217,"R. Balidin Damanik, M.Farm",Farmasis,Operasi,2022-11-12,True
+S0218,Mujur Pudjiastuti,Perawat,Farmasi,2022-12-09,False
+S0219,"Baktiadi Nugroho, S.I.Kom",Kasir,IGD,2018-10-26,False
+S0220,Lasmono Wijayanti,Petugas Lab,Farmasi,2023-06-10,False
+S0221,Langgeng Rajasa,Perawat,Poli Anak,2024-05-03,False
+S0222,Patricia Saptono,Security,ICU,2019-06-10,True
+S0223,"dr. Kania Prasetyo, S.Ked",Kasir,NICU,2017-11-21,True
+S0224,Kiandra Agustina,Perawat,IGD,2019-12-04,True
+S0225,Safina Ardianto,Perawat,NICU,2019-08-23,True
+S0226,"Maida Kuswandari, S.T.",Admin,IGD,2024-06-07,False
+S0227,"Puti Clara Novitasari, S.Pd",Perawat,Radiologi,2021-06-23,True
+S0228,Candra Tampubolon,Perawat,Keuangan,2017-03-25,False
+S0229,"Garan Hidayat, M.M.",Perawat,Poli Anak,2021-08-30,True
+S0230,"Vanya Rajata, S.E.",Farmasis,ICU,2024-05-19,False
+S0231,Tira Wahyuni,Admin,Poli Umum,2017-02-17,False
+S0232,"Akarsana Ramadan, S.Ked",Security,NICU,2020-06-25,True
+S0233,Cengkal Sitorus,Admin,Keuangan,2024-10-21,False
+S0234,"Janet Wijayanti, M.M.",Security,Keuangan,2021-11-02,True
+S0235,Margana Hartati,Security,Radiologi,2024-12-15,True
+S0236,Rusman Yuliarti,Dokter,Poli Umum,2023-05-05,True
+S0237,"Among Yuliarti, S.I.Kom",Dokter,Poli Umum,2018-12-21,True
+S0238,"Kunthara Kurniawan, S.Pd",Perawat,Farmasi,2018-10-22,True
+S0239,Luluh Oktaviani,Perawat,Keuangan,2020-05-02,True
+S0240,"Putri Marpaung, S.E.I",Petugas Lab,Poli Gigi,2020-04-10,True
+S0241,"Garan Yuliarti, S.Pt",Perawat,Laboratorium,2023-11-25,True
+S0242,"Tgk. Iriana Firgantoro, S.I.Kom",Perawat,Farmasi,2021-05-07,False
+S0243,Eli Hariyah,Perawat,NICU,2025-05-16,True
+S0244,H. Prima Nashiruddin,Perawat,Poli Gigi,2021-04-07,True
+S0245,Puti Oliva Budiyanto,Dokter,Radiologi,2021-12-06,True
+S0246,"drg. Sadina Nashiruddin, S.Psi",Dokter,IGD,2021-09-28,True
+S0247,Cut Jasmin Hutapea,Perawat,Poli Umum,2020-06-08,True
+S0248,Okta Natsir,Perawat,Poli Anak,2018-11-29,True
+S0249,Cornelia Wahyudin,Dokter,Keuangan,2018-11-05,False
+S0250,Mutia Salahudin,Perawat,Poli Umum,2025-07-14,True
+S0251,Emil Maryati,Farmasis,Keuangan,2020-10-22,True
+S0252,Ir. Qori Kurniawan,Petugas Lab,Operasi,2023-06-08,False
+S0253,"Kalim Mangunsong, S.H.",Dokter,Poli Anak,2021-09-10,True
+S0254,"Dt. Agus Nasyidah, M.M.",Dokter,Poli Umum,2019-04-22,True
+S0255,Pia Novitasari,Perawat,IGD,2017-01-27,True
+S0256,Margana Adriansyah,Dokter,Poli Gigi,2023-09-20,False
+S0257,Cagak Hutasoit,Perawat,ICU,2019-07-29,True
+S0258,Jefri Andriani,Dokter,Radiologi,2025-03-01,True
+S0259,Najib Rajata,Farmasis,Poli Umum,2017-06-17,True
+S0260,Salsabila Tarihoran,Perawat,Farmasi,2024-08-29,False
+S0261,"Kemal Puspasari, S.IP",Admin,Keuangan,2025-04-02,True
+S0262,Mariadi Astuti,Perawat,IGD,2023-05-25,True
+S0263,"Edison Firgantoro, S.Sos",Farmasis,Farmasi,2016-06-28,True
+S0264,Queen Situmorang,Perawat,NICU,2023-06-16,True
+S0265,Fitriani Permata,Perawat,Poli Gigi,2022-02-01,True
+S0266,Drs. Gading Pradipta,Admin,Farmasi,2017-09-10,True
+S0267,"Perkasa Zulaika, M.Pd",Perawat,ICU,2022-05-09,True
+S0268,Umi Manullang,Kasir,Poli Anak,2021-03-23,True
+S0269,"Yunita Pangestu, S.H.",Petugas Lab,Farmasi,2016-02-18,False
+S0270,"Indah Padmasari, M.Pd",Dokter,Poli Umum,2024-09-08,False
+S0271,"Mila Dongoran, M.Farm",Admin,ICU,2021-10-15,True
+S0272,Pangestu Hutapea,Admin,Poli Anak,2017-11-22,True
+S0273,Cici Wibowo,Perawat,Poli Anak,2021-09-05,True
+S0274,Paulin Thamrin,Perawat,Keuangan,2019-04-08,True
+S0275,Cahyanto Anggraini,Perawat,Operasi,2022-01-26,True
+S0276,Galak Haryanti,Admin,Poli Gigi,2016-03-31,True
+S0277,Jumari Simanjuntak,Perawat,ICU,2025-09-01,True
+S0278,Jaiman Santoso,Perawat,Poli Anak,2021-04-30,False
+S0279,Eja Jailani,Perawat,Radiologi,2021-03-18,True
+S0280,Cayadi Wulandari,Farmasis,NICU,2024-07-03,False
+S0281,Wawan Adriansyah,Dokter,ICU,2025-08-09,True
+S0282,"Ir. Clara Astuti, S.Gz",Admin,Poli Anak,2017-12-08,True
+S0283,Perkasa Namaga,Petugas Lab,Keuangan,2023-09-18,True
+S0284,"Artawan Sudiati, S.I.Kom",Farmasis,Keuangan,2023-12-13,True
+S0285,Tgk. Dimas Purnawati,Admin,IGD,2016-06-03,True
+S0286,Yunita Hastuti,Dokter,Operasi,2017-08-16,True
+S0287,Cici Nasyidah,Perawat,IGD,2022-09-04,False
+S0288,"Devi Mandala, M.Kom.",Perawat,Farmasi,2019-11-26,False
+S0289,"R.M. Aswani Ramadan, S.Ked",Petugas Lab,Poli Anak,2018-05-26,False
+S0290,Aswani Firgantoro,Dokter,IGD,2022-10-19,True
+S0291,"Rini Riyanti, S.T.",Perawat,Poli Gigi,2023-02-24,True
+S0292,Darimin Winarsih,Dokter,Poli Anak,2021-11-09,False
+S0293,dr. Tirta Sihombing,Farmasis,Radiologi,2016-12-01,True
+S0294,Harjo Maheswara,Kasir,ICU,2024-07-24,True
+S0295,Jinawi Suwarno,Perawat,Poli Gigi,2022-01-30,False
+S0296,R.A. Rahmi Tampubolon,Perawat,IGD,2018-01-29,True
+S0297,Rini Pradipta,Perawat,Farmasi,2023-12-16,False
+S0298,Galar Sihombing,Farmasis,ICU,2020-12-25,True
+S0299,"Mumpuni Andriani, S.Gz",Admin,Laboratorium,2018-02-22,True
+S0300,"Sakti Purnawati, S.IP",Perawat,Poli Gigi,2016-06-07,True
+S0301,"Cornelia Kusumo, S.Sos",Dokter,Laboratorium,2020-01-25,True
+S0302,Muni Irawan,Perawat,Poli Gigi,2019-10-28,False
+S0303,Jessica Saragih,Perawat,Farmasi,2021-03-21,True
+S0304,Jessica Usada,Dokter,Keuangan,2025-05-10,True
+S0305,Tirtayasa Wijaya,Perawat,NICU,2024-04-05,False
+S0306,"Pangeran Kusumo, S.Gz",Admin,Keuangan,2021-05-16,False
+S0307,H. Galih Mulyani,Perawat,Keuangan,2018-08-12,True
+S0308,"Sutan Panji Lailasari, S.Kom",Security,Radiologi,2021-04-12,True
+S0309,R. Vicky Waluyo,Farmasis,Laboratorium,2019-09-09,True
+S0310,Ayu Nurdiyanti,Admin,Keuangan,2023-10-10,True
+S0311,Labuh Firgantoro,Petugas Lab,Radiologi,2022-06-21,True
+S0312,Lalita Rajata,Perawat,Poli Anak,2018-07-04,True
+S0313,"Wani Suryono, M.Kom.",Admin,ICU,2023-06-05,True
+S0314,"Drs. Rafid Uwais, S.I.Kom",Farmasis,Operasi,2020-04-01,False
+S0315,"Hj. Violet Wibisono, S.Farm",Admin,Radiologi,2019-02-28,True
+S0316,"drg. Perkasa Sirait, S.Kom",Admin,Poli Gigi,2022-06-12,True
+S0317,Winda Marpaung,Perawat,Radiologi,2019-02-24,False
+S0318,Farhunnisa Kuswandari,Kasir,Radiologi,2025-11-04,True
+S0319,KH. Maryadi Agustina,Perawat,NICU,2019-02-14,True
+S0320,"Ir. Betania Hariyah, S.Gz",Perawat,Farmasi,2024-02-04,True
+S0321,Ifa Hastuti,Admin,NICU,2018-10-05,True
+S0322,Uchita Hasanah,Dokter,ICU,2021-03-13,True
+S0323,Balidin Laksmiwati,Petugas Lab,Poli Gigi,2021-09-06,True
+S0324,Sutan Eka Kusmawati,Farmasis,Radiologi,2025-05-05,True
+S0325,"Liman Puspasari, S.Farm",Dokter,IGD,2024-01-13,True
+S0326,Ratna Mandasari,Security,Laboratorium,2024-03-03,True
+S0327,Titin Lazuardi,Admin,Poli Gigi,2022-02-01,True
+S0328,Harja Wibowo,Kasir,Keuangan,2017-11-20,True
+S0329,Jais Setiawan,Security,Keuangan,2024-08-17,False
+S0330,Oni Maryati,Petugas Lab,Operasi,2020-06-22,True
+S0331,"Restu Hutasoit, S.Ked",Farmasis,Poli Gigi,2022-12-14,True
+S0332,"Sutan Vinsen Widiastuti, M.Ak",Dokter,IGD,2022-04-21,False
+S0333,Soleh Situmorang,Perawat,IGD,2023-05-02,True
+S0334,Usyi Utami,Perawat,Keuangan,2019-06-20,True
+S0335,drg. Novi Nuraini,Farmasis,Operasi,2019-10-26,True
+S0336,Manah Gunawan,Dokter,Radiologi,2023-03-31,True
+S0337,"drg. Janet Marbun, M.M.",Dokter,NICU,2020-09-07,True
+S0338,Ophelia Marbun,Admin,Poli Gigi,2024-02-12,True
+S0339,Iriana Mandasari,Kasir,Farmasi,2017-09-27,True
+S0340,Silvia Laksmiwati,Perawat,Laboratorium,2022-11-24,True
+S0341,Lanjar Yulianti,Kasir,ICU,2019-06-19,False
+S0342,Asmuni Lazuardi,Farmasis,NICU,2021-02-27,True
+S0343,dr. Koko Yuniar,Perawat,IGD,2021-12-17,True
+S0344,Rahmi Maulana,Perawat,Keuangan,2024-01-10,True
+S0345,"Calista Agustina, M.Farm",Kasir,Farmasi,2024-06-25,True
+S0346,Tira Pranowo,Dokter,Laboratorium,2017-01-12,False
+S0347,Vera Jailani,Perawat,Farmasi,2020-07-21,True
+S0348,Irwan Nasyiah,Perawat,Poli Umum,2019-04-07,True
+S0349,Olivia Wastuti,Perawat,IGD,2018-07-29,True
+S0350,Najwa Haryanto,Admin,Farmasi,2016-12-26,True
+S0351,"Salsabila Purwanti, S.E.",Perawat,Poli Gigi,2022-11-16,True
+S0352,Gina Pratama,Perawat,Laboratorium,2018-03-21,True
+S0353,Catur Wijayanti,Kasir,Laboratorium,2024-04-02,False
+S0354,R. Nilam Pranowo,Farmasis,Operasi,2022-09-09,True
+S0355,Jefri Astuti,Perawat,Poli Umum,2019-10-06,True
+S0356,Tiara Napitupulu,Petugas Lab,Operasi,2022-11-19,True
+S0357,Rahmi Halimah,Petugas Lab,Poli Gigi,2018-02-15,True
+S0358,Hamima Astuti,Security,Poli Umum,2015-12-30,True
+S0359,Cecep Iswahyudi,Dokter,IGD,2025-10-03,True
+S0360,Opan Prayoga,Perawat,NICU,2025-10-28,False
+S0361,"drg. Gangsar Yuliarti, S.H.",Perawat,Keuangan,2017-08-01,True
+S0362,Amalia Waskita,Petugas Lab,Poli Gigi,2017-08-20,True
+S0363,"Akarsana Napitupulu, S.T.",Kasir,Poli Gigi,2016-12-02,False
+S0364,drg. Juli Prakasa,Petugas Lab,Poli Anak,2025-02-04,True
+S0365,Dt. Opung Budiyanto,Farmasis,Operasi,2019-10-09,True
+S0366,Xanana Saefullah,Farmasis,IGD,2025-01-08,True
+S0367,Paulin Salahudin,Perawat,IGD,2020-06-24,True
+S0368,Labuh Susanti,Farmasis,Laboratorium,2017-04-17,True
+S0369,Chandra Widodo,Kasir,Poli Umum,2016-04-14,False
+S0370,"Drs. Putri Winarno, M.TI.",Petugas Lab,Operasi,2020-08-31,True
+S0371,"Tgk. Maya Wulandari, S.I.Kom",Admin,NICU,2018-03-25,True
+S0372,Paulin Wijaya,Kasir,IGD,2018-12-20,False
+S0373,Sutan Usman Widiastuti,Dokter,Radiologi,2016-02-13,True
+S0374,Jabal Sirait,Dokter,NICU,2017-12-12,True
+S0375,Bakti Marpaung,Perawat,Poli Anak,2020-06-17,True
+S0376,"drg. Ajiman Prabowo, S.Sos",Kasir,Farmasi,2016-02-12,True
+S0377,Wakiman Sitorus,Farmasis,Laboratorium,2023-04-29,False
+S0378,Luhung Ardianto,Farmasis,Radiologi,2018-11-30,True
+S0379,"H. Artawan Nurdiyanti, S.Pd",Perawat,Operasi,2024-01-20,True
+S0380,Zulfa Rahmawati,Kasir,Poli Anak,2024-07-07,True
+S0381,Mahfud Megantara,Perawat,NICU,2023-06-24,True
+S0382,"R. Chelsea Mansur, S.E.I",Perawat,NICU,2021-08-27,True
+S0383,"Cahyono Kurniawan, M.Farm",Petugas Lab,Farmasi,2017-03-02,True
+S0384,"Puti Kasiyah Prayoga, S.Pd",Dokter,NICU,2016-10-13,True
+S0385,Panji Widodo,Admin,ICU,2023-10-16,False
+S0386,Tgk. Widya Laksita,Perawat,IGD,2024-12-21,True
+S0387,Rahmi Yuniar,Admin,Poli Anak,2024-03-21,True
+S0388,"Tgk. Bambang Hardiansyah, M.Farm",Kasir,Poli Gigi,2021-01-20,False
+S0389,Kayun Suryono,Perawat,Laboratorium,2017-10-25,True
+S0390,Jati Megantara,Admin,Radiologi,2020-12-17,False
+S0391,Heru Hutasoit,Petugas Lab,Poli Anak,2017-10-24,True
+S0392,"drg. Zalindra Handayani, S.Ked",Petugas Lab,Farmasi,2020-06-14,True
+S0393,"drg. Keisha Mahendra, S.Gz",Admin,ICU,2017-01-18,True
+S0394,"drg. Jane Lailasari, S.IP",Security,Farmasi,2023-09-28,True
+S0395,"Sutan Murti Zulkarnain, S.Farm",Admin,Poli Gigi,2016-05-04,False
+S0396,Labuh Wibisono,Perawat,Poli Anak,2017-03-16,True
+S0397,Olivia Utama,Admin,Radiologi,2025-02-07,True
+S0398,"dr. Ganjaran Permadi, S.E.",Petugas Lab,IGD,2020-12-06,True
+S0399,Kenari Zulaika,Perawat,Operasi,2020-09-07,True
+S0400,Rendy Saragih,Perawat,Poli Anak,2016-10-21,False
+S0401,drg. Viman Siregar,Perawat,Poli Umum,2020-07-27,True
+S0402,"drg. Putri Halim, S.Ked",Admin,Poli Anak,2017-08-10,False
+S0403,Wahyu Narpati,Perawat,NICU,2019-10-14,True
+S0404,Abyasa Purnawati,Perawat,Laboratorium,2024-12-07,True
+S0405,Putu Natsir,Perawat,IGD,2016-10-15,False
+S0406,Cakrawangsa Puspita,Dokter,Poli Anak,2017-01-09,True
+S0407,"Dr. Nilam Gunawan, S.Sos",Perawat,Poli Gigi,2020-01-23,False
+S0408,Ajimin Sirait,Admin,Operasi,2018-07-09,True
+S0409,Nyoman Wibisono,Admin,IGD,2021-08-26,True
+S0410,"R. Michelle Hartati, M.Pd",Perawat,Poli Gigi,2017-03-05,False
+S0411,Farhunnisa Hidayat,Perawat,Poli Anak,2022-05-29,True
+S0412,"Harsanto Nasyidah, S.Farm",Dokter,IGD,2025-04-17,True
+S0413,Puti Ida Saputra,Dokter,NICU,2021-03-14,True
+S0414,Maryadi Simbolon,Kasir,Poli Gigi,2018-06-14,False
+S0415,Farah Andriani,Petugas Lab,Poli Anak,2018-06-05,True
+S0416,"Tgk. Kadir Firgantoro, S.Pt",Admin,Poli Gigi,2023-02-28,True
+S0417,Gatot Hakim,Perawat,Laboratorium,2022-10-16,False
+S0418,Tania Prasetya,Perawat,Operasi,2021-03-05,True
+S0419,Fitria Hardiansyah,Perawat,ICU,2023-11-11,True
+S0420,Faizah Hassanah,Dokter,Poli Umum,2020-04-28,True
+S0421,Winda Suwarno,Dokter,Poli Gigi,2020-11-17,True
+S0422,Sari Kurniawan,Perawat,Keuangan,2020-01-14,True
+S0423,"R.M. Niyaga Saputra, S.T.",Admin,Operasi,2018-04-08,True
+S0424,"Ir. Garda Riyanti, S.Pt",Perawat,Radiologi,2018-01-10,True
+S0425,"Cut Ana Novitasari, S.T.",Farmasis,Poli Anak,2021-08-02,False
+S0426,Nasim Najmudin,Admin,Poli Anak,2021-06-22,True
+S0427,Galih Pudjiastuti,Perawat,Operasi,2018-06-10,True
+S0428,"Bagiya Susanti, S.Pt",Perawat,IGD,2021-04-03,True
+S0429,Sabrina Gunawan,Kasir,IGD,2023-08-27,True
+S0430,Ibrani Sitompul,Dokter,Poli Gigi,2015-11-28,True
+S0431,Hani Anggraini,Perawat,Poli Gigi,2023-04-04,True
+S0432,Mala Zulkarnain,Dokter,NICU,2016-12-15,False
+S0433,R.M. Upik Prasetya,Kasir,Poli Gigi,2017-01-22,False
+S0434,Cahyo Najmudin,Perawat,Farmasi,2022-11-03,True
+S0435,Uli Wijayanti,Perawat,Farmasi,2022-10-07,True
+S0436,Vino Suryono,Farmasis,NICU,2017-11-06,True
+S0437,Puput Suartini,Kasir,Poli Gigi,2019-01-14,True
+S0438,Rudi Pradipta,Petugas Lab,Poli Gigi,2024-03-22,True
+S0439,"Yusuf Yulianti, S.H.",Farmasis,Operasi,2020-02-26,True
+S0440,R. Ratna Mulyani,Perawat,Poli Umum,2015-12-09,True
+S0441,"Hj. Tantri Handayani, S.E.",Dokter,Keuangan,2025-05-05,True
+S0442,Winda Suartini,Security,Poli Anak,2016-03-26,False
+S0443,Halima Hidayanto,Dokter,Farmasi,2020-02-25,False
+S0444,Prabawa Kuswandari,Admin,Poli Gigi,2024-09-07,False
+S0445,Rika Puspita,Perawat,IGD,2024-05-05,False
+S0446,Lutfan Waskita,Farmasis,Farmasi,2024-12-17,True
+S0447,Clara Astuti,Petugas Lab,Radiologi,2024-02-05,True
+S0448,"T. Mursita Handayani, M.Kom.",Dokter,Operasi,2023-08-30,True
+S0449,"Dr. Najib Aryani, S.Farm",Petugas Lab,Operasi,2023-05-09,True
+S0450,T. Paiman Hidayat,Admin,Poli Gigi,2020-06-18,False
+S0451,Dewi Tampubolon,Perawat,ICU,2018-01-06,True
+S0452,Kenzie Januar,Perawat,Farmasi,2020-10-06,True
+S0453,Yosef Utama,Perawat,Poli Umum,2025-04-15,True
+S0454,Jasmin Wahyudin,Perawat,Laboratorium,2016-08-17,False
+S0455,Jaya Nugroho,Kasir,Poli Gigi,2019-03-09,True
+S0456,Galak Kuswandari,Kasir,Laboratorium,2023-06-28,True
+S0457,R. Caket Prabowo,Perawat,NICU,2023-02-12,True
+S0458,Chandra Utama,Farmasis,Laboratorium,2017-06-29,True
+S0459,"Drs. Darijan Nuraini, S.H.",Perawat,Poli Gigi,2022-11-20,True
+S0460,drg. Wawan Wastuti,Petugas Lab,NICU,2019-02-11,True
+S0461,Najwa Hutapea,Dokter,Laboratorium,2019-04-12,True
+S0462,"KH. Arsipatra Kusmawati, S.IP",Dokter,NICU,2018-08-11,False
+S0463,Maryanto Sitompul,Kasir,NICU,2019-08-25,False
+S0464,Rahmi Firmansyah,Dokter,IGD,2021-01-27,True
+S0465,Dadap Mandasari,Dokter,ICU,2018-09-27,True
+S0466,Bambang Nurdiyanti,Admin,ICU,2023-05-30,True
+S0467,"Elvin Suryono, S.Ked",Admin,Keuangan,2020-02-28,True
+S0468,Ciaobella Fujiati,Dokter,NICU,2017-09-12,True
+S0469,"dr. Karimah Lestari, S.Farm",Dokter,ICU,2024-03-11,True
+S0470,"Jelita Putra, S.Sos",Perawat,Poli Anak,2023-03-28,False
+S0471,"Pangestu Purnawati, S.E.I",Perawat,Keuangan,2024-02-18,True
+S0472,"Dt. Lega Hasanah, S.Farm",Perawat,Poli Anak,2019-10-29,False
+S0473,R.M. Wakiman Sihombing,Farmasis,Laboratorium,2024-12-23,True
+S0474,"Natalia Prasasta, M.Ak",Security,Poli Umum,2019-06-11,True
+S0475,Eko Putra,Perawat,Keuangan,2022-07-12,True
+S0476,Ganjaran Utami,Petugas Lab,Radiologi,2018-11-09,False
+S0477,Elisa Laksita,Farmasis,Farmasi,2022-06-26,True
+S0478,Teguh Suartini,Farmasis,ICU,2021-01-14,True
+S0479,Okto Nainggolan,Petugas Lab,Operasi,2018-03-08,True
+S0480,"Drs. Omar Sihombing, S.Pt",Security,Poli Gigi,2020-11-20,True
+S0481,Faizah Dabukke,Perawat,Poli Anak,2023-02-26,True
+S0482,Umaya Pudjiastuti,Perawat,NICU,2017-02-05,True
+S0483,Lidya Waluyo,Perawat,Poli Gigi,2025-01-18,True
+S0484,"Tgk. Sarah Napitupulu, S.Gz",Perawat,IGD,2019-11-21,True
+S0485,Jaeman Sihotang,Perawat,NICU,2017-08-22,True
+S0486,Cakrawangsa Maulana,Dokter,IGD,2022-09-21,True
+S0487,Mala Agustina,Farmasis,Laboratorium,2020-01-13,True
+S0488,"R. Ifa Siregar, S.H.",Perawat,NICU,2025-05-01,True
+S0489,Liman Hakim,Petugas Lab,Poli Anak,2018-03-30,False
+S0490,Septi Prasetyo,Security,ICU,2024-06-09,False
+S0491,"Dr. Siska Pangestu, S.T.",Petugas Lab,ICU,2017-02-01,True
+S0492,"dr. Febi Hidayanto, M.Ak",Dokter,Poli Gigi,2016-07-07,True
+S0493,Zaenab Wibowo,Perawat,Laboratorium,2024-05-23,True
+S0494,Endah Megantara,Perawat,ICU,2016-07-09,True
+S0495,Cakrawala Kusumo,Kasir,Keuangan,2017-06-05,True
+S0496,Luhung Mansur,Farmasis,Laboratorium,2016-11-13,True
+S0497,Anggabaya Palastri,Perawat,Operasi,2017-02-03,False
+S0498,"Drajat Namaga, M.M.",Perawat,Keuangan,2023-07-04,False
+S0499,R. Gamanto Hardiansyah,Perawat,NICU,2017-03-12,False
+S0500,"Darmanto Hakim, S.Sos",Farmasis,IGD,2023-09-20,True
+S0501,Tgk. Vanesa Prakasa,Admin,Poli Gigi,2024-03-02,True
+S0502,Malika Sihotang,Dokter,Poli Umum,2017-12-31,False
+S0503,H. Adika Putra,Admin,ICU,2024-11-28,True
+S0504,R.A. Ciaobella Dabukke,Perawat,Poli Umum,2023-11-27,False
+S0505,"Dr. Salimah Rajasa, M.M.",Dokter,Farmasi,2023-04-19,True
+S0506,Rika Zulkarnain,Perawat,Poli Gigi,2020-12-09,True
+S0507,Anom Laksita,Perawat,Radiologi,2021-01-22,True
+S0508,Karimah Agustina,Perawat,Poli Umum,2023-11-24,True
+S0509,"Puti Ophelia Mulyani, M.Kom.",Kasir,NICU,2019-07-15,True
+S0510,"Puti Padmi Prasetyo, S.Ked",Petugas Lab,Poli Umum,2021-08-12,False
+S0511,Rahmi Wulandari,Farmasis,IGD,2018-08-07,True
+S0512,Wawan Damanik,Kasir,ICU,2025-08-18,True
+S0513,Nyoman Adriansyah,Perawat,ICU,2018-02-16,True
+S0514,Jumari Iswahyudi,Kasir,Keuangan,2019-09-21,True
+S0515,Sutan Cahyo Saefullah,Perawat,Farmasi,2016-05-27,True
+S0516,Azalea Mansur,Perawat,Poli Anak,2024-07-11,True
+S0517,Gasti Simbolon,Admin,Poli Gigi,2020-01-01,True
+S0518,"Jasmin Anggraini, S.Sos",Petugas Lab,NICU,2021-02-19,True
+S0519,Putu Wacana,Petugas Lab,NICU,2025-04-01,True
+S0520,Raihan Utami,Dokter,IGD,2022-03-25,True
+S0521,Paulin Haryanti,Farmasis,Poli Anak,2020-08-19,False
+S0522,"Asirwanda Prasasta, M.Kom.",Perawat,Radiologi,2020-10-04,False
+S0523,Cinthia Usamah,Security,Laboratorium,2020-01-22,True
+S0524,Icha Rajata,Admin,Poli Umum,2016-11-25,True
+S0525,Rafi Prayoga,Perawat,Poli Anak,2015-12-18,True
+S0526,Maida Mardhiyah,Petugas Lab,Poli Umum,2017-09-11,True
+S0527,"Violet Firgantoro, S.Kom",Dokter,NICU,2016-10-13,True
+S0528,"Siti Maryati, S.Kom",Dokter,Poli Umum,2019-10-29,True
+S0529,"Dt. Wawan Nasyidah, S.Psi",Farmasis,NICU,2017-03-11,True
+S0530,Titin Wahyudin,Perawat,IGD,2025-05-10,False
+S0531,Maryanto Budiyanto,Perawat,ICU,2025-05-30,False
+S0532,Paiman Saefullah,Farmasis,Farmasi,2021-04-26,True
+S0533,"Ir. Maimunah Susanti, S.T.",Farmasis,Radiologi,2017-06-14,True
+S0534,Jaswadi Farida,Petugas Lab,Poli Anak,2018-04-25,True
+S0535,Ir. Nilam Tampubolon,Farmasis,NICU,2021-02-07,True
+S0536,Warji Natsir,Dokter,Poli Umum,2017-01-24,True
+S0537,"KH. Wakiman Farida, S.Ked",Admin,Farmasi,2019-10-11,False
+S0538,"Cici Habibi, M.TI.",Petugas Lab,Poli Gigi,2023-04-02,True
+S0539,"Ir. Lutfan Nasyidah, S.Ked",Kasir,Radiologi,2015-11-25,True
+S0540,Oni Kusumo,Perawat,Poli Umum,2015-11-21,True
+S0541,H. Umar Hartati,Security,Keuangan,2020-08-27,True
+S0542,Arsipatra Suryono,Farmasis,Operasi,2024-10-11,False
+S0543,Drs. Kiandra Najmudin,Farmasis,Operasi,2021-12-22,True
+S0544,Tira Mansur,Perawat,Laboratorium,2024-08-05,True
+S0545,Vanya Widiastuti,Dokter,NICU,2019-10-02,True
+S0546,Margana Hutapea,Admin,Poli Anak,2018-04-27,False
+S0547,Oliva Gunarto,Perawat,IGD,2022-11-06,False
+S0548,Kamaria Wibowo,Admin,Poli Gigi,2023-01-12,True
+S0549,Ilsa Suryono,Petugas Lab,Operasi,2018-11-08,True
+S0550,"Drs. Restu Hastuti, S.T.",Petugas Lab,Keuangan,2022-02-25,True
+S0551,Banawa Nashiruddin,Perawat,Poli Gigi,2018-04-05,True
+S0552,Elisa Winarno,Dokter,Radiologi,2019-10-20,False
+S0553,Keisha Sihombing,Petugas Lab,Poli Anak,2018-11-14,True
+S0554,Bakidin Pratiwi,Perawat,Radiologi,2015-12-04,True
+S0555,"Paulin Palastri, S.IP",Dokter,Poli Umum,2020-12-03,True
+S0556,Ina Saefullah,Dokter,IGD,2016-12-12,True
+S0557,"dr. Baktiono Sihotang, S.E.",Kasir,Farmasi,2016-11-19,True
+S0558,"Calista Simanjuntak, S.Pt",Petugas Lab,Poli Umum,2022-09-12,True
+S0559,Ophelia Widiastuti,Perawat,Operasi,2017-11-30,True
+S0560,Ani Wastuti,Perawat,Poli Gigi,2017-08-10,True
+S0561,Zelda Pratiwi,Dokter,Operasi,2024-03-06,False
+S0562,"Kasim Oktaviani, S.T.",Perawat,Operasi,2017-12-27,True
+S0563,Drs. Oni Saputra,Dokter,Radiologi,2024-07-17,True
+S0564,dr. Syahrini Thamrin,Petugas Lab,IGD,2017-04-14,True
+S0565,"Galak Pudjiastuti, S.Gz",Perawat,Laboratorium,2017-07-02,True
+S0566,Gina Purwanti,Farmasis,Operasi,2018-02-11,True
+S0567,R.M. Hamzah Budiyanto,Petugas Lab,ICU,2020-08-25,True
+S0568,"H. Gaman Setiawan, M.Kom.",Admin,Laboratorium,2022-06-10,True
+S0569,H. Hardi Anggraini,Admin,NICU,2023-04-05,True
+S0570,Kuncara Waluyo,Farmasis,Keuangan,2020-11-05,False
+S0571,Shania Usada,Petugas Lab,Poli Gigi,2018-10-11,True
+S0572,Yahya Lailasari,Dokter,Farmasi,2020-10-04,False
+S0573,Gara Hutagalung,Dokter,Operasi,2018-04-22,True
+S0574,Leo Halimah,Petugas Lab,Poli Umum,2024-03-31,True
+S0575,Daruna Agustina,Security,Poli Anak,2022-05-08,True
+S0576,Dalimin Wacana,Admin,Poli Gigi,2020-08-16,True
+S0577,Maryanto Fujiati,Perawat,Poli Gigi,2017-06-24,True
+S0578,T. Bagus Rahmawati,Dokter,Poli Umum,2025-10-29,True
+S0579,"Drs. Darimin Gunarto, S.Kom",Perawat,Keuangan,2019-11-21,True
+S0580,Drs. Purwanto Budiyanto,Perawat,Farmasi,2019-04-15,False
+S0581,Jaswadi Nainggolan,Perawat,IGD,2019-04-01,True
+S0582,"Oskar Marbun, M.M.",Perawat,Poli Umum,2019-02-09,False
+S0583,Perkasa Maryadi,Admin,NICU,2025-07-03,True
+S0584,Eka Riyanti,Petugas Lab,Operasi,2018-02-20,False
+S0585,Jasmani Wibisono,Dokter,Keuangan,2019-03-31,True
+S0586,Danu Kusumo,Perawat,Operasi,2016-10-07,True
+S0587,Cindy Halimah,Security,Farmasi,2017-07-28,True
+S0588,Ir. Amalia Saputra,Security,Radiologi,2020-01-16,True
+S0589,"dr. Uchita Hassanah, S.Sos",Perawat,Poli Gigi,2024-06-11,False
+S0590,Agnes Winarno,Security,Laboratorium,2019-09-09,True
+S0591,Tgk. Bagas Kuswoyo,Farmasis,Keuangan,2018-06-04,True
+S0592,Bella Simanjuntak,Dokter,Poli Umum,2016-07-01,True
+S0593,"Karsa Sudiati, M.Pd",Admin,NICU,2020-04-15,True
+S0594,Cecep Zulaika,Farmasis,IGD,2025-02-18,True
+S0595,"Cut Wani Nababan, S.T.",Perawat,Operasi,2019-08-29,True
+S0596,Liman Zulaika,Perawat,ICU,2024-11-11,False
+S0597,"Rahayu Prasasta, M.M.",Farmasis,Poli Umum,2018-02-17,False
+S0598,"Yani Yuniar, S.Gz",Dokter,ICU,2025-03-12,True
+S0599,Cut Paris Mulyani,Dokter,Radiologi,2020-07-18,True
+S0600,Gasti Safitri,Petugas Lab,NICU,2018-01-07,False
+S0601,"Fitria Kuswandari, S.Psi",Security,Poli Umum,2020-09-08,False
+S0602,"Jasmani Pertiwi, S.Gz",Petugas Lab,Radiologi,2018-10-06,True
+S0603,"R. Amalia Dongoran, S.E.",Farmasis,Laboratorium,2019-10-16,True
+S0604,Diana Saptono,Admin,NICU,2016-10-21,True
+S0605,"Dimas Prayoga, S.Farm",Dokter,ICU,2025-01-08,True
+S0606,Hartaka Padmasari,Perawat,IGD,2022-08-14,True
+S0607,Faizah Winarno,Perawat,Poli Umum,2021-01-08,True
+S0608,"Dr. Bajragin Yuliarti, S.IP",Dokter,Poli Gigi,2020-10-09,True
+S0609,Rika Hutasoit,Petugas Lab,Poli Umum,2024-03-23,False
+S0610,Tgk. Yulia Widodo,Perawat,Poli Gigi,2017-08-10,True
+S0611,Puti Padmi Prasetya,Perawat,Radiologi,2024-08-08,True
+S0612,Ir. Salimah Mandasari,Perawat,Laboratorium,2023-06-08,True
+S0613,R. Umar Wacana,Dokter,Poli Anak,2024-11-06,True
+S0614,Nilam Farida,Perawat,Keuangan,2022-10-14,True
+S0615,"Kenzie Winarno, M.Kom.",Admin,IGD,2016-05-14,True
+S0616,Faizah Napitupulu,Perawat,Poli Umum,2020-09-04,True
+S0617,"Aswani Rajasa, S.I.Kom",Security,Farmasi,2020-06-30,False
+S0618,Parman Halim,Perawat,Poli Umum,2025-07-13,False
+S0619,"Ifa Najmudin, S.Farm",Admin,Keuangan,2023-04-13,True
+S0620,"Nilam Handayani, M.Pd",Kasir,Poli Anak,2017-02-18,True
+S0621,"Drs. Amelia Farida, S.T.",Dokter,Poli Umum,2022-10-22,True
+S0622,"H. Lasmono Laksita, S.Kom",Perawat,Poli Gigi,2020-03-18,False
+S0623,Drs. Yulia Ardianto,Dokter,Poli Gigi,2018-02-03,False
+S0624,"Hj. Jasmin Usada, S.I.Kom",Perawat,Poli Anak,2020-09-26,True
+S0625,"R. Lembah Waskita, S.IP",Farmasis,Farmasi,2019-06-01,False
+S0626,Dadi Kusmawati,Petugas Lab,Farmasi,2016-04-06,True
+S0627,Jamalia Mahendra,Petugas Lab,Farmasi,2020-03-09,True
+S0628,Arsipatra Maryati,Perawat,Keuangan,2017-10-14,False
+S0629,Himawan Hardiansyah,Admin,Poli Gigi,2023-07-13,True
+S0630,R. Martaka Zulaika,Admin,Operasi,2018-09-04,True
+S0631,Gina Damanik,Dokter,Farmasi,2025-05-28,True
+S0632,Gatra Oktaviani,Perawat,NICU,2019-10-21,True
+S0633,Sarah Budiyanto,Petugas Lab,Keuangan,2019-02-27,True
+S0634,Estiawan Prakasa,Dokter,Poli Gigi,2021-12-16,False
+S0635,Tania Adriansyah,Perawat,Radiologi,2019-04-19,True
+S0636,Jasmin Prabowo,Admin,NICU,2017-06-08,True
+S0637,Tgk. Kasiyah Halimah,Petugas Lab,Laboratorium,2023-07-05,True
+S0638,Jatmiko Sihotang,Perawat,Farmasi,2017-08-19,True
+S0639,dr. Patricia Hastuti,Perawat,Keuangan,2019-12-06,False
+S0640,"Rafid Suwarno, S.H.",Perawat,Poli Anak,2022-03-02,True
+S0641,Putri Maheswara,Perawat,Poli Umum,2025-06-10,False
+S0642,"Puji Anggraini, S.Pd",Petugas Lab,Radiologi,2024-10-26,True
+S0643,Tantri Wasita,Perawat,Radiologi,2024-10-17,True
+S0644,"Dt. Marsudi Hidayanto, S.IP",Perawat,Poli Gigi,2024-12-12,True
+S0645,Hesti Hasanah,Kasir,NICU,2017-09-19,True
+S0646,Lintang Habibi,Dokter,Farmasi,2021-01-01,False
+S0647,"Vanya Habibi, S.Gz",Kasir,Laboratorium,2024-03-14,True
+S0648,"H. Ibun Wijaya, S.Pd",Admin,IGD,2017-03-06,True
+S0649,Jamalia Mansur,Perawat,Keuangan,2016-08-06,True
+S0650,Salman Samosir,Admin,ICU,2022-04-29,True
+S0651,Kenzie Anggriawan,Perawat,IGD,2021-03-05,True
+S0652,Shania Laksita,Admin,Operasi,2021-05-30,True
+S0653,"Ayu Padmasari, S.T.",Dokter,IGD,2022-06-27,True
+S0654,Salsabila Tamba,Perawat,Farmasi,2021-07-15,True
+S0655,Tasnim Usamah,Perawat,Operasi,2018-04-29,True
+S0656,"Bakijan Natsir, S.I.Kom",Kasir,Farmasi,2016-05-17,False
+S0657,Laila Najmudin,Dokter,IGD,2025-04-11,False
+S0658,"H. Karya Pratiwi, S.Kom",Farmasis,Keuangan,2017-12-29,True
+S0659,"Ifa Haryanti, S.Pt",Admin,Farmasi,2023-07-08,True
+S0660,Genta Mansur,Perawat,IGD,2017-01-24,True
+S0661,Eka Mardhiyah,Dokter,Poli Umum,2025-01-09,True
+S0662,Zelaya Najmudin,Dokter,Keuangan,2019-01-13,True
+S0663,Ir. Bakti Halim,Security,Radiologi,2022-12-15,True
+S0664,Dr. Gandi Mahendra,Admin,NICU,2023-04-18,True
+S0665,Parman Mustofa,Perawat,ICU,2020-10-01,False
+S0666,"Ade Laksmiwati, S.Ked",Dokter,NICU,2016-06-29,False
+S0667,Aris Palastri,Perawat,IGD,2019-11-28,True
+S0668,"Jagaraga Narpati, S.Sos",Perawat,Poli Umum,2022-08-10,False
+S0669,Sutan Sakti Hastuti,Kasir,Laboratorium,2024-09-28,True
+S0670,Ratna Sihombing,Petugas Lab,IGD,2021-10-24,False
+S0671,Bakiadi Wasita,Perawat,Keuangan,2017-12-05,True
+S0672,Novi Mulyani,Admin,NICU,2025-10-25,True
+S0673,drg. Maya Wahyudin,Security,Poli Gigi,2025-09-06,True
+S0674,"drg. Maimunah Widodo, S.Gz",Perawat,Poli Gigi,2020-06-12,False
+S0675,Sutan Vero Waluyo,Perawat,IGD,2016-11-11,True
+S0676,"Lukman Thamrin, S.Sos",Security,Operasi,2025-05-17,True
+S0677,Olivia Pratama,Perawat,Operasi,2019-05-15,True
+S0678,"Restu Budiyanto, S.Psi",Perawat,Poli Anak,2024-11-14,False
+S0679,Rangga Tampubolon,Perawat,Operasi,2021-03-02,True
+S0680,"R. Bahuraksa Puspasari, S.IP",Kasir,Farmasi,2016-02-23,True
+S0681,"Dr. Cakrabirawa Sitompul, S.E.I",Farmasis,IGD,2018-06-11,True
+S0682,Drajat Purnawati,Admin,Farmasi,2025-07-13,True
+S0683,Anastasia Puspasari,Farmasis,Radiologi,2024-10-13,True
+S0684,Zaenab Rahayu,Dokter,Poli Gigi,2023-02-16,True
+S0685,Hilda Purnawati,Perawat,Poli Umum,2017-05-13,True
+S0686,Cawisono Pranowo,Security,Laboratorium,2018-02-04,False
+S0687,Saka Sihombing,Perawat,ICU,2024-03-07,True
+S0688,Yuni Nurdiyanti,Dokter,ICU,2019-09-02,True
+S0689,Ida Hakim,Petugas Lab,ICU,2025-03-05,True
+S0690,Salimah Adriansyah,Perawat,Poli Umum,2020-12-20,True
+S0691,Sabri Siregar,Dokter,Radiologi,2021-04-04,True
+S0692,"Fathonah Sitorus, S.H.",Kasir,Poli Gigi,2025-10-25,False
+S0693,Bagus Yulianti,Kasir,Poli Umum,2016-06-30,True
+S0694,Safina Sinaga,Admin,Operasi,2016-04-15,True
+S0695,Prabowo Sirait,Farmasis,ICU,2017-12-11,True
+S0696,"Drs. Nyoman Uwais, M.M.",Security,Operasi,2018-02-23,False
+S0697,"Eka Marbun, M.Kom.",Kasir,Keuangan,2022-06-16,False
+S0698,Umi Budiman,Admin,Laboratorium,2021-10-17,True
+S0699,Martani Adriansyah,Farmasis,Laboratorium,2020-06-26,False
+S0700,"Drs. Mujur Situmorang, S.Psi",Perawat,Poli Gigi,2017-07-11,False
+S0701,Kamila Hutagalung,Perawat,Keuangan,2025-09-27,True
+S0702,Farah Megantara,Dokter,Poli Anak,2020-04-08,True
+S0703,Mutia Marpaung,Perawat,Keuangan,2024-09-30,True
+S0704,Asirwada Budiman,Farmasis,Farmasi,2017-06-25,False
+S0705,"Sabrina Permata, S.IP",Admin,Poli Anak,2021-06-03,False
+S0706,Bakiman Hidayat,Kasir,IGD,2023-12-10,False
+S0707,Lanjar Mustofa,Farmasis,IGD,2025-09-27,True
+S0708,Yoga Saptono,Perawat,Radiologi,2023-11-04,True
+S0709,"Kasiyah Purwanti, S.Sos",Perawat,Keuangan,2025-01-10,False
+S0710,"R. Pardi Aryani, S.Sos",Farmasis,ICU,2015-11-29,True
+S0711,Muhammad Pertiwi,Dokter,NICU,2019-04-07,False
+S0712,"T. Viktor Rahimah, S.Kom",Perawat,Keuangan,2025-01-25,True
+S0713,Anastasia Halimah,Perawat,Radiologi,2019-04-24,True
+S0714,Empluk Prastuti,Dokter,Keuangan,2022-12-12,False
+S0715,"Asirwanda Pradipta, S.E.",Kasir,Poli Gigi,2021-06-02,False
+S0716,Victoria Fujiati,Perawat,Keuangan,2017-04-01,True
+S0717,Amelia Kusumo,Admin,NICU,2020-01-10,True
+S0718,Lanang Susanti,Perawat,Keuangan,2021-06-10,True
+S0719,R. Endah Saputra,Perawat,NICU,2017-11-19,False
+S0720,"dr. Shakila Yuniar, S.Farm",Perawat,Poli Gigi,2016-04-03,True
+S0721,Rendy Hutasoit,Perawat,Poli Umum,2025-11-01,True
+S0722,"Drs. Paramita Suryatmi, M.M.",Admin,Poli Umum,2023-04-05,False
+S0723,Uda Saputra,Dokter,NICU,2019-03-23,False
+S0724,"Dr. Tari Simanjuntak, S.Pt",Dokter,Radiologi,2022-01-26,False
+S0725,Rizki Hassanah,Petugas Lab,IGD,2016-06-14,True
+S0726,"dr. Farah Padmasari, S.Sos",Farmasis,Poli Anak,2024-03-08,True
+S0727,Estiono Wastuti,Perawat,Keuangan,2016-03-22,True
+S0728,R.M. Raihan Suwarno,Perawat,NICU,2025-07-27,True
+S0729,Aslijan Widiastuti,Petugas Lab,Keuangan,2022-05-08,True
+S0730,Genta Prasasta,Petugas Lab,Poli Umum,2020-11-24,True
+S0731,Yance Siregar,Perawat,ICU,2019-02-22,True
+S0732,"Luluh Ramadan, S.E.I",Admin,IGD,2023-11-11,True
+S0733,Ir. Novi Marpaung,Farmasis,ICU,2020-09-11,False
+S0734,"Wakiman Suwarno, S.I.Kom",Dokter,Operasi,2016-02-14,False
+S0735,Natalia Sitorus,Farmasis,ICU,2022-12-28,True
+S0736,Setya Suwarno,Kasir,Farmasi,2018-12-02,False
+S0737,drg. Olivia Yuniar,Dokter,Poli Anak,2016-08-04,True
+S0738,Ade Sihotang,Perawat,Poli Umum,2016-09-18,True
+S0739,"Dr. Karya Susanti, S.I.Kom",Kasir,Poli Gigi,2020-03-02,True
+S0740,Purwanto Wijayanti,Admin,Operasi,2023-09-03,True
+S0741,"Melinda Permata, S.IP",Perawat,Laboratorium,2016-03-14,True
+S0742,"Sutan Balangga Rajata, M.M.",Dokter,Laboratorium,2017-04-05,True
+S0743,"Nilam Waluyo, M.Farm",Admin,Poli Anak,2017-08-18,False
+S0744,Kasim Lailasari,Farmasis,Keuangan,2018-04-27,True
+S0745,Galih Nasyiah,Perawat,ICU,2020-07-17,False
+S0746,"Zelda Saptono, S.E.",Perawat,Radiologi,2023-10-26,True
+S0747,Ir. Reza Gunawan,Petugas Lab,Poli Umum,2019-09-03,True
+S0748,Julia Hardiansyah,Perawat,Radiologi,2016-11-02,True
+S0749,"Tgk. Enteng Haryanti, M.Ak",Perawat,NICU,2025-04-09,False
+S0750,"Cut Hilda Waluyo, S.IP",Perawat,NICU,2024-08-24,False
+S0751,Malika Kuswoyo,Admin,Operasi,2017-02-09,True
+S0752,Bakidin Sirait,Farmasis,Poli Anak,2015-11-10,True
+S0753,Cornelia Puspasari,Dokter,Farmasi,2016-06-06,True
+S0754,"Shania Pradana, S.Farm",Admin,ICU,2020-10-21,True
+S0755,Eka Wijayanti,Perawat,ICU,2021-02-18,True
+S0756,"Fitria Rajata, S.E.",Perawat,Radiologi,2017-07-30,True
+S0757,"Clara Wastuti, S.I.Kom",Perawat,Radiologi,2025-05-14,True
+S0758,Heryanto Firgantoro,Security,Operasi,2025-07-20,True
+S0759,Amelia Pertiwi,Perawat,Poli Anak,2021-02-18,True
+S0760,Ade Anggriawan,Perawat,Keuangan,2017-05-21,False
+S0761,Maria Gunarto,Admin,Poli Gigi,2020-12-04,True
+S0762,Kayla Latupono,Dokter,ICU,2016-10-04,True
+S0763,Maryadi Hakim,Admin,ICU,2016-07-01,True
+S0764,"Kawaca Handayani, M.Pd",Petugas Lab,Laboratorium,2017-03-16,True
+S0765,"R. Cemani Irawan, S.E.I",Perawat,Poli Anak,2022-01-08,False
+S0766,Suci Farida,Perawat,IGD,2021-11-09,False
+S0767,Anita Hastuti,Perawat,NICU,2024-08-31,True
+S0768,"R.A. Tira Hardiansyah, S.Kom",Perawat,Radiologi,2016-12-14,True
+S0769,"Ozy Wahyuni, M.Kom.",Security,IGD,2016-03-18,False
+S0770,"Tgk. Vino Saputra, M.Farm",Perawat,NICU,2024-07-11,True
+S0771,Puspa Usada,Farmasis,Radiologi,2024-07-03,True
+S0772,Cahya Rajata,Security,Keuangan,2024-09-04,True
+S0773,Eluh Saptono,Kasir,NICU,2023-01-18,True
+S0774,"Dt. Jaeman Jailani, S.E.",Perawat,Poli Gigi,2025-08-13,True
+S0775,KH. Muni Nurdiyanti,Dokter,Poli Umum,2021-07-12,True
+S0776,Rama Anggraini,Admin,Poli Umum,2017-06-07,True
+S0777,"Ir. Gaman Najmudin, M.Ak",Dokter,Radiologi,2019-10-16,False
+S0778,Dr. Yuni Jailani,Farmasis,Operasi,2022-05-19,True
+S0779,Jaga Iswahyudi,Farmasis,Operasi,2021-01-23,True
+S0780,"Cut Umi Wijaya, S.Psi",Farmasis,Poli Umum,2021-08-01,True
+S0781,Dr. Wardaya Mulyani,Security,Operasi,2019-01-28,False
+S0782,"Tgk. Salwa Nugroho, M.Kom.",Admin,Operasi,2020-08-18,False
+S0783,"R.M. Banawi Wasita, S.I.Kom",Perawat,Poli Gigi,2017-10-18,True
+S0784,"Hj. Endah Suartini, S.H.",Dokter,Poli Gigi,2017-01-06,True
+S0785,Latika Santoso,Perawat,Poli Umum,2021-02-25,True
+S0786,Gilang Dabukke,Admin,Poli Gigi,2024-12-07,False
+S0787,Lasmono Mangunsong,Security,NICU,2022-12-12,True
+S0788,"Raisa Mustofa, S.E.I",Perawat,IGD,2017-12-12,True
+S0789,"Liman Hakim, S.Sos",Perawat,Poli Anak,2025-04-28,True
+S0790,Tugiman Sitompul,Farmasis,IGD,2016-03-18,False
+S0791,Mahfud Iswahyudi,Security,Radiologi,2022-09-22,True
+S0792,Ajimat Padmasari,Farmasis,Keuangan,2021-11-20,True
+S0793,Rusman Prasetyo,Perawat,IGD,2018-04-16,True
+S0794,Drs. Bakiono Budiyanto,Perawat,Poli Umum,2025-04-19,True
+S0795,"Drs. Hardana Prasetya, S.Sos",Dokter,ICU,2025-09-14,False
+S0796,Janet Prakasa,Perawat,Poli Anak,2019-05-26,True
+S0797,R.A. Ilsa Lailasari,Admin,Operasi,2023-02-04,True
+S0798,Samiah Gunarto,Kasir,Poli Anak,2023-12-26,True
+S0799,drg. Nardi Rahayu,Farmasis,Radiologi,2024-07-18,True
+S0800,Daryani Sihombing,Perawat,Keuangan,2023-03-03,False
+S0801,Ir. Rizki Prastuti,Admin,IGD,2024-09-11,False
+S0802,Asirwanda Pratiwi,Security,Operasi,2024-11-14,True
+S0803,Yulia Wacana,Perawat,Operasi,2021-12-25,False
+S0804,Indah Wibisono,Farmasis,Radiologi,2022-06-09,True
+S0805,Ikhsan Laksita,Perawat,Laboratorium,2019-01-10,False
+S0806,Zaenab Laksita,Admin,IGD,2024-05-28,True
+S0807,drg. Lasmanto Haryanti,Security,NICU,2025-10-31,True
+S0808,Lidya Aryani,Farmasis,NICU,2022-06-18,False
+S0809,Indah Sitorus,Perawat,Operasi,2016-04-14,False
+S0810,"Jaka Rahayu, M.TI.",Perawat,Poli Umum,2021-05-21,False
+S0811,"drg. Daniswara Maryati, S.I.Kom",Security,Laboratorium,2020-06-26,False
+S0812,Warta Puspita,Perawat,Poli Umum,2019-11-29,True
+S0813,Bakidin Agustina,Kasir,Laboratorium,2022-09-04,True
+S0814,"Hamima Hidayat, S.Sos",Dokter,Radiologi,2016-02-10,True
+S0815,"Paramita Habibi, M.Kom.",Petugas Lab,Radiologi,2018-06-18,True
+S0816,R. Mujur Saefullah,Dokter,IGD,2020-11-27,True
+S0817,Karma Sihombing,Perawat,Poli Anak,2022-07-23,True
+S0818,"Drs. Dwi Fujiati, S.Pd",Farmasis,Poli Anak,2023-12-05,True
+S0819,R. Jamal Hutagalung,Petugas Lab,Radiologi,2021-08-22,False
+S0820,Tgk. Nadia Hasanah,Kasir,ICU,2018-04-02,True
+S0821,"Padmi Wulandari, S.Pt",Perawat,Poli Anak,2019-04-12,True
+S0822,"Adiarja Anggriawan, M.Pd",Admin,Poli Gigi,2020-11-17,True
+S0823,Lili Samosir,Perawat,Poli Umum,2019-05-31,True
+S0824,Michelle Habibi,Admin,NICU,2024-12-04,True
+S0825,Kawaca Setiawan,Petugas Lab,IGD,2019-08-31,True
+S0826,H. Asmianto Siregar,Dokter,IGD,2025-01-08,True
+S0827,"Uchita Anggraini, M.Pd",Security,Laboratorium,2018-02-09,True
+S0828,"Umi Nababan, S.Pt",Petugas Lab,Keuangan,2024-07-12,False
+S0829,"Cut Ophelia Farida, S.Farm",Perawat,Poli Anak,2022-02-04,False
+S0830,Dt. Eja Lestari,Perawat,Poli Anak,2017-08-06,True
+S0831,"Raina Latupono, S.T.",Admin,IGD,2024-03-31,True
+S0832,Murti Yuniar,Perawat,IGD,2025-02-16,True
+S0833,"Tami Widodo, M.Kom.",Petugas Lab,NICU,2019-06-14,True
