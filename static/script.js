@@ -31,6 +31,12 @@ const paginationState = {
 // Initialize pagination when page loads
 document.addEventListener('DOMContentLoaded', function() {
     initPagination('doctor');
+    
+    // Add Font Awesome icons
+    const faLink = document.createElement('link');
+    faLink.rel = 'stylesheet';
+    faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+    document.head.appendChild(faLink);
 });
 
 // Initialize pagination
@@ -89,9 +95,3 @@ function updateTableDisplay(tableType) {
     if (prevBtn) prevBtn.disabled = state.currentPage === 1;
     if (nextBtn) nextBtn.disabled = state.currentPage === totalPages;
 }
-
-// Add Font Awesome icons
-const faLink = document.createElement('link');
-faLink.rel = 'stylesheet';
-faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
-document.head.appendChild(faLink);
