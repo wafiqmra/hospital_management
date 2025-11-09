@@ -2,7 +2,7 @@
 
 {% block content %}
 <!-- ========================== -->
-<!-- 🌟 DASHBOARD RUMAH SAKIT  -->
+<!-- 🏥 HOSPITAL BUSINESS INTELLIGENCE DASHBOARD -->
 <!-- ========================== -->
 
 <div id="dashboard-tab" class="tab-content active">
@@ -10,407 +10,682 @@
     <!-- HEADER -->
     <div class="filter-section">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h3>Dashboard Hari Ini - {{ today_indonesia }}, {{ today.strftime('%d %B %Y') }}</h3>
-            <div class="btn" onclick="location.reload()" style="background: var(--primary);">
-                <i class="fas fa-sync-alt"></i> Refresh Data
+            <div>
+                <h2 style="margin: 0; color: var(--primary);">Hospital Business Intelligence</h2>
+                <p style="margin: 5px 0 0 0; color: var(--text-secondary);">
+                    {{ today_indonesia }}, {{ today.strftime('%d %B %Y') }} • Update: {{ now.strftime('%H:%M') }}
+                </p>
             </div>
-        </div>
-    </div>
-
-    <!-- Loading State -->
-    <div id="loading-state" style="display: none; text-align: center; padding: 40px;">
-        <div style="font-size: 48px; margin-bottom: 20px;">⏳</div>
-        <h3>Memuat Data...</h3>
-        <p>Silakan tunggu sebentar</p>
-    </div>
-
-    <!-- QUICK STATS -->
-    <div class="metrics-grid">
-        <div class="metric-card" style="border-left: 4px solid #4361ee;">
-            <div class="metric-value">{{ stats.today_doctors }}</div>
-            <div class="metric-label">Dokter Bertugas</div>
-            <div class="metric-desc">Hari ini</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #4cc9f0;">
-            <div class="metric-value">{{ stats.today_patients }}</div>
-            <div class="metric-label">Pasien Baru</div>
-            <div class="metric-desc">Hari ini</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #f72585;">
-            <div class="metric-value">{{ stats.today_tests }}</div>
-            <div class="metric-label">Tes Lab</div>
-            <div class="metric-desc">Dijadwalkan hari ini</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #4895ef;">
-            <div class="metric-value">{{ stats.pending_tests }}</div>
-            <div class="metric-label">Tes Tertunda</div>
-            <div class="metric-desc">Menunggu hasil</div>
-        </div>
-    </div>
-
-    <div class="metrics-grid">
-        <div class="metric-card" style="border-left: 4px solid #e63946;">
-            <div class="metric-value">{{ stats.occupied_rooms }}/{{ stats.total_rooms }}</div>
-            <div class="metric-label">Ruangan Terisi</div>
-            <div class="metric-desc">{{ stats.occupancy_rate }}% terisi</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #7209b7;">
-            <div class="metric-value">{{ stats.low_stock_medicines }}</div>
-            <div class="metric-label">Obat Stok Rendah</div>
-            <div class="metric-desc">Perlu restock</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #3a0ca3;">
-            <div class="metric-value">{{ stats.active_staff }}</div>
-            <div class="metric-label">Staff Aktif</div>
-            <div class="metric-desc">Sedang bertugas</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #2a9d8f;">
-            <div class="metric-value">{{ now.strftime('%H:%M') }}</div>
-            <div class="metric-label">Waktu Sekarang</div>
-            <div class="metric-desc">Update terakhir</div>
-        </div>
-    </div>
-
-    <!-- OVERVIEW STATS -->
-    <div class="metrics-grid">
-        <div class="metric-card" style="border-left: 4px solid #4361ee;">
-            <div class="metric-value">{{ stats.total_patients }}</div>
-            <div class="metric-label">Total Pasien</div>
-            <div class="metric-desc">Terdaftar</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #f72585;">
-            <div class="metric-value">{{ stats.total_lab_tests }}</div>
-            <div class="metric-label">Total Tes Lab</div>
-            <div class="metric-desc">Semua waktu</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #7209b7;">
-            <div class="metric-value">{{ stats.total_medicines }}</div>
-            <div class="metric-label">Total Obat</div>
-            <div class="metric-desc">Dalam inventory</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #2a9d8f;">
-            <div class="metric-value">{{ stats.out_of_stock_medicines }}</div>
-            <div class="metric-label">Obat Habis</div>
-            <div class="metric-desc">Perlu restock</div>
-        </div>
-
-        <div class="metric-card" style="border-left: 4px solid #2a9d8f;">
-            <div class="metric-value">Rp {{ "%.2f"|format(stats.today_revenue|round(2)) }}</div>
-            <div class="metric-label">Pendapatan Hari Ini</div>
-            <div class="metric-desc">Total: Rp {{ "%.2f"|format(stats.total_revenue|round(2)) }}</div>
-    </div>
-    </div>
-
-    
-
-    <!-- CHARTS GRID -->
-    <div class="charts-grid">
-        <!-- Chart Dokter Hari Ini -->
-        <div class="chart-container">
-            <div class="chart-header">
-                <h4>👨‍⚕️ Dokter Bertugas Hari Ini</h4>
-            </div>
-            <div class="chart-wrapper">
-                <canvas id="todayDoctorsChart"></canvas>
-            </div>
-        </div>
-
-        <!-- Chart Status Ruangan -->
-        <div class="chart-container">
-            <div class="chart-header">
-                <h4>🏥 Status Ruangan</h4>
-            </div>
-            <div class="chart-wrapper">
-                <canvas id="roomStatusChart"></canvas>
-            </div>
-        </div>
-    </div>
-
-    <div class="charts-grid">
-        <!-- Chart Status Stok Obat -->
-        <div class="chart-container">
-            <div class="chart-header">
-                <h4>💊 Status Stok Obat</h4>
-            </div>
-            <div class="chart-wrapper">
-                <canvas id="stockStatusChart"></canvas>
-            </div>
-        </div>
-
-        <!-- Chart Tes Lab Hari Ini -->
-        <div class="chart-container">
-            <div class="chart-header">
-                <h4>🔬 Tes Lab Hari Ini</h4>
-            </div>
-            <div class="chart-wrapper">
-                <canvas id="todayTestsChart"></canvas>
-            </div>
-        </div>
-    </div>
-
-    <!-- QUICK ACTIONS -->
-    <div class="table-container">
-        <div class="table-header">
-            <h3>🚀 Quick Actions</h3>
-        </div>
-        <div class="quick-actions-grid">
-            <a href="/doctor" class="btn" style="background: var(--primary);">
-                <i class="fas fa-user-md"></i> Jadwal Dokter
-            </a>
-            <a href="/room" class="btn" style="background: var(--info);">
-                <i class="fas fa-bed"></i> Manajemen Ruangan
-            </a>
-            <a href="/pharmacy" class="btn" style="background: var(--success);">
-                <i class="fas fa-pills"></i> Stok Obat
-            </a>
-            <a href="/lab" class="btn" style="background: var(--warning);">
-                <i class="fas fa-flask"></i> Tes Laboratorium
-            </a>
-            <a href="/patient" class="btn" style="background: #7209b7;">
-                <i class="fas fa-users"></i> Data Pasien
-            </a>
-            <a href="/staff" class="btn" style="background: #3a0ca3;">
-                <i class="fas fa-user-tie"></i> Staff Management
-            </a>
-        </div>
-    </div>
-
-    <!-- ALERTS & NOTIFICATIONS -->
-    {% if stats.low_stock_medicines > 0 or stats.out_of_stock_medicines > 0 %}
-    <div class="table-container" style="border-left: 4px solid #f72585;">
-        <div class="table-header">
-            <h3 style="color: #f72585;">⚠️ Peringatan Stok Obat</h3>
-        </div>
-        <div style="padding: 15px;">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
-                {% if stats.low_stock_medicines > 0 %}
-                <div style="background: #fff3cd; padding: 10px; border-radius: 6px;">
-                    <strong style="color: #856404;">🟡 Stok Rendah:</strong> 
-                    <span style="color: #856404;">{{ stats.low_stock_medicines }} obat</span>
+            <div style="display: flex; gap: 10px;">
+                <div class="btn" onclick="location.reload()" style="background: var(--primary);">
+                    <i class="fas fa-sync-alt"></i> Refresh
                 </div>
-                {% endif %}
-                {% if stats.out_of_stock_medicines > 0 %}
-                <div style="background: #f8d7da; padding: 10px; border-radius: 6px;">
-                    <strong style="color: #721c24;">🔴 Stok Habis:</strong> 
-                    <span style="color: #721c24;">{{ stats.out_of_stock_medicines }} obat</span>
+                <div class="btn" onclick="showNotificationCenter()" style="background: var(--warning); position: relative;">
+                    <i class="fas fa-bell"></i>
+                    <span id="notification-badge" style="display: none; position: absolute; top: -5px; right: -5px; background: #e63946; color: white; border-radius: 50%; width: 18px; height: 18px; font-size: 10px; display: flex; align-items: center; justify-content: center;">!</span>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTIFICATION CENTER (Hidden by default) -->
+    <div id="notification-center" style="display: none; background: var(--card-bg); padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow); margin-bottom: 20px;">
+        <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 15px;">
+            <h4 style="margin: 0;">🔔 Notification Center</h4>
+            <button onclick="hideNotificationCenter()" style="background: none; border: none; font-size: 16px; cursor: pointer; color: var(--text-secondary);">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="notification-list">
+            <!-- Notifications will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- CORE OPERATIONAL METRICS -->
+    <div class="metrics-grid">
+        <!-- Clinical Operations -->
+        <div class="metric-card" style="border-left: 4px solid #4361ee; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('today_doctors', 0) }}</div>
+                    <div class="metric-label">Dokter Bertugas</div>
+                </div>
+                <div style="font-size: 24px; color: #4361ee;">
+                    <i class="fas fa-user-md"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                {% if today_doctors_spec %}
+                    {{ today_doctors_spec|length }} spesialisasi
+                {% else %}
+                    Tidak ada jadwal
                 {% endif %}
             </div>
-            <a href="/pharmacy" class="btn" style="background: #f72585; margin-top: 10px;">
-                <i class="fas fa-exclamation-triangle"></i> Cek Stok Obat
-            </a>
         </div>
-    </div>
-    {% endif %}
 
-    {% if stats.pending_tests > 0 %}
-    <div class="table-container" style="border-left: 4px solid #4895ef;">
-        <div class="table-header">
-            <h3 style="color: #4895ef;">📋 Tindakan Diperlukan</h3>
+        <!-- Patient Flow -->
+        <div class="metric-card" style="border-left: 4px solid #4cc9f0; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('today_patients', 0) }}</div>
+                    <div class="metric-label">Pasien Baru</div>
+                </div>
+                <div style="font-size: 24px; color: #4cc9f0;">
+                    <i class="fas fa-user-injured"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                Total: {{ stats.get('total_patients', 0) }} pasien
+            </div>
         </div>
-        <div style="padding: 15px;">
-            <p>Ada <strong>{{ stats.pending_tests }} tes laboratorium</strong> yang masih menunggu hasil.</p>
-            <a href="/lab" class="btn" style="background: #4895ef;">
-                <i class="fas fa-tasks"></i> Kelola Tes Lab
-            </a>
-        </div>
-    </div>
-    {% endif %}
 
-    {% if stats.occupancy_rate > 80 %}
-    <div class="table-container" style="border-left: 4px solid #e63946;">
-        <div class="table-header">
-            <h3 style="color: #e63946;">🏥 Kapasitas Ruangan Tinggi</h3>
+        <!-- Room Utilization -->
+        <div class="metric-card" style="border-left: 4px solid #f72585; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('occupancy_rate', 0) }}%</div>
+                    <div class="metric-label">Utilisasi Ruangan</div>
+                </div>
+                <div style="font-size: 24px; color: #f72585;">
+                    <i class="fas fa-bed"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                {{ stats.get('occupied_rooms', 0) }}/{{ stats.get('total_rooms', 0) }} terisi
+            </div>
         </div>
-        <div style="padding: 15px;">
-            <p>Occupancy rate mencapai <strong>{{ stats.occupancy_rate }}%</strong>. Pertimbangkan untuk menambah kapasitas.</p>
-            <a href="/room" class="btn" style="background: #e63946;">
-                <i class="fas fa-bed"></i> Kelola Ruangan
-            </a>
+
+        <!-- Lab Performance -->
+        <div class="metric-card" style="border-left: 4px solid #7209b7; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('today_tests', 0) }}</div>
+                    <div class="metric-label">Tes Lab Hari Ini</div>
+                </div>
+                <div style="font-size: 24px; color: #7209b7;">
+                    <i class="fas fa-flask"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                {{ stats.get('pending_tests', 0) }} menunggu hasil
+            </div>
         </div>
     </div>
-    {% endif %}
+
+    <!-- BUSINESS & INVENTORY METRICS -->
+    <div class="metrics-grid">
+        <!-- Financial Health -->
+        <div class="metric-card" style="border-left: 4px solid #2a9d8f; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">Rp {{ "{:,.0f}".format(stats.get('today_revenue', 0)|round) }}</div>
+                    <div class="metric-label">Pendapatan Hari Ini</div>
+                </div>
+                <div style="font-size: 24px; color: #2a9d8f;">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                Total: Rp {{ "{:,.0f}".format(stats.get('total_revenue', 0)|round) }}
+            </div>
+        </div>
+
+        <!-- Inventory Status -->
+        <div class="metric-card" style="border-left: 4px solid #e63946; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('total_medicines', 0) }}</div>
+                    <div class="metric-label">Total Obat</div>
+                </div>
+                <div style="font-size: 24px; color: #e63946;">
+                    <i class="fas fa-pills"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                {% set critical_meds = stats.get('low_stock_medicines', 0) + stats.get('out_of_stock_medicines', 0) %}
+                {% if critical_meds > 0 %}
+                    <span style="color: #e63946;">{{ critical_meds }} perlu perhatian</span>
+                {% else %}
+                    <span style="color: #2a9d8f;">Stok optimal</span>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Staff Management -->
+        <div class="metric-card" style="border-left: 4px solid #3a0ca3; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">{{ stats.get('active_staff', 0) }}</div>
+                    <div class="metric-label">Staff Aktif</div>
+                </div>
+                <div style="font-size: 24px; color: #3a0ca3;">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                Total: {{ stats.get('total_staff', 0) }} staff
+            </div>
+        </div>
+
+        <!-- Operational Efficiency -->
+        <div class="metric-card" style="border-left: 4px solid #f4a261; text-align: left;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div>
+                    <div class="metric-value">
+                        {% if stats.get('total_lab_tests', 0) > 0 %}
+                            {{ (100 - (stats.get('pending_tests', 0) / stats.get('total_lab_tests', 1) * 100))|round(1) }}%
+                        {% else %}
+                            0%
+                        {% endif %}
+                    </div>
+                    <div class="metric-label">Efisiensi Lab</div>
+                </div>
+                <div style="font-size: 24px; color: #f4a261;">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+            </div>
+            <div class="metric-desc">
+                Completion rate
+            </div>
+        </div>
+    </div>
+
+    <!-- KEY INSIGHTS & CHARTS -->
+    <div class="charts-grid">
+        <!-- Today's Activity Overview -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h4>📈 Aktivitas Hari Ini</h4>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="todayActivityChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Resource Distribution -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h4>📊 Distribusi Sumber Daya</h4>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="resourceDistributionChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALERTS & QUICK ACTIONS -->
+    <div class="charts-grid">
+        <!-- Priority Alerts -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h4>🚨 Priority Alerts</h4>
+            </div>
+            <div style="padding: 15px;">
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                    
+                    {% set critical_meds = stats.get('low_stock_medicines', 0) + stats.get('out_of_stock_medicines', 0) %}
+                    {% if critical_meds > 0 %}
+                    <div style="display: flex; align-items: center; gap: 10px; padding: 10px; background: #f8d7da; border-radius: 6px;">
+                        <i class="fas fa-exclamation-triangle" style="color: #e63946;"></i>
+                        <div style="flex: 1;">
+                            <strong style="color: #721c24;">Inventory Warning</strong>
+                            <div style="font-size: 12px; color: #721c24;">
+                                {{ critical_meds }} obat perlu restock
+                            </div>
+                        </div>
+                        <button onclick="contactSupplier()" class="btn" style="padding: 4px 8px; font-size: 11px; background: #e63946;">
+                            Contact Supplier
+                        </button>
+                    </div>
+                    {% endif %}
+
+                    {% if stats.get('pending_tests', 0) > 0 %}
+                    <div style="display: flex; align-items: center; gap: 10px; padding: 10px; background: #fff3cd; border-radius: 6px;">
+                        <i class="fas fa-clock" style="color: #856404;"></i>
+                        <div style="flex: 1;">
+                            <strong style="color: #856404;">Lab Tests Pending</strong>
+                            <div style="font-size: 12px; color: #856404;">
+                                {{ stats.get('pending_tests', 0) }} hasil menunggu
+                            </div>
+                        </div>
+                        <button onclick="contactLabStaff()" class="btn" style="padding: 4px 8px; font-size: 11px; background: #ffc107;">
+                            Contact Lab
+                        </button>
+                    </div>
+                    {% endif %}
+
+                    {% if stats.get('occupancy_rate', 0) > 80 %}
+                    <div style="display: flex; align-items: center; gap: 10px; padding: 10px; background: #f8d7da; border-radius: 6px;">
+                        <i class="fas fa-bed" style="color: #e63946;"></i>
+                        <div style="flex: 1;">
+                            <strong style="color: #721c24;">High Occupancy</strong>
+                            <div style="font-size: 12px; color: #721c24;">
+                                {{ stats.get('occupancy_rate', 0) }}% rooms filled
+                            </div>
+                        </div>
+                        <button onclick="contactFacilityManager()" class="btn" style="padding: 4px 8px; font-size: 11px; background: #e63946;">
+                            Contact Manager
+                        </button>
+                    </div>
+                    {% endif %}
+
+                    {% if stats.get('today_revenue', 0) == 0 %}
+                    <div style="display: flex; align-items: center; gap: 10px; padding: 10px; background: #d1ecf1; border-radius: 6px;">
+                        <i class="fas fa-chart-line" style="color: #0c5460;"></i>
+                        <div style="flex: 1;">
+                            <strong style="color: #0c5460;">No Revenue Today</strong>
+                            <div style="font-size: 12px; color: #0c5460;">
+                                Check payment systems
+                            </div>
+                        </div>
+                        <button onclick="contactFinance()" class="btn" style="padding: 4px 8px; font-size: 11px; background: #0c5460;">
+                            Contact Finance
+                        </button>
+                    </div>
+                    {% endif %}
+
+                    {% if critical_meds == 0 and stats.get('pending_tests', 0) == 0 and stats.get('occupancy_rate', 0) <= 80 and stats.get('today_revenue', 0) > 0 %}
+                    <div style="display: flex; align-items: center; gap: 10px; padding: 10px; background: #d1f7f4; border-radius: 6px;">
+                        <i class="fas fa-check-circle" style="color: #2a9d8f;"></i>
+                        <div style="flex: 1;">
+                            <strong style="color: #2a9d8f;">All Systems Normal</strong>
+                            <div style="font-size: 12px; color: #2a9d8f;">
+                                No critical issues detected
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Access -->
+        <div class="chart-container">
+            <div class="chart-header">
+                <h4>⚡ Quick Access</h4>
+            </div>
+            <div style="padding: 15px;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <a href="/doctor" class="btn" style="background: var(--primary); text-align: center; padding: 12px;">
+                        <i class="fas fa-user-md"></i><br>
+                        <span style="font-size: 12px;">Doctor Schedule</span>
+                    </a>
+                    <a href="/patient" class="btn" style="background: #4cc9f0; text-align: center; padding: 12px;">
+                        <i class="fas fa-users"></i><br>
+                        <span style="font-size: 12px;">Patient Data</span>
+                    </a>
+                    <a href="/pharmacy" class="btn" style="background: var(--success); text-align: center; padding: 12px;">
+                        <i class="fas fa-pills"></i><br>
+                        <span style="font-size: 12px;">Pharmacy</span>
+                    </a>
+                    <a href="/lab" class="btn" style="background: var(--warning); text-align: center; padding: 12px;">
+                        <i class="fas fa-flask"></i><br>
+                        <span style="font-size: 12px;">Lab Tests</span>
+                    </a>
+                    <a href="/room" class="btn" style="background: #f72585; text-align: center; padding: 12px;">
+                        <i class="fas fa-bed"></i><br>
+                        <span style="font-size: 12px;">Rooms</span>
+                    </a>
+                    <a href="/finance" class="btn" style="background: #2a9d8f; text-align: center; padding: 12px;">
+                        <i class="fas fa-chart-line"></i><br>
+                        <span style="font-size: 12px;">Finance</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
+<!-- CONTACT MODAL -->
+<div id="contactModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
+    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 15px;">
+            <h4 style="margin: 0;" id="modalTitle">Contact Person</h4>
+            <button onclick="closeModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #666;">&times;</button>
+        </div>
+        <div id="modalContent">
+            <!-- Content will be filled by JavaScript -->
+        </div>
+        <div style="display: flex; gap: 10px; margin-top: 20px;">
+            <button onclick="closeModal()" style="flex: 1; padding: 10px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                Cancel
+            </button>
+            <button onclick="makeCall()" style="flex: 1; padding: 10px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer;">
+                <i class="fas fa-phone"></i> Call Now
+            </button>
+        </div>
+    </div>
+</div>
+
 <style>
+.metric-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.metric-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.metric-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
 .metric-desc {
     font-size: 12px;
-    color: #888;
-    margin-top: 4px;
+    color: #666;
+    margin-top: 8px;
 }
 
 .chart-wrapper {
     width: 100%;
-    height: 300px;
+    height: 250px;
     position: relative;
 }
 
-.no-data {
-    text-align: center;
-    padding: 40px;
-    color: #666;
+.chart-container {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    min-height: 300px;
 }
 
-.no-data div {
-    font-size: 48px;
-    margin-bottom: 10px;
+.chart-header {
+    margin-bottom: 15px;
+}
+
+.chart-header h4 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 16px;
+}
+
+.notification-item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-item.read {
+    opacity: 0.6;
 }
 </style>
 
 <script>
+// Notification system
+let notifications = JSON.parse(localStorage.getItem('hospital_notifications') || '[]');
+let currentContact = null;
+
 document.addEventListener('DOMContentLoaded', function() {
-    const refreshBtn = document.querySelector('.btn[onclick="location.reload()"]');
-    const loadingState = document.getElementById('loading-state');
-    const mainContent = document.getElementById('dashboard-tab');
-
-    if (refreshBtn) {
-        refreshBtn.addEventListener('click', function() {
-            if (loadingState) loadingState.style.display = 'block';
-            if (mainContent) mainContent.style.opacity = '0.5';
-            setTimeout(() => location.reload(), 500);
-        });
-    }
-
-    // Initialize Charts
-    initializeCharts();
+    initializeDashboardCharts();
+    updateNotificationBadge();
 });
 
-function initializeCharts() {
+function initializeDashboardCharts() {
     const stats = {{ stats|tojson }};
     const todayDoctorsSpec = {{ today_doctors_spec|tojson }};
     const todayTestsStatus = {{ today_tests_status|tojson }};
-    const roomStats = {{ room_stats|tojson }};
 
-    // Chart 1: Today's Doctors by Specialization
-    const doctorsCtx = document.getElementById('todayDoctorsChart');
-    if (doctorsCtx) {
-        if (Object.keys(todayDoctorsSpec).length > 0) {
-            new Chart(doctorsCtx, {
-                type: 'pie',
-                data: {
-                    labels: Object.keys(todayDoctorsSpec),
-                    datasets: [{
-                        data: Object.values(todayDoctorsSpec),
-                        backgroundColor: [
-                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
-                            '#f72585', '#4895ef', '#560bad', '#b5179e'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: `Total: ${stats.today_doctors} Dokter`
-                        }
-                    }
-                }
-            });
-        } else {
-            doctorsCtx.parentElement.innerHTML = `
-                <div class="no-data">
-                    <div>👨‍⚕️</div>
-                    <p>Tidak ada jadwal dokter hari ini</p>
-                </div>
-            `;
-        }
-    }
-
-    // Chart 2: Room Status
-    const roomCtx = document.getElementById('roomStatusChart');
-    if (roomCtx) {
-        new Chart(roomCtx, {
-            type: 'doughnut',
-            data: {
-                labels: ['Terisi', 'Tersedia'],
-                datasets: [{
-                    data: [stats.occupied_rooms, stats.available_rooms],
-                    backgroundColor: ['#e63946', '#2a9d8f']
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false
-            }
-        });
-    }
-
-    // Chart 3: Stock Status
-    const stockCtx = document.getElementById('stockStatusChart');
-    if (stockCtx) {
-        const normalStock = stats.total_medicines - stats.low_stock_medicines - stats.out_of_stock_medicines;
-        
-        new Chart(stockCtx, {
+    // Today's Activity Chart
+    const activityCtx = document.getElementById('todayActivityChart');
+    if (activityCtx) {
+        new Chart(activityCtx, {
             type: 'bar',
             data: {
-                labels: ['Stok Normal', 'Stok Rendah', 'Habis'],
+                labels: ['Doctors', 'Patients', 'Lab Tests', 'Revenue'],
                 datasets: [{
-                    label: 'Jumlah Obat',
+                    label: 'Hari Ini',
                     data: [
-                        Math.max(0, normalStock),
-                        stats.low_stock_medicines,
-                        stats.out_of_stock_medicines
+                        stats.today_doctors || 0,
+                        stats.today_patients || 0,
+                        stats.today_tests || 0,
+                        Math.min(stats.today_revenue / 1000000 || 0, 10) // Scale for visibility
                     ],
-                    backgroundColor: ['#2a9d8f', '#f4a261', '#e63946']
+                    backgroundColor: ['#4361ee', '#4cc9f0', '#f72585', '#2a9d8f']
                 }]
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.dataIndex === 3) {
+                                    label += 'Rp ' + (stats.today_revenue || 0).toLocaleString();
+                                } else {
+                                    label += context.parsed.y;
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
             }
         });
     }
 
-    // Chart 4: Today's Lab Tests
-    const testsCtx = document.getElementById('todayTestsChart');
-    if (testsCtx) {
-        if (Object.keys(todayTestsStatus).length > 0) {
-            new Chart(testsCtx, {
-                type: 'pie',
-                data: {
-                    labels: Object.keys(todayTestsStatus),
-                    datasets: [{
-                        data: Object.values(todayTestsStatus),
-                        backgroundColor: ['#4cc9f0', '#f72585', '#e63946', '#7209b7']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: `Total: ${stats.today_tests} Tes`
-                        }
+    // Resource Distribution Chart
+    const resourceCtx = document.getElementById('resourceDistributionChart');
+    if (resourceCtx) {
+        new Chart(resourceCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Rooms Occupied', 'Rooms Available', 'Active Staff', 'Pending Tests'],
+                datasets: [{
+                    data: [
+                        stats.occupied_rooms || 0,
+                        stats.available_rooms || 0,
+                        stats.active_staff || 0,
+                        stats.pending_tests || 0
+                    ],
+                    backgroundColor: ['#e63946', '#2a9d8f', '#4361ee', '#f72585'],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '60%',
+                plugins: {
+                    legend: {
+                        position: 'bottom'
                     }
                 }
-            });
-        } else {
-            testsCtx.parentElement.innerHTML = `
-                <div class="no-data">
-                    <div>🔬</div>
-                    <p>Tidak ada tes lab hari ini</p>
-                </div>
-            `;
-        }
+            }
+        });
     }
 }
 
-// Auto refresh data every 5 minutes
+// Contact Functions
+function contactSupplier() {
+    currentContact = {
+        type: 'supplier',
+        name: 'PT. Farmasi Sejahtera',
+        phone: '+62-21-555-0123',
+        email: 'supplier@farmasi.com',
+        issue: 'Obat perlu restock'
+    };
+    showContactModal();
+}
+
+function contactLabStaff() {
+    currentContact = {
+        type: 'lab',
+        name: 'Dr. Sarah Lab Manager',
+        phone: '+62-21-555-0124',
+        email: 'lab@hospital.com',
+        issue: 'Hasil tes tertunda'
+    };
+    showContactModal();
+}
+
+function contactFacilityManager() {
+    currentContact = {
+        type: 'facility',
+        name: 'Budi Facility Manager',
+        phone: '+62-21-555-0125',
+        email: 'facility@hospital.com',
+        issue: 'Tingkat okupansi tinggi'
+    };
+    showContactModal();
+}
+
+function contactFinance() {
+    currentContact = {
+        type: 'finance',
+        name: 'Lisa Finance Manager',
+        phone: '+62-21-555-0126',
+        email: 'finance@hospital.com',
+        issue: 'Tidak ada pendapatan hari ini'
+    };
+    showContactModal();
+}
+
+function showContactModal() {
+    if (!currentContact) return;
+    
+    document.getElementById('modalTitle').textContent = `Contact: ${currentContact.name}`;
+    document.getElementById('modalContent').innerHTML = `
+        <div style="margin-bottom: 15px;">
+            <strong>Issue:</strong> ${currentContact.issue}
+        </div>
+        <div style="margin-bottom: 10px;">
+            <strong>Phone:</strong> ${currentContact.phone}
+        </div>
+        <div style="margin-bottom: 10px;">
+            <strong>Email:</strong> ${currentContact.email}
+        </div>
+        <div style="font-size: 12px; color: #666; margin-top: 10px;">
+            Click "Call Now" to simulate calling this contact
+        </div>
+    `;
+    document.getElementById('contactModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('contactModal').style.display = 'none';
+    currentContact = null;
+}
+
+function makeCall() {
+    if (!currentContact) return;
+    
+    // Add notification
+    const notification = {
+        id: Date.now(),
+        type: 'call',
+        title: `Called: ${currentContact.name}`,
+        message: `Called regarding: ${currentContact.issue}`,
+        timestamp: new Date().toLocaleString(),
+        read: false
+    };
+    
+    notifications.unshift(notification);
+    localStorage.setItem('hospital_notifications', JSON.stringify(notifications));
+    updateNotificationBadge();
+    
+    // Show success message
+    alert(`📞 Simulating call to ${currentContact.name} at ${currentContact.phone}\n\nIssue: ${currentContact.issue}\n\nCall logged in notifications.`);
+    
+    closeModal();
+}
+
+// Notification Center Functions
+function showNotificationCenter() {
+    const center = document.getElementById('notification-center');
+    const list = document.getElementById('notification-list');
+    
+    // Populate notifications
+    list.innerHTML = '';
+    
+    if (notifications.length === 0) {
+        list.innerHTML = '<div style="text-align: center; color: #666; padding: 20px;">No notifications</div>';
+    } else {
+        notifications.forEach(notif => {
+            const item = document.createElement('div');
+            item.className = `notification-item ${notif.read ? 'read' : ''}`;
+            item.innerHTML = `
+                <div style="flex: 1;">
+                    <div style="font-weight: 600; color: var(--text-primary);">${notif.title}</div>
+                    <div style="font-size: 12px; color: var(--text-secondary);">${notif.message}</div>
+                    <div style="font-size: 10px; color: #999; margin-top: 2px;">${notif.timestamp}</div>
+                </div>
+                <button onclick="markAsRead(${notif.id})" style="background: none; border: none; color: #4361ee; cursor: pointer; font-size: 12px;">
+                    ${notif.read ? 'Read' : 'Mark Read'}
+                </button>
+            `;
+            list.appendChild(item);
+        });
+    }
+    
+    center.style.display = 'block';
+}
+
+function hideNotificationCenter() {
+    document.getElementById('notification-center').style.display = 'none';
+}
+
+function markAsRead(notificationId) {
+    notifications = notifications.map(notif => 
+        notif.id === notificationId ? {...notif, read: true} : notif
+    );
+    localStorage.setItem('hospital_notifications', JSON.stringify(notifications));
+    updateNotificationBadge();
+    showNotificationCenter(); // Refresh the view
+}
+
+function updateNotificationBadge() {
+    const badge = document.getElementById('notification-badge');
+    const unreadCount = notifications.filter(notif => !notif.read).length;
+    
+    if (unreadCount > 0) {
+        badge.textContent = unreadCount > 9 ? '9+' : unreadCount;
+        badge.style.display = 'flex';
+    } else {
+        badge.style.display = 'none';
+    }
+}
+
+// Auto refresh every 5 minutes
 setInterval(() => {
-    console.log('Auto-refreshing dashboard data...');
+    console.log('Auto-refreshing dashboard...');
     location.reload();
 }, 300000);
 </script>
