@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital Dashboard</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         :root {
             --primary: #4361ee;
@@ -67,6 +66,7 @@
             display: flex;
             gap: 10px;
             margin-bottom: 20px;
+            flex-wrap: wrap;
         }
         
         .nav-tab {
@@ -77,6 +77,8 @@
             cursor: pointer;
             font-weight: 600;
             transition: var(--transition);
+            text-decoration: none;
+            color: var(--text-primary);
         }
         
         .nav-tab.active {
@@ -163,6 +165,7 @@
             padding: 20px;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
+            min-height: 400px;
         }
         
         .filter-section {
@@ -208,6 +211,8 @@
             cursor: pointer;
             font-weight: 600;
             transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
         }
         
         .btn:hover {
@@ -435,6 +440,34 @@
             background: rgba(230, 57, 70, 0.1);
             color: var(--danger);
         }
+
+        /* Quick actions grid */
+        .quick-actions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        /* Responsive improvements */
+        @media (max-width: 768px) {
+            .nav-tabs {
+                flex-direction: column;
+            }
+            
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .chart-container {
+                min-height: 300px;
+            }
+            
+            .filter-form {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
     </style>
 </head>
 <body>
@@ -465,7 +498,8 @@
         {% block content %}{% endblock %}
         
     </div>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
     // Highlight active tab based on current URL
     function highlightActiveTab() {
@@ -481,7 +515,8 @@
         
         // Default to doctor tab if on root
         if (currentPath === '/' || currentPath === '/doctor') {
-            document.querySelector('a[href="/doctor"]').classList.add('active');
+            const doctorTab = document.querySelector('a[href="/doctor"]');
+            if (doctorTab) doctorTab.classList.add('active');
         }
     }
 
@@ -514,51 +549,36 @@
         staff: { currentPage: 1, pageSize: 20 }
     };
 
+    // Show correct tab content based on URL
+    function showCorrectTabContent() {
+        const path = window.location.pathname;
+        let tabId = 'doctor-tab'; // default
+        
+        if (path.includes('/dashboard')) tabId = 'dashboard-tab';
+        else if (path.includes('/room')) tabId = 'room-tab';
+        else if (path.includes('/patient')) tabId = 'patient-tab';
+        else if (path.includes('/pharmacy')) tabId = 'pharmacy-tab';
+        else if (path.includes('/lab')) tabId = 'lab-tab';
+        else if (path.includes('/staff')) tabId = 'staff-tab';
+        
+        // Hide all tab contents
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        
+        // Show the correct tab content
+        const activeTab = document.getElementById(tabId);
+        if (activeTab) {
+            activeTab.classList.add('active');
+        }
+    }
+
     // Initialize when page loads
     document.addEventListener('DOMContentLoaded', function() {
         highlightActiveTab();
-        initPagination();
-        
-        // Show the correct tab content based on URL
         showCorrectTabContent();
+        initPagination();
     });
-
-    // Dalam fungsi showCorrectTabContent() di base.html, tambahkan:
-function showCorrectTabContent() {
-    const path = window.location.pathname;
-    let tabId = 'doctor-tab'; // default
-    
-    if (path.includes('/dashboard')) tabId = 'dashboard-tab';
-    else if (path.includes('/room')) tabId = 'room-tab';
-    else if (path.includes('/patient')) tabId = 'patient-tab';
-    else if (path.includes('/pharmacy')) tabId = 'pharmacy-tab';
-    else if (path.includes('/lab')) tabId = 'lab-tab';
-    else if (path.includes('/staff')) tabId = 'staff-tab';
-    
-    // Hide all tab contents
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // Show the correct tab content
-    const activeTab = document.getElementById(tabId);
-    if (activeTab) {
-        activeTab.classList.add('active');
-    }
-}
-
-// Update fungsi getTableTypeFromPath() untuk include dashboard:
-function getTableTypeFromPath() {
-    const path = window.location.pathname;
-    if (path.includes('/dashboard')) return null; // dashboard tidak butuh pagination
-    if (path.includes('/doctor')) return 'doctor';
-    if (path.includes('/room')) return 'room';
-    if (path.includes('/patient')) return 'patient';
-    if (path.includes('/pharmacy')) return 'pharmacy';
-    if (path.includes('/lab')) return 'lab';
-    if (path.includes('/staff')) return 'staff';
-    return 'doctor'; // default
-}
 
     // Initialize pagination for specific type
     function initPaginationForType(tableType) {

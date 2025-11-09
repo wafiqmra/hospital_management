@@ -29,21 +29,21 @@
         </div>
     </div>
     
-    <div class="charts-grid">
+     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_medicine_category|safe }}
+            <canvas id="categoryChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_stock_status|safe }}
+            <canvas id="stockStatusChart"></canvas>
         </div>
     </div>
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_expiry|safe }}
+            <canvas id="expiryChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_supplier|safe }}
+            <canvas id="supplierChart"></canvas>
         </div>
     </div>
     
@@ -97,4 +97,122 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Medicine Category
+    const categoryCtx = document.getElementById('categoryChart');
+    if (categoryCtx) {
+        const categoryData = {{ category_count|tojson }};
+        if (Object.keys(categoryData).length > 0) {
+            new Chart(categoryCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(categoryData),
+                    datasets: [{
+                        data: Object.values(categoryData),
+                        backgroundColor: [
+                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
+                            '#f72585', '#4895ef', '#560bad', '#b5179e'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Medicine Distribution by Category'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Stock Status
+    const stockCtx = document.getElementById('stockStatusChart');
+    if (stockCtx) {
+        const stockData = {{ stock_status|tojson }};
+        if (Object.keys(stockData).length > 0) {
+            new Chart(stockCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(stockData),
+                    datasets: [{
+                        label: 'Number of Medicines',
+                        data: Object.values(stockData),
+                        backgroundColor: ['#4cc9f0', '#f72585', '#e63946']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Medicine Stock Status'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Expiring Medicines
+    const expiryCtx = document.getElementById('expiryChart');
+    if (expiryCtx) {
+        const expiryData = {{ expiry_data|tojson }};
+        if (expiryData.length > 0) {
+            new Chart(expiryCtx, {
+                type: 'bar',
+                data: {
+                    labels: expiryData.map(item => item.drug_name),
+                    datasets: [{
+                        label: 'Current Stock',
+                        data: expiryData.map(item => item.current_stock),
+                        backgroundColor: '#f72585'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Medicines Expiring in 30 Days'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Suppliers
+    const supplierCtx = document.getElementById('supplierChart');
+    if (supplierCtx) {
+        const supplierData = {{ supplier_count|tojson }};
+        if (Object.keys(supplierData).length > 0) {
+            new Chart(supplierCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(supplierData),
+                    datasets: [{
+                        label: 'Number of Medicines',
+                        data: Object.values(supplierData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Top 10 Suppliers'
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
 {% endblock %}

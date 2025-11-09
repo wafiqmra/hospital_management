@@ -36,7 +36,7 @@
             <button type="submit" class="btn">Apply Filters</button>
             <a href="/export?specialization={{ current_specialization }}&day={{ current_day }}&search_doctor={{ search_doctor }}" 
                class="btn btn-export">Export CSV</a>
-            <a href="/" class="btn">Reset</a>
+            <a href="/doctor" class="btn">Reset</a>
         </form>
     </div>
     
@@ -61,18 +61,19 @@
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_spec|safe }}
+            <canvas id="specializationChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_day|safe }}
+            <canvas id="dayChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_heatmap|safe }}
+            <canvas id="heatmapChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_rooms|safe }}
+            <canvas id="roomUsageChart"></canvas>
         </div>
     </div>
+
     
     <div class="table-container">
         <div class="table-header">
@@ -109,4 +110,141 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Distribution by Specialization
+    const specCtx = document.getElementById('specializationChart');
+    if (specCtx) {
+        const specData = {{ spec_count|tojson }};
+        if (Object.keys(specData).length > 0) {
+            new Chart(specCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(specData),
+                    datasets: [{
+                        data: Object.values(specData),
+                        backgroundColor: [
+                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
+                            '#f72585', '#4895ef', '#560bad', '#b5179e'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Distribution by Specialization'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Schedules by Day
+    const dayCtx = document.getElementById('dayChart');
+    if (dayCtx) {
+        const dayData = {{ day_count|tojson }};
+        if (Object.keys(dayData).length > 0) {
+            new Chart(dayCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(dayData),
+                    datasets: [{
+                        label: 'Number of Schedules',
+                        data: Object.values(dayData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Schedules by Day'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Room Usage
+    const roomCtx = document.getElementById('roomUsageChart');
+    if (roomCtx) {
+        const roomData = {{ room_usage_data|tojson }};
+        if (roomData.length > 0) {
+            new Chart(roomCtx, {
+                type: 'bar',
+                data: {
+                    labels: roomData.map(item => item.room_id),
+                    datasets: [{
+                        label: 'Usage Count',
+                        data: roomData.map(item => item.count),
+                        backgroundColor: '#4cc9f0'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Top 10 Most Used Rooms'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Simple Heatmap
+    const heatmapCtx = document.getElementById('heatmapChart');
+    if (heatmapCtx) {
+        const heatmapData = {{ heatmap_data|tojson }};
+        if (heatmapData.length > 0) {
+            // Group data untuk heatmap sederhana
+            const days = [...new Set(heatmapData.map(item => item.schedule_day))];
+            const specs = [...new Set(heatmapData.map(item => item.specialization))];
+            
+            const heatmapChartData = {
+                labels: specs,
+                datasets: days.map(day => {
+                    return {
+                        label: day,
+                        data: specs.map(spec => {
+                            const item = heatmapData.find(d => d.schedule_day === day && d.specialization === spec);
+                            return item ? item.count : 0;
+                        }),
+                        backgroundColor: '#7209b7'
+                    };
+                })
+            };
+
+            new Chart(heatmapCtx, {
+                type: 'bar',
+                data: heatmapChartData,
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Schedule Density'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                        },
+                        y: {
+                            stacked: true
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
 {% endblock %}

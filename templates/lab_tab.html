@@ -29,14 +29,16 @@
             
             <div class="form-group">
                 <label for="date_range">Date Range</label>
-                <input type="date" name="start_date" id="start_date" value="{{ current_start_date }}">
-                <input type="date" name="end_date" id="end_date" value="{{ current_end_date }}">
+                <div style="display: flex; gap: 10px;">
+                    <input type="date" name="start_date" id="start_date" value="{{ current_start_date }}">
+                    <input type="date" name="end_date" id="end_date" value="{{ current_end_date }}">
+                </div>
             </div>
             
             <button type="submit" class="btn">Apply Filters</button>
             <a href="/export_lab_tests?test_type={{ current_test_type }}&result_status={{ current_result_status }}&start_date={{ current_start_date }}&end_date={{ current_end_date }}" 
                class="btn btn-export">Export CSV</a>
-            <a href="/" class="btn">Reset</a>
+            <a href="/lab" class="btn">Reset</a>
         </form>
     </div>
     
@@ -61,19 +63,19 @@
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_test_type|safe }}
+            <canvas id="testTypeChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_result_status|safe }}
+            <canvas id="resultStatusChart"></canvas>
         </div>
     </div>
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_daily_tests|safe }}
+            <canvas id="dailyTestsChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_lab_staff|safe }}
+            <canvas id="labStaffChart"></canvas>
         </div>
     </div>
     
@@ -123,4 +125,125 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Test Type Distribution
+    const testTypeCtx = document.getElementById('testTypeChart');
+    if (testTypeCtx) {
+        const testTypeData = {{ test_type_count|tojson }};
+        if (Object.keys(testTypeData).length > 0) {
+            new Chart(testTypeCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(testTypeData),
+                    datasets: [{
+                        data: Object.values(testTypeData),
+                        backgroundColor: [
+                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
+                            '#f72585', '#4895ef', '#560bad', '#b5179e'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Distribution by Test Type'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Result Status
+    const resultCtx = document.getElementById('resultStatusChart');
+    if (resultCtx) {
+        const resultData = {{ result_status_count|tojson }};
+        if (Object.keys(resultData).length > 0) {
+            new Chart(resultCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(resultData),
+                    datasets: [{
+                        label: 'Number of Tests',
+                        data: Object.values(resultData),
+                        backgroundColor: ['#4cc9f0', '#f72585', '#e63946']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Test Result Status'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Daily Tests Trend
+    const dailyCtx = document.getElementById('dailyTestsChart');
+    if (dailyCtx) {
+        const dailyData = {{ daily_tests_data|tojson }};
+        if (dailyData.length > 0) {
+            new Chart(dailyCtx, {
+                type: 'line',
+                data: {
+                    labels: dailyData.map(item => item.scheduled_date),
+                    datasets: [{
+                        label: 'Number of Tests',
+                        data: dailyData.map(item => item.count),
+                        borderColor: '#4361ee',
+                        backgroundColor: 'rgba(67, 97, 238, 0.1)',
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Daily Tests Trend'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Lab Staff
+    const staffCtx = document.getElementById('labStaffChart');
+    if (staffCtx) {
+        const staffData = {{ lab_staff_count|tojson }};
+        if (Object.keys(staffData).length > 0) {
+            new Chart(staffCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(staffData),
+                    datasets: [{
+                        label: 'Number of Tests',
+                        data: Object.values(staffData),
+                        backgroundColor: '#7209b7'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Top 10 Lab Staff by Test Count'
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
 {% endblock %}

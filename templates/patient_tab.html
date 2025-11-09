@@ -31,24 +31,24 @@
     
     <div class="patient-charts-grid">
         <div class="chart-container">
-            {{ chart_gender|safe }}
+            <canvas id="genderChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_age|safe }}
+            <canvas id="ageChart"></canvas>
         </div>
     </div>
     
     <div class="patient-charts-grid">
         <div class="chart-container">
-            {{ chart_payment|safe }}
+            <canvas id="paymentChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_insurance|safe }}
+            <canvas id="insuranceChart"></canvas>
         </div>
     </div>
     
     <div class="chart-container">
-        {{ chart_city|safe }}
+        <canvas id="cityChart"></canvas>
     </div>
     
     <div class="table-container">
@@ -88,4 +88,144 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Gender Distribution
+    const genderCtx = document.getElementById('genderChart');
+    if (genderCtx) {
+        const genderData = {{ gender_dist|tojson }};
+        if (Object.keys(genderData).length > 0) {
+            new Chart(genderCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(genderData),
+                    datasets: [{
+                        data: Object.values(genderData),
+                        backgroundColor: ['#4361ee', '#f72585']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Patient Gender Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Age Group Distribution
+    const ageCtx = document.getElementById('ageChart');
+    if (ageCtx) {
+        const ageData = {{ age_group_count|tojson }};
+        if (Object.keys(ageData).length > 0) {
+            new Chart(ageCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(ageData),
+                    datasets: [{
+                        data: Object.values(ageData),
+                        backgroundColor: ['#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Patient Age Group Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Payment Type
+    const paymentCtx = document.getElementById('paymentChart');
+    if (paymentCtx) {
+        const paymentData = {{ payment_dist|tojson }};
+        if (Object.keys(paymentData).length > 0) {
+            new Chart(paymentCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(paymentData),
+                    datasets: [{
+                        data: Object.values(paymentData),
+                        backgroundColor: ['#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Payment Type Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Insurance Provider
+    const insuranceCtx = document.getElementById('insuranceChart');
+    if (insuranceCtx) {
+        const insuranceData = {{ insurance_dist|tojson }};
+        if (Object.keys(insuranceData).length > 0) {
+            new Chart(insuranceCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(insuranceData),
+                    datasets: [{
+                        data: Object.values(insuranceData),
+                        backgroundColor: ['#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', '#f72585']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Insurance Provider Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 5: Top Cities
+    const cityCtx = document.getElementById('cityChart');
+    if (cityCtx) {
+        const cityData = {{ city_dist|tojson }};
+        if (Object.keys(cityData).length > 0) {
+            new Chart(cityCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(cityData),
+                    datasets: [{
+                        label: 'Number of Patients',
+                        data: Object.values(cityData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Top 10 Cities by Patient Count'
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
 {% endblock %}

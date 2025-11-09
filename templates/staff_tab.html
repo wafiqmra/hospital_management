@@ -47,7 +47,7 @@
             <button type="submit" class="btn">Apply Filters</button>
             <a href="/export_staff?role={{ current_staff_role }}&department={{ current_staff_department }}&status={{ current_staff_status }}&search={{ search_staff }}" 
                class="btn btn-export">Export CSV</a>
-            <a href="/" class="btn">Reset</a>
+            <a href="/staff" class="btn">Reset</a>
         </form>
     </div>
     
@@ -72,19 +72,19 @@
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_staff_role|safe }}
+            <canvas id="roleChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_staff_department|safe }}
+            <canvas id="departmentChart"></canvas>
         </div>
     </div>
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_staff_hire_year|safe }}
+            <canvas id="hireYearChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_staff_status|safe }}
+            <canvas id="statusChart"></canvas>
         </div>
     </div>
     
@@ -131,4 +131,121 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Role Distribution
+    const roleCtx = document.getElementById('roleChart');
+    if (roleCtx) {
+        const roleData = {{ role_count|tojson }};
+        if (Object.keys(roleData).length > 0) {
+            new Chart(roleCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(roleData),
+                    datasets: [{
+                        data: Object.values(roleData),
+                        backgroundColor: [
+                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
+                            '#f72585', '#4895ef', '#560bad', '#b5179e'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Staff Distribution by Role'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Department Distribution
+    const deptCtx = document.getElementById('departmentChart');
+    if (deptCtx) {
+        const deptData = {{ dept_count|tojson }};
+        if (Object.keys(deptData).length > 0) {
+            new Chart(deptCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(deptData),
+                    datasets: [{
+                        label: 'Number of Staff',
+                        data: Object.values(deptData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Staff by Department'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Hire Year Trend
+    const hireCtx = document.getElementById('hireYearChart');
+    if (hireCtx) {
+        const hireData = {{ hire_year_count|tojson }};
+        if (Object.keys(hireData).length > 0) {
+            new Chart(hireCtx, {
+                type: 'line',
+                data: {
+                    labels: Object.keys(hireData),
+                    datasets: [{
+                        label: 'Number of Staff Hired',
+                        data: Object.values(hireData),
+                        borderColor: '#f72585',
+                        backgroundColor: 'rgba(247, 37, 133, 0.1)',
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Staff Hiring Trend by Year'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Status Distribution
+    const statusCtx = document.getElementById('statusChart');
+    if (statusCtx) {
+        new Chart(statusCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Active', 'Inactive'],
+                datasets: [{
+                    data: [{{ active_count }}, {{ inactive_count }}],
+                    backgroundColor: ['#4cc9f0', '#e63946']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Staff Status Distribution'
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
 {% endblock %}

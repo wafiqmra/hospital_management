@@ -31,27 +31,25 @@
     
     <div class="room-stats">
         {% for room_type, stats in room_stats.items() %}
-    <div class="room-stat-card">
-        <div class="room-stat-header">
-            <span class="room-type">{{ room_type }}</span>
-            <span class="occupancy-rate">{{ stats.occupancy_rate }}%</span>
+        <div class="room-stat-card">
+            <div class="room-stat-header">
+                <span class="room-type">{{ room_type }}</span>
+                <span class="occupancy-rate">{{ stats.occupancy_rate }}%</span>
+            </div>
+            <div>Occupied: {{ stats.occupied }}/{{ stats.total }}</div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: {{ stats.occupancy_rate }}%;"></div>
+            </div>
         </div>
-        <div>Occupied: {{ stats.occupied }}/{{ stats.total }}</div>
-        <div class="progress-bar">
-            <!-- Gunakan filter float agar CSS valid -->
-            <div class="progress-fill" style="width: {{ stats.occupancy_rate|float }}%;"></div>
-        </div>
-    </div>
-    {% endfor %}
-
+        {% endfor %}
     </div>
     
     <div class="charts-grid">
         <div class="chart-container">
-            {{ chart_room_type|safe }}
+            <canvas id="roomTypeChart"></canvas>
         </div>
         <div class="chart-container">
-            {{ chart_occupancy|safe }}
+            <canvas id="occupancyChart"></canvas>
         </div>
     </div>
     
@@ -98,4 +96,76 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Room Type Distribution
+    const roomTypeCtx = document.getElementById('roomTypeChart');
+    if (roomTypeCtx) {
+        const roomTypeData = {{ room_type_data|tojson }};
+        if (Object.keys(roomTypeData).length > 0) {
+            new Chart(roomTypeCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(roomTypeData),
+                    datasets: [{
+                        data: Object.values(roomTypeData),
+                        backgroundColor: [
+                            '#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3', 
+                            '#f72585', '#4895ef'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Room Type Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Occupancy Rate by Room Type
+    const occupancyCtx = document.getElementById('occupancyChart');
+    if (occupancyCtx) {
+        const occupancyData = {{ occupancy_data|tojson }};
+        if (Object.keys(occupancyData).length > 0) {
+            new Chart(occupancyCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(occupancyData),
+                    datasets: [{
+                        label: 'Occupancy Rate (%)',
+                        data: Object.values(occupancyData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Occupancy Rate by Room Type'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Occupancy Rate (%)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
 {% endblock %}
