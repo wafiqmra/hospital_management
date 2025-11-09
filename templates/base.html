@@ -449,6 +449,200 @@
             padding: 20px;
         }
 
+        /* Enhanced Table Styles */
+        .enhanced-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .enhanced-table th {
+            background: linear-gradient(135deg, #4361ee, #3a0ca3);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+        }
+
+        .enhanced-table th:hover {
+            background: linear-gradient(135deg, #3a0ca3, #4361ee);
+        }
+
+        .enhanced-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .enhanced-table tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+            transition: all 0.2s ease;
+        }
+
+        /* Search Box Styles */
+        .search-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #4361ee;
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        /* Quick Actions */
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .quick-action-btn {
+            padding: 10px 15px;
+            background: white;
+            border: 2px solid #4361ee;
+            color: #4361ee;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .quick-action-btn:hover {
+            background: #4361ee;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Status Badges Enhanced */
+        .status-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Export Button Enhanced */
+        .btn-export {
+            background: linear-gradient(135deg, #2a9d8f, #264653);
+            border: none;
+        }
+
+        .btn-export:hover {
+            background: linear-gradient(135deg, #264653, #2a9d8f);
+            transform: translateY(-2px);
+        }
+
+        /* View Toggle */
+        .view-toggle {
+            display: flex;
+            background: white;
+            border-radius: 8px;
+            padding: 4px;
+            margin-bottom: 20px;
+        }
+
+        .view-toggle-btn {
+            padding: 8px 16px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .view-toggle-btn.active {
+            background: #4361ee;
+            color: white;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .doctor-card, .patient-card, .room-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--text-primary);
+        }
+
+        .card-badge {
+            background: var(--primary);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .card-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            background: var(--light);
+            border-radius: 6px;
+        }
+
+        .sort-icon {
+            font-size: 12px;
+            margin-left: 5px;
+        }
+
+        .table-row:hover {
+            background-color: #f8f9fa;
+            cursor: pointer;
+        }
+
         /* Responsive improvements */
         @media (max-width: 768px) {
             .nav-tabs {
@@ -466,6 +660,16 @@
             .filter-form {
                 flex-direction: column;
                 align-items: stretch;
+            }
+
+            .quick-actions {
+                flex-direction: column;
+            }
+
+            .table-header {
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
             }
         }
     </style>
@@ -582,6 +786,7 @@
         highlightActiveTab();
         showCorrectTabContent();
         initPagination();
+        initializeEnhancedSearch();
     });
 
     // Initialize pagination for specific type
@@ -639,6 +844,98 @@
         
         if (prevBtn) prevBtn.disabled = state.currentPage === 1;
         if (nextBtn) nextBtn.disabled = state.currentPage === totalPages;
+    }
+
+    // Enhanced Search Functionality
+    function initializeEnhancedSearch() {
+        const searchInputs = document.querySelectorAll('.search-box');
+        searchInputs.forEach(input => {
+            input.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const tableBody = this.closest('.tab-content').querySelector('tbody');
+                if (!tableBody) return;
+                
+                const rows = tableBody.querySelectorAll('.table-row');
+                
+                let visibleCount = 0;
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    if (text.includes(searchTerm)) {
+                        row.style.display = '';
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Update showing count if exists
+                const showingCount = document.querySelector('.pagination-info .showing-count');
+                if (showingCount) {
+                    showingCount.textContent = visibleCount;
+                }
+            });
+        });
+    }
+
+    // Quick Filter Functions
+    function filterByAge(ageGroup) {
+        const url = new URL(window.location);
+        url.searchParams.set('age_group', ageGroup);
+        window.location.href = url.toString();
+    }
+
+    function filterByPayment(paymentType) {
+        const url = new URL(window.location);
+        url.searchParams.set('payment_type', paymentType);
+        window.location.href = url.toString();
+    }
+
+    function filterByGender(gender) {
+        const url = new URL(window.location);
+        url.searchParams.set('gender', gender);
+        window.location.href = url.toString();
+    }
+
+    // Enhanced Sorting
+    function enhancedSortTable(columnIndex, tableId) {
+        const tbody = document.getElementById(tableId);
+        const rows = Array.from(tbody.querySelectorAll('.table-row'));
+        const isNumeric = !isNaN(parseFloat(rows[0].querySelector(`td:nth-child(${columnIndex})`).textContent));
+        
+        rows.sort((a, b) => {
+            let aValue = a.querySelector(`td:nth-child(${columnIndex})`).textContent;
+            let bValue = b.querySelector(`td:nth-child(${columnIndex})`).textContent;
+            
+            if (isNumeric) {
+                return parseFloat(aValue) - parseFloat(bValue);
+            } else {
+                return aValue.localeCompare(bValue);
+            }
+        });
+        
+        // Clear and re-append sorted rows
+        while (tbody.firstChild) {
+            tbody.removeChild(tbody.firstChild);
+        }
+        
+        rows.forEach(row => tbody.appendChild(row));
+    }
+
+    // View Toggle Function
+    function toggleView(tableType) {
+        const tableView = document.getElementById(`${tableType}-table-view`);
+        const cardView = document.getElementById(`${tableType}-card-view`);
+        const toggleBtn = document.getElementById(`${tableType}-toggle-view`);
+        
+        if (tableView.style.display === 'none') {
+            tableView.style.display = 'block';
+            cardView.style.display = 'none';
+            toggleBtn.textContent = 'Card View';
+        } else {
+            tableView.style.display = 'none';
+            cardView.style.display = 'block';
+            toggleBtn.textContent = 'Table View';
+        }
     }
 
     // Add Font Awesome icons

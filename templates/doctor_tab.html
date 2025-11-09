@@ -33,13 +33,53 @@
                        value="{{ search_doctor }}" placeholder="Enter doctor name...">
             </div>
             
+            <div class="form-group">
+                <label for="room_id">Room</label>
+                <select name="room_id" id="room_id">
+                    {% for room in room_ids %}
+                        <option value="{{ room }}" {% if current_room_id == room %}selected{% endif %}>
+                            {{ room }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
             <button type="submit" class="btn">Apply Filters</button>
-            <a href="/export?specialization={{ current_specialization }}&day={{ current_day }}&search_doctor={{ search_doctor }}" 
+            <a href="/export?specialization={{ current_specialization }}&day={{ current_day }}&search_doctor={{ search_doctor }}&room_id={{ current_room_id }}" 
                class="btn btn-export">Export CSV</a>
             <a href="/doctor" class="btn">Reset</a>
         </form>
     </div>
     
+    <!-- Quick Day Navigation -->
+    <div class="quick-actions" style="margin-bottom: 20px;">
+        <button class="quick-action-btn {% if current_day == 'All' %}active{% endif %}" onclick="filterByDay('All')">
+            <i class="fas fa-calendar-week"></i> Semua Hari
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Senin' %}active{% endif %}" onclick="filterByDay('Senin')">
+            <i class="fas fa-calendar-day"></i> Senin
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Selasa' %}active{% endif %}" onclick="filterByDay('Selasa')">
+            <i class="fas fa-calendar-day"></i> Selasa
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Rabu' %}active{% endif %}" onclick="filterByDay('Rabu')">
+            <i class="fas fa-calendar-day"></i> Rabu
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Kamis' %}active{% endif %}" onclick="filterByDay('Kamis')">
+            <i class="fas fa-calendar-day"></i> Kamis
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Jumat' %}active{% endif %}" onclick="filterByDay('Jumat')">
+            <i class="fas fa-calendar-day"></i> Jumat
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Sabtu' %}active{% endif %}" onclick="filterByDay('Sabtu')">
+            <i class="fas fa-calendar-day"></i> Sabtu
+        </button>
+        <button class="quick-action-btn {% if current_day == 'Minggu' %}active{% endif %}" onclick="filterByDay('Minggu')">
+            <i class="fas fa-calendar-day"></i> Minggu
+        </button>
+    </div>
+    
+    <!-- Quick Stats -->
     <div class="metrics-grid">
         <div class="metric-card">
             <div class="metric-value">{{ total_doctors }}</div>
@@ -59,6 +99,131 @@
         </div>
     </div>
     
+    <!-- Doctor Overview by Day -->
+    <div class="chart-container" style="margin-bottom: 30px;">
+        <div class="chart-header">
+            <h4><i class="fas fa-calendar-alt"></i> Ringkasan Dokter per Hari</h4>
+        </div>
+        <div class="day-overview-grid">
+            {% for day in ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'] %}
+            {% set day_doctors = table_data|selectattr('schedule_day_indonesia', 'equalto', day)|list %}
+            <div class="day-card {% if current_day == day %}active{% endif %}" onclick="filterByDay('{{ day }}')">
+                <div class="day-header">
+                    <span class="day-name">{{ day }}</span>
+                    <span class="doctor-count">{{ day_doctors|length }}</span>
+                </div>
+                <div class="day-doctors">
+                    {% if day_doctors %}
+                        {% for doctor in day_doctors[:3] %}
+                        <div class="doctor-mini" onclick="event.stopPropagation(); showDoctorDetail('{{ doctor.name }}', '{{ doctor.specialization }}')">
+                            {{ doctor.name }}
+                        </div>
+                        {% endfor %}
+                        {% if day_doctors|length > 3 %}
+                        <div class="more-doctors">+{{ day_doctors|length - 3 }} more</div>
+                        {% endif %}
+                    {% else %}
+                        <div class="no-doctors">Tidak ada jadwal</div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    <!-- Search and Quick Actions -->
+    <div class="filter-section" style="margin-top: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <input type="text" id="table-search" class="search-box" placeholder="Search in table...">
+                <button onclick="searchTable()" class="btn">Search</button>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button onclick="sortTable('name')" class="btn">Sort by Name</button>
+                <button onclick="sortTable('specialization')" class="btn">Sort by Specialization</button>
+                <button onclick="toggleView()" class="btn" id="toggle-view">Card View</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Card View (Hidden by Default) -->
+    <div id="card-view" style="display: none; margin-bottom: 30px;">
+        <div class="cards-grid" id="doctor-cards">
+            <!-- Cards will be populated by JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Table View -->
+    <div id="table-view">
+        <div class="table-container">
+            <div class="table-header">
+                <h3>Doctor Schedules ({{ table_count }} records)</h3>
+                <div class="pagination-info">
+                    Showing <span id="showing-count">{{ [table_count, 20]|min }}</span> of {{ table_count }} records
+                </div>
+            </div>
+            <table class="enhanced-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('name')" style="cursor: pointer;">
+                            Doctor Name <span class="sort-icon">↕</span>
+                        </th>
+                        <th onclick="sortTable('specialization')" style="cursor: pointer;">
+                            Specialization <span class="sort-icon">↕</span>
+                        </th>
+                        <th onclick="sortTable('schedule_day_indonesia')" style="cursor: pointer;">
+                            Day <span class="sort-icon">↕</span>
+                        </th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Room ID</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="doctor-table-body">
+                    {% for row in table_data %}
+                    <tr class="table-row" data-type="doctor">
+                        <td>
+                            <div class="doctor-name-cell" onclick="showDoctorDetail('{{ row.name }}', '{{ row.specialization }}')">
+                                <i class="fas fa-user-md"></i>
+                                {{ row.name }}
+                            </div>
+                        </td>
+                        <td>{{ row.specialization }}</td>
+                        <td>
+                            <span class="day-badge" onclick="filterByDay('{{ row.schedule_day_indonesia }}')">
+                                {{ row.schedule_day_indonesia }}
+                            </span>
+                        </td>
+                        <td>{{ row.start_time }}</td>
+                        <td>{{ row.end_time }}</td>
+                        <td>{{ row.room_id }}</td>
+                        <td>
+                            <div class="action-buttons">
+                                <button onclick="showDoctorDetail('{{ row.name }}', '{{ row.specialization }}')" class="btn btn-sm" title="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button onclick="showDoctorSchedule('{{ row.name }}')" class="btn btn-sm btn-success" title="View Schedule">
+                                    <i class="fas fa-calendar"></i>
+                                </button>
+                                <button onclick="contactDoctor('{{ row.name }}')" class="btn btn-sm btn-warning" title="Contact">
+                                    <i class="fas fa-phone"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="pagination" id="doctor-pagination">
+                <button class="pagination-btn" onclick="changePage('doctor', -1)">Previous</button>
+                <span class="pagination-info" id="doctor-page-info">Page 1 of {{ (table_count / 20)|round(0, 'ceil')|int }}</span>
+                <button class="pagination-btn" onclick="changePage('doctor', 1)">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Charts Section -->
     <div class="charts-grid">
         <div class="chart-container">
             <canvas id="specializationChart"></canvas>
@@ -73,47 +238,239 @@
             <canvas id="roomUsageChart"></canvas>
         </div>
     </div>
+</div>
 
-    
-    <div class="table-container">
-        <div class="table-header">
-            <h3>Doctor Schedules ({{ table_count }} records)</h3>
+<!-- Doctor Details Modal -->
+<div id="doctor-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
+    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 600px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); max-height: 80vh; overflow-y: auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <h4 style="margin: 0;" id="modal-doctor-name">Doctor Details</h4>
+            <button onclick="closeDoctorModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #666;">&times;</button>
         </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Doctor Name</th>
-                    <th>Specialization</th>
-                    <th>Day</th>
-                    <th>Start Time</th>
-                    <th>End Time</th>
-                    <th>Room ID</th>
-                </tr>
-            </thead>
-            <tbody id="doctor-table-body">
-                {% for row in table_data %}
-                <tr class="table-row" data-type="doctor">
-                    <td>{{ row.name }}</td>
-                    <td>{{ row.specialization }}</td>
-                    <td>{{ row.schedule_day_indonesia }}</td>
-                    <td>{{ row.start_time }}</td>
-                    <td>{{ row.end_time }}</td>
-                    <td>{{ row.room_id }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <div class="pagination" id="doctor-pagination">
-            <button class="pagination-btn" onclick="changePage('doctor', -1)">Previous</button>
-            <span class="pagination-info" id="doctor-page-info">Page 1 of {{ (table_count / 20)|round(0, 'ceil')|int }}</span>
-            <button class="pagination-btn" onclick="changePage('doctor', 1)">Next</button>
+        <div id="doctor-modal-content">
+            <!-- Content will be filled by JavaScript -->
+        </div>
+        <div style="display: flex; gap: 10px; margin-top: 20px;">
+            <button onclick="closeDoctorModal()" style="flex: 1; padding: 10px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                Close
+            </button>
+            <button onclick="contactDoctorModal()" style="flex: 1; padding: 10px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer;">
+                <i class="fas fa-phone"></i> Contact
+            </button>
         </div>
     </div>
 </div>
 
+<!-- Doctor Schedule Modal -->
+<div id="schedule-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
+    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 500px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <h4 style="margin: 0;" id="schedule-doctor-name">Doctor Schedule</h4>
+            <button onclick="closeScheduleModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #666;">&times;</button>
+        </div>
+        <div id="schedule-modal-content">
+            <!-- Content will be filled by JavaScript -->
+        </div>
+        <div style="display: flex; gap: 10px; margin-top: 20px;">
+            <button onclick="closeScheduleModal()" style="flex: 1; padding: 10px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                Close
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Quick Day Navigation */
+.quick-action-btn {
+    padding: 10px 15px;
+    background: white;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    flex: 1;
+    text-align: center;
+}
+
+.quick-action-btn:hover, .quick-action-btn.active {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Day Overview Grid */
+.day-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.day-card {
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.day-card:hover, .day-card.active {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.day-card.active .day-name,
+.day-card.active .doctor-count,
+.day-card:hover .day-name,
+.day-card:hover .doctor-count {
+    color: white;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.day-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+}
+
+.doctor-count {
+    background: var(--success);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.day-doctors {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.doctor-mini {
+    padding: 5px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.doctor-mini:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.no-doctors {
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.more-doctors {
+    font-size: 11px;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 5px;
+}
+
+/* Table Enhancements */
+.doctor-name-cell {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.doctor-name-cell:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.day-badge {
+    background: var(--success);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.day-badge:hover {
+    background: var(--primary);
+    transform: scale(1.05);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-sm {
+    padding: 5px 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-success {
+    background: var(--success);
+    color: white;
+}
+
+.btn-warning {
+    background: var(--warning);
+    color: white;
+}
+
+.btn-sm:hover {
+    transform: scale(1.1);
+}
+
+/* Modal Enhancements */
+.modal-schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--light);
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.modal-schedule-day {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Chart 1: Distribution by Specialization
+    initializeDoctorCharts();
+    generateDoctorCards();
+});
+
+function initializeDoctorCharts() {
+    // Chart initialization code (sama seperti sebelumnya)
     const specCtx = document.getElementById('specializationChart');
     if (specCtx) {
         const specData = {{ spec_count|tojson }};
@@ -143,7 +500,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Chart 2: Schedules by Day
+    // Other charts initialization...
     const dayCtx = document.getElementById('dayChart');
     if (dayCtx) {
         const dayData = {{ day_count|tojson }};
@@ -170,81 +527,295 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+}
 
-    // Chart 3: Room Usage
-    const roomCtx = document.getElementById('roomUsageChart');
-    if (roomCtx) {
-        const roomData = {{ room_usage_data|tojson }};
-        if (roomData.length > 0) {
-            new Chart(roomCtx, {
-                type: 'bar',
-                data: {
-                    labels: roomData.map(item => item.room_id),
-                    datasets: [{
-                        label: 'Usage Count',
-                        data: roomData.map(item => item.count),
-                        backgroundColor: '#4cc9f0'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Top 10 Most Used Rooms'
-                        }
-                    }
-                }
+function generateDoctorCards() {
+    // Gunakan data dari table yang sudah ada di HTML
+    const tableRows = document.querySelectorAll('#doctor-table-body .table-row');
+    const cardsContainer = document.getElementById('doctor-cards');
+    
+    if (tableRows.length === 0) {
+        cardsContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 40px;">No doctor data available</div>';
+        return;
+    }
+    
+    cardsContainer.innerHTML = '';
+    
+    tableRows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        const name = cells[0].textContent.replace('⛑️', '').trim();
+        const specialization = cells[1].textContent;
+        const day = cells[2].textContent;
+        const startTime = cells[3].textContent;
+        const endTime = cells[4].textContent;
+        const room = cells[5].textContent;
+        
+        const card = document.createElement('div');
+        card.className = 'doctor-card';
+        card.innerHTML = `
+            <div class="card-header">
+                <div class="card-title">${name}</div>
+                <div class="card-badge">${specialization}</div>
+            </div>
+            <div class="card-content">
+                <div class="card-item">
+                    <span>Day:</span>
+                    <strong>${day}</strong>
+                </div>
+                <div class="card-item">
+                    <span>Time:</span>
+                    <strong>${startTime} - ${endTime}</strong>
+                </div>
+                <div class="card-item">
+                    <span>Room:</span>
+                    <strong>${room}</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px; display: flex; gap: 10px;">
+                <button onclick="showDoctorDetail('${name}', '${specialization}')" class="btn" style="flex: 1; padding: 8px;">
+                    <i class="fas fa-eye"></i> Details
+                </button>
+                <button onclick="showDoctorSchedule('${name}')" class="btn" style="flex: 1; padding: 8px; background: var(--success);">
+                    <i class="fas fa-calendar"></i> Schedule
+                </button>
+            </div>
+        `;
+        cardsContainer.appendChild(card);
+    });
+}
+
+// Filter Functions
+function filterByDay(day) {
+    const url = new URL(window.location);
+    if (day === 'All') {
+        url.searchParams.delete('day');
+    } else {
+        url.searchParams.set('day', day);
+    }
+    window.location.href = url.toString();
+}
+
+function toggleView() {
+    const tableView = document.getElementById('table-view');
+    const cardView = document.getElementById('card-view');
+    const toggleBtn = document.getElementById('toggle-view');
+    
+    if (tableView.style.display === 'none') {
+        tableView.style.display = 'block';
+        cardView.style.display = 'none';
+        toggleBtn.textContent = 'Card View';
+    } else {
+        tableView.style.display = 'none';
+        cardView.style.display = 'block';
+        toggleBtn.textContent = 'Table View';
+    }
+}
+
+function searchTable() {
+    const searchTerm = document.getElementById('table-search').value.toLowerCase();
+    const rows = document.querySelectorAll('#doctor-table-body .table-row');
+    let visibleCount = 0;
+    
+    rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        if (text.includes(searchTerm)) {
+            row.style.display = '';
+            visibleCount++;
+        } else {
+            row.style.display = 'none';
+        }
+    });
+    
+    document.getElementById('showing-count').textContent = visibleCount;
+}
+
+function sortTable(column) {
+    const tbody = document.getElementById('doctor-table-body');
+    const rows = Array.from(tbody.querySelectorAll('.table-row'));
+    
+    rows.sort((a, b) => {
+        const aValue = a.querySelector(`td:nth-child(${getColumnIndex(column)})`).textContent;
+        const bValue = b.querySelector(`td:nth-child(${getColumnIndex(column)})`).textContent;
+        return aValue.localeCompare(bValue);
+    });
+    
+    // Clear and re-append sorted rows
+    while (tbody.firstChild) {
+        tbody.removeChild(tbody.firstChild);
+    }
+    
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+function getColumnIndex(column) {
+    const columns = {
+        'name': 1,
+        'specialization': 2,
+        'schedule_day_indonesia': 3
+    };
+    return columns[column] || 1;
+}
+
+// Modal Functions
+let currentDoctorName = '';
+
+function showDoctorDetail(doctorName, specialization) {
+    currentDoctorName = doctorName;
+    
+    // Cari semua jadwal dokter ini dari tabel
+    const rows = document.querySelectorAll('#doctor-table-body .table-row');
+    let doctorSchedules = [];
+    
+    rows.forEach(row => {
+        const nameCell = row.querySelector('td:nth-child(1)');
+        if (nameCell.textContent.includes(doctorName)) {
+            const cells = row.querySelectorAll('td');
+            doctorSchedules.push({
+                day: cells[2].textContent,
+                startTime: cells[3].textContent,
+                endTime: cells[4].textContent,
+                room: cells[5].textContent
             });
         }
-    }
-
-    // Chart 4: Simple Heatmap
-    const heatmapCtx = document.getElementById('heatmapChart');
-    if (heatmapCtx) {
-        const heatmapData = {{ heatmap_data|tojson }};
-        if (heatmapData.length > 0) {
-            // Group data untuk heatmap sederhana
-            const days = [...new Set(heatmapData.map(item => item.schedule_day))];
-            const specs = [...new Set(heatmapData.map(item => item.specialization))];
+    });
+    
+    // Group schedules by day
+    const schedulesByDay = {};
+    doctorSchedules.forEach(schedule => {
+        if (!schedulesByDay[schedule.day]) {
+            schedulesByDay[schedule.day] = [];
+        }
+        schedulesByDay[schedule.day].push(schedule);
+    });
+    
+    document.getElementById('modal-doctor-name').textContent = doctorName;
+    document.getElementById('doctor-modal-content').innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; align-items: center; gap: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #4361ee, #3a0ca3); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px;">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div>
+                    <h5 style="margin: 0 0 5px 0;">${doctorName}</h5>
+                    <div class="status-badge status-available">${specialization}</div>
+                </div>
+            </div>
             
-            const heatmapChartData = {
-                labels: specs,
-                datasets: days.map(day => {
-                    return {
-                        label: day,
-                        data: specs.map(spec => {
-                            const item = heatmapData.find(d => d.schedule_day === day && d.specialization === spec);
-                            return item ? item.count : 0;
-                        }),
-                        backgroundColor: '#7209b7'
-                    };
-                })
-            };
-
-            new Chart(heatmapCtx, {
-                type: 'bar',
-                data: heatmapChartData,
-                options: {
-                    responsive: true,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Schedule Density'
-                        }
-                    },
-                    scales: {
-                        x: {
-                            stacked: true,
-                        },
-                        y: {
-                            stacked: true
-                        }
-                    }
+            <div>
+                <h5 style="margin-bottom: 15px; color: var(--text-primary);">
+                    <i class="fas fa-calendar-alt"></i> Jadwal Praktek
+                </h5>
+                ${Object.keys(schedulesByDay).length > 0 ? 
+                    Object.entries(schedulesByDay).map(([day, schedules]) => `
+                        <div style="margin-bottom: 15px;">
+                            <div class="modal-schedule-day">${day}</div>
+                            ${schedules.map(schedule => `
+                                <div class="modal-schedule-item">
+                                    <div>
+                                        <i class="fas fa-clock" style="color: #4361ee;"></i>
+                                        ${schedule.startTime} - ${schedule.endTime}
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-door-open" style="color: #f72585;"></i>
+                                        Ruang ${schedule.room}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `).join('') :
+                    '<div style="text-align: center; color: var(--text-secondary); padding: 20px;">Tidak ada jadwal tersedia</div>'
                 }
-            });
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
+                <h6 style="margin: 0 0 10px 0; color: var(--text-primary);">Quick Actions</h6>
+                <div style="display: flex; gap: 10px;">
+                    <button onclick="showDoctorSchedule('${doctorName}')" class="btn" style="flex: 1; padding: 8px; font-size: 12px;">
+                        <i class="fas fa-calendar"></i> Lihat Kalender
+                    </button>
+                    <button onclick="scheduleAppointment('${doctorName}')" class="btn" style="flex: 1; padding: 8px; font-size: 12px; background: var(--success);">
+                        <i class="fas fa-calendar-plus"></i> Buat Janji
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('doctor-modal').style.display = 'flex';
+}
+
+function showDoctorSchedule(doctorName) {
+    // Cari semua jadwal dokter ini
+    const rows = document.querySelectorAll('#doctor-table-body .table-row');
+    let weeklySchedule = {
+        'Senin': [], 'Selasa': [], 'Rabu': [], 'Kamis': [], 
+        'Jumat': [], 'Sabtu': [], 'Minggu': []
+    };
+    
+    rows.forEach(row => {
+        const nameCell = row.querySelector('td:nth-child(1)');
+        if (nameCell.textContent.includes(doctorName)) {
+            const cells = row.querySelectorAll('td');
+            const day = cells[2].textContent;
+            const schedule = {
+                time: `${cells[3].textContent} - ${cells[4].textContent}`,
+                room: cells[5].textContent
+            };
+            if (weeklySchedule[day]) {
+                weeklySchedule[day].push(schedule);
+            }
         }
-    }
-});
+    });
+    
+    document.getElementById('schedule-doctor-name').textContent = `Jadwal ${doctorName}`;
+    document.getElementById('schedule-modal-content').innerHTML = `
+        <div style="max-height: 400px; overflow-y: auto;">
+            ${Object.entries(weeklySchedule).map(([day, schedules]) => `
+                <div style="margin-bottom: 20px;">
+                    <div style="font-weight: 600; color: var(--primary); margin-bottom: 10px; padding: 8px; background: #f8f9fa; border-radius: 6px;">
+                        ${day} ${schedules.length > 0 ? `<span style="float: right; background: var(--success); color: white; padding: 2px 8px; border-radius: 10px; font-size: 12px;">${schedules.length} sesi</span>` : ''}
+                    </div>
+                    ${schedules.length > 0 ? 
+                        schedules.map(schedule => `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; margin-bottom: 5px; background: white; border: 1px solid #eee; border-radius: 6px;">
+                                <div>
+                                    <i class="fas fa-clock" style="color: #4361ee; margin-right: 5px;"></i>
+                                    ${schedule.time}
+                                </div>
+                                <div>
+                                    <i class="fas fa-door-open" style="color: #f72585; margin-right: 5px;"></i>
+                                    Ruang ${schedule.room}
+                                </div>
+                            </div>
+                        `).join('') :
+                        '<div style="text-align: center; color: var(--text-secondary); padding: 20px; font-style: italic;">Tidak ada jadwal</div>'
+                    }
+                </div>
+            `).join('')}
+        </div>
+    `;
+    
+    document.getElementById('schedule-modal').style.display = 'flex';
+}
+
+function closeDoctorModal() {
+    document.getElementById('doctor-modal').style.display = 'none';
+}
+
+function closeScheduleModal() {
+    document.getElementById('schedule-modal').style.display = 'none';
+}
+
+function contactDoctorModal() {
+    contactDoctor(currentDoctorName);
+}
+
+function contactDoctor(doctorName) {
+    alert(`Menghubungi ${doctorName}\n\nSistem akan membuka menu kontak dokter.`);
+}
+
+function scheduleAppointment(doctorName) {
+    alert(`Membuat janji dengan ${doctorName}\n\nSistem akan membuka form pemesanan janji temu.`);
+}
 </script>
 {% endblock %}

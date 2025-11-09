@@ -42,7 +42,7 @@ def load_doctor_data():
             print("⚠️ Kolom 'doctor_id' tidak ditemukan! Menambahkan dummy ID...")
             df['doctor_id'] = range(1, len(df) + 1)
 
-        # TAMBAHKAN: Konversi hari Indonesia ke Inggris untuk konsistensi
+        # Konversi hari Indonesia ke Inggris untuk konsistensi
         day_mapping = {
             'Senin': 'Monday',
             'Selasa': 'Tuesday', 
@@ -60,6 +60,13 @@ def load_doctor_data():
         else:
             df['schedule_day_english'] = ''
             df['schedule_day_indonesia'] = ''
+
+        # Clean data types untuk menghindari JSON serialization issues
+        for col in df.columns:
+            if pd.api.types.is_datetime64_any_dtype(df[col]):
+                df[col] = df[col].dt.strftime('%Y-%m-%d %H:%M:%S')
+            elif pd.api.types.is_timedelta64_dtype(df[col]):
+                df[col] = df[col].astype(str)
 
         return df
     except Exception as e:
@@ -410,6 +417,7 @@ def doctor_tab():
     specialization = request.args.get('specialization', 'All')
     day = request.args.get('day', 'All')
     search_doctor = request.args.get('search_doctor', '')
+    room_id = request.args.get('room_id', 'All')
 
     filtered_doctor_df = df_doctor.copy()
     if specialization != 'All' and 'specialization' in filtered_doctor_df.columns:
@@ -418,6 +426,8 @@ def doctor_tab():
         filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['schedule_day_indonesia'] == day]
     if search_doctor and 'name' in filtered_doctor_df.columns:
         filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['name'].str.contains(search_doctor, case=False, na=False)]
+    if room_id != 'All' and 'room_id' in filtered_doctor_df.columns:
+        filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['room_id'] == room_id]
 
     # Statistik
     total_doctors = filtered_doctor_df['doctor_id'].nunique() if 'doctor_id' in filtered_doctor_df.columns else 0
@@ -427,17 +437,17 @@ def doctor_tab():
 
     # Data untuk chart
     spec_count = filtered_doctor_df['specialization'].value_counts().to_dict() if 'specialization' in filtered_doctor_df.columns else {}
-    day_count = filtered_doctor_df['schedule_day'].value_counts().to_dict() if 'schedule_day' in filtered_doctor_df.columns else {}
+    day_count = filtered_doctor_df['schedule_day_indonesia'].value_counts().to_dict() if 'schedule_day_indonesia' in filtered_doctor_df.columns else {}
     
     # Heatmap data
-    if 'schedule_day' in filtered_doctor_df.columns and 'specialization' in filtered_doctor_df.columns:
+    if 'schedule_day_indonesia' in filtered_doctor_df.columns and 'specialization' in filtered_doctor_df.columns:
         heatmap_data = (
-            filtered_doctor_df.groupby(['schedule_day', 'specialization'])
+            filtered_doctor_df.groupby(['schedule_day_indonesia', 'specialization'])
             .size()
             .reset_index(name='count')
         )
     else:
-        heatmap_data = pd.DataFrame(columns=['schedule_day', 'specialization', 'count'])
+        heatmap_data = pd.DataFrame(columns=['schedule_day_indonesia', 'specialization', 'count'])
     
     # Room usage data
     if 'room_id' in filtered_doctor_df.columns:
@@ -454,16 +464,61 @@ def doctor_tab():
     # Dropdown filter
     specializations = ['All']
     days = ['All']
+    room_ids = ['All']
     
     if 'specialization' in df_doctor.columns:
         specializations += sorted(df_doctor['specialization'].dropna().unique().tolist())
     if 'schedule_day_indonesia' in df_doctor.columns:
         days += sorted(df_doctor['schedule_day_indonesia'].dropna().unique().tolist())
+    if 'room_id' in df_doctor.columns:
+        room_ids += sorted(df_doctor['room_id'].dropna().unique().tolist())
 
     # Tabel data - tampilkan hari Indonesia
     table_columns = ['name', 'specialization', 'schedule_day_indonesia', 'start_time', 'end_time', 'room_id']
     available_columns = [col for col in table_columns if col in filtered_doctor_df.columns]
-    table_data = filtered_doctor_df[available_columns].to_dict('records')
+    
+    # Clean data untuk JSON serialization
+    table_data = []
+    for _, row in filtered_doctor_df[available_columns].iterrows():
+        clean_row = {}
+        for col in available_columns:
+            value = row[col]
+            # Convert Timedelta, Timestamp, etc to string
+            if hasattr(value, 'isoformat'):  # Untuk datetime objects
+                clean_row[col] = value.isoformat()
+            elif hasattr(value, 'total_seconds'):  # Untuk timedelta objects
+                clean_row[col] = str(value)
+            else:
+                clean_row[col] = value
+        table_data.append(clean_row)
+
+    # Clean heatmap data untuk JSON
+    clean_heatmap_data = []
+    for _, row in heatmap_data.iterrows():
+        clean_row = {}
+        for col in row.index:
+            value = row[col]
+            if hasattr(value, 'isoformat'):
+                clean_row[col] = value.isoformat()
+            elif hasattr(value, 'total_seconds'):
+                clean_row[col] = str(value)
+            else:
+                clean_row[col] = value
+        clean_heatmap_data.append(clean_row)
+
+    # Clean room usage data untuk JSON
+    clean_room_usage_data = []
+    for _, row in room_usage.iterrows():
+        clean_row = {}
+        for col in row.index:
+            value = row[col]
+            if hasattr(value, 'isoformat'):
+                clean_row[col] = value.isoformat()
+            elif hasattr(value, 'total_seconds'):
+                clean_row[col] = str(value)
+            else:
+                clean_row[col] = value
+        clean_room_usage_data.append(clean_row)
 
     return render_template(
         'doctor_tab.html',
@@ -473,12 +528,14 @@ def doctor_tab():
         total_doctor_rooms=total_doctor_rooms,
         spec_count=spec_count,
         day_count=day_count,
-        heatmap_data=heatmap_data.to_dict('records'),
-        room_usage_data=room_usage.to_dict('records'),
+        heatmap_data=clean_heatmap_data,
+        room_usage_data=clean_room_usage_data,
         specializations=specializations,
         days=days,
+        room_ids=room_ids,
         current_specialization=specialization,
         current_day=day,
+        current_room_id=room_id,
         search_doctor=search_doctor,
         table_data=table_data,
         table_count=len(table_data),
@@ -517,24 +574,54 @@ def room_tab():
 def patient_tab():
     df_patient, total_patients, gender_dist, payment_dist, insurance_dist, city_dist = load_patient_data()
 
+    # Filter data
+    gender = request.args.get('gender', 'All')
+    payment_type = request.args.get('payment_type', 'All')
+    age_group = request.args.get('age_group', 'All')
+    search_patient = request.args.get('search_patient', '')
+
+    filtered_patient_df = df_patient.copy()
+    if gender != 'All' and 'gender' in filtered_patient_df.columns:
+        filtered_patient_df = filtered_patient_df[filtered_patient_df['gender'] == gender]
+    if payment_type != 'All' and 'payment_type' in filtered_patient_df.columns:
+        filtered_patient_df = filtered_patient_df[filtered_patient_df['payment_type'] == payment_type]
+    if age_group != 'All' and 'age_group' in filtered_patient_df.columns:
+        filtered_patient_df = filtered_patient_df[filtered_patient_df['age_group'] == age_group]
+    if search_patient and 'name' in filtered_patient_df.columns:
+        filtered_patient_df = filtered_patient_df[
+            filtered_patient_df['name'].str.contains(search_patient, case=False, na=False) |
+            filtered_patient_df['patient_id'].astype(str).str.contains(search_patient, case=False, na=False)
+        ]
+
+    # Update statistics based on filtered data
+    total_patients_filtered = len(filtered_patient_df)
+    gender_dist_filtered = filtered_patient_df['gender'].value_counts().to_dict() if 'gender' in filtered_patient_df.columns else {}
+    payment_dist_filtered = filtered_patient_df['payment_type'].value_counts().to_dict() if 'payment_type' in filtered_patient_df.columns else {}
+    insurance_dist_filtered = filtered_patient_df['insurance_provider'].value_counts().to_dict() if 'insurance_provider' in filtered_patient_df.columns else {}
+    city_dist_filtered = filtered_patient_df['city'].value_counts().head(10).to_dict() if 'city' in filtered_patient_df.columns else {}
+
     # Age group data
-    age_group_count = df_patient['age_group'].value_counts().to_dict() if 'age_group' in df_patient.columns else {}
+    age_group_count = filtered_patient_df['age_group'].value_counts().to_dict() if 'age_group' in filtered_patient_df.columns else {}
 
     # Tabel data
     table_columns = ['patient_id', 'name', 'gender', 'age', 'city', 'payment_type', 'insurance_provider']
-    available_columns = [col for col in table_columns if col in df_patient.columns]
-    patient_table_data = df_patient[available_columns].to_dict('records')
+    available_columns = [col for col in table_columns if col in filtered_patient_df.columns]
+    patient_table_data = filtered_patient_df[available_columns].to_dict('records')
 
     return render_template(
         'patient_tab.html',
-        total_patients=total_patients,
-        gender_dist=gender_dist,
-        payment_dist=payment_dist,
-        insurance_dist=insurance_dist,
-        city_dist=city_dist,
+        total_patients=total_patients_filtered,
+        gender_dist=gender_dist_filtered,
+        payment_dist=payment_dist_filtered,
+        insurance_dist=insurance_dist_filtered,
+        city_dist=city_dist_filtered,
         age_group_count=age_group_count,
         patient_table_data=patient_table_data,
         patient_table_count=len(patient_table_data),
+        current_gender=gender,
+        current_payment_type=payment_type,
+        current_age_group=age_group,
+        search_patient=search_patient,
         now=datetime.now()
     )
 
@@ -993,6 +1080,49 @@ def inject_now():
 @app.context_processor  
 def inject_request():
     return {'request': request}
+
+def clean_data_for_json(data):
+    """
+    Clean data untuk JSON serialization dengan mengkonversi 
+    Timedelta, Timestamp, dan tipe data non-serializable lainnya
+    """
+    if isinstance(data, (pd.DataFrame, pd.Series)):
+        data = data.to_dict('records')
+    
+    if isinstance(data, list):
+        cleaned_data = []
+        for item in data:
+            if isinstance(item, dict):
+                cleaned_item = {}
+                for key, value in item.items():
+                    cleaned_item[key] = clean_value(value)
+                cleaned_data.append(cleaned_item)
+            else:
+                cleaned_data.append(clean_value(item))
+        return cleaned_data
+    elif isinstance(data, dict):
+        cleaned_data = {}
+        for key, value in data.items():
+            cleaned_data[key] = clean_value(value)
+        return cleaned_data
+    else:
+        return clean_value(data)
+
+def clean_value(value):
+    """Clean individual value untuk JSON serialization"""
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+    elif hasattr(value, 'isoformat'):  # Untuk datetime objects
+        return value.isoformat()
+    elif hasattr(value, 'total_seconds'):  # Untuk timedelta objects
+        return str(value)
+    elif isinstance(value, (pd.Timestamp, pd.Timedelta)):
+        return str(value)
+    else:
+        try:
+            return str(value)
+        except:
+            return None
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
