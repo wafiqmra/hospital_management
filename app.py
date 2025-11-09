@@ -42,6 +42,25 @@ def load_doctor_data():
             print("⚠️ Kolom 'doctor_id' tidak ditemukan! Menambahkan dummy ID...")
             df['doctor_id'] = range(1, len(df) + 1)
 
+        # TAMBAHKAN: Konversi hari Indonesia ke Inggris untuk konsistensi
+        day_mapping = {
+            'Senin': 'Monday',
+            'Selasa': 'Tuesday', 
+            'Rabu': 'Wednesday',
+            'Kamis': 'Thursday',
+            'Jumat': 'Friday',
+            'Sabtu': 'Saturday',
+            'Minggu': 'Sunday'
+        }
+        
+        if 'schedule_day' in df.columns:
+            df['schedule_day_english'] = df['schedule_day'].map(day_mapping)
+            # Simpan juga versi Indonesia untuk display
+            df['schedule_day_indonesia'] = df['schedule_day']
+        else:
+            df['schedule_day_english'] = ''
+            df['schedule_day_indonesia'] = ''
+
         return df
     except Exception as e:
         print(f"[ERROR] Gagal load data dokter: {e}")
@@ -211,6 +230,30 @@ def load_lab_tests_data():
             'scheduled_date', 'result_date', 'result_status', 'lab_staff_id'
         ]), 0, 0, 0, 0
 
+def load_finance_data():
+    try:
+        conn = get_connection()
+        query = "SELECT * FROM finance"
+        df = pd.read_sql(query, conn)
+        conn.close()
+
+        # Convert amount to float
+        if 'amount_idr' in df.columns:
+            df['amount_idr'] = pd.to_numeric(df['amount_idr'], errors='coerce')
+        
+        # Convert transaction_date to datetime
+        if 'transaction_date' in df.columns:
+            df['transaction_date'] = pd.to_datetime(df['transaction_date'], errors='coerce')
+
+        return df
+
+    except Exception as e:
+        print(f"[ERROR] Gagal load data finance: {e}")
+        return pd.DataFrame(columns=[
+            'transaction_id', 'patient_id', 'entry_type', 'service_type', 
+            'amount_idr', 'payment_type', 'insurance_provider', 'payment_method', 'transaction_date'
+        ])
+
 # ------------------------------
 # ROUTES
 # ------------------------------
@@ -224,15 +267,30 @@ def dashboard():
     """Dashboard utama dengan ringkasan hari ini"""
     try:
         today = datetime.today().date()
+        today_english = today.strftime('%A')  # e.g., 'Friday'
+        
+        # Mapping hari Inggris ke Indonesia untuk display
+        day_mapping_reverse = {
+            'Monday': 'Senin',
+            'Tuesday': 'Selasa',
+            'Wednesday': 'Rabu', 
+            'Thursday': 'Kamis',
+            'Friday': 'Jumat',
+            'Saturday': 'Sabtu',
+            'Sunday': 'Minggu'
+        }
+        today_indonesia = day_mapping_reverse.get(today_english, today_english)
         
         # Data dokter hari ini
         df_doctor = load_doctor_data()
-        if 'schedule_day' in df_doctor.columns:
-            today_doctors = df_doctor[df_doctor['schedule_day'] == today.strftime('%A')]
+        if 'schedule_day_english' in df_doctor.columns:
+            today_doctors = df_doctor[df_doctor['schedule_day_english'] == today_english]
             total_today_doctors = len(today_doctors)
+            print(f"🩺 Dokter hari ini ({today_english}/{today_indonesia}): {total_today_doctors} dokter")
         else:
             total_today_doctors = 0
             today_doctors = pd.DataFrame()
+            print("⚠️ Kolom schedule_day_english tidak ditemukan")
         
         # Data ruangan
         df_room, total_rooms, occupied_rooms, available_rooms, room_stats = load_room_data()
@@ -264,6 +322,17 @@ def dashboard():
         # Data staff aktif
         df_staff, total_staff, active_staff, inactive_staff, staff_departments_count = load_staff_data()
         
+        # Data finance hari ini
+        try:
+            df_finance = load_finance_data()
+            today_finance = df_finance[df_finance['transaction_date'] == today.strftime('%Y-%m-%d')] if 'transaction_date' in df_finance.columns else pd.DataFrame()
+            today_revenue = today_finance['amount_idr'].sum() if 'amount_idr' in today_finance.columns else 0
+            total_revenue = df_finance['amount_idr'].sum() if 'amount_idr' in df_finance.columns else 0
+        except Exception as e:
+            print(f"Error loading finance data: {e}")
+            today_revenue = 0
+            total_revenue = 0
+        
         # Data untuk chart dokter hari ini
         today_doctors_spec = today_doctors['specialization'].value_counts().to_dict() if 'specialization' in today_doctors.columns else {}
         
@@ -289,7 +358,9 @@ def dashboard():
             'active_staff': active_staff,
             'pending_tests': pending_tests,
             'total_patients': len(load_patient_data()[0]),
-            'total_lab_tests': total_lab_tests
+            'total_lab_tests': total_lab_tests,
+            'today_revenue': today_revenue,
+            'total_revenue': total_revenue
         }
         
         return render_template(
@@ -300,11 +371,25 @@ def dashboard():
             time_slots=time_slots,
             room_stats=room_stats,
             today=today,
+            today_indonesia=today_indonesia,
             now=datetime.now()
         )
         
     except Exception as e:
         print(f"Dashboard error: {e}")
+        # Fallback dengan data minimal
+        today = datetime.today().date()
+        day_mapping_reverse = {
+            'Monday': 'Senin',
+            'Tuesday': 'Selasa',
+            'Wednesday': 'Rabu', 
+            'Thursday': 'Kamis',
+            'Friday': 'Jumat',
+            'Saturday': 'Sabtu',
+            'Sunday': 'Minggu'
+        }
+        today_indonesia = day_mapping_reverse.get(today.strftime('%A'), '')
+        
         return render_template(
             'dashboard.html',
             stats={},
@@ -312,7 +397,8 @@ def dashboard():
             today_tests_status={},
             time_slots={},
             room_stats={},
-            today=datetime.today().date(),
+            today=today,
+            today_indonesia=today_indonesia,
             now=datetime.now()
         )
 
@@ -320,7 +406,7 @@ def dashboard():
 def doctor_tab():
     df_doctor = load_doctor_data()
 
-    # Filter data
+    # Filter data - gunakan schedule_day_indonesia untuk filter
     specialization = request.args.get('specialization', 'All')
     day = request.args.get('day', 'All')
     search_doctor = request.args.get('search_doctor', '')
@@ -328,8 +414,8 @@ def doctor_tab():
     filtered_doctor_df = df_doctor.copy()
     if specialization != 'All' and 'specialization' in filtered_doctor_df.columns:
         filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['specialization'] == specialization]
-    if day != 'All' and 'schedule_day' in filtered_doctor_df.columns:
-        filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['schedule_day'] == day]
+    if day != 'All' and 'schedule_day_indonesia' in filtered_doctor_df.columns:
+        filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['schedule_day_indonesia'] == day]
     if search_doctor and 'name' in filtered_doctor_df.columns:
         filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['name'].str.contains(search_doctor, case=False, na=False)]
 
@@ -371,11 +457,11 @@ def doctor_tab():
     
     if 'specialization' in df_doctor.columns:
         specializations += sorted(df_doctor['specialization'].dropna().unique().tolist())
-    if 'schedule_day' in df_doctor.columns:
-        days += sorted(df_doctor['schedule_day'].dropna().unique().tolist())
+    if 'schedule_day_indonesia' in df_doctor.columns:
+        days += sorted(df_doctor['schedule_day_indonesia'].dropna().unique().tolist())
 
-    # Tabel data
-    table_columns = ['name', 'specialization', 'schedule_day', 'start_time', 'end_time', 'room_id']
+    # Tabel data - tampilkan hari Indonesia
+    table_columns = ['name', 'specialization', 'schedule_day_indonesia', 'start_time', 'end_time', 'room_id']
     available_columns = [col for col in table_columns if col in filtered_doctor_df.columns]
     table_data = filtered_doctor_df[available_columns].to_dict('records')
 
@@ -633,6 +719,8 @@ def staff_tab():
         now=datetime.now()
     )
 
+
+
 # ------------------------------
 # EXPORT FUNCTIONS
 # ------------------------------
@@ -768,6 +856,130 @@ def export_staff_csv():
         mimetype='text/csv',
         as_attachment=True,
         download_name=f'staff_data_{datetime.now().strftime("%Y%m%d")}.csv'
+    )
+
+@app.route('/finance')
+def finance_tab():
+    df_finance = load_finance_data()
+
+    # Filter data
+    entry_type = request.args.get('entry_type', 'All')
+    service_type = request.args.get('service_type', 'All')
+    payment_type = request.args.get('payment_type', 'All')
+    start_date = request.args.get('start_date', '')
+    end_date = request.args.get('end_date', '')
+
+    filtered_finance_df = df_finance.copy()
+    if entry_type != 'All' and 'entry_type' in filtered_finance_df.columns:
+        filtered_finance_df = filtered_finance_df[filtered_finance_df['entry_type'] == entry_type]
+    if service_type != 'All' and 'service_type' in filtered_finance_df.columns:
+        filtered_finance_df = filtered_finance_df[filtered_finance_df['service_type'] == service_type]
+    if payment_type != 'All' and 'payment_type' in filtered_finance_df.columns:
+        filtered_finance_df = filtered_finance_df[filtered_finance_df['payment_type'] == payment_type]
+    if start_date and 'transaction_date' in filtered_finance_df.columns:
+        filtered_finance_df = filtered_finance_df[filtered_finance_df['transaction_date'] >= start_date]
+    if end_date and 'transaction_date' in filtered_finance_df.columns:
+        filtered_finance_df = filtered_finance_df[filtered_finance_df['transaction_date'] <= end_date]
+
+    # Statistik
+    total_transactions = len(filtered_finance_df)
+    total_revenue = filtered_finance_df['amount_idr'].sum() if 'amount_idr' in filtered_finance_df.columns else 0
+    average_transaction = filtered_finance_df['amount_idr'].mean() if 'amount_idr' in filtered_finance_df.columns else 0
+    unique_patients = filtered_finance_df['patient_id'].nunique() if 'patient_id' in filtered_finance_df.columns else 0
+
+    # Revenue by payment type
+    bpjs_revenue = filtered_finance_df[filtered_finance_df['payment_type'] == 'BPJS']['amount_idr'].sum() if 'payment_type' in filtered_finance_df.columns else 0
+    umum_revenue = filtered_finance_df[filtered_finance_df['payment_type'] == 'Umum']['amount_idr'].sum() if 'payment_type' in filtered_finance_df.columns else 0
+    bpjs_transactions = len(filtered_finance_df[filtered_finance_df['payment_type'] == 'BPJS']) if 'payment_type' in filtered_finance_df.columns else 0
+    umum_transactions = len(filtered_finance_df[filtered_finance_df['payment_type'] == 'Umum']) if 'payment_type' in filtered_finance_df.columns else 0
+
+    # Data untuk chart
+    revenue_by_service = filtered_finance_df.groupby('service_type')['amount_idr'].sum().to_dict() if 'service_type' in filtered_finance_df.columns else {}
+    
+    # Monthly revenue
+    if 'transaction_date' in filtered_finance_df.columns:
+        filtered_finance_df['month_year'] = filtered_finance_df['transaction_date'].dt.to_period('M').astype(str)
+        revenue_by_month = filtered_finance_df.groupby('month_year')['amount_idr'].sum().to_dict()
+    else:
+        revenue_by_month = {}
+
+    payment_type_dist = filtered_finance_df['payment_type'].value_counts().to_dict() if 'payment_type' in filtered_finance_df.columns else {}
+    entry_type_dist = filtered_finance_df['entry_type'].value_counts().to_dict() if 'entry_type' in filtered_finance_df.columns else {}
+
+    # Dropdown filter
+    entry_types = ['All']
+    service_types = ['All']
+    payment_types = ['All']
+    
+    if 'entry_type' in df_finance.columns:
+        entry_types += sorted(df_finance['entry_type'].dropna().unique().tolist())
+    if 'service_type' in df_finance.columns:
+        service_types += sorted(df_finance['service_type'].dropna().unique().tolist())
+    if 'payment_type' in df_finance.columns:
+        payment_types += sorted(df_finance['payment_type'].dropna().unique().tolist())
+
+    # Tabel data finance
+    finance_table_data = filtered_finance_df.to_dict('records')
+
+    return render_template(
+        'finance_tab.html',
+        total_transactions=total_transactions,
+        total_revenue=total_revenue,
+        average_transaction=average_transaction,
+        unique_patients=unique_patients,
+        bpjs_revenue=bpjs_revenue,
+        umum_revenue=umum_revenue,
+        bpjs_transactions=bpjs_transactions,
+        umum_transactions=umum_transactions,
+        revenue_by_service=revenue_by_service,
+        revenue_by_month=revenue_by_month,
+        payment_type_dist=payment_type_dist,
+        entry_type_dist=entry_type_dist,
+        finance_table_data=finance_table_data,
+        finance_table_count=len(finance_table_data),
+        entry_types=entry_types,
+        service_types=service_types,
+        payment_types=payment_types,
+        current_entry_type=entry_type,
+        current_service_type=service_type,
+        current_payment_type=payment_type,
+        current_start_date=start_date,
+        current_end_date=end_date,
+        now=datetime.now()
+    )
+
+@app.route('/export_finance')
+def export_finance_csv():
+    df_finance = load_finance_data()
+    output = io.BytesIO()
+    
+    # Apply filters if any
+    entry_type = request.args.get('entry_type', 'All')
+    service_type = request.args.get('service_type', 'All')
+    payment_type = request.args.get('payment_type', 'All')
+    start_date = request.args.get('start_date', '')
+    end_date = request.args.get('end_date', '')
+    
+    filtered_df = df_finance.copy()
+    if entry_type != 'All' and 'entry_type' in filtered_df.columns:
+        filtered_df = filtered_df[filtered_df['entry_type'] == entry_type]
+    if service_type != 'All' and 'service_type' in filtered_df.columns:
+        filtered_df = filtered_df[filtered_df['service_type'] == service_type]
+    if payment_type != 'All' and 'payment_type' in filtered_df.columns:
+        filtered_df = filtered_df[filtered_df['payment_type'] == payment_type]
+    if start_date and 'transaction_date' in filtered_df.columns:
+        filtered_df = filtered_df[filtered_df['transaction_date'] >= start_date]
+    if end_date and 'transaction_date' in filtered_df.columns:
+        filtered_df = filtered_df[filtered_df['transaction_date'] <= end_date]
+    
+    filtered_df.to_csv(output, index=False)
+    output.seek(0)
+    
+    return send_file(
+        output,
+        mimetype='text/csv',
+        as_attachment=True,
+        download_name=f'finance_data_{datetime.now().strftime("%Y%m%d")}.csv'
     )
 
 # ------------------------------

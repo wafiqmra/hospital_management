@@ -10,7 +10,7 @@
     <!-- HEADER -->
     <div class="filter-section">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h3>Dashboard Hari Ini - {{ today.strftime('%A, %d %B %Y') }}</h3>
+            <h3>Dashboard Hari Ini - {{ today_indonesia }}, {{ today.strftime('%d %B %Y') }}</h3>
             <div class="btn" onclick="location.reload()" style="background: var(--primary);">
                 <i class="fas fa-sync-alt"></i> Refresh Data
             </div>
@@ -102,7 +102,15 @@
             <div class="metric-label">Obat Habis</div>
             <div class="metric-desc">Perlu restock</div>
         </div>
+
+        <div class="metric-card" style="border-left: 4px solid #2a9d8f;">
+            <div class="metric-value">Rp {{ "%.2f"|format(stats.today_revenue|round(2)) }}</div>
+            <div class="metric-label">Pendapatan Hari Ini</div>
+            <div class="metric-desc">Total: Rp {{ "%.2f"|format(stats.total_revenue|round(2)) }}</div>
     </div>
+    </div>
+
+    
 
     <!-- CHARTS GRID -->
     <div class="charts-grid">

@@ -1,0 +1,276 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Finance Tab -->
+<div id="finance-tab" class="tab-content">
+    <div class="filter-section">
+        <form class="filter-form" method="GET">
+            <div class="form-group">
+                <label for="entry_type">Entry Type</label>
+                <select name="entry_type" id="entry_type">
+                    {% for type in entry_types %}
+                        <option value="{{ type }}" {% if current_entry_type == type %}selected{% endif %}>
+                            {{ type }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="service_type">Service Type</label>
+                <select name="service_type" id="service_type">
+                    {% for type in service_types %}
+                        <option value="{{ type }}" {% if current_service_type == type %}selected{% endif %}>
+                            {{ type }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="payment_type">Payment Type</label>
+                <select name="payment_type" id="payment_type">
+                    {% for type in payment_types %}
+                        <option value="{{ type }}" {% if current_payment_type == type %}selected{% endif %}>
+                            {{ type }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="date_range">Date Range</label>
+                <div style="display: flex; gap: 10px;">
+                    <input type="date" name="start_date" id="start_date" value="{{ current_start_date }}">
+                    <input type="date" name="end_date" id="end_date" value="{{ current_end_date }}">
+                </div>
+            </div>
+            
+            <button type="submit" class="btn">Apply Filters</button>
+            <a href="/export_finance?entry_type={{ current_entry_type }}&service_type={{ current_service_type }}&payment_type={{ current_payment_type }}&start_date={{ current_start_date }}&end_date={{ current_end_date }}" 
+               class="btn btn-export">Export CSV</a>
+            <a href="/finance" class="btn">Reset</a>
+        </form>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_transactions }}</div>
+            <div class="metric-label">Total Transactions</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">Rp {{ "%.2f"|format(total_revenue|round(2)) }}</div>
+            <div class="metric-label">Total Revenue</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">Rp {{ "%.2f"|format(average_transaction|round(2)) }}</div>
+            <div class="metric-label">Avg Transaction</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ unique_patients }}</div>
+            <div class="metric-label">Unique Patients</div>
+        </div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">Rp {{ "%.2f"|format(bpjs_revenue|round(2)) }}</div>
+            <div class="metric-label">BPJS Revenue</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">Rp {{ "%.2f"|format(umum_revenue|round(2)) }}</div>
+            <div class="metric-label">Umum Revenue</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ bpjs_transactions }}</div>
+            <div class="metric-label">BPJS Transactions</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ umum_transactions }}</div>
+            <div class="metric-label">Umum Transactions</div>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            <canvas id="revenueByServiceChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="revenueByMonthChart"></canvas>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            <canvas id="paymentTypeChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="entryTypeChart"></canvas>
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Financial Transactions ({{ finance_table_count }} records)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>Patient ID</th>
+                    <th>Entry Type</th>
+                    <th>Service Type</th>
+                    <th>Amount (IDR)</th>
+                    <th>Payment Type</th>
+                    <th>Insurance Provider</th>
+                    <th>Payment Method</th>
+                    <th>Transaction Date</th>
+                </tr>
+            </thead>
+            <tbody id="finance-table-body">
+                {% for transaction in finance_table_data %}
+                <tr class="table-row" data-type="finance">
+                    <td>{{ transaction.transaction_id }}</td>
+                    <td>{{ transaction.patient_id }}</td>
+                    <td>
+                        <span class="status-badge 
+                            {% if transaction.entry_type == 'Pembayaran' %}status-available
+                            {% else %}status-pending{% endif %}">
+                            {{ transaction.entry_type }}
+                        </span>
+                    </td>
+                    <td>{{ transaction.service_type }}</td>
+                    <td>Rp {{ "%.2f"|format(transaction.amount_idr) }}</td>
+                    <td>{{ transaction.payment_type }}</td>
+                    <td>{{ transaction.insurance_provider if transaction.insurance_provider else '-' }}</td>
+                    <td>{{ transaction.payment_method if transaction.payment_method else '-' }}</td>
+                    <td>{{ transaction.transaction_date }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="finance-pagination">
+            <button class="pagination-btn" onclick="changePage('finance', -1)">Previous</button>
+            <span class="pagination-info" id="finance-page-info">Page 1 of {{ (finance_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('finance', 1)">Next</button>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Chart 1: Revenue by Service Type
+    const serviceCtx = document.getElementById('revenueByServiceChart');
+    if (serviceCtx) {
+        const serviceData = {{ revenue_by_service|tojson }};
+        if (Object.keys(serviceData).length > 0) {
+            new Chart(serviceCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(serviceData),
+                    datasets: [{
+                        label: 'Revenue (IDR)',
+                        data: Object.values(serviceData),
+                        backgroundColor: '#4361ee'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Revenue by Service Type'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 2: Revenue by Month
+    const monthCtx = document.getElementById('revenueByMonthChart');
+    if (monthCtx) {
+        const monthData = {{ revenue_by_month|tojson }};
+        if (Object.keys(monthData).length > 0) {
+            new Chart(monthCtx, {
+                type: 'line',
+                data: {
+                    labels: Object.keys(monthData),
+                    datasets: [{
+                        label: 'Monthly Revenue (IDR)',
+                        data: Object.values(monthData),
+                        borderColor: '#f72585',
+                        backgroundColor: 'rgba(247, 37, 133, 0.1)',
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Monthly Revenue Trend'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 3: Payment Type Distribution
+    const paymentCtx = document.getElementById('paymentTypeChart');
+    if (paymentCtx) {
+        const paymentData = {{ payment_type_dist|tojson }};
+        if (Object.keys(paymentData).length > 0) {
+            new Chart(paymentCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(paymentData),
+                    datasets: [{
+                        data: Object.values(paymentData),
+                        backgroundColor: ['#4361ee', '#4cc9f0', '#7209b7', '#3a0ca3']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Payment Type Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    // Chart 4: Entry Type Distribution
+    const entryCtx = document.getElementById('entryTypeChart');
+    if (entryCtx) {
+        const entryData = {{ entry_type_dist|tojson }};
+        if (Object.keys(entryData).length > 0) {
+            new Chart(entryCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(entryData),
+                    datasets: [{
+                        data: Object.values(entryData),
+                        backgroundColor: ['#4cc9f0', '#f72585']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Entry Type Distribution'
+                        }
+                    }
+                }
+            });
+        }
+    }
+});
+</script>
+{% endblock %}

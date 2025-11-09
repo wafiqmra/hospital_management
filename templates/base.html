@@ -493,6 +493,7 @@
             <a href="/pharmacy" class="nav-tab {% if request.path == '/pharmacy' %}active{% endif %}">Pharmacy</a>
             <a href="/lab" class="nav-tab {% if request.path == '/lab' %}active{% endif %}">Lab Tests</a>
             <a href="/staff" class="nav-tab {% if request.path == '/staff' %}active{% endif %}">Staff Management</a>
+             <a href="/finance" class="nav-tab {% if request.path == '/finance' %}active{% endif %}">Finance</a>
         </div>
         
         {% block content %}{% endblock %}
@@ -536,6 +537,7 @@
         if (path.includes('/pharmacy')) return 'pharmacy';
         if (path.includes('/lab')) return 'lab';
         if (path.includes('/staff')) return 'staff';
+        if (path.includes('/finance')) return 'finance';
         return 'doctor'; // default
     }
 
@@ -546,7 +548,8 @@
         patient: { currentPage: 1, pageSize: 20 },
         pharmacy: { currentPage: 1, pageSize: 20 },
         lab: { currentPage: 1, pageSize: 20 },
-        staff: { currentPage: 1, pageSize: 20 }
+        staff: { currentPage: 1, pageSize: 20 },
+        finance: { currentPage: 1, pageSize: 20 }
     };
 
     // Show correct tab content based on URL
@@ -560,6 +563,7 @@
         else if (path.includes('/pharmacy')) tabId = 'pharmacy-tab';
         else if (path.includes('/lab')) tabId = 'lab-tab';
         else if (path.includes('/staff')) tabId = 'staff-tab';
+        else if (path.includes('/finance')) tabId = 'finance-tab';
         
         // Hide all tab contents
         document.querySelectorAll('.tab-content').forEach(tab => {
