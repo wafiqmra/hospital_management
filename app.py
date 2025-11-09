@@ -413,7 +413,7 @@ def dashboard():
 def doctor_tab():
     df_doctor = load_doctor_data()
 
-    # Filter data - gunakan schedule_day_indonesia untuk filter
+    # Filter data
     specialization = request.args.get('specialization', 'All')
     day = request.args.get('day', 'All')
     search_doctor = request.args.get('search_doctor', '')
@@ -429,13 +429,29 @@ def doctor_tab():
     if room_id != 'All' and 'room_id' in filtered_doctor_df.columns:
         filtered_doctor_df = filtered_doctor_df[filtered_doctor_df['room_id'] == room_id]
 
-    # Statistik
-    total_doctors = filtered_doctor_df['doctor_id'].nunique() if 'doctor_id' in filtered_doctor_df.columns else 0
-    total_schedules = len(filtered_doctor_df)
-    total_specializations = filtered_doctor_df['specialization'].nunique() if 'specialization' in filtered_doctor_df.columns else 0
-    total_doctor_rooms = filtered_doctor_df['room_id'].nunique() if 'room_id' in filtered_doctor_df.columns else 0
+    # Group data by doctor name dan hari untuk menghindari duplikasi
+    grouped_data = []
+    if not filtered_doctor_df.empty:
+        # Group by doctor name dan schedule day
+        grouped = filtered_doctor_df.groupby(['name', 'specialization', 'schedule_day_indonesia'])
+        
+        for (name, specialization, day), group in grouped:
+            schedules = group[['start_time', 'end_time', 'room_id']].to_dict('records')
+            grouped_data.append({
+                'name': name,
+                'specialization': specialization,
+                'schedule_day_indonesia': day,
+                'schedules': schedules,  # Semua jadwal dokter di hari itu
+                'first_schedule': schedules[0]  # Jadwal pertama untuk display di tabel
+            })
 
-    # Data untuk chart
+    # Statistik berdasarkan data grouped
+    total_doctors = len(set([doc['name'] for doc in grouped_data]))
+    total_schedules = len(grouped_data)
+    total_specializations = len(set([doc['specialization'] for doc in grouped_data]))
+    total_doctor_rooms = len(set([doc['first_schedule']['room_id'] for doc in grouped_data]))
+
+    # Data untuk chart (gunakan data asli untuk akurasi)
     spec_count = filtered_doctor_df['specialization'].value_counts().to_dict() if 'specialization' in filtered_doctor_df.columns else {}
     day_count = filtered_doctor_df['schedule_day_indonesia'].value_counts().to_dict() if 'schedule_day_indonesia' in filtered_doctor_df.columns else {}
     
@@ -473,52 +489,23 @@ def doctor_tab():
     if 'room_id' in df_doctor.columns:
         room_ids += sorted(df_doctor['room_id'].dropna().unique().tolist())
 
-    # Tabel data - tampilkan hari Indonesia
-    table_columns = ['name', 'specialization', 'schedule_day_indonesia', 'start_time', 'end_time', 'room_id']
-    available_columns = [col for col in table_columns if col in filtered_doctor_df.columns]
-    
     # Clean data untuk JSON serialization
     table_data = []
-    for _, row in filtered_doctor_df[available_columns].iterrows():
-        clean_row = {}
-        for col in available_columns:
-            value = row[col]
-            # Convert Timedelta, Timestamp, etc to string
-            if hasattr(value, 'isoformat'):  # Untuk datetime objects
-                clean_row[col] = value.isoformat()
-            elif hasattr(value, 'total_seconds'):  # Untuk timedelta objects
-                clean_row[col] = str(value)
-            else:
-                clean_row[col] = value
+    for row in grouped_data:
+        clean_row = {
+            'name': row['name'],
+            'specialization': row['specialization'],
+            'schedule_day_indonesia': row['schedule_day_indonesia'],
+            'start_time': row['first_schedule']['start_time'],
+            'end_time': row['first_schedule']['end_time'],
+            'room_id': row['first_schedule']['room_id'],
+            'all_schedules': row['schedules']  # Simpan semua jadwal untuk modal
+        }
         table_data.append(clean_row)
 
-    # Clean heatmap data untuk JSON
-    clean_heatmap_data = []
-    for _, row in heatmap_data.iterrows():
-        clean_row = {}
-        for col in row.index:
-            value = row[col]
-            if hasattr(value, 'isoformat'):
-                clean_row[col] = value.isoformat()
-            elif hasattr(value, 'total_seconds'):
-                clean_row[col] = str(value)
-            else:
-                clean_row[col] = value
-        clean_heatmap_data.append(clean_row)
-
-    # Clean room usage data untuk JSON
-    clean_room_usage_data = []
-    for _, row in room_usage.iterrows():
-        clean_row = {}
-        for col in row.index:
-            value = row[col]
-            if hasattr(value, 'isoformat'):
-                clean_row[col] = value.isoformat()
-            elif hasattr(value, 'total_seconds'):
-                clean_row[col] = str(value)
-            else:
-                clean_row[col] = value
-        clean_room_usage_data.append(clean_row)
+    # Clean other data untuk JSON
+    clean_heatmap_data = clean_data_for_json(heatmap_data)
+    clean_room_usage_data = clean_data_for_json(room_usage)
 
     return render_template(
         'doctor_tab.html',

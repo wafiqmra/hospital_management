@@ -3,11 +3,11 @@
 {% block content %}
 <!-- Doctor Schedule Tab -->
 <div id="doctor-tab" class="tab-content active">
-    <div class="filter-section">
+    <div class="filter-section" style="background: #f8f9fa; border: 1px solid #e9ecef;">
         <form class="filter-form" method="GET">
             <div class="form-group">
-                <label for="specialization">Specialization</label>
-                <select name="specialization" id="specialization">
+                <label for="specialization">Spesialisasi</label>
+                <select name="specialization" id="specialization" style="background: white;">
                     {% for spec in specializations %}
                         <option value="{{ spec }}" {% if current_specialization == spec %}selected{% endif %}>
                             {{ spec }}
@@ -17,8 +17,8 @@
             </div>
             
             <div class="form-group">
-                <label for="day">Day</label>
-                <select name="day" id="day">
+                <label for="day">Hari</label>
+                <select name="day" id="day" style="background: white;">
                     {% for day in days %}
                         <option value="{{ day }}" {% if current_day == day %}selected{% endif %}>
                             {{ day }}
@@ -28,14 +28,14 @@
             </div>
             
             <div class="form-group">
-                <label for="search_doctor">Search Doctor</label>
+                <label for="search_doctor">Cari Dokter</label>
                 <input type="text" name="search_doctor" id="search_doctor" 
-                       value="{{ search_doctor }}" placeholder="Enter doctor name...">
+                       value="{{ search_doctor }}" placeholder="Nama dokter..." style="background: white;">
             </div>
             
             <div class="form-group">
-                <label for="room_id">Room</label>
-                <select name="room_id" id="room_id">
+                <label for="room_id">Ruang</label>
+                <select name="room_id" id="room_id" style="background: white;">
                     {% for room in room_ids %}
                         <option value="{{ room }}" {% if current_room_id == room %}selected{% endif %}>
                             {{ room }}
@@ -44,10 +44,10 @@
                 </select>
             </div>
             
-            <button type="submit" class="btn">Apply Filters</button>
+            <button type="submit" class="btn" style="background: #6c757d;">Terapkan Filter</button>
             <a href="/export?specialization={{ current_specialization }}&day={{ current_day }}&search_doctor={{ search_doctor }}&room_id={{ current_room_id }}" 
                class="btn btn-export">Export CSV</a>
-            <a href="/doctor" class="btn">Reset</a>
+            <a href="/doctor" class="btn" style="background: #95a5a6;">Reset</a>
         </form>
     </div>
     
@@ -57,70 +57,77 @@
             <i class="fas fa-calendar-week"></i> Semua Hari
         </button>
         <button class="quick-action-btn {% if current_day == 'Senin' %}active{% endif %}" onclick="filterByDay('Senin')">
-            <i class="fas fa-calendar-day"></i> Senin
+            Senin
         </button>
         <button class="quick-action-btn {% if current_day == 'Selasa' %}active{% endif %}" onclick="filterByDay('Selasa')">
-            <i class="fas fa-calendar-day"></i> Selasa
+            Selasa
         </button>
         <button class="quick-action-btn {% if current_day == 'Rabu' %}active{% endif %}" onclick="filterByDay('Rabu')">
-            <i class="fas fa-calendar-day"></i> Rabu
+            Rabu
         </button>
         <button class="quick-action-btn {% if current_day == 'Kamis' %}active{% endif %}" onclick="filterByDay('Kamis')">
-            <i class="fas fa-calendar-day"></i> Kamis
+            Kamis
         </button>
         <button class="quick-action-btn {% if current_day == 'Jumat' %}active{% endif %}" onclick="filterByDay('Jumat')">
-            <i class="fas fa-calendar-day"></i> Jumat
+            Jumat
         </button>
         <button class="quick-action-btn {% if current_day == 'Sabtu' %}active{% endif %}" onclick="filterByDay('Sabtu')">
-            <i class="fas fa-calendar-day"></i> Sabtu
+            Sabtu
         </button>
         <button class="quick-action-btn {% if current_day == 'Minggu' %}active{% endif %}" onclick="filterByDay('Minggu')">
-            <i class="fas fa-calendar-day"></i> Minggu
+            Minggu
         </button>
     </div>
     
     <!-- Quick Stats -->
+        <!-- Quick Stats -->
     <div class="metrics-grid">
-        <div class="metric-card">
-            <div class="metric-value">{{ total_doctors }}</div>
-            <div class="metric-label">Total Doctors</div>
+        <div class="metric-card" style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-left: 4px solid #1976d2;">
+            <div class="metric-value" style="color: #0d47a1; font-size: 36px;">{{ total_doctors }}</div>
+            <div class="metric-label" style="color: #424242; font-weight: 600;">Total Dokter</div>
         </div>
-        <div class="metric-card">
-            <div class="metric-value">{{ total_schedules }}</div>
-            <div class="metric-label">Total Schedules</div>
+        <div class="metric-card" style="background: linear-gradient(135deg, #e8f5e8, #c8e6c9); border-left: 4px solid #388e3c;">
+            <div class="metric-value" style="color: #1b5e20; font-size: 36px;">{{ total_schedules }}</div>
+            <div class="metric-label" style="color: #424242; font-weight: 600;">Total Jadwal</div>
         </div>
-        <div class="metric-card">
-            <div class="metric-value">{{ total_specializations }}</div>
-            <div class="metric-label">Specializations</div>
+        <div class="metric-card" style="background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-left: 4px solid #7b1fa2;">
+            <div class="metric-value" style="color: #4a148c; font-size: 36px;">{{ total_specializations }}</div>
+            <div class="metric-label" style="color: #424242; font-weight: 600;">Spesialisasi</div>
         </div>
-        <div class="metric-card">
-            <div class="metric-value">{{ total_doctor_rooms }}</div>
-            <div class="metric-label">Rooms Used</div>
+        <div class="metric-card" style="background: linear-gradient(135deg, #ffebee, #ffcdd2); border-left: 4px solid #d32f2f;">
+            <div class="metric-value" style="color: #b71c1c; font-size: 36px;">{{ total_doctor_rooms }}</div>
+            <div class="metric-label" style="color: #424242; font-weight: 600;">Ruangan</div>
         </div>
     </div>
     
     <!-- Doctor Overview by Day -->
-    <div class="chart-container" style="margin-bottom: 30px;">
+    <div class="chart-container" style="margin-bottom: 30px; background: #ffffff; border: 1px solid #e9ecef;">
         <div class="chart-header">
-            <h4><i class="fas fa-calendar-alt"></i> Ringkasan Dokter per Hari</h4>
+            <h4 style="color: #2d3436;"><i class="fas fa-calendar-alt"></i> Ringkasan Dokter per Hari</h4>
         </div>
         <div class="day-overview-grid">
             {% for day in ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'] %}
             {% set day_doctors = table_data|selectattr('schedule_day_indonesia', 'equalto', day)|list %}
+            {% set unique_doctors = [] %}
+            {% for doctor in day_doctors %}
+                {% if doctor.name not in unique_doctors %}
+                    {% set _ = unique_doctors.append(doctor.name) %}
+                {% endif %}
+            {% endfor %}
             <div class="day-card {% if current_day == day %}active{% endif %}" onclick="filterByDay('{{ day }}')">
                 <div class="day-header">
                     <span class="day-name">{{ day }}</span>
-                    <span class="doctor-count">{{ day_doctors|length }}</span>
+                    <span class="doctor-count">{{ unique_doctors|length }}</span>
                 </div>
                 <div class="day-doctors">
-                    {% if day_doctors %}
-                        {% for doctor in day_doctors[:3] %}
-                        <div class="doctor-mini" onclick="event.stopPropagation(); showDoctorDetail('{{ doctor.name }}', '{{ doctor.specialization }}')">
-                            {{ doctor.name }}
+                    {% if unique_doctors %}
+                        {% for doctor_name in unique_doctors[:3] %}
+                        <div class="doctor-mini" onclick="event.stopPropagation(); showDoctorDetail('{{ doctor_name }}')">
+                            {{ doctor_name }}
                         </div>
                         {% endfor %}
-                        {% if day_doctors|length > 3 %}
-                        <div class="more-doctors">+{{ day_doctors|length - 3 }} more</div>
+                        {% if unique_doctors|length > 3 %}
+                        <div class="more-doctors">+{{ unique_doctors|length - 3 }} dokter lainnya</div>
                         {% endif %}
                     {% else %}
                         <div class="no-doctors">Tidak ada jadwal</div>
@@ -132,16 +139,16 @@
     </div>
     
     <!-- Search and Quick Actions -->
-    <div class="filter-section" style="margin-top: 20px;">
+    <div class="filter-section" style="margin-top: 20px; background: #f8f9fa; border: 1px solid #e9ecef;">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <input type="text" id="table-search" class="search-box" placeholder="Search in table...">
-                <button onclick="searchTable()" class="btn">Search</button>
+                <input type="text" id="table-search" class="search-box" placeholder="Cari dalam tabel..." style="background: white;">
+                <button onclick="searchTable()" class="btn" style="background: #636e72;">Cari</button>
             </div>
             <div style="display: flex; gap: 10px;">
-                <button onclick="sortTable('name')" class="btn">Sort by Name</button>
-                <button onclick="sortTable('specialization')" class="btn">Sort by Specialization</button>
-                <button onclick="toggleView()" class="btn" id="toggle-view">Card View</button>
+                <button onclick="sortTable('name')" class="btn" style="background: #74b9ff;">Urutkan Nama</button>
+                <button onclick="sortTable('specialization')" class="btn" style="background: #81ecec;">Urutkan Spesialisasi</button>
+                <button onclick="toggleView()" class="btn" id="toggle-view" style="background: #a29bfe;">Card View</button>
             </div>
         </div>
     </div>
@@ -155,37 +162,37 @@
     
     <!-- Table View -->
     <div id="table-view">
-        <div class="table-container">
+        <div class="table-container" style="background: #ffffff; border: 1px solid #e9ecef;">
             <div class="table-header">
-                <h3>Doctor Schedules ({{ table_count }} records)</h3>
-                <div class="pagination-info">
-                    Showing <span id="showing-count">{{ [table_count, 20]|min }}</span> of {{ table_count }} records
+                <h3 style="color: #2d3436;">Jadwal Dokter ({{ table_count }} jadwal)</h3>
+                <div class="pagination-info" style="color: #636e72;">
+                    Menampilkan <span id="showing-count">{{ [table_count, 20]|min }}</span> dari {{ table_count }} jadwal
                 </div>
             </div>
             <table class="enhanced-table">
                 <thead>
-                    <tr>
-                        <th onclick="sortTable('name')" style="cursor: pointer;">
-                            Doctor Name <span class="sort-icon">↕</span>
+                    <tr style="background: linear-gradient(135deg, #74b9ff, #0984e3);">
+                        <th onclick="sortTable('name')" style="cursor: pointer; color: white;">
+                            Nama Dokter <span class="sort-icon">↕</span>
                         </th>
-                        <th onclick="sortTable('specialization')" style="cursor: pointer;">
-                            Specialization <span class="sort-icon">↕</span>
+                        <th onclick="sortTable('specialization')" style="cursor: pointer; color: white;">
+                            Spesialisasi <span class="sort-icon">↕</span>
                         </th>
-                        <th onclick="sortTable('schedule_day_indonesia')" style="cursor: pointer;">
-                            Day <span class="sort-icon">↕</span>
+                        <th onclick="sortTable('schedule_day_indonesia')" style="cursor: pointer; color: white;">
+                            Hari <span class="sort-icon">↕</span>
                         </th>
-                        <th>Start Time</th>
-                        <th>End Time</th>
-                        <th>Room ID</th>
-                        <th>Actions</th>
+                        <th style="color: white;">Jam Mulai</th>
+                        <th style="color: white;">Jam Selesai</th>
+                        <th style="color: white;">Ruang</th>
+                        <th style="color: white;">Aksi</th>
                     </tr>
                 </thead>
                 <tbody id="doctor-table-body">
                     {% for row in table_data %}
-                    <tr class="table-row" data-type="doctor">
+                    <tr class="table-row" data-type="doctor" style="border-bottom: 1px solid #e9ecef;">
                         <td>
-                            <div class="doctor-name-cell" onclick="showDoctorDetail('{{ row.name }}', '{{ row.specialization }}')">
-                                <i class="fas fa-user-md"></i>
+                            <div class="doctor-name-cell" onclick="showDoctorDetail('{{ row.name }}')">
+                                <i class="fas fa-user-md" style="color: #74b9ff;"></i>
                                 {{ row.name }}
                             </div>
                         </td>
@@ -200,14 +207,11 @@
                         <td>{{ row.room_id }}</td>
                         <td>
                             <div class="action-buttons">
-                                <button onclick="showDoctorDetail('{{ row.name }}', '{{ row.specialization }}')" class="btn btn-sm" title="View Details">
+                                <button onclick="showDoctorDetail('{{ row.name }}')" class="btn btn-sm" title="Lihat Detail" style="background: #74b9ff;">
                                     <i class="fas fa-eye"></i>
                                 </button>
-                                <button onclick="showDoctorSchedule('{{ row.name }}')" class="btn btn-sm btn-success" title="View Schedule">
+                                <button onclick="showDoctorSchedule('{{ row.name }}')" class="btn btn-sm btn-success" title="Lihat Jadwal" style="background: #00b894;">
                                     <i class="fas fa-calendar"></i>
-                                </button>
-                                <button onclick="contactDoctor('{{ row.name }}')" class="btn btn-sm btn-warning" title="Contact">
-                                    <i class="fas fa-phone"></i>
                                 </button>
                             </div>
                         </td>
@@ -216,25 +220,25 @@
                 </tbody>
             </table>
             <div class="pagination" id="doctor-pagination">
-                <button class="pagination-btn" onclick="changePage('doctor', -1)">Previous</button>
-                <span class="pagination-info" id="doctor-page-info">Page 1 of {{ (table_count / 20)|round(0, 'ceil')|int }}</span>
-                <button class="pagination-btn" onclick="changePage('doctor', 1)">Next</button>
+                <button class="pagination-btn" onclick="changePage('doctor', -1)" style="background: #dfe6e9; color: #2d3436;">Sebelumnya</button>
+                <span class="pagination-info" id="doctor-page-info" style="color: #636e72;">Halaman 1 dari {{ (table_count / 20)|round(0, 'ceil')|int }}</span>
+                <button class="pagination-btn" onclick="changePage('doctor', 1)" style="background: #dfe6e9; color: #2d3436;">Selanjutnya</button>
             </div>
         </div>
     </div>
     
     <!-- Charts Section -->
     <div class="charts-grid">
-        <div class="chart-container">
+        <div class="chart-container" style="background: #ffffff; border: 1px solid #e9ecef;">
             <canvas id="specializationChart"></canvas>
         </div>
-        <div class="chart-container">
+        <div class="chart-container" style="background: #ffffff; border: 1px solid #e9ecef;">
             <canvas id="dayChart"></canvas>
         </div>
-        <div class="chart-container">
+        <div class="chart-container" style="background: #ffffff; border: 1px solid #e9ecef;">
             <canvas id="heatmapChart"></canvas>
         </div>
-        <div class="chart-container">
+        <div class="chart-container" style="background: #ffffff; border: 1px solid #e9ecef;">
             <canvas id="roomUsageChart"></canvas>
         </div>
     </div>
@@ -242,38 +246,20 @@
 
 <!-- Doctor Details Modal -->
 <div id="doctor-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
-    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 600px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); max-height: 80vh; overflow-y: auto;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-            <h4 style="margin: 0;" id="modal-doctor-name">Doctor Details</h4>
-            <button onclick="closeDoctorModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #666;">&times;</button>
+    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 600px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); max-height: 80vh; overflow-y: auto; border: 1px solid #e9ecef;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #e9ecef; padding-bottom: 15px;">
+            <h4 style="margin: 0; color: #2d3436;" id="modal-doctor-name">Detail Dokter</h4>
+            <button onclick="closeDoctorModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #636e72;">&times;</button>
         </div>
         <div id="doctor-modal-content">
             <!-- Content will be filled by JavaScript -->
         </div>
-        <div style="display: flex; gap: 10px; margin-top: 20px;">
-            <button onclick="closeDoctorModal()" style="flex: 1; padding: 10px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer;">
-                Close
+        <div style="display: flex; gap: 10px; margin-top: 20px; border-top: 1px solid #e9ecef; padding-top: 15px;">
+            <button onclick="closeDoctorModal()" style="flex: 1; padding: 10px; background: #636e72; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                Tutup
             </button>
-            <button onclick="contactDoctorModal()" style="flex: 1; padding: 10px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer;">
-                <i class="fas fa-phone"></i> Contact
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Doctor Schedule Modal -->
-<div id="schedule-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
-    <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 500px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-            <h4 style="margin: 0;" id="schedule-doctor-name">Doctor Schedule</h4>
-            <button onclick="closeScheduleModal()" style="background: none; border: none; font-size: 18px; cursor: pointer; color: #666;">&times;</button>
-        </div>
-        <div id="schedule-modal-content">
-            <!-- Content will be filled by JavaScript -->
-        </div>
-        <div style="display: flex; gap: 10px; margin-top: 20px;">
-            <button onclick="closeScheduleModal()" style="flex: 1; padding: 10px; background: #6c757d; color: white; border: none; border-radius: 6px; cursor: pointer;">
-                Close
+            <button onclick="contactDoctorModal()" style="flex: 1; padding: 10px; background: #74b9ff; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                <i class="fas fa-phone"></i> Hubungi
             </button>
         </div>
     </div>
@@ -283,9 +269,9 @@
 /* Quick Day Navigation */
 .quick-action-btn {
     padding: 10px 15px;
-    background: white;
-    border: 2px solid var(--primary);
-    color: var(--primary);
+    background: #dfe6e9;
+    border: 1px solid #b2bec3;
+    color: #2d3436;
     border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
@@ -295,9 +281,10 @@
 }
 
 .quick-action-btn:hover, .quick-action-btn.active {
-    background: var(--primary);
+    background: #74b9ff;
     color: white;
     transform: translateY(-2px);
+    border-color: #74b9ff;
 }
 
 /* Day Overview Grid */
@@ -309,19 +296,20 @@
 }
 
 .day-card {
-    background: var(--card-bg);
+    background: #ffffff;
     padding: 15px;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    border-left: 4px solid var(--primary);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    border: 1px solid #e9ecef;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .day-card:hover, .day-card.active {
-    background: var(--primary);
+    background: #74b9ff;
     color: white;
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
 }
 
 .day-card.active .day-name,
@@ -341,11 +329,11 @@
 .day-name {
     font-weight: 600;
     font-size: 14px;
-    color: var(--text-primary);
+    color: #2d3436;
 }
 
 .doctor-count {
-    background: var(--success);
+    background: #00b894;
     color: white;
     padding: 2px 8px;
     border-radius: 12px;
@@ -361,21 +349,27 @@
 
 .doctor-mini {
     padding: 5px 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #f8f9fa;
     border-radius: 4px;
     font-size: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
+    color: #2d3436;
 }
 
 .doctor-mini:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
     transform: translateX(5px);
+}
+
+.day-card.active .doctor-mini {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 .no-doctors {
     font-size: 12px;
-    color: var(--text-secondary);
+    color: #636e72;
     font-style: italic;
     text-align: center;
     padding: 10px 0;
@@ -383,9 +377,13 @@
 
 .more-doctors {
     font-size: 11px;
-    color: var(--text-secondary);
+    color: #636e72;
     text-align: center;
     padding: 5px;
+}
+
+.day-card.active .more-doctors {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Table Enhancements */
@@ -394,15 +392,16 @@
     padding: 5px;
     border-radius: 4px;
     transition: all 0.2s ease;
+    color: #2d3436;
 }
 
 .doctor-name-cell:hover {
-    background: var(--primary);
+    background: #74b9ff;
     color: white;
 }
 
 .day-badge {
-    background: var(--success);
+    background: #00b894;
     color: white;
     padding: 4px 8px;
     border-radius: 12px;
@@ -413,7 +412,7 @@
 }
 
 .day-badge:hover {
-    background: var(--primary);
+    background: #74b9ff;
     transform: scale(1.05);
 }
 
@@ -429,20 +428,12 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s ease;
-}
-
-.btn-success {
-    background: var(--success);
-    color: white;
-}
-
-.btn-warning {
-    background: var(--warning);
     color: white;
 }
 
 .btn-sm:hover {
     transform: scale(1.1);
+    opacity: 0.9;
 }
 
 /* Modal Enhancements */
@@ -451,17 +442,89 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: var(--light);
+    background: #f8f9fa;
     border-radius: 6px;
     margin-bottom: 8px;
+    border: 1px solid #e9ecef;
 }
 
 .modal-schedule-day {
     font-weight: 600;
-    color: var(--primary);
+    color: #74b9ff;
     margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Enhanced table row colors */
+.table-row:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.table-row:nth-child(odd) {
+    background: #ffffff;
+}
+
+.table-row:hover {
+    background: #e3f2fd;
+}
+
+/* Card view styles */
+.doctor-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #2d3436;
+}
+
+.card-badge {
+    background: #74b9ff;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
 }
 </style>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
