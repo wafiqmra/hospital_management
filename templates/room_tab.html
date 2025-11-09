@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Room Management Tab -->
+<div id="room-tab" class="tab-content">
+    <div class="filter-section">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3>Room Management Overview</h3>
+            <a href="/export_rooms" class="btn btn-export">Export Rooms CSV</a>
+        </div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_rooms }}</div>
+            <div class="metric-label">Total Rooms</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ occupied_rooms }}</div>
+            <div class="metric-label">Occupied Rooms</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ available_rooms }}</div>
+            <div class="metric-label">Available Rooms</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ "%.1f"|format((occupied_rooms / total_rooms * 100) if total_rooms > 0 else 0) }}%</div>
+            <div class="metric-label">Overall Occupancy</div>
+        </div>
+    </div>
+    
+    <div class="room-stats">
+        {% for room_type, stats in room_stats.items() %}
+    <div class="room-stat-card">
+        <div class="room-stat-header">
+            <span class="room-type">{{ room_type }}</span>
+            <span class="occupancy-rate">{{ stats.occupancy_rate }}%</span>
+        </div>
+        <div>Occupied: {{ stats.occupied }}/{{ stats.total }}</div>
+        <div class="progress-bar">
+            <!-- Gunakan filter float agar CSS valid -->
+            <div class="progress-fill" style="width: {{ stats.occupancy_rate|float }}%;"></div>
+        </div>
+    </div>
+    {% endfor %}
+
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_room_type|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_occupancy|safe }}
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Room Details ({{ room_table_count }} rooms)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Room ID</th>
+                    <th>Room Name</th>
+                    <th>Room Type</th>
+                    <th>Capacity</th>
+                    <th>Current Occupancy</th>
+                    <th>Status</th>
+                    <th>Special Notes</th>
+                    <th>Last Updated</th>
+                </tr>
+            </thead>
+            <tbody id="room-table-body">
+                {% for room in room_table_data %}
+                <tr class="table-row" data-type="room">
+                    <td>{{ room.room_id }}</td>
+                    <td>{{ room.room_name }}</td>
+                    <td>{{ room.room_type }}</td>
+                    <td>{{ room.capacity }}</td>
+                    <td>{{ room.current_occupancy }}</td>
+                    <td>
+                        <span class="status-badge {% if room.current_occupancy > 0 %}status-occupied{% else %}status-available{% endif %}">
+                            {% if room.current_occupancy > 0 %}Occupied{% else %}Available{% endif %}
+                        </span>
+                    </td>
+                    <td>{{ room.special_note if room.special_note else '-' }}</td>
+                    <td>{{ room.last_updated }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="room-pagination">
+            <button class="pagination-btn" onclick="changePage('room', -1)">Previous</button>
+            <span class="pagination-info" id="room-page-info">Page 1 of {{ (room_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('room', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

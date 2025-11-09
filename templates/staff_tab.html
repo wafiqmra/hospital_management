@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Staff Management Tab -->
+<div id="staff-tab" class="tab-content">
+    <div class="filter-section">
+        <form class="filter-form" method="GET">
+            <div class="form-group">
+                <label for="staff_role">Role</label>
+                <select name="staff_role" id="staff_role">
+                    {% for role in staff_roles %}
+                        <option value="{{ role }}" {% if current_staff_role == role %}selected{% endif %}>
+                            {{ role }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="staff_department">Department</label>
+                <select name="staff_department" id="staff_department">
+                    {% for dept in staff_departments %}
+                        <option value="{{ dept }}" {% if current_staff_department == dept %}selected{% endif %}>
+                            {{ dept }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="staff_status">Status</label>
+                <select name="staff_status" id="staff_status">
+                    {% for status in staff_statuses %}
+                        <option value="{{ status }}" {% if current_staff_status == status %}selected{% endif %}>
+                            {{ status }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="search_staff">Search Staff</label>
+                <input type="text" name="search_staff" id="search_staff" 
+                       value="{{ search_staff }}" placeholder="Enter staff name...">
+            </div>
+            
+            <button type="submit" class="btn">Apply Filters</button>
+            <a href="/export_staff?role={{ current_staff_role }}&department={{ current_staff_department }}&status={{ current_staff_status }}&search={{ search_staff }}" 
+               class="btn btn-export">Export CSV</a>
+            <a href="/" class="btn">Reset</a>
+        </form>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_staff }}</div>
+            <div class="metric-label">Total Staff</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ active_staff }}</div>
+            <div class="metric-label">Active Staff</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ inactive_staff }}</div>
+            <div class="metric-label">Inactive Staff</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ staff_departments_count }}</div>
+            <div class="metric-label">Departments</div>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_staff_role|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_staff_department|safe }}
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_staff_hire_year|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_staff_status|safe }}
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Staff Records ({{ staff_table_count }} records)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Staff ID</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Department</th>
+                    <th>Hire Date</th>
+                    <th>Years of Service</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="staff-table-body">
+                {% for staff in staff_table_data %}
+                <tr class="table-row" data-type="staff">
+                    <td>{{ staff.staff_id }}</td>
+                    <td>{{ staff.name }}</td>
+                    <td>{{ staff.role }}</td>
+                    <td>{{ staff.department }}</td>
+                    <td>{{ staff.hire_date }}</td>
+                    <td>{{ staff.years_of_service }}</td>
+                    <td>
+                        <span class="status-badge 
+                            {% if staff.active == 'True' %}status-available
+                            {% else %}status-occupied{% endif %}">
+                            {% if staff.active == 'True' %}Active{% else %}Inactive{% endif %}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="staff-pagination">
+            <button class="pagination-btn" onclick="changePage('staff', -1)">Previous</button>
+            <span class="pagination-info" id="staff-page-info">Page 1 of {{ (staff_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('staff', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

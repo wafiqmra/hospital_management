@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Doctor Schedule Tab -->
+<div id="doctor-tab" class="tab-content active">
+    <div class="filter-section">
+        <form class="filter-form" method="GET">
+            <div class="form-group">
+                <label for="specialization">Specialization</label>
+                <select name="specialization" id="specialization">
+                    {% for spec in specializations %}
+                        <option value="{{ spec }}" {% if current_specialization == spec %}selected{% endif %}>
+                            {{ spec }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="day">Day</label>
+                <select name="day" id="day">
+                    {% for day in days %}
+                        <option value="{{ day }}" {% if current_day == day %}selected{% endif %}>
+                            {{ day }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="search_doctor">Search Doctor</label>
+                <input type="text" name="search_doctor" id="search_doctor" 
+                       value="{{ search_doctor }}" placeholder="Enter doctor name...">
+            </div>
+            
+            <button type="submit" class="btn">Apply Filters</button>
+            <a href="/export?specialization={{ current_specialization }}&day={{ current_day }}&search_doctor={{ search_doctor }}" 
+               class="btn btn-export">Export CSV</a>
+            <a href="/" class="btn">Reset</a>
+        </form>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_doctors }}</div>
+            <div class="metric-label">Total Doctors</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ total_schedules }}</div>
+            <div class="metric-label">Total Schedules</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ total_specializations }}</div>
+            <div class="metric-label">Specializations</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ total_doctor_rooms }}</div>
+            <div class="metric-label">Rooms Used</div>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_spec|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_day|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_heatmap|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_rooms|safe }}
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Doctor Schedules ({{ table_count }} records)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Doctor Name</th>
+                    <th>Specialization</th>
+                    <th>Day</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Room ID</th>
+                </tr>
+            </thead>
+            <tbody id="doctor-table-body">
+                {% for row in table_data %}
+                <tr class="table-row" data-type="doctor">
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.specialization }}</td>
+                    <td>{{ row.schedule_day }}</td>
+                    <td>{{ row.start_time }}</td>
+                    <td>{{ row.end_time }}</td>
+                    <td>{{ row.room_id }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="doctor-pagination">
+            <button class="pagination-btn" onclick="changePage('doctor', -1)">Previous</button>
+            <span class="pagination-info" id="doctor-page-info">Page 1 of {{ (table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('doctor', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Patient Data Tab -->
+<div id="patient-tab" class="tab-content">
+    <div class="filter-section">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3>Patient Data Overview</h3>
+            <a href="/export_patients" class="btn btn-export">Export Patient Data</a>
+        </div>
+    </div>
+    
+    <div class="patient-metrics-grid">
+        <div class="patient-metric-card bg-success">
+            <div class="patient-metric-value">{{ total_patients }}</div>
+            <div class="patient-metric-label">Total Patients</div>
+        </div>
+        <div class="patient-metric-card bg-info">
+            <div class="patient-metric-value">{{ gender_dist.get('L', 0) }}</div>
+            <div class="patient-metric-label">Male Patients</div>
+        </div>
+        <div class="patient-metric-card bg-warning">
+            <div class="patient-metric-value">{{ gender_dist.get('P', 0) }}</div>
+            <div class="patient-metric-label">Female Patients</div>
+        </div>
+        <div class="patient-metric-card bg-secondary">
+            <div class="patient-metric-value">{{ payment_dist.get('BPJS', 0) }}</div>
+            <div class="patient-metric-label">BPJS Patients</div>
+        </div>
+    </div>
+    
+    <div class="patient-charts-grid">
+        <div class="chart-container">
+            {{ chart_gender|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_age|safe }}
+        </div>
+    </div>
+    
+    <div class="patient-charts-grid">
+        <div class="chart-container">
+            {{ chart_payment|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_insurance|safe }}
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        {{ chart_city|safe }}
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Patient Data ({{ patient_table_count }} records)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Payment Type</th>
+                    <th>Insurance Provider</th>
+                </tr>
+            </thead>
+            <tbody id="patient-table-body">
+                {% for patient in patient_table_data %}
+                <tr class="table-row" data-type="patient">
+                    <td>{{ patient.patient_id }}</td>
+                    <td>{{ patient.name }}</td>
+                    <td>{{ patient.gender }}</td>
+                    <td>{{ patient.age }}</td>
+                    <td>{{ patient.city }}</td>
+                    <td>{{ patient.payment_type }}</td>
+                    <td>{{ patient.insurance_provider if patient.insurance_provider else '-' }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="patient-pagination">
+            <button class="pagination-btn" onclick="changePage('patient', -1)">Previous</button>
+            <span class="pagination-info" id="patient-page-info">Page 1 of {{ (patient_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('patient', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

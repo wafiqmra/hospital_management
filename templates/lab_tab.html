@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Lab Tests Tab -->
+<div id="lab-tab" class="tab-content">
+    <div class="filter-section">
+        <form class="filter-form" method="GET">
+            <div class="form-group">
+                <label for="test_type">Test Type</label>
+                <select name="test_type" id="test_type">
+                    {% for type in lab_test_types %}
+                        <option value="{{ type }}" {% if current_test_type == type %}selected{% endif %}>
+                            {{ type }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="result_status">Result Status</label>
+                <select name="result_status" id="result_status">
+                    {% for status in lab_result_statuses %}
+                        <option value="{{ status }}" {% if current_result_status == status %}selected{% endif %}>
+                            {{ status }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="date_range">Date Range</label>
+                <input type="date" name="start_date" id="start_date" value="{{ current_start_date }}">
+                <input type="date" name="end_date" id="end_date" value="{{ current_end_date }}">
+            </div>
+            
+            <button type="submit" class="btn">Apply Filters</button>
+            <a href="/export_lab_tests?test_type={{ current_test_type }}&result_status={{ current_result_status }}&start_date={{ current_start_date }}&end_date={{ current_end_date }}" 
+               class="btn btn-export">Export CSV</a>
+            <a href="/" class="btn">Reset</a>
+        </form>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_lab_tests }}</div>
+            <div class="metric-label">Total Tests</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ pending_tests }}</div>
+            <div class="metric-label">Pending Results</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ completed_tests }}</div>
+            <div class="metric-label">Completed Tests</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ lab_test_types_count }}</div>
+            <div class="metric-label">Test Types</div>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_test_type|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_result_status|safe }}
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_daily_tests|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_lab_staff|safe }}
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Lab Test Records ({{ lab_table_count }} records)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Test ID</th>
+                    <th>Patient ID</th>
+                    <th>Patient Name</th>
+                    <th>Test Type</th>
+                    <th>Scheduled Date</th>
+                    <th>Result Date</th>
+                    <th>Result Status</th>
+                    <th>Lab Staff ID</th>
+                </tr>
+            </thead>
+            <tbody id="lab-table-body">
+                {% for test in lab_table_data %}
+                <tr class="table-row" data-type="lab">
+                    <td>{{ test.test_id }}</td>
+                    <td>{{ test.patient_id }}</td>
+                    <td>{{ test.patient_name }}</td>
+                    <td>{{ test.test_type }}</td>
+                    <td>{{ test.scheduled_date }}</td>
+                    <td>{{ test.result_date if test.result_date else 'Not Available' }}</td>
+                    <td>
+                        <span class="status-badge 
+                            {% if test.result_status == 'Completed' %}status-available
+                            {% elif test.result_status == 'Pending' %}status-pending
+                            {% else %}status-cancelled{% endif %}">
+                            {{ test.result_status }}
+                        </span>
+                    </td>
+                    <td>{{ test.lab_staff_id }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="lab-pagination">
+            <button class="pagination-btn" onclick="changePage('lab', -1)">Previous</button>
+            <span class="pagination-info" id="lab-page-info">Page 1 of {{ (lab_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('lab', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Pharmacy Tab -->
+<div id="pharmacy-tab" class="tab-content">
+    <div class="filter-section">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3>Pharmacy Inventory Overview</h3>
+            <a href="/export_pharmacy" class="btn btn-export">Export Pharmacy CSV</a>
+        </div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">{{ total_medicines }}</div>
+            <div class="metric-label">Total Medicines</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ low_stock_medicines }}</div>
+            <div class="metric-label">Low Stock Items</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ out_of_stock_medicines }}</div>
+            <div class="metric-label">Out of Stock</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">{{ pharmacy_categories }}</div>
+            <div class="metric-label">Medicine Categories</div>
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_medicine_category|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_stock_status|safe }}
+        </div>
+    </div>
+    
+    <div class="charts-grid">
+        <div class="chart-container">
+            {{ chart_expiry|safe }}
+        </div>
+        <div class="chart-container">
+            {{ chart_supplier|safe }}
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <div class="table-header">
+            <h3>Medicine Inventory ({{ pharmacy_table_count }} items)</h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Medicine ID</th>
+                    <th>Medicine Name</th>
+                    <th>Category</th>
+                    <th>Current Stock</th>
+                    <th>Min Stock</th>
+                    <th>Price</th>
+                    <th>Supplier</th>
+                    <th>Expiry Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="pharmacy-table-body">
+                {% for medicine in pharmacy_table_data %}
+                <tr class="table-row" data-type="pharmacy">
+                    <td>{{ medicine.drug_id }}</td>
+                    <td>{{ medicine.drug_name }}</td>
+                    <td>{{ medicine.category }}</td>
+                    <td>{{ medicine.current_stock }}</td>
+                    <td>{{ medicine.min_stock if medicine.min_stock is defined else 5 }}</td>
+                    <td>{{ medicine.price if medicine.price is defined else '-' }}</td>
+                    <td>{{ medicine.supplier }}</td>
+                    <td>{{ medicine.expiry_date.strftime("%Y-%m-%d") if medicine.expiry_date else "-" }}</td>
+                    <td>
+                        <span class="status-badge 
+                            {% if medicine.current_stock == 0 %}status-occupied
+                            {% elif medicine.current_stock <= (medicine.min_stock if medicine.min_stock is defined else 5) %}status-occupied
+                            {% else %}status-available{% endif %}">
+                            {% if medicine.current_stock == 0 %}Out of Stock
+                            {% elif medicine.current_stock <= (medicine.min_stock if medicine.min_stock is defined else 5) %}Low Stock
+                            {% else %}In Stock{% endif %}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="pagination" id="pharmacy-pagination">
+            <button class="pagination-btn" onclick="changePage('pharmacy', -1)">Previous</button>
+            <span class="pagination-info" id="pharmacy-page-info">Page 1 of {{ (pharmacy_table_count / 20)|round(0, 'ceil')|int }}</span>
+            <button class="pagination-btn" onclick="changePage('pharmacy', 1)">Next</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
